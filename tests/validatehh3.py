@@ -45,6 +45,7 @@ PRIME_ADVANTAGE_SLOTS = ["Rewards of Treachery",
                          "EotL - Raven Guard",
                          "EotL - Iron Hands",
                          "EotL - World Eaters",
+                         "Asset",
                          ]
 
 LA_PRIME_BENEFIT_SLOT_UPGRADES = {
@@ -63,6 +64,7 @@ CATS_WITH_NO_PRIMES = [
     "Cults Abominatio.cat",
     "Divisio Assassinorum.cat",
     "Legio Titanicus.cat",
+    "Battlefield Assets.cat",
     # Knights have primes but they're special, handled separately
 ]
 
