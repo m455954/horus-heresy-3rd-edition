@@ -34749,6 +34749,23 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Teleport Transponders" hidden="true" id="7b52-0c9b-1886-ec9e" sortIndex="8">
+          <rules>
+            <rule name="Teleport Transponders" id="fd18-51d5-ea6d-886d" hidden="false">
+              <description>All Models in the Unit selected to fill the Prime Slot gain the Deep Strike Special Rule.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Deep Strike" id="57a2-4a90-413a-5b27" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="forces" scope="roster" childId="0100-417d-f496-971d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Zone Mortalis"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Clade Operative" hidden="true" id="8d32-7962-99e2-166a" type="selectionEntry" targetId="f26c-9918-9644-80f7" sortIndex="6">
@@ -35496,4 +35513,14 @@ A Doorway can be the target if a Charge and can be Engaged and attacked during t
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <sharedRules>
+    <rule name="Deep Strike" id="0553-d06b-52b9-34db" hidden="false" page="296" publicationId="b905-0414-1057-bb34">
+      <description>&quot;The Deep Strike Special Rule allows a Unit to enter play anywhere on the Battlefield.&quot;
+A Unit that includes only Models with the Deep Strike Special Rule that enters play from Reserves may make a Deep Strike instead of deploying a described in the Reserves Rules. No more than one Unit may attempt a Deep Strike in a given Player Turn. The Unit attempting a Deep Strike may have another Unit without the Deep Strike Special Rule Embarked Upon it if the Deep Striking Unit includes models with the Transport Sub-Type (note that some Missions may allow more Units to attempt a Deep Strike in the same Player Turn. This will be specifically noted in the Mission Special Rules section of that Mission.) Note that in Missions where the Reserves Mission Special Rule is not in use, the Deep Strike Special Rule has no effect. Furthermore, Units may not make use of the Deep Strike Special Rule during the first Battle Turn, even if they enter play from Reserves.
+
+To perform a Deep Strike, the Active Player must declare an Eligible Unit that has entered play from Reserves in the Reserves Sub-Phase as the Deep Striking Unit. The Active Player must then select one Model from that Unit and place it anywhere on the Battlefield. This Model must be placed at least 1&quot;&quot; away from any enemy Model, Battlefield Edge or piece of Impassable Terrain. Once this first Model has been placed, the remaining Models in the Unit must be placed within Unit Coherency with at least one other Model in the same Unit and withing 6&quot;&quot; of the first Model placed. No Models may be placed within 1&quot;&quot; of an enemy Model, any Battle Field Edge or a piece of Impassable Terrain. Any Models that cannot be placed using these Rules must be Removed as a Casualty immediately. This deployment must take place during the Reserve Sub-Phase, and a Unit that deploys as a Deep Strike may not move in the Move Sub-Phase of the same Player Turn or have a Charge declared for it in the Charge Sub-Phase of the same Player Turn, but may make Shooting Attacks as normal. A Unit that is Embarked on a Model that is deployed as part of a Deep Strike may Disembark during the Move Sub-Phase of the same Player Turn, but may not make any move other than the move made to Disembark and may not have a Charge declared for it in the Charge Sub-Phase of the same Player Turn.
+
+Enemy Units may declare Intercept Reactions against a Unit deployed as part of a Deep Strike, but not Reposition Reactions.</description>
+    </rule>
+  </sharedRules>
 </gameSystem>
