@@ -1870,6 +1870,17 @@
                   <repeats>
                     <repeat value="1" repeats="1" field="selections" scope="parent" childId="d162-4711-5d60-0a48" shared="true" roundUp="false" includeChildSelections="true"/>
                   </repeats>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
