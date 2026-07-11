@@ -2259,9 +2259,9 @@
             </categoryLink>
           </categoryLinks>
           <constraints>
-            <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="5611-db49-9e64-44c6-min" includeChildSelections="true"/>
+            <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="5611-db49-9e64-44c6-min" includeChildSelections="true" automatic="false"/>
             <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="5611-db49-9e64-44c6-max" includeChildSelections="true"/>
-            <constraint type="min" value="1" field="forces" scope="parent" shared="true" id="8613-3ef7-c5b4-4ccb" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="forces" scope="parent" shared="true" id="8613-3ef7-c5b4-4ccb" includeChildSelections="false" automatic="false"/>
             <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="5df5-5821-ea4c-d0e1" includeChildSelections="false"/>
           </constraints>
           <modifiers>
@@ -30507,7 +30507,7 @@
     </forceEntry>
     <forceEntry name="Zone Mortalis" id="0100-417d-f496-971d" hidden="false" childForcesLabel="Detachments">
       <forceEntries>
-        <forceEntry name="Primary - Zone Mortalis Strike Force" id="33cf-087a-39ee-2532" hidden="true">
+        <forceEntry name="Primary - Zone Mortalis Strike Force" id="33cf-087a-39ee-2532" hidden="true" sortIndex="2">
           <categoryLinks>
             <categoryLink name="High Command" hidden="false" id="9198-5509-41a5-9bc1" targetId="d9a6-9b5f-b18a-4d63">
               <constraints>
@@ -31519,7 +31519,7 @@
             </modifier>
           </modifiers>
         </forceEntry>
-        <forceEntry name="Primary - Zone Mortalis Bulkwark" id="a4bf-9629-2065-4885" hidden="true">
+        <forceEntry name="Primary - Zone Mortalis Bulkwark" id="a4bf-9629-2065-4885" hidden="true" sortIndex="3">
           <categoryLinks>
             <categoryLink name="Prime Command - Centurions Only" hidden="false" id="01c9-aad6-ef56-16c3" targetId="afc8-c83d-00a6-936e">
               <modifiers>
@@ -32526,7 +32526,7 @@
             </modifier>
           </modifiers>
         </forceEntry>
-        <forceEntry name="Primary - Zone Mortalis Linebreaker" id="e46a-e7a0-2dfe-66cf" hidden="true">
+        <forceEntry name="Primary - Zone Mortalis Linebreaker" id="e46a-e7a0-2dfe-66cf" hidden="true" sortIndex="4">
           <categoryLinks>
             <categoryLink name="Prime Command - Centurions Only" hidden="false" id="87a1-06c2-e0fb-ddbf" targetId="afc8-c83d-00a6-936e">
               <modifiers>
@@ -33883,6 +33883,1784 @@
             <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="e6e7-fed3-191d-290d" includeChildSelections="false"/>
           </constraints>
         </forceEntry>
+        <forceEntry name="Primary - Crusade Primary Detachment" id="1792-ddc3-0761-cccd" hidden="true" sortIndex="1">
+          <categoryLinks>
+            <categoryLink name="High Command" hidden="false" id="2392-013d-9de7-fe3a" targetId="d9a6-9b5f-b18a-4d63">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dc0-d56d-2d65-e23f"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="5dc0-d56d-2d65-e23f">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime High Command" hidden="false" id="e190-906c-2011-b456" targetId="3568-ad75-b452-3137">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b7de-372a-3537-6444" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Command" hidden="false" id="eea9-bb33-444c-a407" targetId="6dbf-654a-f06f-2d69">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0212-76b3-a01b-7887"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="0212-76b3-a01b-7887">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Command" hidden="false" id="38ed-db73-0950-ee9d" targetId="c85c-2963-658f-1bb9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b489-3124-4c87-c518" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="b489-3124-4c87-c518">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c857-47bd-6a4f-fcf8" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="b489-3124-4c87-c518">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="b489-3124-4c87-c518">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Retinue" hidden="false" id="877f-e09b-f0e8-2001" targetId="a38e-50ff-310f-f19e">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="898a-4707-53f4-1417"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="898a-4707-53f4-1417">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="e788-1cee-dabe-1e19" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="e788-1cee-dabe-1e19" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Retinue" hidden="false" id="5c2e-0e75-c7e0-4a10" targetId="c66b-ef39-b20f-725b">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e4ca-71b2-f089-cf2d" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Elites" hidden="false" id="7e79-658c-2585-3741" targetId="5d5e-958f-e388-50b5">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c900-fa6b-1b43-9c7a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="c900-fa6b-1b43-9c7a">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="d81c-494b-0302-5844" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="4" field="c900-fa6b-1b43-9c7a">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="notInstanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                          <conditions>
+                            <condition type="equalTo" value="0" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition type="equalTo" value="0" field="selections" scope="force" childId="d81c-494b-0302-5844" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Elites" hidden="false" id="018c-a1fb-80cd-8443" targetId="276f-7a07-a56c-affd">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="a65e-21b3-41ae-4468" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="a65e-21b3-41ae-4468">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="4" field="a65e-21b3-41ae-4468">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="War-engine" hidden="false" id="0cf1-5359-9835-f685" targetId="2499-7239-685f-8465">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4299-5911-a4b1-7db2"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="4299-5911-a4b1-7db2">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="fac3-0af2-8be3-20dc" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="fac3-0af2-8be3-20dc" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime War-engine" hidden="false" id="5902-4c3c-4be5-f24c" targetId="9699-67c9-2c0b-e64b">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2371-bc24-8090-dd83" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Troops" hidden="false" id="c883-5ca4-f641-e7ee" targetId="88e6-d373-4152-0dd8">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="11e1-bf8c-c027-e276"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="11e1-bf8c-c027-e276">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="9e8c-63b6-a15a-cd4f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="11e1-bf8c-c027-e276">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Troops" hidden="false" id="02f4-ef85-0749-46b0" targetId="c3f9-a7f3-984b-3fda">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d50-e192-f6d0-8f6c" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="4" field="1d50-e192-f6d0-8f6c">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>DA</comment>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>EC</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="21c0-18db-03dd-ae07" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="21c0-18db-03dd-ae07" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>IW</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d995-cb33-be41-ecf8" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d995-cb33-be41-ecf8" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="c9fe-41a5-f6c9-881f" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>SW</comment>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d186-cffc-0950-f632" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d186-cffc-0950-f632" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>IF</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="486f-b32a-ac87-73dd" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="486f-b32a-ac87-73dd" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>NL</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="22ae-fd5c-00ec-474a" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9cff-ac34-56ca-260f" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9cff-ac34-56ca-260f" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>BA</comment>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="736e-3967-e72b-e3ac" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="736e-3967-e72b-e3ac" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>IH</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a956-190d-3b47-6258" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="a956-190d-3b47-6258" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>WE</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="656a-07b6-d4fd-57af" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="656a-07b6-d4fd-57af" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>UM</comment>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="2" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="2" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>DG</comment>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2496-21e2-1870-e9b8" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2496-21e2-1870-e9b8" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>TS</comment>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="9c50-6271-7418-82a5" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>SH</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4935-1832-63f7-91aa" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4935-1832-63f7-91aa" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>WB</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                          </conditions>
+                          <comment>SL</comment>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="f9f6-d169-cb95-6285" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>RG</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8813-5298-c368-ee16" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8813-5298-c368-ee16" shared="true"/>
+                            <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                            <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                          <comment>AL</comment>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                  <comment>Sire of the X</comment>
+                </modifier>
+                <modifier type="set" value="4" field="1d50-e192-f6d0-8f6c">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="610d-c9b0-ccb0-cba9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="0" field="1d50-e192-f6d0-8f6c">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="f5dc-c13a-5848-f3b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="1d50-e192-f6d0-8f6c">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="9e8c-63b6-a15a-cd4f" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>DA</comment>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>EC</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="21c0-18db-03dd-ae07" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="21c0-18db-03dd-ae07" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>IW</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d995-cb33-be41-ecf8" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d995-cb33-be41-ecf8" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="c9fe-41a5-f6c9-881f" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>SW</comment>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d186-cffc-0950-f632" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d186-cffc-0950-f632" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>IF</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="486f-b32a-ac87-73dd" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="486f-b32a-ac87-73dd" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>NL</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="22ae-fd5c-00ec-474a" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9cff-ac34-56ca-260f" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9cff-ac34-56ca-260f" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>BA</comment>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="4" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="736e-3967-e72b-e3ac" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="736e-3967-e72b-e3ac" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>IH</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a956-190d-3b47-6258" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="a956-190d-3b47-6258" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>WE</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="656a-07b6-d4fd-57af" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="656a-07b6-d4fd-57af" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>UM</comment>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="2" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="2" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>DG</comment>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="4" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2496-21e2-1870-e9b8" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2496-21e2-1870-e9b8" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>TS</comment>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="4" field="selections" scope="force" childId="9c50-6271-7418-82a5" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>SH</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4935-1832-63f7-91aa" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4935-1832-63f7-91aa" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>WB</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                              </conditions>
+                              <comment>SL</comment>
+                              <conditionGroups>
+                                <conditionGroup type="and">
+                                  <conditions>
+                                    <condition type="atLeast" value="4" field="selections" scope="force" childId="f9f6-d169-cb95-6285" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>RG</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8813-5298-c368-ee16" shared="true"/>
+                                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8813-5298-c368-ee16" shared="true"/>
+                                <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7799-e1d6-762b-700b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="157f-952c-13bb-41bf" shared="true" includeChildSelections="true"/>
+                                <condition type="equalTo" value="0" field="selections" scope="force" childId="eeb7-2c0c-9882-f27d" shared="true" includeChildSelections="true"/>
+                              </conditions>
+                              <comment>AL</comment>
+                              <conditionGroups>
+                                <conditionGroup type="or">
+                                  <conditions>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2c0e-cb21-17b4-8870" shared="true" includeChildSelections="true"/>
+                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1fb4-7ef8-2442-2e70" shared="true" includeChildSelections="true"/>
+                                  </conditions>
+                                </conditionGroup>
+                              </conditionGroups>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Support" hidden="false" id="91b6-749e-5acf-58bb" targetId="345f-9ba6-9b02-ed5c">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b50d-b55a-855c-2558"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="b50d-b55a-855c-2558">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="18ed-afc2-ec5d-9f8c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="18ed-afc2-ec5d-9f8c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Support" hidden="false" id="abb0-c8d3-19be-4eeb" targetId="1c79-ecdf-9a64-84c9">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="fe47-e670-b070-8f26" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Transport" hidden="false" id="6ca3-3cd6-5cc4-8e00" targetId="d162-4711-5d60-0a48">
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="fd27-e7c4-114f-ec5d"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="fd27-e7c4-114f-ec5d">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="861f-723a-938e-bc2c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="fd27-e7c4-114f-ec5d">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="1bc1-e6ff-d62e-398e" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="0" field="fd27-e7c4-114f-ec5d">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Transport" hidden="false" id="2659-044a-2176-cb35" targetId="fc27-1a48-84ae-aa7b">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d826-bfa3-625a-8209" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Heavy Assault" hidden="false" id="6870-29cb-dacc-a241" targetId="3235-bd79-e9b1-60fa">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="0bc9-30c1-f3f0-576b"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="0bc9-30c1-f3f0-576b">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="5da8-2289-4e20-649f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="5da8-2289-4e20-649f" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Heavy Assault" hidden="false" id="470f-9b8b-05e6-dbb3" targetId="1e95-35f0-1353-ffa1">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="a629-f789-c5c8-1519" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Heavy Transport" hidden="false" id="3eb7-6618-d65c-415e" targetId="52d0-8b78-439e-18e5">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="568c-8215-ee94-c8e8"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="568c-8215-ee94-c8e8">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="ad55-0e60-66fe-a7a9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="ad55-0e60-66fe-a7a9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Heavy Transport" hidden="false" id="6e22-4e10-02d0-49d5" targetId="abff-3686-c39a-9a24">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="62ac-b0c6-1095-9e87" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Armour" hidden="false" id="7060-bbc2-174a-3ec9" targetId="643a-1012-bd51-6537">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f8f8-a40b-915d-fcbd"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="f8f8-a40b-915d-fcbd">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="d5b0-22dc-909e-415e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="d5b0-22dc-909e-415e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Armour" hidden="false" id="ffc6-0d37-04b8-751d" targetId="4460-7bc1-4d80-aecb">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="467c-c6d4-811e-03b3" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Recon" hidden="false" id="fca6-8bc8-77c3-eefc" targetId="2b65-a3f2-620a-dc58">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="57c4-d300-bb92-f53b"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="57c4-d300-bb92-f53b">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="a166-27df-d75c-bdb0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="a166-27df-d75c-bdb0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Recon" hidden="false" id="1f45-f70f-872d-252a" targetId="6348-ecd0-714d-042a">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="3abf-eac6-5201-4da9" includeChildSelections="true" automatic="false"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Fast Attack" hidden="false" id="f214-44ce-fd3c-2358" targetId="cf96-8891-3f9a-8921">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="65de-03d3-7668-cd7e"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="65de-03d3-7668-cd7e">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="force" childId="cf0d-0aff-8242-f25a" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="force" childId="cf0d-0aff-8242-f25a" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Fast Attack" hidden="false" id="e740-0765-c587-c2ef" targetId="c291-144b-3da6-37ed">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e578-8b5f-7f46-d914" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Rewards of Treachery" hidden="false" id="5a2c-c648-fd3b-5624" targetId="fe7f-1287-4162-a65d"/>
+            <categoryLink name="Master of Automata" hidden="false" id="c784-a98c-f4bd-4fcc" targetId="43f5-bc69-29b9-2286"/>
+            <categoryLink name="War-engine - Upgraded by The Iron-clad" hidden="false" id="7040-1199-886e-b32e" targetId="d00a-e269-2ed3-8fc4"/>
+            <categoryLink name="Lord of Automata" hidden="false" id="06d5-b121-f489-6897" targetId="3e59-3bcf-4bf8-d404"/>
+            <categoryLink name="Cult Operative" hidden="false" id="5ab6-4555-fe90-957a" targetId="4f71-897f-8ae1-303b"/>
+            <categoryLink name="Heavy Transport - Logisticae" hidden="false" id="2606-0467-1268-474b" targetId="6fc0-917e-44a4-a4da">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="3ad6-a0b5-ef5b-a479" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="a9a0-40db-2b34-b92e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" value="1" field="2574-a0b9-76ef-47ea">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="a9a0-40db-2b34-b92e" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                  </repeats>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="3ad6-a0b5-ef5b-a479" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="054e-37df-dfda-8203"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2574-a0b9-76ef-47ea"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Transport - Logisticae" hidden="false" id="ed89-0278-973a-191f" targetId="f34d-c79d-b3a4-f01c">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="3ad6-a0b5-ef5b-a479" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="8128-c5ca-d658-c475" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" value="1" field="4b3b-de96-ad4c-8770">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="8128-c5ca-d658-c475" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                  </repeats>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="3ad6-a0b5-ef5b-a479" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b7d1-60c8-4d9d-c455"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4b3b-de96-ad4c-8770"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Clade Operative" hidden="false" id="fd62-988c-2ee7-052b" targetId="335a-5a90-3b7c-c034"/>
+            <categoryLink name="Legiones Thallaxes" hidden="false" id="c439-a819-3252-9f1d" targetId="6f78-9e60-4884-63d2"/>
+            <categoryLink name="Recon - Land Raider Explorator Only" hidden="false" id="0ea1-3706-9509-e388" targetId="1bc1-e6ff-d62e-398e">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e01c-9c23-0cbe-c49e" automatic="true"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f8ef-591c-ad6e-3b2b"/>
+              </constraints>
+              <modifiers>
+                <modifier type="decrement" value="1" field="e01c-9c23-0cbe-c49e">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="d162-4711-5d60-0a48" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="atMost" value="3" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                        <condition type="equalTo" value="0" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="set" value="4" field="e01c-9c23-0cbe-c49e"/>
+                    <modifier type="set" value="false" field="hidden">
+                      <comment>Sire of the White Scars</comment>
+                    </modifier>
+                  </modifiers>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="atLeast" value="4" field="selections" scope="force" childId="88e6-d373-4152-0dd8" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="roster" childId="22ee-7208-4089-b005" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifierGroup>
+              </modifierGroups>
+            </categoryLink>
+            <categoryLink name="Paragon of Malevolence" hidden="false" id="ef0b-43a5-7229-9e41" targetId="708b-b2ff-1a14-2901"/>
+            <categoryLink name="Prime Rewards of Treachery" hidden="false" id="9c86-d0dd-985f-4426" targetId="de4f-4c9e-11bc-1b2a">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="94b2-ed73-03ad-11c1" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Command - Centurions Only" hidden="false" id="c8e6-c9f2-adb4-818b" targetId="1429-f03a-e8a5-478c">
+              <constraints>
+                <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="0075-5a3b-b35d-ee9a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Dark Angels" hidden="false" id="53b2-d64b-a680-487d" targetId="6c4f-19ae-d41f-377b">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2e66-cf21-3084-cf50"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="2e66-cf21-3084-cf50">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="69dd-9a79-6562-14a1" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="69dd-9a79-6562-14a1" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Alpha Legion" hidden="false" id="45c9-d8a2-c3e2-ff8f" targetId="1252-6dc4-22d7-4a8f">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d9c0-67de-77f7-fd55"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="d9c0-67de-77f7-fd55">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="7cb8-1117-ebad-69ca" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7cb8-1117-ebad-69ca" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Blood Angels" hidden="false" id="ea5c-8e8c-1e9a-7750" targetId="d819-0c9d-aad2-4238">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2ae4-76e1-32ef-ec3a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="2ae4-76e1-32ef-ec3a">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="5f71-ed32-cb07-a7e3" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="5f71-ed32-cb07-a7e3" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Death Guard" hidden="false" id="9f37-a560-f489-cb4b" targetId="f6a9-02e2-ff4f-9583">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6dff-1bed-3e5b-b12b"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="6dff-1bed-3e5b-b12b">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="c494-2873-82da-79f3" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c494-2873-82da-79f3" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Emperor&apos;s Children" hidden="false" id="1673-8f06-0f72-4412" targetId="5e33-e0a2-afb4-6fa7">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c660-3315-e864-93f3"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="c660-3315-e864-93f3">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="1b2e-0c8f-a347-14dd" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="1b2e-0c8f-a347-14dd" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Imperial Fists" hidden="false" id="997d-0637-1022-dcdf" targetId="6d50-f0f1-4c81-4fa5">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="3a77-9801-4432-b672"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="3a77-9801-4432-b672">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="165b-c1bf-70d0-1614" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="165b-c1bf-70d0-1614" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Iron Hands" hidden="false" id="39a6-12ca-6f49-545b" targetId="b8f3-a8cc-4b5f-38c7">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="915a-bc26-248b-f850"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="915a-bc26-248b-f850">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="4559-bedc-9940-5865" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="4559-bedc-9940-5865" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Iron Warriors" hidden="false" id="6925-0bd9-58b7-8f5b" targetId="d190-a268-afdd-6e11">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c1c6-cd73-b218-0a04"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="c1c6-cd73-b218-0a04">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="5721-3879-8932-15f3" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="5721-3879-8932-15f3" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Night Lords" hidden="false" id="cdd2-c8c2-47e6-1598" targetId="72cb-1cf8-0e7d-51d2">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e0c8-6118-ec3b-c6ba"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="e0c8-6118-ec3b-c6ba">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="af2c-9f21-ea3d-9bcf" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="af2c-9f21-ea3d-9bcf" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Raven Guard" hidden="false" id="b78d-2150-abf1-a553" targetId="8fed-36a4-10bd-3fa5">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c2bf-04ef-4fb2-78f6"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="c2bf-04ef-4fb2-78f6">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="87f5-76a6-3a9a-2579" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="87f5-76a6-3a9a-2579" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Salamanders" hidden="false" id="5cb2-34f3-bbbe-b1fe" targetId="acc7-7ab0-1b70-15c2">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7251-2d83-0e67-8bb8"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="7251-2d83-0e67-8bb8">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="5b8b-422a-ca19-dd30" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="5b8b-422a-ca19-dd30" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Sons of Horus" hidden="false" id="3af3-7c5d-9b35-5e3d" targetId="20ba-2d32-325b-0f43">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="dffb-f7b1-f1b8-1a3a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="dffb-f7b1-f1b8-1a3a">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="b7fc-56f9-579e-0030" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="b7fc-56f9-579e-0030" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Space Wolves" hidden="false" id="0db2-adc2-08b9-267d" targetId="34b6-2cfd-313a-0eff">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="428c-ba5b-76cd-6a3a"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="428c-ba5b-76cd-6a3a">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="7f85-b2b1-29bd-b5a2" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7f85-b2b1-29bd-b5a2" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Thousand Sons" hidden="false" id="96ac-70c5-869a-f0cc" targetId="1992-9042-5894-f2dc">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="174d-1e1d-8174-6879"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="174d-1e1d-8174-6879">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="484e-033c-00d8-9715" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="484e-033c-00d8-9715" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Ultramarines" hidden="false" id="6690-0a71-e121-2f7d" targetId="bc4d-0973-2772-9330">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="eb65-5542-93e5-d2d7"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="eb65-5542-93e5-d2d7">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="8427-5777-8664-083e" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="8427-5777-8664-083e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - White Scars" hidden="false" id="83cb-f2a7-9d31-6220" targetId="c89e-a6a3-9ac6-1283">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d154-4cf1-d551-b521"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="d154-4cf1-d551-b521">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="73f7-0054-e5d7-8efb" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="73f7-0054-e5d7-8efb" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - Word Bearers" hidden="false" id="41c6-83f8-941a-e310" targetId="7712-7d17-1f9e-bf1f">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="42d1-dba3-b3dd-6a57"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="42d1-dba3-b3dd-6a57">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="b1f7-02a0-e90d-15c7" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="b1f7-02a0-e90d-15c7" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Exemplars of the Legion - World Eaters" hidden="false" id="fccf-7e5c-270d-436a" targetId="d877-8b72-fd0b-1e4a">
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2d7d-f46d-bce2-9b86"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="2d7d-f46d-bce2-9b86">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="force" childId="67b4-0b06-af17-1321" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="67b4-0b06-af17-1321" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Prime Command - Centurions Only" hidden="false" id="4d95-be99-a8b8-5074" targetId="afc8-c83d-00a6-936e">
+              <modifiers>
+                <modifier type="set" value="2" field="5609-cd2d-8610-44bf">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="forces" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="122b-0eda-4e29-401e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5609-cd2d-8610-44bf" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="0a35-fce3-188c-b3aa" shared="true"/>
+                      </conditions>
+                      <comment>DA</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9a22-d01f-ab5c-ec07" shared="true"/>
+                      </conditions>
+                      <comment>EC</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="21c0-18db-03dd-ae07" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="21c0-18db-03dd-ae07" shared="true"/>
+                      </conditions>
+                      <comment>IW</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d995-cb33-be41-ecf8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d995-cb33-be41-ecf8" shared="true"/>
+                      </conditions>
+                      <comment>SW</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f7b4-2531-0962-1379" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f7b4-2531-0962-1379" shared="true"/>
+                      </conditions>
+                      <comment>WS</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d186-cffc-0950-f632" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d186-cffc-0950-f632" shared="true"/>
+                      </conditions>
+                      <comment>IF</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="486f-b32a-ac87-73dd" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="486f-b32a-ac87-73dd" shared="true"/>
+                      </conditions>
+                      <comment>NL</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9cff-ac34-56ca-260f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9cff-ac34-56ca-260f" shared="true"/>
+                      </conditions>
+                      <comment>BA</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="736e-3967-e72b-e3ac" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="736e-3967-e72b-e3ac" shared="true"/>
+                      </conditions>
+                      <comment>IH</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a956-190d-3b47-6258" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="a956-190d-3b47-6258" shared="true"/>
+                      </conditions>
+                      <comment>WE</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="656a-07b6-d4fd-57af" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="656a-07b6-d4fd-57af" shared="true"/>
+                      </conditions>
+                      <comment>UM</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="be98-aa9d-64ef-f62c" shared="true"/>
+                      </conditions>
+                      <comment>DG</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2496-21e2-1870-e9b8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2496-21e2-1870-e9b8" shared="true"/>
+                      </conditions>
+                      <comment>TS</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ac06-fcec-b634-5bd9" shared="true"/>
+                      </conditions>
+                      <comment>SH</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4935-1832-63f7-91aa" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4935-1832-63f7-91aa" shared="true"/>
+                      </conditions>
+                      <comment>WB</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f148-a6e4-5a8c-3aeb" shared="true"/>
+                      </conditions>
+                      <comment>SL</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="340c-1d4f-1f31-fb70" shared="true"/>
+                      </conditions>
+                      <comment>RG</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8813-5298-c368-ee16" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8813-5298-c368-ee16" shared="true"/>
+                      </conditions>
+                      <comment>AL</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7851-69ac-f701-034e" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7851-69ac-f701-034e" shared="true"/>
+                      </conditions>
+                      <comment>Auxilia</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2f57-6e9d-8a7b-5c2e" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2f57-6e9d-8a7b-5c2e" shared="true"/>
+                      </conditions>
+                      <comment>Mechanicum</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="acc1-f897-a117-9b4a" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="acc1-f897-a117-9b4a" shared="true"/>
+                      </conditions>
+                      <comment>Custodes</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e7b4-2c1c-7d85-a4e3" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="e7b4-2c1c-7d85-a4e3" shared="true"/>
+                      </conditions>
+                      <comment>Sisters</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8f21-30c9-80d5-20a9" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8f21-30c9-80d5-20a9" shared="true"/>
+                      </conditions>
+                      <comment>Knights Errant</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9396-cc24-458d-d358" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9396-cc24-458d-d358" shared="true"/>
+                      </conditions>
+                      <comment>Daemons</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f477-a408-5e04-1e5a" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f477-a408-5e04-1e5a" shared="true"/>
+                      </conditions>
+                      <comment>Militia</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c195-9a6a-a56b-4634" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c195-9a6a-a56b-4634" shared="true"/>
+                      </conditions>
+                      <comment>Blackshields</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3256-29e9-1d7a-12a7" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3256-29e9-1d7a-12a7" shared="true"/>
+                      </conditions>
+                      <comment>Shattered Legions</comment>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="079a-11b5-abfa-96da" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="079a-11b5-abfa-96da" shared="true"/>
+                      </conditions>
+                      <comment>Skitarii</comment>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Visible to all factions</comment>
+            </modifier>
+            <modifier type="add" value="Multiple Skitarii Traits in Detachment" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="079a-11b5-abfa-96da" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="079a-11b5-abfa-96da" shared="true"/>
+                  </conditions>
+                  <comment>Skitarii</comment>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="1ebf-72a3-b0b3-4944" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="ac12-7d1f-98e4-2b58" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="1ebf-72a3-b0b3-4944" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b2d5-2df6-b213-989b" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="1ebf-72a3-b0b3-4944" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b819-ac22-c04b-0932" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="ac12-7d1f-98e4-2b58" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b2d5-2df6-b213-989b" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="ac12-7d1f-98e4-2b58" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b819-ac22-c04b-0932" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b2d5-2df6-b213-989b" shared="true" includeChildSelections="true"/>
+                            <condition type="atLeast" value="1" field="selections" scope="force" childId="b819-ac22-c04b-0932" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="d8dd-3d91-a402-9962">
+              <conditions>
+                <condition type="atLeast" value="1" field="forces" scope="roster" childId="0100-417d-f496-971d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Zone Mortalis"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="d8dd-3d91-a402-9962">
+              <conditions>
+                <condition type="atLeast" value="1" field="forces" scope="roster" childId="0100-417d-f496-971d" shared="true" includeChildSelections="true" includeChildForces="true" childName="Zone Mortalis"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+            <cost name="Auxiliary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+            <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
+            <cost name="Combined Warlord and Lord of War Points" typeId="14bd-cad0-cd3d-8b23" value="0"/>
+            <cost name="Mech LB" typeId="7275-cbe8-a563-7152" value="0"/>
+            <cost name="Tank Detachments" typeId="2cdf-186c-a655-d907" value="0"/>
+            <cost name="ZM Primary Detachment" typeId="37ff-b26e-18a9-7f57" value="1"/>
+          </costs>
+        </forceEntry>
       </forceEntries>
       <constraints>
         <constraint type="max" value="1" field="37ff-b26e-18a9-7f57" scope="self" shared="true" id="1f29-6e55-3821-3905" includeChildSelections="true" includeChildForces="true"/>
@@ -33893,6 +35671,7 @@
         <constraint type="min" value="1" field="37ff-b26e-18a9-7f57" scope="self" shared="true" id="3fd0-ac62-baa7-faa4" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <forceEntryLinks>
+        <forceEntryLink name="Cohorts Vagus Detachment" id="3a0e-b04e-5ca4-b034" hidden="false" targetId="2dfc-259d-d11b-dc8b" type="forceEntry"/>
         <forceEntryLink name="Auxiliary - Armoured Fist" id="4eae-3d91-d822-85b4" hidden="true" targetId="cc51-fdce-8a34-dbcf" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -33991,7 +35770,6 @@
         <forceEntryLink name="Apex - Cavalry Wing" id="4ec5-4669-86af-79d8" hidden="false" targetId="a611-ff21-3714-48e6" type="forceEntry"/>
         <forceEntryLink name="Apex - Armoured Phalanx" id="628c-728c-c367-e47a" hidden="false" targetId="388d-f480-70ab-8bed" type="forceEntry"/>
         <forceEntryLink name="Auxiliary - Oversight Delegation" id="d54e-f1ea-764b-330d" hidden="false" targetId="2291-5e67-64bd-5edc" type="forceEntry"/>
-        <forceEntryLink name="Cohorts Vagus Detachment" id="3a0e-b04e-5ca4-b034" hidden="false" targetId="2dfc-259d-d11b-dc8b" type="forceEntry"/>
       </forceEntryLinks>
       <modifiers>
         <modifier type="decrement" value="1" field="5b70-8bd4-2c8a-9224">
