@@ -821,6 +821,7 @@ Immovable Force (Telekinesis Discipline)</description>
             <entryLink import="true" name="Prime Benefits" hidden="false" id="402f-f834-48b7-bb2c" type="selectionEntryGroup" targetId="a396-b846-c263-6767"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Prosperine Arcana" hidden="false" id="a4f6-ee62-ed2b-42a8" type="selectionEntryGroup" targetId="eafe-beb3-8d27-ec50" sortIndex="2"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="[Allegiance]" id="dc1c-9e74-e3bb-629a" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
