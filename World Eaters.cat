@@ -1964,7 +1964,7 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Any Model in this Unit may have its chainsword and bolt pistol exchanged for " id="ec00-e122-4e11-bf37" sortIndex="5">
+            <selectionEntryGroup name="Any Model in this Unit may have its chainsword and bolt pistol exchanged for " id="ec00-e122-4e11-bf37" sortIndex="5" defaultSelectionEntryId="none">
               <entryLinks>
                 <entryLink hidden="false" type="selectionEntry" targetId="3a14-74ac-8634-c204" id="cf56-888b-4208-aab3" name="Heavy chainaxe">
                   <costs>
@@ -1979,7 +1979,7 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63e2-c1a3-4ff2-ada6"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="One Inductii in this Unit may have " id="df89-f5f0-41a5-8d7b" sortIndex="6">
+            <selectionEntryGroup name="One Inductii in this Unit may have " id="df89-f5f0-41a5-8d7b" sortIndex="6" defaultSelectionEntryId="none">
               <entryLinks>
                 <entryLink hidden="false" type="selectionEntry" targetId="dfcd-0669-ad43-28aa" id="6299-21cf-491d-855f" name="Vexilla">
                   <costs>
@@ -1995,7 +1995,7 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="d043-1576-dfed-7b24" includeChildSelections="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Pistol" id="bb95-76ba-3a9d-99d5" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Pistol" id="bb95-76ba-3a9d-99d5" hidden="false" sortIndex="1" defaultSelectionEntryId="1078-3ddf-4403-830c">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="1078-3ddf-4403-830c" type="selectionEntry" targetId="2942-f783-d627-33c5">
                   <constraints>
@@ -2046,7 +2046,7 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Melee Weapon" id="810d-c10a-3ed8-eb8e" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Melee Weapon" id="810d-c10a-3ed8-eb8e" hidden="false" sortIndex="2" defaultSelectionEntryId="496c-1d82-4b37-9bc0">
               <entryLinks>
                 <entryLink import="true" name="Chainsword" hidden="false" id="496c-1d82-4b37-9bc0" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="1">
                   <constraints>
