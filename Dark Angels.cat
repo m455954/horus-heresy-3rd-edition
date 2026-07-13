@@ -210,7 +210,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May exchange its bolter for:" id="a4fe-ba65-dfd2-cb9e" hidden="false" collective="false" import="true" defaultSelectionEntryId="6169-1e58-b1bb-95be" sortIndex="2">
+            <selectionEntryGroup name="May exchange its bolter for:" id="a4fe-ba65-dfd2-cb9e" hidden="false" collective="false" import="true" defaultSelectionEntryId="3c4b-cab5-652c-a14b" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19d6-8104-714b-f6f3" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="304f-5cbc-db7b-d994" includeChildSelections="false"/>
@@ -393,7 +393,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8710-565d-f060-986a" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange its bolter for:" id="98d3-bdec-19b9-6ec0" hidden="false" collective="false" import="true" defaultSelectionEntryId="a8e0-80b8-472f-f83d" sortIndex="2">
+            <selectionEntryGroup name="May exchange its bolter for:" id="98d3-bdec-19b9-6ec0" hidden="false" collective="false" import="true" defaultSelectionEntryId="c023-d7a3-dc69-6bbe" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4db6-d56f-f93f-3092" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9e10-26c4-675f-de8c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -752,7 +752,7 @@
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="For every five Models in this Unit, one Interemptors&apos;s plasma burner may be exchanged for one of the following:" id="52d2-cd67-b6ca-05ba" hidden="false" defaultSelectionEntryId="f33e-391d-8370-7bae">
+                <selectionEntryGroup name="For every five Models in this Unit, one Interemptors&apos;s plasma burner may be exchanged for one of the following:" id="52d2-cd67-b6ca-05ba" hidden="false" defaultSelectionEntryId="none">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f43-29d9-afb6-042a" includeChildSelections="false"/>
                     <constraint type="max" value="0" field="selections" scope="d788-b46c-c9f2-0aa9" shared="true" id="c3c4-183b-26c2-76d0" includeChildSelections="true" includeChildForces="true"/>
@@ -1682,7 +1682,7 @@ The Lion&apos;s Choler: If this Gambit is selected, the Model for which this Gam
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange combi-bolter for:" id="ed77-82aa-0e56-fe3a" hidden="false" collapsible="false" defaultSelectionEntryId="e6c9-e05e-9b8e-13a4" sortIndex="1">
+                <selectionEntryGroup name="May exchange combi-bolter for:" id="ed77-82aa-0e56-fe3a" hidden="false" collapsible="false" defaultSelectionEntryId="cb8f-8047-4c8d-1ae4" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="71a1-d9e5-5f8c-b94c" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="2"/>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="cb8f-8047-4c8d-1ae4" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="1">
@@ -1838,7 +1838,7 @@ The Lion&apos;s Choler: If this Gambit is selected, the Model for which this Gam
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange combi-bolter for:" id="bfc8-d9fb-e31e-d75e" hidden="false" collapsible="false" defaultSelectionEntryId="e6c9-e05e-9b8e-13a4" sortIndex="1">
+                <selectionEntryGroup name="May exchange combi-bolter for:" id="bfc8-d9fb-e31e-d75e" hidden="false" collapsible="false" defaultSelectionEntryId="37d4-7312-cb96-dc83" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="06c8-440b-fb34-068b" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="37d4-7312-cb96-dc83" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="1">
@@ -2045,7 +2045,7 @@ The Lion&apos;s Choler: If this Gambit is selected, the Model for which this Gam
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange combi-bolter for:" id="e55e-16b0-41d2-301a" hidden="false" collapsible="false" defaultSelectionEntryId="e6c9-e05e-9b8e-13a4" sortIndex="1">
+                <selectionEntryGroup name="May exchange combi-bolter for:" id="e55e-16b0-41d2-301a" hidden="false" collapsible="false" defaultSelectionEntryId="4ca6-7956-4711-f7a5" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="5d1e-47f4-a0a1-89c4" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="2"/>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="4ca6-7956-4711-f7a5" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="1">
@@ -2199,7 +2199,7 @@ The Lion&apos;s Choler: If this Gambit is selected, the Model for which this Gam
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange combi-bolter for:" id="9728-13ee-bad7-ce08" hidden="false" collapsible="false" defaultSelectionEntryId="e6c9-e05e-9b8e-13a4" sortIndex="1">
+                <selectionEntryGroup name="May exchange combi-bolter for:" id="9728-13ee-bad7-ce08" hidden="false" collapsible="false" defaultSelectionEntryId="8268-4e0f-33be-8ccf" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="d53b-98e2-085c-b29f" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="8268-4e0f-33be-8ccf" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="1">
@@ -2713,7 +2713,7 @@ Whilst a Model with this Special Rule is part of a Unit that is Locked in Combat
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name=" May have one of the following:" id="ef06-8634-84fe-16a2" hidden="false" sortIndex="3" defaultSelectionEntryId="d949-5b9f-f2dd-a0e4">
+        <selectionEntryGroup name=" May have one of the following:" id="ef06-8634-84fe-16a2" hidden="false" sortIndex="3" defaultSelectionEntryId="none">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Athanax phosphex canister launcher" hidden="false" id="e3a0-5766-4deb-a878" sortIndex="1">
               <costs>
@@ -2885,7 +2885,7 @@ Pinning (3)</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c1f-bb36-ad24-2d28"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="May exchange it&apos;s two combi-bolters for:" id="5619-0575-f8ab-b9d3" hidden="false" defaultSelectionEntryId="ca31-9576-d967-e694" sortIndex="2">
+        <selectionEntryGroup name="May exchange it&apos;s two combi-bolters for:" id="5619-0575-f8ab-b9d3" hidden="false" defaultSelectionEntryId="de5f-d9e6-5071-9073" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Graviton gun" hidden="false" id="1e70-e4a1-4ff2-eaa7" type="selectionEntry" targetId="4a06-c55e-a06f-bd0c" sortIndex="2">
               <modifiers>

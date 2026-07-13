@@ -745,7 +745,7 @@ Furthermore, if a Model with this Special Rule is part of an Army, then the foll
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May have their Power Sword exchanged for:" id="f036-ea9b-0df5-1fb0" hidden="false" defaultSelectionEntryId="44df-7add-7e5c-4f65" collapsible="true" sortIndex="2">
+            <selectionEntryGroup name="May have their Power Sword exchanged for:" id="f036-ea9b-0df5-1fb0" hidden="false" defaultSelectionEntryId="8962-7ea7-faac-0527" collapsible="true" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Power sword" hidden="false" id="8962-7ea7-faac-0527" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1">
                   <costs>
@@ -1902,7 +1902,7 @@ Furthermore, if a Model with this Special Rule is part of an Army, then the foll
             <entryLink import="true" name="Mount" hidden="false" id="6561-3415-7a2f-bcc6" type="selectionEntryGroup" targetId="9089-07e5-3653-84b6" sortIndex="1"/>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Bolt Pistol for one item from the Legion Pistol List:" id="4953-0c6d-e4ba-3316" hidden="false" defaultSelectionEntryId="787f-d535-2b74-0515" sortIndex="3">
+            <selectionEntryGroup name="May exchange Bolt Pistol for one item from the Legion Pistol List:" id="4953-0c6d-e4ba-3316" hidden="false" defaultSelectionEntryId="7d24-9c47-4392-8af3" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="7d24-9c47-4392-8af3" type="selectionEntry" targetId="2942-f783-d627-33c5"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="d7de-f326-3fd0-ccf4" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf">

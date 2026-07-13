@@ -520,7 +520,7 @@ Furthermore, if a Model with this Special Rule is part of an Army, then the foll
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Replace butcher power axes with :" id="5d34-8687-651e-5869" hidden="false" defaultSelectionEntryId="44bb-6dec-0fcd-4a2b" sortIndex="4">
+                <selectionEntryGroup name="Replace butcher power axes with :" id="5d34-8687-651e-5869" hidden="false" defaultSelectionEntryId="none" sortIndex="4">
                   <entryLinks>
                     <entryLink import="true" name="Power axe" hidden="false" id="ba91-dffc-8cb2-2c2a" type="selectionEntry" targetId="4861-b77a-620c-f0d6" sortIndex="1"/>
                     <entryLink import="true" name="Power fist" hidden="false" id="4cf6-06f0-3cd8-2732" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="2">
@@ -557,7 +557,7 @@ Furthermore, if a Model with this Special Rule is part of an Army, then the foll
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Replace butcher power axes with:" id="445c-55d2-3fc8-05c4" hidden="false" defaultSelectionEntryId="b180-0e1f-c7a9-fac4" sortIndex="5">
+                <selectionEntryGroup name="Replace butcher power axes with:" id="445c-55d2-3fc8-05c4" hidden="false" defaultSelectionEntryId="none" sortIndex="5">
                   <entryLinks>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="dbb8-d19b-b379-651a" type="selectionEntry" targetId="042d-9e60-db9e-c147" sortIndex="1"/>
                     <entryLink import="true" name="Power fist" hidden="false" id="e201-04ac-3fab-e64b" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="2">

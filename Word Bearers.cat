@@ -2926,7 +2926,7 @@ When a Model with this Special Rule makes Volley Attacks, modify the Firepower C
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May have its chainsword exchanged for " id="c40a-f621-dfad-5723" hidden="false" defaultSelectionEntryId="b418-6516-425e-8472">
+            <selectionEntryGroup name="May have its chainsword exchanged for " id="c40a-f621-dfad-5723" hidden="false" defaultSelectionEntryId="d2a8-4cc9-6225-3f8a">
               <entryLinks>
                 <entryLink import="true" name="Chainsword" hidden="false" id="d2a8-4cc9-6225-3f8a" type="selectionEntry" targetId="78f4-4967-2896-c3a5">
                   <constraints>
@@ -3317,7 +3317,7 @@ A Unit containing Models with this Special Rule may never be joined by a Model w
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Paired Saturnine Disruption Fists for:" id="1f79-65f0-64d2-4bf8" hidden="false" sortIndex="1" defaultSelectionEntryId="c56d-2694-5a23-67fe">
+            <selectionEntryGroup name="May exchange Paired Saturnine Disruption Fists for:" id="1f79-65f0-64d2-4bf8" hidden="false" sortIndex="1" defaultSelectionEntryId="ac2f-e06a-e509-10c1">
               <entryLinks>
                 <entryLink import="true" name="Paired Saturnine Disruption Fists" hidden="false" id="ac2f-e06a-e509-10c1" type="selectionEntry" targetId="1595-ae69-52bb-4160" sortIndex="1"/>
               </entryLinks>
@@ -3515,7 +3515,7 @@ A Unit containing Models with this Special Rule may never be joined by a Model w
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Paired Saturnine Disruption Fists for:" id="509c-10b2-7d01-8338" hidden="false" sortIndex="1" defaultSelectionEntryId="974f-c444-1eb2-47d1">
+            <selectionEntryGroup name="May exchange Paired Saturnine Disruption Fists for:" id="509c-10b2-7d01-8338" hidden="false" sortIndex="1" defaultSelectionEntryId="ff5d-5e14-086a-2cb8">
               <entryLinks>
                 <entryLink import="true" name="Paired Saturnine Disruption Fists" hidden="false" id="ff5d-5e14-086a-2cb8" type="selectionEntry" targetId="1595-ae69-52bb-4160" sortIndex="1"/>
               </entryLinks>

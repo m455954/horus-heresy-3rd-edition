@@ -33,7 +33,7 @@
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hull mount" id="ed2f-bfb7-92a8-2081" hidden="false" defaultSelectionEntryId="723c-931b-d7b6-b080">
+            <selectionEntryGroup name="Hull mount" id="ed2f-bfb7-92a8-2081" hidden="false" defaultSelectionEntryId="9c6f-5be6-26e9-733f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f8c2-13d3-5073-40c4"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7a8-1206-3b3d-41da"/>

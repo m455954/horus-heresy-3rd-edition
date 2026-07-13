@@ -1148,7 +1148,7 @@ The first time in any battle that a Model with this Special Rule is reduced to 0
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1f4e-a50b-4f71-7ec3" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="For every five Models in this Unit, one Crimson Paladin may swap Coriolis Pattern Power Shield for" id="0954-dc66-02a4-51f5" hidden="false" defaultSelectionEntryId="ded6-d810-2b12-48bf" sortIndex="4">
+            <selectionEntryGroup name="For every five Models in this Unit, one Crimson Paladin may swap Coriolis Pattern Power Shield for" id="0954-dc66-02a4-51f5" hidden="false" defaultSelectionEntryId="none" sortIndex="4">
               <entryLinks>
                 <entryLink import="true" name="Iliastus Assault Cannon" hidden="false" id="0677-be37-90cc-e969" type="selectionEntry" targetId="f38b-8af1-17b8-30fe" sortIndex="3">
                   <constraints>

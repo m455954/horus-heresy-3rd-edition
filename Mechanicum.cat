@@ -3522,7 +3522,7 @@ A Model with this Special Rule has the Overcharge Reactors, Cogitator Purge, and
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Claws or Fists:" id="0fde-8c73-929e-6366" hidden="false" defaultSelectionEntryId="310e-efba-0331-5e65">
+            <selectionEntryGroup name="Claws or Fists:" id="0fde-8c73-929e-6366" hidden="false" defaultSelectionEntryId="76ae-765a-63ec-2a3b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9cc-62b1-6ee9-cb4a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aed2-6e44-718c-5348"/>
@@ -3673,7 +3673,7 @@ A Model with this Special Rule has the Overcharge Reactors, Cogitator Purge, and
             <categoryLink targetId="8268-aa48-f4dc-0506" id="cc4e-2792-233d-49e6" primary="false" name="Lacrymaerta"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Claws or Fists:" id="8da6-9a4a-1fab-0bb8" hidden="false" defaultSelectionEntryId="310e-efba-0331-5e65">
+            <selectionEntryGroup name="Claws or Fists:" id="8da6-9a4a-1fab-0bb8" hidden="false" defaultSelectionEntryId="26c9-35fb-4c48-aabf">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9526-6a69-3045-b451"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daab-3f81-c53f-77e5"/>
@@ -4443,7 +4443,7 @@ A Model with this Special Rule has the Overcharge Reactors, Cogitator Purge, and
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon Options" id="da21-875e-9764-ee15" hidden="false" defaultSelectionEntryId="d949-5b9f-f2dd-a0e4" sortIndex="2">
+            <selectionEntryGroup name="Weapon Options" id="da21-875e-9764-ee15" hidden="false" defaultSelectionEntryId="none" sortIndex="2">
               <selectionEntryGroups>
                 <selectionEntryGroup name="Two options from the following list:" id="7d45-d7d2-00ef-6c0f" hidden="false" sortIndex="1" defaultSelectionEntryId="none">
                   <constraints>

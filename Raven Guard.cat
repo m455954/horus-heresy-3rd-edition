@@ -574,7 +574,7 @@ A Model with this Special Rule is never forced to make Shooting Attacks as Snap 
             <categoryLink targetId="d2d6-5a84-672b-2833" id="30e8-917a-4fb7-a15e" primary="false" name="Skirmish Model Sub-Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May Exchange its Nemesis Bolter for:" id="2a84-7aba-0398-3438" hidden="false" defaultSelectionEntryId="657c-9bb7-89b4-ff29" sortIndex="1">
+            <selectionEntryGroup name="May Exchange its Nemesis Bolter for:" id="2a84-7aba-0398-3438" hidden="false" defaultSelectionEntryId="cf25-7d61-f5fb-adb5" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Nemesis bolter" hidden="false" id="cf25-7d61-f5fb-adb5" type="selectionEntry" targetId="96e3-031c-2139-1335" sortIndex="1"/>
                 <entryLink import="true" name="Astartes shotgun" hidden="false" id="0a82-98f3-cb47-962e" type="selectionEntry" targetId="6068-d203-27e6-318a" sortIndex="2"/>

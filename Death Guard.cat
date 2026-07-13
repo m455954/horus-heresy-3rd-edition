@@ -949,7 +949,7 @@ Additionally, once per Battle, while the Model with this Special Rule is engaged
                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="00c2-8104-4b1b-9fbe" includeChildSelections="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May have its bolter exchanged for " id="2d7d-e6f0-f300-512a" hidden="false" defaultSelectionEntryId="555a-4a1f-4bfa-ae64" sortIndex="1">
+            <selectionEntryGroup name="May have its bolter exchanged for " id="2d7d-e6f0-f300-512a" hidden="false" defaultSelectionEntryId="a4d6-9b17-4a67-cb9c" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Bolter" hidden="false" id="a4d6-9b17-4a67-cb9c" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e" sortIndex="1">
                   <constraints>

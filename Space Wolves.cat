@@ -2042,7 +2042,7 @@ Head-taker: If this Gambit is selected, the Opposing Player may not claim an Out
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1601-bae1-92e0-9ee9"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="679a-2b92-246b-e02a" hidden="false" collapsible="true" defaultSelectionEntryId="9a70-4511-6e8e-4dab" sortIndex="4">
+            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="679a-2b92-246b-e02a" hidden="false" collapsible="true" defaultSelectionEntryId="d271-1a22-bf8c-b473" sortIndex="4">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="d271-1a22-bf8c-b473" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="193d-e726-59de-7fe4" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" flatten="true" sortIndex="2"/>
@@ -2179,7 +2179,7 @@ Head-taker: If this Gambit is selected, the Opposing Player may not claim an Out
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70b6-390b-c298-de12"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="For every five Models in this Unit, one Hunter in this Unit may have its hand flamer exchanged for one of the following:" id="fcd0-0302-434a-8b93" hidden="false" defaultSelectionEntryId="fd1d-6116-bda4-b85f" sortIndex="1">
+                <selectionEntryGroup name="For every five Models in this Unit, one Hunter in this Unit may have its hand flamer exchanged for one of the following:" id="fcd0-0302-434a-8b93" hidden="false" defaultSelectionEntryId="none" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Flamer" hidden="false" id="f24c-6992-4aad-81b6" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="2">
                       <costs>
@@ -2656,7 +2656,7 @@ Head-taker: If this Gambit is selected, the Opposing Player may not claim an Out
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b6ff-4ddd-1e52-ffb6"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="5392-c4c7-c010-79fd" hidden="false" collapsible="true" defaultSelectionEntryId="9a70-4511-6e8e-4dab" sortIndex="6">
+            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="5392-c4c7-c010-79fd" hidden="false" collapsible="true" defaultSelectionEntryId="0f19-a711-cc3b-e1fd" sortIndex="6">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="0f19-a711-cc3b-e1fd" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="dc22-9ac6-fd51-46fa" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" flatten="true" sortIndex="2"/>
@@ -2994,7 +2994,7 @@ Head-taker: If this Gambit is selected, the Opposing Player may not claim an Out
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c41-f74f-4bb1-8ed6"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="ce9a-c2e4-7140-082f" hidden="false" collapsible="true" defaultSelectionEntryId="9a70-4511-6e8e-4dab" sortIndex="2">
+            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="ce9a-c2e4-7140-082f" hidden="false" collapsible="true" defaultSelectionEntryId="993c-2f6f-a1cb-5b66" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="993c-2f6f-a1cb-5b66" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="dec1-944e-35b7-b8be" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" flatten="true" sortIndex="2"/>
@@ -3877,7 +3877,7 @@ A Unit which only includes Models with this Special Rule may have a Charge decla
     </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Frost Blades" id="dd5d-da62-8038-38f1" hidden="false" defaultSelectionEntryId="198c-326a-8b72-2bb9">
+    <selectionEntryGroup name="Frost Blades" id="dd5d-da62-8038-38f1" hidden="false" defaultSelectionEntryId="none">
       <entryLinks>
         <entryLink import="true" name="Frost sword" hidden="false" id="c346-9d34-525a-833d" type="selectionEntry" targetId="82d4-949f-2713-d05b" sortIndex="1">
           <costs>
