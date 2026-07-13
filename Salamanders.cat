@@ -1714,7 +1714,7 @@ effects of the Limited (X) Special Rule when making Volley Attacks.</description
                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="e39a-883e-dc65-a32c" includeChildSelections="true"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Melee Weapon" id="a97e-f72c-eb16-9d5f" hidden="false" defaultSelectionEntryId="0326-8c79-48c6-bdde" sortIndex="2">
+            <selectionEntryGroup name="Melee Weapon" id="a97e-f72c-eb16-9d5f" hidden="false" defaultSelectionEntryId="5764-b4d1-a654-39da" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4550-1e51-e7bc-0b61" automatic="true"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72c6-71c2-ef6f-a0a5" automatic="true"/>

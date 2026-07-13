@@ -388,7 +388,7 @@ When an enemy Unit finishes a Move within 6&quot; of a Model with this Special R
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ceb5-c451-fb9e-123f"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May have its banestrike combi-bolter exchanged for " id="b0fd-fa61-0b74-1d8c" hidden="false" defaultSelectionEntryId="7b92-0472-493f-4a78" sortIndex="1">
+            <selectionEntryGroup name="May have its banestrike combi-bolter exchanged for " id="b0fd-fa61-0b74-1d8c" hidden="false" defaultSelectionEntryId="76fd-dd8a-e471-943d" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="0cb7-6656-7fc6-20bf" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08"/>
                 <entryLink import="true" name="Banestrike combi-bolter" hidden="false" id="76fd-dd8a-e471-943d" type="selectionEntry" targetId="08db-6d95-f0be-cfe0">
@@ -466,7 +466,7 @@ When an enemy Unit finishes a Move within 6&quot; of a Model with this Special R
             <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon Options" id="3e31-260a-ad4e-cbe2" hidden="false" defaultSelectionEntryId="b5ce-1660-ae07-8abe" sortIndex="1">
+            <selectionEntryGroup name="Weapon Options" id="3e31-260a-ad4e-cbe2" hidden="false" defaultSelectionEntryId="none" sortIndex="1">
               <selectionEntryGroups>
                 <selectionEntryGroup name="For every five Models in this Unit, one may have its Banestrike combi-bolter exchanged for:" id="ea0d-0e8c-edb9-e61f" hidden="false">
                   <entryLinks>
@@ -493,7 +493,7 @@ When an enemy Unit finishes a Move within 6&quot; of a Model with this Special R
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May have its banestrike combi-bolter exchanged for " id="de57-432c-5f16-7df5" hidden="false" defaultSelectionEntryId="7b92-0472-493f-4a78" sortIndex="1">
+                <selectionEntryGroup name="May have its banestrike combi-bolter exchanged for " id="de57-432c-5f16-7df5" hidden="false" defaultSelectionEntryId="a1af-598e-808f-7222" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="d4cf-7f93-ff48-bfaf" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08"/>
                     <entryLink import="true" name="Banestrike combi-bolter" hidden="false" id="a1af-598e-808f-7222" type="selectionEntry" targetId="08db-6d95-f0be-cfe0">
@@ -1547,7 +1547,7 @@ If the Missing being played has a Deploy Armies Step, at the end of this step, t
             <categoryLink targetId="d2d6-5a84-672b-2833" id="ccfd-18d8-aa69-c773" primary="false" name="Skirmish Model Sub-Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Banestrike shotgun for:" id="5316-5e55-4ccc-e89a" hidden="false" defaultSelectionEntryId="28e9-78ae-c4bb-55bd" sortIndex="1">
+            <selectionEntryGroup name="May exchange Banestrike shotgun for:" id="5316-5e55-4ccc-e89a" hidden="false" defaultSelectionEntryId="ae60-0b3f-900d-c188" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="565b-9bb2-be2e-65cb" includeChildSelections="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fc34-cad8-7fff-b6e9" includeChildSelections="true"/>
@@ -1647,7 +1647,7 @@ If the Missing being played has a Deploy Armies Step, at the end of this step, t
             <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Banestrike shotgun for:" id="8db2-28cc-5312-b00e" hidden="false" defaultSelectionEntryId="28e9-78ae-c4bb-55bd" sortIndex="1">
+            <selectionEntryGroup name="May exchange Banestrike shotgun for:" id="8db2-28cc-5312-b00e" hidden="false" defaultSelectionEntryId="7024-dbac-0b85-2b03" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="1f63-990d-5552-5ddc" includeChildSelections="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8dc4-fa83-1231-3a31" includeChildSelections="true"/>
@@ -1951,7 +1951,7 @@ A Unit composed entirely of Models with this Special Rule may not be selected as
     <catalogueLink type="catalogue" name="                         III - Emperor&apos;s Children" id="6f4e-9de8-fead-c7af" targetId="9a22-d01f-ab5c-ec07"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Rite of War:" id="90fd-1ed0-7954-ca73" hidden="false" defaultSelectionEntryId="badf-1b55-f615-4eb3">
+    <selectionEntryGroup name="Rite of War:" id="90fd-1ed0-7954-ca73" hidden="false" defaultSelectionEntryId="0191-8ef5-3db0-79fe">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Legiones Astartes Alpha Legion" hidden="false" id="0191-8ef5-3db0-79fe">
           <selectionEntries>

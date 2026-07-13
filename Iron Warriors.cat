@@ -615,7 +615,7 @@ While a Model with this special rule is in a Challenge, its Controlling Player c
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="2c95-4ca0-fc49-23a7" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="May replace Combi-bolter with:" id="9825-2d35-12ea-0fe1" hidden="false" defaultSelectionEntryId="500e-e2d7-b1e0-4860" sortIndex="1">
+                <selectionEntryGroup name="May replace Combi-bolter with:" id="9825-2d35-12ea-0fe1" hidden="false" defaultSelectionEntryId="0c9e-5338-33ff-5fee" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="0c9e-5338-33ff-5fee" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1">
                       <costs>
@@ -641,7 +641,7 @@ While a Model with this special rule is in a Challenge, its Controlling Player c
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May replace power fist with" id="258b-c52f-bcc1-5c32" hidden="false" sortIndex="2" defaultSelectionEntryId="c889-5170-3794-afc8">
+                <selectionEntryGroup name="May replace power fist with" id="258b-c52f-bcc1-5c32" hidden="false" sortIndex="2" defaultSelectionEntryId="163f-2730-fc09-ad30">
                   <entryLinks>
                     <entryLink import="true" name="Power fist" hidden="false" id="163f-2730-fc09-ad30" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="1">
                       <constraints>
@@ -1435,7 +1435,7 @@ Only a Model with the Iron Warriors Trait and the Paragon Type or Command Sub-Ty
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="9519-4e96-488c-9b03"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="For every five Models in the Unit, one Dominator may have its combi-bolter exchanged for one of the following:" id="4901-082a-4b5d-9016" sortIndex="3" defaultSelectionEntryId="b3b0-3b95-4af7-9e0a">
+            <selectionEntryGroup name="For every five Models in the Unit, one Dominator may have its combi-bolter exchanged for one of the following:" id="4901-082a-4b5d-9016" sortIndex="3" defaultSelectionEntryId="none">
               <entryLinks>
                 <entryLink hidden="false" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" id="f184-6f9c-4b8c-9d67" name="Heavy flamer" sortIndex="2">
                   <costs>

@@ -410,7 +410,7 @@
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange its charnabal sabre for:" id="2874-e0df-da51-72cd" hidden="false" defaultSelectionEntryId="5ebb-1679-1be6-01cd">
+            <selectionEntryGroup name="May exchange its charnabal sabre for:" id="2874-e0df-da51-72cd" hidden="false" defaultSelectionEntryId="e211-f03b-289a-8abf">
               <entryLinks>
                 <entryLink import="true" name="Charnabal sabre" hidden="false" id="e211-f03b-289a-8abf" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                 <entryLink import="true" name="Thunder hammer" hidden="false" id="86ba-e6a3-af39-e336" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d">
@@ -551,7 +551,7 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="May exchange Lasrifle for:" id="d724-9a4b-6a53-a2c3" hidden="false" defaultSelectionEntryId="a4fe-b84e-dab9-8c6b">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="2005-9da4-a44c-eaf5" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="2005-9da4-a44c-eaf5" hidden="false" defaultSelectionEntryId="b055-474e-e204-c660">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="b055-474e-e204-c660" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="f207-4925-2389-c264" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -569,7 +569,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a824-729e-637d-8a92"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="5631-f598-0bc3-3bd4" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="5631-f598-0bc3-3bd4" hidden="false" defaultSelectionEntryId="fe5e-578b-ec0a-7d94">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="fe5e-578b-ec0a-7d94" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="929f-8d9a-835b-61d2" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -766,7 +766,7 @@ If any Model with the Infantry Tercio Trait and the Infantry Type can draw a Lin
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange Lasrifle for:" id="a50b-fbe6-fe86-850e" hidden="false" defaultSelectionEntryId="c58f-3003-115a-6632">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="a046-7c57-6f77-6b8b" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="a046-7c57-6f77-6b8b" hidden="false" defaultSelectionEntryId="70f7-e911-6580-a5f1">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="70f7-e911-6580-a5f1" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="8434-8593-fe90-9fc7" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -789,7 +789,7 @@ If any Model with the Infantry Tercio Trait and the Infantry Type can draw a Lin
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b95f-1440-52ac-18b7"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="56bb-892f-0c3c-4518" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="56bb-892f-0c3c-4518" hidden="false" defaultSelectionEntryId="726f-6f41-406a-3025">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="726f-6f41-406a-3025" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="a081-8e77-8ee8-b13f" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -941,9 +941,9 @@ If any Model with the Infantry Tercio Trait and the Infantry Type can draw a Lin
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May exchange Lasrifle for:" id="35a2-9d9e-143e-d730" hidden="false" defaultSelectionEntryId="a3c7-4575-dbb9-3bd5">
+            <selectionEntryGroup name="May exchange Lasrifle for:" id="35a2-9d9e-143e-d730" hidden="false" defaultSelectionEntryId="a55b-82bd-e487-6efc">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="0102-1104-b122-88ec" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="0102-1104-b122-88ec" hidden="false" defaultSelectionEntryId="ea6a-3c18-edb0-0768">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="ea6a-3c18-edb0-0768" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="b2bb-8d8b-b204-8819" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -961,7 +961,7 @@ If any Model with the Infantry Tercio Trait and the Infantry Type can draw a Lin
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7f3-c260-899d-be0a"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="0555-6e1c-3f5d-78fc" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="0555-6e1c-3f5d-78fc" hidden="false" defaultSelectionEntryId="e761-2510-63fd-a668">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="e761-2510-63fd-a668" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="363b-0cd7-032b-8328" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -1725,9 +1725,9 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Lasrifle for:" id="f6c1-5df7-9e6f-6434" hidden="false" defaultSelectionEntryId="a3c7-4575-dbb9-3bd5" sortIndex="1">
+            <selectionEntryGroup name="May exchange Lasrifle for:" id="f6c1-5df7-9e6f-6434" hidden="false" defaultSelectionEntryId="3c12-2adc-443f-2c53" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="8b55-195e-0a98-3ee3" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="8b55-195e-0a98-3ee3" hidden="false" defaultSelectionEntryId="a171-f92f-2e85-0cb5">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="a171-f92f-2e85-0cb5" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="eff5-ede8-a1fd-582e" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -1750,7 +1750,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2905-3b22-c173-1910"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="4b93-2a58-8832-c1ed" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="4b93-2a58-8832-c1ed" hidden="false" defaultSelectionEntryId="d680-7142-0cf2-9a25">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="d680-7142-0cf2-9a25" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="8403-8d39-def6-48c2" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -1920,7 +1920,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
             </selectionEntryGroup>
             <selectionEntryGroup name="May exchange Lasrifle for:" id="82b6-4d6d-a274-e89b" hidden="false" defaultSelectionEntryId="d6b1-396b-2358-523a" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="03dc-4999-2caa-a09b" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="03dc-4999-2caa-a09b" hidden="false" defaultSelectionEntryId="cda8-c954-84e7-12dc">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="cda8-c954-84e7-12dc" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="12c8-6d22-f0bc-f4a8" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -1938,7 +1938,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ec2-f751-6368-2dea"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="c2f6-716e-34df-7a11" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="c2f6-716e-34df-7a11" hidden="false" defaultSelectionEntryId="d1bc-ecfc-907f-7634">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="d1bc-ecfc-907f-7634" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="3f3c-6364-7da2-88ee" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -2189,7 +2189,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Hull Weapon" id="2189-f178-6926-1fbc" hidden="false" sortIndex="3" defaultSelectionEntryId="bb80-bf33-3c72-acf1">
+        <selectionEntryGroup name="Hull Weapon" id="2189-f178-6926-1fbc" hidden="false" sortIndex="3" defaultSelectionEntryId="none">
           <entryLinks>
             <entryLink import="true" name="Auxilia Hull Weapons" hidden="false" id="8196-2a06-f721-6f6f" type="selectionEntryGroup" targetId="9a19-6f6d-abea-d053"/>
           </entryLinks>
@@ -2304,7 +2304,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange Volkite Charger for:" id="b770-7e7d-f73e-4f97" hidden="false" defaultSelectionEntryId="9c2c-1547-33d2-c219">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="bba9-4ae9-43af-b916" hidden="false" defaultSelectionEntryId="2bcc-b059-565d-efe1">
+                <selectionEntryGroup name="Melee" id="bba9-4ae9-43af-b916" hidden="false" defaultSelectionEntryId="8117-abca-9bfc-610a">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal tabar" hidden="false" id="8117-abca-9bfc-610a" type="selectionEntry" targetId="1580-e085-cb65-6e80"/>
                     <entryLink import="true" name="Auxilia Melee Weapons" hidden="false" id="07eb-6c81-f4f8-735a" type="selectionEntryGroup" targetId="012b-9848-784b-3663"/>
@@ -2313,7 +2313,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77cc-8337-505b-592d"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="df63-f570-02eb-8283" hidden="false" defaultSelectionEntryId="108e-c4dc-d79a-3dd3">
+                <selectionEntryGroup name="Pistol" id="df63-f570-02eb-8283" hidden="false" defaultSelectionEntryId="9a41-a2dc-1b51-7613">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="9a41-a2dc-1b51-7613" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="86cd-95d9-0889-82b5" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -3014,7 +3014,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
           <selectionEntryGroups>
             <selectionEntryGroup name="May exchange Lasrifle for:" id="44e7-bf23-01f9-2ea0" hidden="false" defaultSelectionEntryId="a814-9585-d180-fcf1" sortIndex="2">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="d2ea-b520-72ad-9a18" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="d2ea-b520-72ad-9a18" hidden="false" defaultSelectionEntryId="c259-7a06-7765-bb5d">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="c259-7a06-7765-bb5d" type="selectionEntry" targetId="e85f-734a-c587-e88b"/>
                     <entryLink import="true" name="Auxilia Melee Weapons" hidden="false" id="7584-239a-e5ef-8415" type="selectionEntryGroup" targetId="012b-9848-784b-3663"/>
@@ -3817,7 +3817,7 @@ When making a Shooting Attack for a Model with the Artillery Tercio Trait which 
                 </infoLink>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Exchange Gravis multi-laser array for:" id="f289-21f8-a104-5b27" hidden="false" defaultSelectionEntryId="c9a5-e5ea-cda1-6071">
+                <selectionEntryGroup name="Exchange Gravis multi-laser array for:" id="f289-21f8-a104-5b27" hidden="false" defaultSelectionEntryId="3059-6298-1745-d9bc">
                   <entryLinks>
                     <entryLink import="true" name="Gravis heavy bolter battery" hidden="false" id="0c61-ec73-e74e-2c7d" type="selectionEntry" targetId="5c0e-33c5-afb1-fed5" sortIndex="2">
                       <costs>
@@ -5252,7 +5252,7 @@ Additionally, when at least one Model in a Unit entirely composed of Models with
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May exchange both of it&apos;s Sponson Mounted multi-lasers for:" id="172f-1adb-fb9f-b61f" hidden="false" sortIndex="3" defaultSelectionEntryId="6e02-0314-07eb-dbb3">
+        <selectionEntryGroup name="May exchange both of it&apos;s Sponson Mounted multi-lasers for:" id="172f-1adb-fb9f-b61f" hidden="false" sortIndex="3" defaultSelectionEntryId="none">
           <entryLinks>
             <entryLink import="true" name="Auxillia Sponson Weapons" hidden="false" id="8ac2-a473-be3d-52b9" type="selectionEntryGroup" targetId="605c-71a7-a6b3-2a1e">
               <modifiers>
@@ -5362,7 +5362,7 @@ Additionally, when at least one Model in a Unit entirely composed of Models with
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f1c-0ca0-7915-279d"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Hull Weapon" id="50bb-c057-0987-978f" hidden="false" defaultSelectionEntryId="6193-6501-3f7d-063f" sortIndex="3">
+        <selectionEntryGroup name="Hull Weapon" id="50bb-c057-0987-978f" hidden="false" defaultSelectionEntryId="none" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Auxilia Hull Weapons" hidden="false" id="ff5c-bca6-5c4e-ced5" type="selectionEntryGroup" targetId="9a19-6f6d-abea-d053"/>
           </entryLinks>
@@ -5509,7 +5509,7 @@ Additionally, when at least one Model in a Unit entirely composed of Models with
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Hull Weapon" id="3222-a5c8-1414-a1fa" hidden="false" defaultSelectionEntryId="f7c0-ccae-9a2c-5bf7" sortIndex="3">
+        <selectionEntryGroup name="Hull Weapon" id="3222-a5c8-1414-a1fa" hidden="false" defaultSelectionEntryId="none" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Auxilia Hull Weapons" hidden="false" id="63e8-a085-37d5-0ed6" type="selectionEntryGroup" targetId="9a19-6f6d-abea-d053"/>
           </entryLinks>
@@ -5636,7 +5636,7 @@ When making multiple Shooting Attacks in the same Shooting Phase, a Model with t
         <entryLink import="true" name="Auxilia Pintle Weapons" hidden="false" id="58e0-4ae7-ddee-e6aa" type="selectionEntryGroup" targetId="0266-b015-86e4-8953" sortIndex="5"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May exchange Hull (Front) Mounted battlecannon for:" id="bb65-d896-b597-8450" hidden="false" sortIndex="2" defaultSelectionEntryId="594a-b7a7-f762-394c">
+        <selectionEntryGroup name="May exchange Hull (Front) Mounted battlecannon for:" id="bb65-d896-b597-8450" hidden="false" sortIndex="2" defaultSelectionEntryId="346e-0149-95ba-807b">
           <entryLinks>
             <entryLink import="true" name="Battlecannon" hidden="false" id="346e-0149-95ba-807b" type="selectionEntry" targetId="e618-2a7a-e0e0-898f" sortIndex="1"/>
             <entryLink import="true" name="Twin lascannon" hidden="false" id="fd49-bd54-0486-550a" type="selectionEntry" targetId="8e62-3fda-37e1-5f0a" sortIndex="2"/>
@@ -5651,7 +5651,7 @@ When making multiple Shooting Attacks in the same Shooting Phase, a Model with t
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f81b-25a1-56cc-66c9"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="May exchange it&apos;s Hull (Front) Mounted heavy bolter for:" id="7964-e7b3-7cfc-ec06" hidden="false" sortIndex="3" defaultSelectionEntryId="3a33-d80c-713b-674b">
+        <selectionEntryGroup name="May exchange it&apos;s Hull (Front) Mounted heavy bolter for:" id="7964-e7b3-7cfc-ec06" hidden="false" sortIndex="3" defaultSelectionEntryId="none">
           <entryLinks>
             <entryLink import="true" name="Demolisher cannon" hidden="false" id="b3eb-ab0b-c932-3214" type="selectionEntry" targetId="4514-8e18-77b4-a141" sortIndex="2">
               <modifiers>
@@ -5665,7 +5665,7 @@ When making multiple Shooting Attacks in the same Shooting Phase, a Model with t
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8616-4fd0-9101-4284"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="May exchange both of it&apos;s Sponson Mounted multi-lasers for:" id="01c6-94b5-c8f5-d566" hidden="false" sortIndex="4" defaultSelectionEntryId="6e02-0314-07eb-dbb3">
+        <selectionEntryGroup name="May exchange both of it&apos;s Sponson Mounted multi-lasers for:" id="01c6-94b5-c8f5-d566" hidden="false" sortIndex="4" defaultSelectionEntryId="none">
           <entryLinks>
             <entryLink import="true" name="Auxillia Sponson Weapons" hidden="false" id="1e78-e9e1-a95a-f817" type="selectionEntryGroup" targetId="605c-71a7-a6b3-2a1e"/>
           </entryLinks>
@@ -7563,9 +7563,9 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange Lasrifle for:" id="d6ea-c045-dbbf-f4b4" hidden="false" defaultSelectionEntryId="c73a-7f4d-0d9b-d6ec">
+            <selectionEntryGroup name="May exchange Lasrifle for:" id="d6ea-c045-dbbf-f4b4" hidden="false" defaultSelectionEntryId="aa6c-dc3b-038f-a289">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="4d9d-86d9-46d7-4715" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="4d9d-86d9-46d7-4715" hidden="false" defaultSelectionEntryId="76c7-2500-e324-0d69">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="76c7-2500-e324-0d69" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="54cd-a099-e5be-a155" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -7584,7 +7584,7 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0030-38d9-ac82-73c8"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="e65c-9ede-5889-0afd" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="e65c-9ede-5889-0afd" hidden="false" defaultSelectionEntryId="d246-3dd2-1932-34f2">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="d246-3dd2-1932-34f2" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="8fc7-19c9-89a3-c97e" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -7795,9 +7795,9 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="May exchange Lasrifle for:" id="33c5-7ab1-16d1-b85b" hidden="false" defaultSelectionEntryId="c73a-7f4d-0d9b-d6ec">
+            <selectionEntryGroup name="May exchange Lasrifle for:" id="33c5-7ab1-16d1-b85b" hidden="false" defaultSelectionEntryId="138a-8eb5-3c8b-df6f">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee" id="6dc3-a87b-23d0-a568" hidden="false" defaultSelectionEntryId="e956-c79f-7cf8-5d6c">
+                <selectionEntryGroup name="Melee" id="6dc3-a87b-23d0-a568" hidden="false" defaultSelectionEntryId="348f-ad4e-be77-cbd4">
                   <entryLinks>
                     <entryLink import="true" name="Charnabal sabre" hidden="false" id="348f-ad4e-be77-cbd4" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="1"/>
                     <entryLink import="true" name="Power sword" hidden="false" id="2fa8-0e46-255e-94bc" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="2">
@@ -7816,7 +7816,7 @@ Payer&apos;s Movement Phase continues, starting wit m performing a Fall Back Mov
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc1-b2d1-9ee6-493e"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Pistol" id="27ec-28da-2727-8c93" hidden="false" defaultSelectionEntryId="8ab7-17c8-9e82-1a94">
+                <selectionEntryGroup name="Pistol" id="27ec-28da-2727-8c93" hidden="false" defaultSelectionEntryId="0fe2-64a7-ef89-55b6">
                   <entryLinks>
                     <entryLink import="true" name="Laspistol" hidden="false" id="0fe2-64a7-ef89-55b6" type="selectionEntry" targetId="70e6-52c9-86b9-604c"/>
                     <entryLink import="true" name="Auxilia Pistols" hidden="false" id="a2d7-026a-d3aa-16c3" type="selectionEntryGroup" targetId="22a3-5b09-13b0-2624"/>
@@ -10652,7 +10652,7 @@ Additionally, if a Model with this Special Rule is ever the only remaining Model
             <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Options" id="4e50-ef4d-857d-de4e" hidden="false" defaultSelectionEntryId="6902-6ed0-1a78-d0f5" sortIndex="1">
+            <selectionEntryGroup name="Options" id="4e50-ef4d-857d-de4e" hidden="false" defaultSelectionEntryId="fbc1-f448-6821-f6b2" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Twin heavy bolter" hidden="false" id="fbc1-f448-6821-f6b2" type="selectionEntry" targetId="e0bc-e3e1-54e7-bd75" sortIndex="1">
                   <modifiers>
@@ -11388,7 +11388,7 @@ Additionally, if a Model with this Special Rule is ever the only remaining Model
             <categoryLink targetId="d2d6-5a84-672b-2833" id="4723-a48c-d314-019d" primary="false" name="Skirmish Model Sub-Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Pistol" id="b1ee-378e-db4c-27d1" hidden="false" defaultSelectionEntryId="451b-2ea1-3698-500b">
+            <selectionEntryGroup name="Pistol" id="b1ee-378e-db4c-27d1" hidden="false" defaultSelectionEntryId="ccde-f9a7-c469-091b">
               <entryLinks>
                 <entryLink import="true" name="Blast pistol" hidden="false" id="ccde-f9a7-c469-091b" type="selectionEntry" targetId="2530-5ba4-4ef2-beb3">
                   <constraints>

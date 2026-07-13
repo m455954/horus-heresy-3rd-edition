@@ -1732,7 +1732,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
             <categoryLink targetId="594d-fa82-13cb-a345" id="2205-c3a5-76e7-29a4" primary="false" name="Infantry Model Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="One Model may have its guardian spear exchanged for:" id="1701-3ddc-0359-efcd" hidden="false" defaultSelectionEntryId="9bb2-824f-acdd-c9f9" sortIndex="1">
+            <selectionEntryGroup name="One Model may have its guardian spear exchanged for:" id="1701-3ddc-0359-efcd" hidden="false" defaultSelectionEntryId="249f-00c0-cfcb-22b6" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="36cb-738f-8497-7241" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2911-fc8a-ce71-5b92" includeChildSelections="false"/>
@@ -3107,7 +3107,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
                 <cost name="Mech LB" typeId="7275-cbe8-a563-7152" value="0"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Front weapon" id="4977-b536-84a4-9e1d" hidden="false" defaultSelectionEntryId="872b-3c4b-0556-2c11" sortIndex="2">
+                <selectionEntryGroup name="Front weapon" id="4977-b536-84a4-9e1d" hidden="false" defaultSelectionEntryId="9ae5-3bc8-f0d6-6eb0" sortIndex="2">
                   <entryLinks>
                     <entryLink import="true" name="Twin Lastrum bolt cannon" hidden="false" id="9ae5-3bc8-f0d6-6eb0" type="selectionEntry" targetId="41e7-8ad3-5676-e8fc">
                       <constraints>
@@ -3197,7 +3197,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
                 <cost name="Mech LB" typeId="7275-cbe8-a563-7152" value="0"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Front weapon" id="a327-35ed-42b0-6c47" hidden="false" defaultSelectionEntryId="872b-3c4b-0556-2c11" sortIndex="2">
+                <selectionEntryGroup name="Front weapon" id="a327-35ed-42b0-6c47" hidden="false" defaultSelectionEntryId="d171-e9c9-7045-c258" sortIndex="2">
                   <entryLinks>
                     <entryLink import="true" name="Twin Lastrum bolt cannon" hidden="false" id="d171-e9c9-7045-c258" type="selectionEntry" targetId="41e7-8ad3-5676-e8fc">
                       <constraints>
@@ -3602,7 +3602,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
             <categoryLink name="Infantry Model Type" hidden="false" id="26f1-dc5f-769f-474f" targetId="594d-fa82-13cb-a345" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="One Model may have its adrasite spear exchanged for:" id="50fb-b1cf-01a3-c257" hidden="false" defaultSelectionEntryId="9bb2-824f-acdd-c9f9" sortIndex="1">
+            <selectionEntryGroup name="One Model may have its adrasite spear exchanged for:" id="50fb-b1cf-01a3-c257" hidden="false" defaultSelectionEntryId="ff24-a7d9-2fb3-27b9" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d8f-31aa-c206-ca6e" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18ee-241e-5f6e-9a99" includeChildSelections="false"/>
@@ -3730,7 +3730,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
             <categoryLink name="Infantry Model Type" hidden="false" id="cb90-3892-81cd-2854" targetId="594d-fa82-13cb-a345" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="One Model may have its pyrithite spear exchanged for:" id="870f-5598-b29c-06b3" hidden="false" defaultSelectionEntryId="9bb2-824f-acdd-c9f9" sortIndex="1">
+            <selectionEntryGroup name="One Model may have its pyrithite spear exchanged for:" id="870f-5598-b29c-06b3" hidden="false" defaultSelectionEntryId="2df5-1b65-1510-8b4e" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b317-ea59-9738-d3e6" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3030-2c47-95c7-ee48" includeChildSelections="false"/>
@@ -3858,7 +3858,7 @@ In the Victory Sub-Phase of any End Phase, when a Unit with at least one Model w
             <categoryLink name="Infantry Model Type" hidden="false" id="8517-d621-74c7-6c34" targetId="594d-fa82-13cb-a345" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="One Model may have its adrastus bolt caliver exchanged for:" id="7fcf-1ed5-f4af-1506" hidden="false" defaultSelectionEntryId="9bb2-824f-acdd-c9f9" sortIndex="1">
+            <selectionEntryGroup name="One Model may have its adrastus bolt caliver exchanged for:" id="7fcf-1ed5-f4af-1506" hidden="false" defaultSelectionEntryId="20ba-fe3b-c8af-2a5e" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1cff-dd59-a1e1-c355" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf02-a892-8600-411d" includeChildSelections="false"/>

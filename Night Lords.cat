@@ -469,7 +469,7 @@ When this Gambit is selected, the Controlling Player can make one Willpower Chec
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="bd97-6a2a-1b70-bc8e" hidden="false">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Any Model in this Unit may replace it&apos;s chainsword with:" id="1587-41ca-dea5-8e8c" hidden="false" defaultSelectionEntryId="5b46-66e9-fa3a-61a0" sortIndex="1">
+                <selectionEntryGroup name="Any Model in this Unit may replace it&apos;s chainsword with:" id="1587-41ca-dea5-8e8c" hidden="false" defaultSelectionEntryId="832f-bc8a-3cef-8078" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons (no chainsword)" hidden="false" id="93d0-a55c-f6f8-44c0" type="selectionEntryGroup" targetId="c7ca-8933-a703-7301" sortIndex="2" flatten="true"/>
                     <entryLink import="true" name="Chainsword" hidden="false" id="832f-bc8a-3cef-8078" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="1"/>
@@ -496,7 +496,7 @@ When this Gambit is selected, the Controlling Player can make one Willpower Chec
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Bolt Pistol" id="28c8-8f4e-a2f8-dbb8" hidden="false" defaultSelectionEntryId="018c-4e6d-9eb7-710a" sortIndex="2" flatten="true">
+                <selectionEntryGroup name="Bolt Pistol" id="28c8-8f4e-a2f8-dbb8" hidden="false" defaultSelectionEntryId="342e-8ef5-60a1-775f" sortIndex="2" flatten="true">
                   <entryLinks>
                     <entryLink import="true" name="Bolt pistol" hidden="false" id="342e-8ef5-60a1-775f" type="selectionEntry" targetId="2942-f783-d627-33c5"/>
                   </entryLinks>
@@ -834,7 +834,7 @@ When this Gambit is selected, the Controlling Player can make one Willpower Chec
             <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Exchange chainsword for:" id="7dfc-9eac-d171-f2ed" hidden="false" defaultSelectionEntryId="db65-7241-cf9c-6c47">
+            <selectionEntryGroup name="Exchange chainsword for:" id="7dfc-9eac-d171-f2ed" hidden="false" defaultSelectionEntryId="29e5-796a-62cf-b037">
               <entryLinks>
                 <entryLink import="true" name="Legion Sergeant Melee Weapons (no chainsword)" hidden="false" id="60a2-4128-a80d-660e" type="selectionEntryGroup" targetId="c7ca-8933-a703-7301" sortIndex="2" flatten="false"/>
                 <entryLink import="true" name="Chainglaive" hidden="false" id="7442-b158-e0fc-58c7" type="selectionEntry" targetId="3708-b181-5f26-4387" sortIndex="10">
@@ -1631,7 +1631,7 @@ Result : Effect
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="4b8f-9b3b-c651-a08e" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="May exchange combi-bolter for" id="4682-9300-f7a1-15bd" hidden="false" defaultSelectionEntryId="4cbd-6f1f-d45c-c11f" sortIndex="1">
+                <selectionEntryGroup name="May exchange combi-bolter for" id="4682-9300-f7a1-15bd" hidden="false" defaultSelectionEntryId="379e-73cb-c909-2b96" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Combi-bolter" hidden="false" id="379e-73cb-c909-2b96" type="selectionEntry" targetId="042d-9e60-db9e-c147" sortIndex="1"/>
                     <entryLink import="true" name="Volkite charger" hidden="false" id="0074-2185-294a-68ec" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="2"/>

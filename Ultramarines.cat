@@ -879,7 +879,7 @@ During the Statuses Sub-Phase, any friendly Unit that does not include a Model w
             </entryLink>
           </entryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="For every five Models in this Unit, one Locutarus in this Unit may have its bolt pistol exchanged for " id="845e-ef61-42bb-9faa" defaultSelectionEntryId="79a8-7504-4bce-98ec">
+            <selectionEntryGroup name="For every five Models in this Unit, one Locutarus in this Unit may have its bolt pistol exchanged for " id="845e-ef61-42bb-9faa" defaultSelectionEntryId="none">
               <entryLinks>
                 <entryLink hidden="false" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" id="853c-4b27-4254-8f36" name="Legion Pistols" flatten="true">
                   <constraints>

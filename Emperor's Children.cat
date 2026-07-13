@@ -988,7 +988,7 @@ Bite of the Betrayed: This Gambit can only be selected during the first Face-Off
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01a9-34fb-e59f-1b71-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange bolt pistol for:" id="56e1-0d25-4567-4551" hidden="false" defaultSelectionEntryId="d6ef-e031-d18f-df93" sortIndex="2">
+            <selectionEntryGroup name="May exchange bolt pistol for:" id="56e1-0d25-4567-4551" hidden="false" defaultSelectionEntryId="9c6c-54b7-d943-d989" sortIndex="2">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="9c6c-54b7-d943-d989" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="98d8-4b0b-7d57-8be2" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" sortIndex="2"/>

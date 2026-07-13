@@ -1927,7 +1927,7 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="Options" id="1ca9-5757-c186-f1ba" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="May have its militia rifle exchanged for " id="83e4-5639-3e79-bec4" hidden="false" defaultSelectionEntryId="a766-a829-4471-a670" sortIndex="1">
+                <selectionEntryGroup name="May have its militia rifle exchanged for " id="83e4-5639-3e79-bec4" hidden="false" defaultSelectionEntryId="e088-4950-985e-833a" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Militia rifle" hidden="false" id="e088-4950-985e-833a" type="selectionEntry" targetId="221a-9945-43f9-baac" sortIndex="1">
                       <constraints>
@@ -1956,7 +1956,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f39d-48f6-9fa2-10f1"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May have its militia pistol exchanged for " id="b17f-7dad-e5a3-0f69" hidden="false" defaultSelectionEntryId="02c0-6433-4649-b60b" sortIndex="3">
+                <selectionEntryGroup name="May have its militia pistol exchanged for " id="b17f-7dad-e5a3-0f69" hidden="false" defaultSelectionEntryId="05e5-d24c-4721-cacf" sortIndex="3">
                   <entryLinks>
                     <entryLink import="true" name="Militia pistol" hidden="false" id="05e5-d24c-4721-cacf" type="selectionEntry" targetId="7702-e5d6-4f99-96b4" sortIndex="1">
                       <constraints>
@@ -2278,7 +2278,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="a879-c92b-d070-e9e3" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Any Model in this Unit may have its militia pistol exchanged for " id="c7b0-400d-3a6d-b189" hidden="false" defaultSelectionEntryId="7e82-0f92-43ff-8bc4" sortIndex="3">
+                <selectionEntryGroup name="Any Model in this Unit may have its militia pistol exchanged for " id="c7b0-400d-3a6d-b189" hidden="false" defaultSelectionEntryId="b6bb-3bce-ce2a-f805" sortIndex="3">
                   <entryLinks>
                     <entryLink import="true" name="Militia pistol" hidden="false" id="b6bb-3bce-ce2a-f805" type="selectionEntry" targetId="7702-e5d6-4f99-96b4">
                       <constraints>
@@ -10007,7 +10007,7 @@ If at any point there are only Rapier Carrier Models remaining in this Unit, tho
                     </conditionGroup>
                   </conditionGroups>
                 </modifierGroup>
-				<modifierGroup type="and">
+                <modifierGroup type="and">
                   <comment>Warrior Elite</comment>
                   <modifiers>
                     <modifier type="increment" value="1" field="02ad-ebe6-86e7-9fd6"/>

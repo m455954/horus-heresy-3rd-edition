@@ -1326,7 +1326,7 @@ Immovable Force (Telekinesis Discipline)</description>
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="33ff-36ed-8eda-ad60" hidden="false" collapsible="true" sortIndex="2" defaultSelectionEntryId="0e26-8941-40d3-a1b0">
+            <selectionEntryGroup name="May have their Bolt Pistol exchanged for:" id="33ff-36ed-8eda-ad60" hidden="false" collapsible="true" sortIndex="2" defaultSelectionEntryId="6f13-c2e9-4e0f-adb1">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="6f13-c2e9-4e0f-adb1" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Legion Pistols" hidden="false" id="b2f3-aeac-4f40-bd29" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" flatten="true" sortIndex="3"/>

@@ -2558,7 +2558,7 @@ During any of their Reserves Sub-Phases, the Controlling Player of any Model wit
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon" id="f274-7ff3-1f0b-a677" hidden="false" defaultSelectionEntryId="bfc3-ba99-47e2-fffd" sortIndex="1">
+            <selectionEntryGroup name="Weapon" id="f274-7ff3-1f0b-a677" hidden="false" defaultSelectionEntryId="faaf-16a5-c4aa-487f" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c526-eb5a-cfa2-d194"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd7-a60e-3ea7-a973"/>

@@ -1179,7 +1179,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             <categoryLink targetId="594d-fa82-13cb-a345" id="e598-f4ec-4f2c-b2f3" primary="false" name="Infantry Model Type"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="The Templar Champion in this Unit may have its power sword exchanged for one of the following:" id="7730-69f3-dbe3-53fc" hidden="false" defaultSelectionEntryId="7e32-6cec-e103-8d52" sortIndex="1" collapsible="true">
+            <selectionEntryGroup name="The Templar Champion in this Unit may have its power sword exchanged for one of the following:" id="7730-69f3-dbe3-53fc" hidden="false" defaultSelectionEntryId="bf9c-03e2-27bc-f068" sortIndex="1" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Power sword" hidden="false" id="bf9c-03e2-27bc-f068" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1"/>
                 <entryLink import="true" name="Thunder hammer" hidden="false" id="937c-87ff-9da3-3c79" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d" sortIndex="3">
@@ -1198,7 +1198,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cb0-baa8-f1fa-2703" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The Templar Champion in this Unit may exchanged its bolt pistol:" id="9064-0afd-f8b5-4d6b" hidden="false" defaultSelectionEntryId="6267-2df1-06f6-27f5" sortIndex="2" collapsible="true">
+            <selectionEntryGroup name="The Templar Champion in this Unit may exchanged its bolt pistol:" id="9064-0afd-f8b5-4d6b" hidden="false" defaultSelectionEntryId="a44d-e8fc-803f-db8e" sortIndex="2" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Archeotech pistol" hidden="false" id="5e22-ccb3-0363-64f0" type="selectionEntry" targetId="0600-3af1-d080-abf7" sortIndex="2">
                   <costs>
@@ -1279,7 +1279,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="A Templar Brethren may exchanged its bolt pistol:" id="b7d3-e1bb-4ad5-6ff7" hidden="false" defaultSelectionEntryId="6627-0742-58b8-785f" sortIndex="2" collapsible="true">
+            <selectionEntryGroup name="A Templar Brethren may exchanged its bolt pistol:" id="b7d3-e1bb-4ad5-6ff7" hidden="false" defaultSelectionEntryId="b750-4336-848f-babf" sortIndex="2" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Bolt pistol" hidden="false" id="b750-4336-848f-babf" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
                 <entryLink import="true" name="Combat shield" hidden="false" id="2e57-3f26-54ad-213e" type="selectionEntry" targetId="5606-f0ad-360b-fe5b" sortIndex="4">

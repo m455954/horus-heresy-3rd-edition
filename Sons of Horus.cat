@@ -1611,7 +1611,7 @@ If the Wounds Characteristic of a Model with this Special Rule is reduced to 0 o
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e72-4547-abb2-ff3d" automatic="true"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="d3ee-2c06-d8f9-d386" hidden="false" defaultSelectionEntryId="5eaf-f633-b31e-08b7" sortIndex="3">
+                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="d3ee-2c06-d8f9-d386" hidden="false" defaultSelectionEntryId="none" sortIndex="3">
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Legion Special Weapon List" id="e942-a859-b958-7ff3" hidden="false">
                           <entryLinks>
@@ -2006,7 +2006,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="7786-1127-9971-8444" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Exchange chainaxe for:" id="4ae4-f12a-6f55-57d5" hidden="false" sortIndex="2" defaultSelectionEntryId="dfc2-90bc-b0fc-b6e2">
+                <selectionEntryGroup name="Exchange chainaxe for:" id="4ae4-f12a-6f55-57d5" hidden="false" sortIndex="2" defaultSelectionEntryId="a323-6c6e-3fb8-2491">
                   <entryLinks>
                     <entryLink import="true" name="Chainaxe" hidden="false" id="a323-6c6e-3fb8-2491" type="selectionEntry" targetId="31a4-f8de-de6d-1fd9" sortIndex="1" defaultAmount="1"/>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="26a2-24b5-e4cf-d615" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="2"/>
@@ -2016,7 +2016,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7dba-78f2-02d9-ec4b" automatic="true"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="c670-1359-a361-3976" hidden="false" defaultSelectionEntryId="5eaf-f633-b31e-08b7" sortIndex="3">
+                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="c670-1359-a361-3976" hidden="false" defaultSelectionEntryId="none" sortIndex="3">
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Legion Special Weapon List" id="6370-975e-3746-ad4e" hidden="false">
                           <entryLinks>
@@ -2078,7 +2078,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Exchange bolt pistol for:" id="d93a-44b6-8a0c-64da" hidden="false" sortIndex="1" flatten="false" defaultSelectionEntryId="27d0-ba17-7f9c-4e8b">
+                <selectionEntryGroup name="Exchange bolt pistol for:" id="d93a-44b6-8a0c-64da" hidden="false" sortIndex="1" flatten="false" defaultSelectionEntryId="f269-1a59-b8fb-05ef">
                   <entryLinks>
                     <entryLink import="true" name="Bolt pistol" hidden="false" id="f269-1a59-b8fb-05ef" type="selectionEntry" targetId="2942-f783-d627-33c5" defaultAmount="1"/>
                     <entryLink import="true" name="Legion Pistols" hidden="false" id="2e2f-17ce-51ba-6ebb" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf"/>
@@ -2227,7 +2227,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
             </selectionEntryGroup>
             <selectionEntryGroup name="Options" id="a76a-f42d-e0d1-f1bd" hidden="false" sortIndex="1">
               <selectionEntryGroups>
-                <selectionEntryGroup name="Exchange chainaxe for:" id="8f3c-fc5b-c5d5-7daa" hidden="false" sortIndex="2" defaultSelectionEntryId="dfc2-90bc-b0fc-b6e2">
+                <selectionEntryGroup name="Exchange chainaxe for:" id="8f3c-fc5b-c5d5-7daa" hidden="false" sortIndex="2" defaultSelectionEntryId="f3ec-e5b7-38b9-7f1b">
                   <entryLinks>
                     <entryLink import="true" name="Chainaxe" hidden="false" id="f3ec-e5b7-38b9-7f1b" type="selectionEntry" targetId="31a4-f8de-de6d-1fd9" sortIndex="1" defaultAmount="1"/>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="3076-048b-5499-396e" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="2"/>
@@ -2237,7 +2237,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5e5-d88a-4fbf-3a7f" automatic="true"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="1d76-150b-83ec-fa15" hidden="false" defaultSelectionEntryId="5eaf-f633-b31e-08b7" sortIndex="3">
+                    <selectionEntryGroup name="1 in 5 may replace it&apos;s chainaxe for:" id="1d76-150b-83ec-fa15" hidden="false" defaultSelectionEntryId="none" sortIndex="3">
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Legion Special Weapon List" id="bf70-a946-6e80-0b64" hidden="false">
                           <entryLinks>
@@ -2299,7 +2299,7 @@ Each time an enemy Model declares a Challenge, the Controlling Player of a Model
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Exchange bolt pistol for:" id="1f8a-84fc-9135-a73c" hidden="false" sortIndex="1" flatten="false" defaultSelectionEntryId="27d0-ba17-7f9c-4e8b">
+                <selectionEntryGroup name="Exchange bolt pistol for:" id="1f8a-84fc-9135-a73c" hidden="false" sortIndex="1" flatten="false" defaultSelectionEntryId="8fad-f9c7-f685-22af">
                   <entryLinks>
                     <entryLink import="true" name="Bolt pistol" hidden="false" id="8fad-f9c7-f685-22af" type="selectionEntry" targetId="2942-f783-d627-33c5" defaultAmount="1"/>
                     <entryLink import="true" name="Legion Pistols" hidden="false" id="f94e-39f6-730f-8f63" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf"/>
@@ -2932,7 +2932,7 @@ In the Effects Sub-Phase of their Start Phase, the Controlling Player of a Unit 
     <catalogueLink type="catalogue" name="Legiones Astartes" id="6f53-c67c-1368-1a62" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Rite of War:" id="ebd5-242a-8c7c-be02" hidden="false" defaultSelectionEntryId="badf-1b55-f615-4eb3">
+    <selectionEntryGroup name="Rite of War:" id="ebd5-242a-8c7c-be02" hidden="false" defaultSelectionEntryId="90e3-24ff-0619-e021">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Legiones Astartes Sons of Horus" hidden="false" id="90e3-24ff-0619-e021">
           <selectionEntries>
