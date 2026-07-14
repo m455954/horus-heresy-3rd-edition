@@ -61,10 +61,10 @@ LA_PRIME_BENEFIT_SLOT_UPGRADES = {
 }
 
 CATS_WITH_NO_PRIMES = [
-    "Cults Abominatio.cat",
-    "Divisio Assassinorum.cat",
-    "Legio Titanicus.cat",
-    "Battlefield Assets.cat",
+    "Cults Abominatio.json",
+    "Divisio Assassinorum.json",
+    "Legio Titanicus.json",
+    "Battlefield Assets.json",
     # Knights have primes but they're special, handled separately
 ]
 
@@ -277,12 +277,12 @@ class GameTests(unittest.TestCase):
             for child in entry_links_node.children:
                 category_links = child.get_child(tag='categoryLinks')
                 primary_cat = category_links.get_child(tag='categoryLink', attrib={"primary": "true"})
-                if file.name == "Questoris Familia.cat":
+                if file.name == "Questoris Familia.json":
                     if primary_cat.target_name == "Lord of War":
                         unit_ids.append(child.target_id)
                 elif primary_cat.target_name == "High Command":
                     # Only include high command if it's generic astartes or EC, due to the EC detachment.
-                    if file.name in ["Legiones Astartes.cat", "Emperor's Children.cat"]:
+                    if file.name in ["Legiones Astartes.json", "Emperor's Children.json"]:
                         unit_ids.append(child.target_id)
                 elif primary_cat.target_name in self.battlefield_roles_that_can_be_prime:
                     unit_ids.append(child.target_id)
@@ -327,7 +327,7 @@ class GameTests(unittest.TestCase):
         unit_ids = []
         for file in self.system.files:
             # While questoris can have primes, they can't have any of these.
-            if file.name in CATS_WITH_NO_PRIMES + ["Questoris Familia.cat"]:
+            if file.name in CATS_WITH_NO_PRIMES + ["Questoris Familia.json"]:
                 continue
             entry_links_node = file.root_node.get_child(tag='entryLinks')
             if entry_links_node is None:
@@ -337,7 +337,7 @@ class GameTests(unittest.TestCase):
                 primary_cat = category_links.get_child(tag='categoryLink', attrib={"primary": "true"})
                 if primary_cat.target_name == "High Command":
                     # Only include high command if it's generic astartes or EC, due to the EC detachment.
-                    if file.name in ["Legiones Astartes.cat", "Emperor's Children.cat"]:
+                    if file.name in ["Legiones Astartes.json", "Emperor's Children.json"]:
                         unit_ids.append(child.target_id)
                 elif primary_cat.target_name in self.battlefield_roles_that_can_be_prime:
                     unit_ids.append(child.target_id)
@@ -573,7 +573,7 @@ class GameTests(unittest.TestCase):
                 self.assertEqual(len(errors), 0, f"{errors} on {model_node}")
 
     def test_specific_upgrade_slots_LA(self):
-        system_file = next(filter(lambda sf: sf.name == "Legiones Astartes.cat", self.system.files), None)
+        system_file = next(filter(lambda sf: sf.name == "Legiones Astartes.json", self.system.files), None)
         slots_and_upgrades = LA_PRIME_BENEFIT_SLOT_UPGRADES
         # First sort all the units in the cat by slot
         entry_links_node = system_file.root_node.get_child(tag='entryLinks')
