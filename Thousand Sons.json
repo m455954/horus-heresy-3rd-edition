@@ -2702,7 +2702,8 @@
                     "hidden": false,
                     "id": "4d1d-1133-ce0a-d1fd",
                     "type": "selectionEntry",
-                    "targetId": "2942-f783-d627-33c5"
+                    "targetId": "2942-f783-d627-33c5",
+                    "sortIndex": 1
                   },
                   {
                     "import": true,
@@ -2712,6 +2713,15 @@
                     "type": "selectionEntryGroup",
                     "targetId": "4041-7fad-77cd-f9cf",
                     "flatten": true
+                  },
+                  {
+                    "import": true,
+                    "name": "Asphyx pistol",
+                    "hidden": false,
+                    "id": "844a-61a0-3683-b641",
+                    "type": "selectionEntry",
+                    "targetId": "d293-df49-e8c3-f3bf",
+                    "sortIndex": 2
                   }
                 ],
                 "constraints": [
@@ -2735,7 +2745,8 @@
                 "name": "Pistol",
                 "id": "4cfa-1c15-686d-f114",
                 "hidden": false,
-                "sortIndex": 2
+                "sortIndex": 2,
+                "defaultSelectionEntryId": "4d1d-1133-ce0a-d1fd"
               }
             ],
             "type": "model",
@@ -2790,15 +2801,6 @@
             "id": "dd73-f446-4825-b6b4",
             "type": "selectionEntry",
             "targetId": "3fa2-78b1-637f-7fb2"
-          },
-          {
-            "import": true,
-            "name": "Prosperine Arcana",
-            "hidden": false,
-            "id": "a4f6-ee62-ed2b-42a8",
-            "type": "selectionEntryGroup",
-            "targetId": "eafe-beb3-8d27-ec50",
-            "sortIndex": 2
           }
         ],
         "infoLinks": [
