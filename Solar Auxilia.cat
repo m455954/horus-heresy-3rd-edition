@@ -11332,8 +11332,8 @@ Additionally, if a Model with this Special Rule is ever the only remaining Model
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Auxilia Technician" hidden="false" id="0d82-15ed-d041-9342" sortIndex="2">
           <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d855-93c2-f169-7870"/>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="edda-8eea-21af-c906"/>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d855-93c2-f169-7870"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="edda-8eea-21af-c906"/>
           </constraints>
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="7"/>
@@ -11592,7 +11592,7 @@ Additionally, if a Model with this Special Rule is ever the only remaining Model
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Veletarii" hidden="false" id="6e9a-6bd6-b9d5-bc28" sortIndex="2">
           <constraints>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="fa21-eea3-6bed-4aa9"/>
+            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="fa21-eea3-6bed-4aa9"/>
             <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="8b81-4aae-0a0f-d397"/>
           </constraints>
           <profiles>
