@@ -12912,6 +12912,11 @@ Models with the Vehicle Type (but not the Flyer sub-type) and this Special Rule 
         <categoryLink targetId="345f-9ba6-9b02-ed5c" id="4074-cfcb-6f8f-c14f" primary="true" name="Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Veletaris Raider Section" hidden="false" id="36a3-2444-aaf3-86c7" type="selectionEntry" targetId="3a4a-25ff-746e-58db">
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="13f3-a9b4-effb-ebe8" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedProfiles>
     <profile name="Iron Tercio" typeId="d5a9-9164-1e30-7a35" typeName="Traits" hidden="false" id="fd91-cc08-8aa0-7d8a">
