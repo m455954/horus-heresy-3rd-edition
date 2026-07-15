@@ -41907,7 +41907,24 @@
         "hidden": false,
         "id": "36a3-2444-aaf3-86c7",
         "type": "selectionEntry",
-        "targetId": "3a4a-25ff-746e-58db"
+        "targetId": "3a4a-25ff-746e-58db",
+        "modifiers": [
+          {
+            "type": "set-primary",
+            "value": "8dce-eb64-ec33-0b51",
+            "field": "category",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "ancestor",
+                "childId": "e1a1-2699-4681-47ab",
+                "shared": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedProfiles": [
