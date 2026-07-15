@@ -37763,7 +37763,7 @@
                             "hidden": false,
                             "id": "951f-aa3f-4612-e6fe",
                             "type": "selectionEntry",
-                            "targetId": "70e6-52c9-86b9-604c"
+                            "targetId": "3104-0111-4490-bf84"
                           },
                           {
                             "import": true,
@@ -37794,7 +37794,51 @@
                     "name": "Laspistol and Charnable Tabar",
                     "id": "2853-6935-d633-6168",
                     "hidden": false,
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "5f82-b040-01f8-bdf1"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": 2,
+                        "field": "5f82-b040-01f8-bdf1",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "type": "equalTo",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "7285-3e58-f523-d2b0",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "childName": "Breaching shotgun"
+                              },
+                              {
+                                "type": "equalTo",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "parent",
+                                "childId": "3031-e7c0-9e46-e788",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "childName": "Storm Maul and Boarding Shield"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "entryLinks": [
@@ -37805,7 +37849,17 @@
                     "id": "a7ff-34e3-c302-9ee0",
                     "type": "selectionEntry",
                     "targetId": "7285-3e58-f523-d2b0",
-                    "sortIndex": 1
+                    "sortIndex": 1,
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "1df0-8be7-f04b-e989"
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -37959,7 +38013,49 @@
                     "import": true,
                     "name": "Storm Maul and Boarding Shield",
                     "hidden": false,
-                    "id": "3031-e7c0-9e46-e788"
+                    "id": "3031-e7c0-9e46-e788",
+                    "costs": [
+                      {
+                        "name": "Point(s)",
+                        "typeId": "9893-c379-920b-8982",
+                        "value": 4
+                      },
+                      {
+                        "name": "Reaction Point(s)",
+                        "typeId": "c9ba-097e-c47f-ecc2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Auxiliary Detachment(s)",
+                        "typeId": "3e8e-05ee-be52-12d6",
+                        "value": 0
+                      },
+                      {
+                        "name": "Apex Detachment(s)",
+                        "typeId": "159d-855c-533d-f592",
+                        "value": 0
+                      },
+                      {
+                        "name": "Combined Warlord and Lord of War Points",
+                        "typeId": "14bd-cad0-cd3d-8b23",
+                        "value": 0
+                      },
+                      {
+                        "name": "Mech LB",
+                        "typeId": "7275-cbe8-a563-7152",
+                        "value": 0
+                      },
+                      {
+                        "name": "Tank Detachments",
+                        "typeId": "2cdf-186c-a655-d907",
+                        "value": 0
+                      },
+                      {
+                        "name": "ZM Primary Detachment",
+                        "typeId": "37ff-b26e-18a9-7f57",
+                        "value": 0
+                      }
+                    ]
                   }
                 ],
                 "name": "May exchange Breaching Shotgun for:",
@@ -38401,7 +38497,49 @@
                     "import": true,
                     "name": "Storm Maul and Boarding Shield",
                     "hidden": false,
-                    "id": "7b13-9ff7-4214-7ebf"
+                    "id": "7b13-9ff7-4214-7ebf",
+                    "costs": [
+                      {
+                        "name": "Point(s)",
+                        "typeId": "9893-c379-920b-8982",
+                        "value": 4
+                      },
+                      {
+                        "name": "Reaction Point(s)",
+                        "typeId": "c9ba-097e-c47f-ecc2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Auxiliary Detachment(s)",
+                        "typeId": "3e8e-05ee-be52-12d6",
+                        "value": 0
+                      },
+                      {
+                        "name": "Apex Detachment(s)",
+                        "typeId": "159d-855c-533d-f592",
+                        "value": 0
+                      },
+                      {
+                        "name": "Combined Warlord and Lord of War Points",
+                        "typeId": "14bd-cad0-cd3d-8b23",
+                        "value": 0
+                      },
+                      {
+                        "name": "Mech LB",
+                        "typeId": "7275-cbe8-a563-7152",
+                        "value": 0
+                      },
+                      {
+                        "name": "Tank Detachments",
+                        "typeId": "2cdf-186c-a655-d907",
+                        "value": 0
+                      },
+                      {
+                        "name": "ZM Primary Detachment",
+                        "typeId": "37ff-b26e-18a9-7f57",
+                        "value": 0
+                      }
+                    ]
                   }
                 ],
                 "name": "Options",
