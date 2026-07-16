@@ -7419,7 +7419,14 @@
         "import": true,
         "name": "Armoured Command Section",
         "hidden": false,
-        "id": "bd97-ae69-81d3-cdb5"
+        "id": "bd97-ae69-81d3-cdb5",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -11097,7 +11104,14 @@
         "import": true,
         "name": "Basilisk Artillery Tank",
         "hidden": false,
-        "id": "9757-288f-c3cd-bd7f"
+        "id": "9757-288f-c3cd-bd7f",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -11406,7 +11420,14 @@
         "import": true,
         "name": "Medusa Artillery Tank",
         "hidden": false,
-        "id": "f15b-8333-252f-b85b"
+        "id": "f15b-8333-252f-b85b",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -14611,7 +14632,14 @@
         "import": true,
         "name": "Arvus Lighter",
         "hidden": false,
-        "id": "b42c-4380-99ba-1a9e"
+        "id": "b42c-4380-99ba-1a9e",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -15023,7 +15051,14 @@
         "import": true,
         "name": "Dracosan Armoured Transport",
         "hidden": false,
-        "id": "4c67-eea6-b446-a908"
+        "id": "4c67-eea6-b446-a908",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -15668,7 +15703,14 @@
         "import": true,
         "name": "Primaris-Lightning Strike Fighter",
         "hidden": false,
-        "id": "578c-f52b-7f8d-0499"
+        "id": "578c-f52b-7f8d-0499",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -15902,7 +15944,14 @@
         "import": true,
         "name": "Thunderbolt Heavy Fighter",
         "hidden": false,
-        "id": "ce19-e401-0408-a06a"
+        "id": "ce19-e401-0408-a06a",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -17494,7 +17543,14 @@
         "import": true,
         "name": "Malcador Infernus Special Weapon Tank",
         "hidden": false,
-        "id": "2cfd-fcf4-ce27-87f3"
+        "id": "2cfd-fcf4-ce27-87f3",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -17897,7 +17953,14 @@
         "import": true,
         "name": "Leman Russ Assault Tank",
         "hidden": false,
-        "id": "cd74-812f-c0a2-5d41"
+        "id": "cd74-812f-c0a2-5d41",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -18375,7 +18438,14 @@
         "import": true,
         "name": "Leman Russ Strike Tank",
         "hidden": false,
-        "id": "3d63-4299-d15f-b3ba"
+        "id": "3d63-4299-d15f-b3ba",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -18842,7 +18912,14 @@
         "import": true,
         "name": "Malcador Heavy Tank",
         "hidden": false,
-        "id": "376e-d119-2489-580d"
+        "id": "376e-d119-2489-580d",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -19413,7 +19490,14 @@
         "import": true,
         "name": "Valdor Tank Destroyer",
         "hidden": false,
-        "id": "9a3c-f812-1489-825f"
+        "id": "9a3c-f812-1489-825f",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -19941,7 +20025,14 @@
         "import": true,
         "name": "Stormhammer Super-Heavy Assault Tank",
         "hidden": false,
-        "id": "6c9f-9379-6ce7-5a2d"
+        "id": "6c9f-9379-6ce7-5a2d",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -22276,7 +22367,14 @@
         "import": true,
         "name": "Aurox Transport",
         "hidden": false,
-        "id": "92ca-fc8c-db1a-a5e1"
+        "id": "92ca-fc8c-db1a-a5e1",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -22626,7 +22724,14 @@
         "import": true,
         "name": "Avenger Strike Fighter",
         "hidden": false,
-        "id": "c689-74d5-92eb-c86e"
+        "id": "c689-74d5-92eb-c86e",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -23356,7 +23461,14 @@
         "import": true,
         "name": "Baneblade Super-heavy Battle Tank",
         "hidden": false,
-        "id": "3218-07a3-3637-431c"
+        "id": "3218-07a3-3637-431c",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -23940,7 +24052,14 @@
         "import": true,
         "name": "Banehammer Super-heavy Assault Tank",
         "hidden": false,
-        "id": "6a98-2165-d892-a3e5"
+        "id": "6a98-2165-d892-a3e5",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -24395,7 +24514,14 @@
         "import": true,
         "name": "Carnodon Strike Tank",
         "hidden": false,
-        "id": "c1da-0e87-541c-e51e"
+        "id": "c1da-0e87-541c-e51e",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -26436,7 +26562,14 @@
         "import": true,
         "name": "Crassus Armoured Assault Transport",
         "hidden": false,
-        "id": "a1cb-9cb7-c05a-cc60"
+        "id": "a1cb-9cb7-c05a-cc60",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -27613,7 +27746,14 @@
         "import": true,
         "name": "Destroyer Tank Hunter",
         "hidden": false,
-        "id": "61f6-d8c1-36ea-909e"
+        "id": "61f6-d8c1-36ea-909e",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -28941,7 +29081,14 @@
         "import": true,
         "name": "Hellhammer Super-heavy Battle Tank",
         "hidden": false,
-        "id": "97a6-4e92-7575-e5b0"
+        "id": "97a6-4e92-7575-e5b0",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -29443,7 +29590,14 @@
         "import": true,
         "name": "Macharius Heavy Tank",
         "hidden": false,
-        "id": "d387-5a08-a8e4-96b2"
+        "id": "d387-5a08-a8e4-96b2",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -29873,7 +30027,14 @@
         "import": true,
         "name": "Marauder Bomber",
         "hidden": false,
-        "id": "3b1f-d887-49db-bfb0"
+        "id": "3b1f-d887-49db-bfb0",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -30173,7 +30334,14 @@
         "import": true,
         "name": "Marauder Destroyer",
         "hidden": false,
-        "id": "a4df-4786-ce35-c5e4"
+        "id": "a4df-4786-ce35-c5e4",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -31021,7 +31189,14 @@
         "import": true,
         "name": "Minotaur Artillery Tank",
         "hidden": false,
-        "id": "5a51-152a-5508-e2db"
+        "id": "5a51-152a-5508-e2db",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -31509,7 +31684,14 @@
         "import": true,
         "name": "Praetor Armoured Assault Launcher",
         "hidden": false,
-        "id": "857d-cc46-96d9-4b88"
+        "id": "857d-cc46-96d9-4b88",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -32139,7 +32321,14 @@
         "import": true,
         "name": "Shadowsword Super-heavy Tank Destroyer",
         "hidden": false,
-        "id": "e7d9-8c82-8cb0-055b"
+        "id": "e7d9-8c82-8cb0-055b",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -32723,7 +32912,14 @@
         "import": true,
         "name": "Stormblade Super-heavy Tank",
         "hidden": false,
-        "id": "5748-1ede-dead-c0e7"
+        "id": "5748-1ede-dead-c0e7",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -33389,7 +33585,14 @@
         "import": true,
         "name": "Stormlord Super-heavy Assault Tank",
         "hidden": false,
-        "id": "f42e-3ca8-5500-7184"
+        "id": "f42e-3ca8-5500-7184",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -34073,7 +34276,14 @@
         "import": true,
         "name": "Stormsword Super-heavy Siege Tank",
         "hidden": false,
-        "id": "5a4f-f6c0-e700-8142"
+        "id": "5a4f-f6c0-e700-8142",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -35411,7 +35621,14 @@
         "import": true,
         "name": "Thunderer Siege Tank",
         "hidden": false,
-        "id": "5f1d-fcf5-c23f-dd55"
+        "id": "5f1d-fcf5-c23f-dd55",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -36509,6 +36726,11 @@
           {
             "type": "add",
             "value": "3134-c5e1-b266-d2e0",
+            "field": "category"
+          },
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
             "field": "category"
           }
         ],

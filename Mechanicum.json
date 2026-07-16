@@ -17333,7 +17333,14 @@
         "name": "Triaros Armoured Conveyor",
         "hidden": false,
         "id": "0896-07f4-8844-9542",
-        "sortIndex": 19
+        "sortIndex": 19,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -21346,7 +21353,14 @@
         "name": "Karacnos Assault Tank",
         "hidden": false,
         "id": "ce4c-753d-aaf1-b4ab",
-        "sortIndex": 22
+        "sortIndex": 22,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -21876,7 +21890,14 @@
         "name": "Krios Battle Tank",
         "hidden": false,
         "id": "135f-153c-308a-7a1c",
-        "sortIndex": 23
+        "sortIndex": 23,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -23249,7 +23270,14 @@
         "name": "Krios Venator",
         "hidden": false,
         "id": "b444-b85f-85f8-e6f3",
-        "sortIndex": 24
+        "sortIndex": 24,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -28253,7 +28281,14 @@
         "name": "Mechanicum Termite",
         "hidden": false,
         "id": "2943-f3ad-5b26-1377",
-        "sortIndex": 33
+        "sortIndex": 33,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -29609,7 +29644,14 @@
         "name": "Mechanicum Macrocarid Explorator",
         "hidden": false,
         "id": "360a-d28e-99bb-fae5",
-        "sortIndex": 35
+        "sortIndex": 35,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -29945,7 +29987,14 @@
         "name": "Mechanicum Ordinatus Ulator",
         "hidden": false,
         "id": "0eec-dfde-0a0f-4440",
-        "sortIndex": 36
+        "sortIndex": 36,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -30275,7 +30324,14 @@
         "name": "Mechanicum Ordinatus Sagittar",
         "hidden": false,
         "id": "85ac-f5f9-5099-e423",
-        "sortIndex": 37
+        "sortIndex": 37,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -30580,7 +30636,14 @@
         "name": "Mechanicum Ordinatus Aktaeus",
         "hidden": false,
         "id": "9111-1de6-ec9d-526a",
-        "sortIndex": 38
+        "sortIndex": 38,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "rules": [

@@ -2866,7 +2866,14 @@
         "name": "Warhound Titan",
         "hidden": false,
         "id": "de13-dda8-5d1a-89d0",
-        "sortIndex": 4
+        "sortIndex": 4,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -3798,7 +3805,14 @@
         "name": "Reaver Titan",
         "hidden": false,
         "id": "d18b-f29e-3b40-036d",
-        "sortIndex": 5
+        "sortIndex": 5,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -5012,7 +5026,14 @@
         "name": "Warbringer Nemesis Titan",
         "hidden": false,
         "id": "49e8-a500-95a5-a08c",
-        "sortIndex": 6
+        "sortIndex": 6,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
@@ -6129,7 +6150,14 @@
         "name": "Warlord Titan",
         "hidden": false,
         "id": "0a00-037f-69a7-bb8c",
-        "sortIndex": 7
+        "sortIndex": 7,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "profiles": [
