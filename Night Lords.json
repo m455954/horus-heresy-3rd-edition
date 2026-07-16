@@ -3855,7 +3855,35 @@
             "id": "2fc1-8f08-e3ee-fb5b",
             "sortIndex": 2,
             "publicationId": "e54c-7040-0f35-d85d",
-            "page": 172
+            "page": 172,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Bolt pistol",
+                "hidden": false,
+                "id": "ef89-9725-5f50-63b7",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1642-0dbc-6778-db80"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fefc-1215-4cb0-a921"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "2942-f783-d627-33c5"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -3969,32 +3997,6 @@
           }
         ],
         "entryLinks": [
-          {
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "1642-0dbc-6778-db80"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "fefc-1215-4cb0-a921"
-              }
-            ],
-            "import": true,
-            "name": "Bolt pistol",
-            "hidden": false,
-            "id": "ef89-9725-5f50-63b7",
-            "type": "selectionEntry",
-            "targetId": "2942-f783-d627-33c5"
-          },
           {
             "constraints": [
               {
