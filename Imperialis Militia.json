@@ -27143,7 +27143,14 @@
         "type": "unit",
         "id": "487c-46f1-4b6e-9300",
         "page": 32,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -27842,7 +27849,14 @@
         "type": "unit",
         "id": "6987-492c-4cd8-9a42",
         "page": 33,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -28586,7 +28600,14 @@
         "type": "unit",
         "id": "272f-595c-49b5-a17f",
         "page": 34,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -28997,7 +29018,14 @@
         "type": "unit",
         "id": "d356-ea5d-4b86-a9a6",
         "page": 35,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -35114,7 +35142,14 @@
         "type": "unit",
         "id": "addd-bda2-437e-ad6d",
         "page": 39,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -35387,7 +35422,14 @@
         "type": "unit",
         "id": "f7d5-cc43-41f8-970e",
         "page": 40,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -36196,7 +36238,14 @@
         "type": "unit",
         "id": "186a-9905-43e7-92b8",
         "page": 41,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -37006,7 +37055,14 @@
         "type": "unit",
         "id": "fde9-47aa-4f8e-91b1",
         "page": 42,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -37700,7 +37756,14 @@
         "type": "unit",
         "id": "8012-1b44-4c2a-9677",
         "page": 43,
-        "publicationId": "f5e5-c199-d3d4-ccf6"
+        "publicationId": "f5e5-c199-d3d4-ccf6",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "entryLinks": [

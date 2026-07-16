@@ -6680,6 +6680,11 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
           }
         ],
         "constraints": [

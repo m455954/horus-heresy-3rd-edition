@@ -8705,7 +8705,14 @@
         "name": "Coronus Grav-Carrier",
         "hidden": false,
         "id": "40df-cbd0-f144-ccdb",
-        "sortIndex": 10
+        "sortIndex": 10,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -10057,7 +10064,14 @@
         "name": "Pallas Grav-Attack",
         "hidden": false,
         "id": "cdf4-0738-9331-095c",
-        "sortIndex": 13
+        "sortIndex": 13,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "costs": [
@@ -10775,7 +10789,14 @@
         "name": "Caladius Grav-Tank",
         "hidden": false,
         "id": "3cc2-9a68-9bc0-b695",
-        "sortIndex": 14
+        "sortIndex": 14,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -11093,7 +11114,14 @@
         "name": "Orion Assault Dropship",
         "hidden": false,
         "id": "0c29-b45c-d6e4-6a18",
-        "sortIndex": 15
+        "sortIndex": 15,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -11396,7 +11424,14 @@
         "name": "Ares Gunship",
         "hidden": false,
         "id": "0c44-ab22-006f-ebf3",
-        "sortIndex": 16
+        "sortIndex": 16,
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "8d49-126f-5500-aa28",
+            "field": "category"
+          }
+        ]
       },
       {
         "entryLinks": [
