@@ -675,7 +675,7 @@
                     "typeId": "a951-a772-7ce0-0b64"
                   }
                 ],
-                "name": "Ezekyle Abbadon",
+                "name": "Ezekyle Abaddon",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "hidden": false,
@@ -728,7 +728,7 @@
             ],
             "type": "model",
             "import": true,
-            "name": "Ezekyle Abbadon",
+            "name": "Ezekyle Abaddon",
             "hidden": false,
             "id": "20a3-8f5f-b252-8991",
             "sortIndex": 1
@@ -1098,7 +1098,7 @@
         ],
         "type": "unit",
         "import": true,
-        "name": "Ezekyle Abbadon",
+        "name": "Ezekyle Abaddon",
         "hidden": false,
         "id": "aa7d-73fa-eaac-d951"
       },
@@ -10203,7 +10203,7 @@
             ],
             "rules": [
               {
-                "description": "Has it's Base Attacks and Weapon Skill Characteristics modified by +1\nMay have it's power sword exchanged with one frost sword or frost axe for Free, or with one frost claw for +5 Points",
+                "description": "One Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gains the Champion Sub-Type and the Duellist's Edge (1) Special Rule.",
                 "name": "Martial Supremecy",
                 "id": "73c7-8c85-f108-f3cd",
                 "hidden": false
@@ -10213,7 +10213,32 @@
             "import": true,
             "name": "Martial Supremecy",
             "hidden": false,
-            "id": "9a8f-e85c-1bf5-a350"
+            "id": "9a8f-e85c-1bf5-a350",
+            "infoLinks": [
+              {
+                "name": "Duellist's Edge (X)",
+                "id": "e75f-6dcb-8324-8bec",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "94bc-c69f-99b6-8ba0",
+                "modifiers": [
+                  {
+                    "type": "replace",
+                    "value": "1",
+                    "field": "name",
+                    "comment": "1",
+                    "arg": "X"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "add",
+                "value": "5a95-e564-96b2-8dc9",
+                "field": "category"
+              }
+            ]
           }
         ],
         "name": "Sons of Horus Prime Benefits",
@@ -10370,7 +10395,7 @@
           }
         ],
         "import": true,
-        "name": "Ezekyle Abbadon",
+        "name": "Ezekyle Abaddon",
         "hidden": false,
         "id": "a14b-f575-14ae-c66d",
         "type": "selectionEntry",
