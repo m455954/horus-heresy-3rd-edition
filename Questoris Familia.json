@@ -10582,7 +10582,27 @@
         "id": "65c4-7995-ac71-b6f9",
         "hidden": false,
         "sortIndex": 0,
-        "childForcesLabel": "Detachments"
+        "childForcesLabel": "Detachments",
+        "modifiers": [
+          {
+            "type": "add",
+            "value": "Questoris Household Armies may not contain Allied Detachments",
+            "field": "error",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "forces",
+                "scope": "roster",
+                "shared": true,
+                "childId": "256b-b8a8-017a-75e9",
+                "childName": "Allied Detachment and its Auxiliary",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "comment": "Like Lord of War but allows the additional detachments",
