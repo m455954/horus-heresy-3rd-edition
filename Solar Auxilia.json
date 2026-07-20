@@ -37642,7 +37642,7 @@
           {
             "name": "Point(s)",
             "typeId": "9893-c379-920b-8982",
-            "value": 7
+            "value": 14
           },
           {
             "name": "Reaction Point(s)",
@@ -37672,6 +37672,11 @@
           {
             "name": "Tank Detachments",
             "typeId": "2cdf-186c-a655-d907",
+            "value": 0
+          },
+          {
+            "name": "ZM Primary Detachment",
+            "typeId": "37ff-b26e-18a9-7f57",
             "value": 0
           }
         ],
