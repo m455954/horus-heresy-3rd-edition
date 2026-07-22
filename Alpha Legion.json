@@ -4528,11 +4528,11 @@
                 "modifiers": [
                   {
                     "type": "set",
-                    "value": "Feel No Pain (5+) Vs Poisoned (X)",
+                    "value": "Feel No Pain (4+) Vs Poisoned (X)",
                     "field": "name"
                   }
                 ],
-                "comment": "5+ Vs Poisoned (X)",
+                "comment": "4+ Vs Poisoned (X)",
                 "name": "Feel No Pain (X)",
                 "id": "de19-4673-a209-5c5d",
                 "hidden": false,
