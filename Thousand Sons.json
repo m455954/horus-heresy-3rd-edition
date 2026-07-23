@@ -8554,77 +8554,6 @@
                 "id": "e0b6-3e5b-4233-82a9"
               }
             ],
-            "entryLinks": [
-              {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "7a25-44bf-424a-87a1"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "6003-1181-492c-812d"
-                  }
-                ],
-                "hidden": false,
-                "type": "selectionEntry",
-                "targetId": "2942-f783-d627-33c5",
-                "id": "6ef1-7193-4ef7-a002",
-                "name": "Bolt pistol",
-                "sortIndex": 1
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "9d48-c70f-fde2-5ff3"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "04b7-7009-0a29-b431"
-                  }
-                ],
-                "import": true,
-                "name": "Nemesis bolter",
-                "hidden": false,
-                "id": "9b09-dc9c-3bf4-3742",
-                "type": "selectionEntry",
-                "targetId": "96e3-031c-2139-1335",
-                "sortIndex": 2
-              },
-              {
-                "costs": [
-                  {
-                    "name": "Point(s)",
-                    "typeId": "9893-c379-920b-8982",
-                    "value": 2
-                  }
-                ],
-                "import": true,
-                "name": "Asphyx pistol",
-                "hidden": false,
-                "id": "ba59-9600-551e-77d7",
-                "type": "selectionEntry",
-                "targetId": "d293-df49-e8c3-f3bf",
-                "sortIndex": 2
-              }
-            ],
             "selectionEntryGroups": [
               {
                 "entryLinks": [
@@ -8669,202 +8598,240 @@
                 "sortIndex": 3
               },
               {
+                "name": "Pistol",
+                "id": "ddfb-d7df-d5c6-b52d",
+                "hidden": false,
+                "sortIndex": 1,
                 "entryLinks": [
                   {
-                    "costs": [
-                      {
-                        "name": "Point(s)",
-                        "typeId": "9893-c379-920b-8982",
-                        "value": 15
-                      }
-                    ],
+                    "import": true,
+                    "name": "Bolt pistol",
+                    "hidden": false,
+                    "id": "6ef1-7193-4ef7-a002",
                     "constraints": [
                       {
                         "type": "max",
-                        "value": 0,
+                        "value": 1,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "0e45-ec6c-4499-80c3",
-                        "automatic": true
+                        "id": "6003-1181-492c-812d"
                       }
                     ],
-                    "modifiers": [
-                      {
-                        "repeats": [
-                          {
-                            "value": 5,
-                            "repeats": 2,
-                            "field": "selections",
-                            "scope": "unit",
-                            "childId": "model",
-                            "shared": true,
-                            "roundUp": false,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "0e45-ec6c-4499-80c3"
-                      }
-                    ],
-                    "hidden": false,
                     "type": "selectionEntry",
-                    "targetId": "b1e1-e164-5877-6734",
-                    "id": "61a6-f1fc-427a-a532",
-                    "name": "Meltagun",
+                    "targetId": "2942-f783-d627-33c5",
                     "sortIndex": 1
                   },
                   {
+                    "import": true,
+                    "name": "Asphyx pistol",
+                    "hidden": false,
+                    "id": "ba59-9600-551e-77d7",
                     "costs": [
                       {
                         "name": "Point(s)",
                         "typeId": "9893-c379-920b-8982",
-                        "value": 10
+                        "value": 2
                       }
                     ],
+                    "type": "selectionEntry",
+                    "targetId": "d293-df49-e8c3-f3bf",
                     "constraints": [
                       {
                         "type": "max",
-                        "value": 0,
+                        "value": 1,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "7b1f-5972-4cd1-ae80",
-                        "automatic": true
+                        "id": "059c-334c-9740-eff6"
                       }
-                    ],
-                    "modifiers": [
-                      {
-                        "repeats": [
-                          {
-                            "value": 5,
-                            "repeats": 2,
-                            "field": "selections",
-                            "scope": "unit",
-                            "childId": "model",
-                            "shared": true,
-                            "roundUp": false,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "7b1f-5972-4cd1-ae80"
-                      }
-                    ],
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "targetId": "433d-56e0-9878-dea1",
-                    "id": "09dd-c5f5-48da-8131",
-                    "name": "Plasma gun",
-                    "sortIndex": 2
-                  },
+                    ]
+                  }
+                ],
+                "defaultSelectionEntryId": "6ef1-7193-4ef7-a002",
+                "constraints": [
                   {
-                    "costs": [
-                      {
-                        "name": "Point(s)",
-                        "typeId": "9893-c379-920b-8982",
-                        "value": 15
-                      }
-                    ],
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4d74-2e91-8170-d510"
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "0f57-f9b7-27d2-5037",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Nemesis bolter",
+                    "hidden": false,
+                    "id": "9b09-dc9c-3bf4-3742",
                     "constraints": [
                       {
                         "type": "max",
-                        "value": 0,
+                        "value": 1,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "82f9-ea8a-43a1-b5ee",
-                        "automatic": true
+                        "id": "04b7-7009-0a29-b431"
                       }
                     ],
-                    "modifiers": [
-                      {
-                        "repeats": [
-                          {
-                            "value": 5,
-                            "repeats": 2,
-                            "field": "selections",
-                            "scope": "unit",
-                            "childId": "model",
-                            "shared": true,
-                            "roundUp": false,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "82f9-ea8a-43a1-b5ee"
-                      }
-                    ],
-                    "hidden": false,
                     "type": "selectionEntry",
-                    "targetId": "4ce2-6bd7-eb33-7a8f",
-                    "id": "737c-2ac6-4742-a9b3",
-                    "name": "Æther-fire blaster",
-                    "sortIndex": 3
+                    "targetId": "96e3-031c-2139-1335"
                   }
                 ],
                 "constraints": [
                   {
                     "type": "max",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "unit",
-                    "shared": true,
-                    "id": "3613-df06-4fb2-a702",
-                    "automatic": true
-                  },
-                  {
-                    "type": "max",
-                    "value": 0,
+                    "value": 1,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "9f4e-9094-2ffe-21fd",
-                    "automatic": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "repeats": [
-                      {
-                        "value": 5,
-                        "repeats": 2,
-                        "field": "selections",
-                        "scope": "unit",
-                        "childId": "model",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "3613-df06-4fb2-a702"
+                    "id": "892e-9c2a-92f2-b41f"
                   },
                   {
-                    "repeats": [
-                      {
-                        "value": 5,
-                        "repeats": 2,
-                        "field": "selections",
-                        "scope": "unit",
-                        "childId": "model",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "increment",
+                    "type": "min",
                     "value": 1,
-                    "field": "9f4e-9094-2ffe-21fd"
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fe8a-c238-b97c-0c35"
                   }
                 ],
-                "name": "For every five Models in this Unit, up to two Intercessors in this Unit may each have their Nemesis bolter exchanged for one of the following:",
-                "id": "1b44-6ba9-4b8f-a253"
+                "defaultSelectionEntryId": "9b09-dc9c-3bf4-3742",
+                "selectionEntryGroups": [
+                  {
+                    "name": "For every five Models in this Unit, up to two Intercessors in this Unit may each have their Nemesis bolter exchanged for one of the following:",
+                    "id": "1b44-6ba9-4b8f-a253",
+                    "hidden": false,
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Meltagun",
+                        "hidden": false,
+                        "id": "61a6-f1fc-427a-a532",
+                        "costs": [
+                          {
+                            "name": "Point(s)",
+                            "typeId": "9893-c379-920b-8982",
+                            "value": 15
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e1e6-c515-1578-546e"
+                          }
+                        ],
+                        "type": "selectionEntry",
+                        "targetId": "b1e1-e164-5877-6734",
+                        "sortIndex": 1
+                      },
+                      {
+                        "import": true,
+                        "name": "Plasma gun",
+                        "hidden": false,
+                        "id": "09dd-c5f5-48da-8131",
+                        "costs": [
+                          {
+                            "name": "Point(s)",
+                            "typeId": "9893-c379-920b-8982",
+                            "value": 10
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e18a-ce8a-e649-b935"
+                          }
+                        ],
+                        "type": "selectionEntry",
+                        "targetId": "433d-56e0-9878-dea1",
+                        "sortIndex": 2
+                      },
+                      {
+                        "import": true,
+                        "name": "Æther-fire blaster",
+                        "hidden": false,
+                        "id": "737c-2ac6-4742-a9b3",
+                        "costs": [
+                          {
+                            "name": "Point(s)",
+                            "typeId": "9893-c379-920b-8982",
+                            "value": 15
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "04da-52f6-424c-8d18"
+                          }
+                        ],
+                        "type": "selectionEntry",
+                        "targetId": "4ce2-6bd7-eb33-7a8f",
+                        "sortIndex": 3
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "unit-self",
+                        "shared": true,
+                        "id": "3613-df06-4fb2-a702",
+                        "automatic": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9f4e-9094-2ffe-21fd",
+                        "automatic": true,
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "type": "increment",
+                        "value": 1,
+                        "field": "3613-df06-4fb2-a702",
+                        "repeats": [
+                          {
+                            "value": 5,
+                            "repeats": 2,
+                            "field": "selections",
+                            "scope": "unit",
+                            "childId": "model",
+                            "shared": true,
+                            "roundUp": false,
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "sortIndex": 2
               }
             ],
             "categoryLinks": [
