@@ -3,15 +3,13 @@ on:
   push:
     branches:
       - main
-  pull_request_target:
+  pull_request:
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out game system to horus-heresy
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
       - name: Checking out BSCopy
         uses: actions/checkout@v4
         with:
