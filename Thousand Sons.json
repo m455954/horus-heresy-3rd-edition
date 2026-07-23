@@ -5794,11 +5794,11 @@
                 "modifiers": [
                   {
                     "type": "set",
-                    "value": "Bulky (4)",
+                    "value": "Bulky (6)",
                     "field": "name"
                   }
                 ],
-                "comment": "4",
+                "comment": "6",
                 "name": "Bulky (X)",
                 "id": "5280-6306-8e72-9695",
                 "hidden": false,
