@@ -869,7 +869,43 @@
         "import": true,
         "targetId": "a1cb-9cb7-c05a-cc60",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Lord of War", "id": "150e-323f-4a7d-4072", "hidden": false, "primary": true, "targetId": "a46f-a465-0ead-d6b8"}]
+        "categoryLinks": [{"name": "Lord of War", "id": "150e-323f-4a7d-4072", "hidden": false, "primary": true, "targetId": "a46f-a465-0ead-d6b8"}],
+        "modifierGroups": [
+          {
+            "comment": "Pride / Fury",
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d0e2-3466-3567-4bcf",
+                    "childName": "Primary - Fury of the Ancients",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "remove", "value": "a46f-a465-0ead-d6b8"}, {"field": "category", "type": "set-primary", "value": "657f-b4bf-b1bc-02e7"}]
+          }
+        ]
       },
       {
         "name": "Cyclops Demolition Vehicle",
@@ -995,7 +1031,43 @@
         "import": true,
         "targetId": "f42e-3ca8-5500-7184",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Lord of War", "id": "6695-649a-0a58-0d08", "hidden": false, "primary": true, "targetId": "a46f-a465-0ead-d6b8"}]
+        "categoryLinks": [{"name": "Lord of War", "id": "6695-649a-0a58-0d08", "hidden": false, "primary": true, "targetId": "a46f-a465-0ead-d6b8"}],
+        "modifierGroups": [
+          {
+            "comment": "Pride / Fury",
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d0e2-3466-3567-4bcf",
+                    "childName": "Primary - Fury of the Ancients",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "remove", "value": "a46f-a465-0ead-d6b8"}, {"field": "category", "type": "set-primary", "value": "657f-b4bf-b1bc-02e7"}]
+          }
+        ]
       },
       {
         "name": "Surgeon-Primus Aevos Jovan",
@@ -1731,7 +1803,7 @@
         "hidden": false,
         "typeId": "d5a9-9164-1e30-7a35",
         "typeName": "Traits",
-        "characteristics": [{"name": "Description", "$text": "Iron Tercio", "typeId": "d5eb-0b8b-0f26-6233"}]
+        "characteristics": [{"name": "Description", "$text": "Infantry Tercio", "typeId": "d5eb-0b8b-0f26-6233"}]
       },
       {
         "name": "Artillery Tercio",

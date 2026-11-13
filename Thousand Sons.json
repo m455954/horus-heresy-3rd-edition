@@ -152,7 +152,27 @@
         "import": true,
         "targetId": "d661-5aa7-4e05-a6e5",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Recon", "id": "acdd-fee4-d3f5-07ff", "primary": true, "targetId": "2b65-a3f2-620a-dc58"}]
+        "categoryLinks": [{"name": "Recon", "id": "acdd-fee4-d3f5-07ff", "primary": true, "targetId": "2b65-a3f2-620a-dc58"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6f9b-3d99-7ecd-3214",
+                "childName": "Primary - Armoured Spearhead",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1475,7 +1495,27 @@
             "hidden": false,
             "targetId": "530f-b733-993c-ec84",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (3)"}]
+            "modifiers": [
+              {"field": "name", "type": "set", "value": "Vanguard (3)"},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           },
           {"name": "Implacable Advance", "id": "dfbf-a18c-9cec-fe90", "hidden": false, "targetId": "3898-aafb-35e0-141b", "type": "rule"},
           {
@@ -2068,6 +2108,78 @@
                     "type": "set",
                     "value": 0,
                     "conditions": [{"childId": "6754-24dd-5be0-26ff", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Vanguard or Line",
+            "id": "319c-6d94-71d0-497d",
+            "defaultSelectionEntryId": "7337-788a-bc77-b503",
+            "hidden": true,
+            "sortIndex": 3,
+            "constraints": [
+              {"id": "d439-9bdc-c52a-a7ce", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "75ff-b23e-5297-88f7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Vanguard (3)",
+                "id": "8257-d2b3-94d5-172a",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [{"id": "350c-c4e1-8fa3-1fc9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Vanguard (X)",
+                    "id": "e2a2-bf05-f5a3-e3fa",
+                    "hidden": false,
+                    "targetId": "530f-b733-993c-ec84",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (3)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Line (1)",
+                "id": "8db4-01f3-5e99-6102",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "type": "upgrade",
+                "infoLinks": [
+                  {
+                    "name": "Line (X)",
+                    "id": "724c-ddac-65ea-fa20",
+                    "hidden": false,
+                    "targetId": "1b5d-ceec-802a-c611",
+                    "type": "rule",
+                    "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "1"}]
                   }
                 ]
               }

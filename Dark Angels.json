@@ -161,7 +161,27 @@
         "import": true,
         "targetId": "f369-7a8f-853b-fdc5",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "War-engine", "id": "c20e-155b-73ed-e0aa", "primary": true, "targetId": "2499-7239-685f-8465"}]
+        "categoryLinks": [{"name": "War-engine", "id": "c20e-155b-73ed-e0aa", "primary": true, "targetId": "2499-7239-685f-8465"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3796-6952-fa80-ff9d",
+                "childName": "Primary - Orbital Drop Assault",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Firewing Enigmatus Cabal",
@@ -4949,6 +4969,7 @@
             "id": "bb5b-b147-2134-dc14",
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "targetId": "60e4-ca33-2e68-9afc",
             "type": "selectionEntry",
             "constraints": [
@@ -4961,6 +4982,7 @@
             "id": "74f6-fc86-a1b4-215a",
             "hidden": false,
             "import": true,
+            "sortIndex": 4,
             "targetId": "fa20-82bc-c7de-9e97",
             "type": "selectionEntry",
             "constraints": [
@@ -5008,7 +5030,96 @@
             "hidden": false,
             "targetId": "530f-b733-993c-ec84",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (2)"}]
+            "modifiers": [
+              {"field": "name", "type": "set", "value": "Vanguard (2)"},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "49f4-c066-6fe6-fbfd",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "53f8-ca8c-239c-1d3d",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ec2-4dab-205b-36a2",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "90a5-d491-7576-a537",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "c195-9a6a-a56b-4634",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "primary-catalogue",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b2af-ccde-ddd4-94a9",
+                        "childName": "Primary - Pride of the Legion",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {"name": "Smokescreen", "id": "692d-3198-c0f8-1d05", "hidden": false, "targetId": "999b-689a-4ee7-8901", "type": "profile"}
         ],
@@ -5028,6 +5139,7 @@
             "id": "3215-b0f9-b220-6e82",
             "hidden": false,
             "import": true,
+            "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
               {"name": "Champion Model Sub-Type", "id": "47e7-f4f7-0653-2f08", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
@@ -5195,6 +5307,7 @@
             "id": "06cd-fd42-38ec-b315",
             "hidden": false,
             "import": true,
+            "sortIndex": 2,
             "type": "upgrade",
             "constraints": [{"id": "443b-c855-d6fc-db30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
@@ -5251,6 +5364,78 @@
                   {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
                   {"name": "Special Rules", "$text": "Blast (3\"), Stun (3)", "typeId": "5aad-137a-8ee2-63fd"},
                   {"name": "Traits", "$text": "Assault, Stasis", "typeId": "1247-79d2-6cc1-8a03"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Vanguard or Line",
+            "id": "566b-719a-d3b6-e28e",
+            "defaultSelectionEntryId": "7337-788a-bc77-b503",
+            "hidden": true,
+            "sortIndex": 5,
+            "constraints": [
+              {"id": "ee44-1d3a-64eb-2137", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "53de-49c9-0ac3-7bb5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Vanguard (2)",
+                "id": "a467-835d-e6f0-ca3e",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [{"id": "96a0-d75b-0c86-3fe4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Vanguard (X)",
+                    "id": "cc62-50ed-a381-2036",
+                    "hidden": false,
+                    "targetId": "530f-b733-993c-ec84",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (2)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Line (1)",
+                "id": "e9fa-f986-2701-3703",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "type": "upgrade",
+                "infoLinks": [
+                  {
+                    "name": "Line (X)",
+                    "id": "c0d6-d19c-6b6a-0fa7",
+                    "hidden": false,
+                    "targetId": "1b5d-ceec-802a-c611",
+                    "type": "rule",
+                    "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "1"}]
+                  }
                 ]
               }
             ]

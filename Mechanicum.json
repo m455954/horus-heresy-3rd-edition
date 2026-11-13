@@ -950,7 +950,43 @@
         "import": true,
         "targetId": "9111-1de6-ec9d-526a",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Lord of War", "id": "90a5-0234-747e-097e", "primary": true, "targetId": "a46f-a465-0ead-d6b8"}]
+        "categoryLinks": [{"name": "Lord of War", "id": "90a5-0234-747e-097e", "primary": true, "targetId": "a46f-a465-0ead-d6b8"}],
+        "modifierGroups": [
+          {
+            "comment": "Pride / Fury",
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d0e2-3466-3567-4bcf",
+                    "childName": "Primary - Fury of the Ancients",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "remove", "value": "a46f-a465-0ead-d6b8"}, {"field": "category", "type": "set-primary", "value": "657f-b4bf-b1bc-02e7"}]
+          }
+        ]
       },
       {
         "name": "Carnage and Pandemonium",

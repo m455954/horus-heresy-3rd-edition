@@ -711,6 +711,26 @@
         "categoryLinks": [
           {"name": "Alpha Legion", "id": "711e-6c55-a0a0-2a1b", "primary": false, "targetId": "a114-fe5b-0a4f-632e"},
           {"name": "Recon", "id": "fb87-3c21-76ca-26d6", "primary": true, "targetId": "2b65-a3f2-620a-dc58"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6f9b-3d99-7ecd-3214",
+                "childName": "Primary - Armoured Spearhead",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {

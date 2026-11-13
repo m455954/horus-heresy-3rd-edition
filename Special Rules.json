@@ -1302,6 +1302,12 @@
         "id": "cdb4-49d4-88d7-a2c6",
         "description": "**Enemy Units in Combat with a Unit with this Special Rule must pass a Willpower Check before having an Aftermath option selected for them.**\n\n\nIf a Combat includes any Models with this Special Rule, the Controlling Player may choose that the Opposing Player must make a Willpower Check for each of their Units in the selected Combat, before selecting any Aftermath option for that Unit. If the Willpower Check is passed, the Player may select an Aftermath option as normal. If the Willpower Check is failed, the Player must select Hold. Note that if a Unit contains any Models with the Routed status, a Willpower Check must still be made for that Unit. If the Check is passed, the Unit must Fall Back and if the Check is failed the Unit must Hold, but the Models retain the Routed Status, regardless of the result.",
         "hidden": false
+      },
+      {
+        "name": "Squadron Tactics",
+        "id": "4933-4ef8-5371-9566",
+        "description": "While a Model with this Special Rule is within 6\" of another Model with this Special Rule, the Controlling Player may add 2 to Repair Rolls made for that Model.",
+        "hidden": false
       }
     ],
     "sharedSelectionEntries": [

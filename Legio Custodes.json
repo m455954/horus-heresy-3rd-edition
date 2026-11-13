@@ -233,7 +233,43 @@
         "import": true,
         "targetId": "0c29-b45c-d6e4-6a18",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Lord of War", "id": "5b46-6027-c9eb-5060", "primary": true, "targetId": "a46f-a465-0ead-d6b8"}]
+        "categoryLinks": [{"name": "Lord of War", "id": "5b46-6027-c9eb-5060", "primary": true, "targetId": "a46f-a465-0ead-d6b8"}],
+        "modifierGroups": [
+          {
+            "comment": "Pride / Fury",
+            "type": "and",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d0e2-3466-3567-4bcf",
+                    "childName": "Primary - Fury of the Ancients",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "remove", "value": "a46f-a465-0ead-d6b8"}, {"field": "category", "type": "set-primary", "value": "657f-b4bf-b1bc-02e7"}]
+          }
+        ]
       },
       {
         "name": "Ares Gunship",

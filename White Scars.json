@@ -82,6 +82,45 @@
         "categoryLinks": [
           {"name": "Elites", "id": "a12d-348a-b767-e62a", "primary": true, "targetId": "5d5e-958f-e388-50b5"},
           {"name": "White Scars", "id": "d91e-5182-437f-a0eb", "primary": false, "targetId": "ad95-5dc4-7b15-8ff3"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "04d9-b191-7ea7-d461",
+                "childName": "Primary - Sky-Hunter Phalanx",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "2425-4123-aa05-0c0e"}, {"field": "category", "type": "remove", "value": "5d5e-958f-e388-50b5"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3796-6952-fa80-ff9d",
+                "childName": "Primary - Orbital Drop Assault",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -106,6 +145,63 @@
         "categoryLinks": [
           {"name": "Support", "id": "1091-cfaf-cd6e-6b3f", "primary": true, "targetId": "345f-9ba6-9b02-ed5c"},
           {"name": "White Scars", "id": "ff0e-ed87-bbf0-433a", "primary": false, "targetId": "ad95-5dc4-7b15-8ff3"}
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "04d9-b191-7ea7-d461",
+                "childName": "Primary - Sky-Hunter Phalanx",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "category", "type": "set-primary", "value": "47de-e0a7-79d6-d1ad"}, {"field": "category", "type": "remove", "value": "345f-9ba6-9b02-ed5c"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3796-6952-fa80-ff9d",
+                "childName": "Primary - Orbital Drop Assault",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3796-6952-fa80-ff9d",
+                "childName": "Primary - Orbital Drop Assault",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -118,6 +214,26 @@
         "categoryLinks": [
           {"name": "White Scars", "id": "00eb-941f-a592-27a4", "primary": false, "targetId": "ad95-5dc4-7b15-8ff3"},
           {"name": "Recon", "id": "e6a5-8c09-31aa-04d3", "primary": true, "targetId": "2b65-a3f2-620a-dc58"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6f9b-3d99-7ecd-3214",
+                "childName": "Primary - Armoured Spearhead",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -130,6 +246,26 @@
         "categoryLinks": [
           {"name": "Command", "id": "bfca-988c-b8d3-f6d7", "hidden": false, "primary": true, "targetId": "6dbf-654a-f06f-2d69"},
           {"name": "White Scars", "id": "1b5b-e5e1-024e-2343", "hidden": false, "primary": false, "targetId": "ad95-5dc4-7b15-8ff3"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "433f-3f36-42c3-4662",
+            "conditions": [
+              {
+                "childId": "04d9-b191-7ea7-d461",
+                "childName": "Primary - Sky-Hunter Phalanx",
+                "field": "forces",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1741,6 +1877,7 @@
             "id": "849e-6508-4cfd-88d3",
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
             "entryLinks": [{"name": "Prime Benefits", "id": "1bb5-76e8-4ec8-a6c2", "hidden": false, "import": true, "targetId": "a396-b846-c263-6767", "type": "selectionEntryGroup"}]
@@ -1779,7 +1916,96 @@
             "hidden": false,
             "targetId": "530f-b733-993c-ec84",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (3)"}]
+            "modifiers": [
+              {"field": "name", "type": "set", "value": "Vanguard (3)"},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "49f4-c066-6fe6-fbfd",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "53f8-ca8c-239c-1d3d",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ec2-4dab-205b-36a2",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "90a5-d491-7576-a537",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "c195-9a6a-a56b-4634",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "primary-catalogue",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b2af-ccde-ddd4-94a9",
+                        "childName": "Primary - Pride of the Legion",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -1789,6 +2015,7 @@
             "hidden": false,
             "import": true,
             "publicationId": "7d63-5df4-c656-52de",
+            "sortIndex": 1,
             "type": "model",
             "categoryLinks": [{"name": "Infantry Model Type", "id": "7879-3eb4-4f81-8f67", "primary": false, "targetId": "594d-fa82-13cb-a345"}],
             "constraints": [
@@ -2015,6 +2242,79 @@
                         ]
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Vanguard or Line",
+            "id": "7ed0-b688-e3ac-f78d",
+            "defaultSelectionEntryId": "7337-788a-bc77-b503",
+            "hidden": true,
+            "sortIndex": 2,
+            "constraints": [
+              {"id": "7dfc-f894-c3cd-a1c1", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6b6d-b5ed-6307-f8e4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Vanguard (3)",
+                "id": "a615-b5ad-800c-b406",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [{"id": "7f18-fa58-2c99-9646", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Vanguard (X)",
+                    "id": "4958-c0da-932f-bdf3",
+                    "hidden": false,
+                    "targetId": "530f-b733-993c-ec84",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (3)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Line (1)",
+                "id": "3cc0-8896-57d1-a3c6",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "type": "upgrade",
+                "constraints": [{"id": "2c3d-0228-6e3e-1da0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Line (X)",
+                    "id": "eab0-5cb0-2d39-e61c",
+                    "hidden": false,
+                    "targetId": "1b5d-ceec-802a-c611",
+                    "type": "rule",
+                    "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "1"}]
                   }
                 ]
               }
@@ -4486,7 +4786,96 @@
             "hidden": false,
             "targetId": "530f-b733-993c-ec84",
             "type": "rule",
-            "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": 2}]
+            "modifiers": [
+              {"arg": "X", "field": "name", "type": "replace", "value": 2},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "49f4-c066-6fe6-fbfd",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "53f8-ca8c-239c-1d3d",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "4ec2-4dab-205b-36a2",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "90a5-d491-7576-a537",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "c195-9a6a-a56b-4634",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "primary-catalogue",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "b2af-ccde-ddd4-94a9",
+                        "childName": "Primary - Pride of the Legion",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "Expendable (X)",
@@ -4760,6 +5149,78 @@
                       {"id": "66e0-b9b5-8b12-202d", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 1}
                     ],
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Vanguard or Line",
+            "id": "0f8c-7bdf-3193-0c2f",
+            "defaultSelectionEntryId": "7337-788a-bc77-b503",
+            "hidden": true,
+            "constraints": [
+              {"id": "9d3c-14dd-00be-6a8c", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "5d02-28b9-492f-45a4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b2af-ccde-ddd4-94a9",
+                    "childName": "Primary - Pride of the Legion",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Vanguard (2)",
+                "id": "333d-342e-38e8-2bc5",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [{"id": "da63-1549-0ee8-f642", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Vanguard (X)",
+                    "id": "8a60-b71f-7646-379d",
+                    "hidden": false,
+                    "targetId": "530f-b733-993c-ec84",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (2)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Line (1)",
+                "id": "cf3d-2281-b068-cf84",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "type": "upgrade",
+                "constraints": [{"id": "a7f4-5907-23db-19e6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "infoLinks": [
+                  {
+                    "name": "Line (X)",
+                    "id": "665d-ed4f-b7e4-0d94",
+                    "hidden": false,
+                    "targetId": "1b5d-ceec-802a-c611",
+                    "type": "rule",
+                    "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "1"}]
                   }
                 ]
               }
