@@ -45642,7 +45642,7 @@
             "sortIndex": 1,
             "categoryLinks": [
               {
-                "name": "High Command - Battlesmith or Decurion Magna",
+                "name": "High Command - Battlesmith or Decurion Magna only",
                 "id": "fb1e-5b44-80d4-62b1",
                 "hidden": false,
                 "targetId": "80c1-b49d-ae67-3269",
@@ -66036,6 +66036,17 @@
                         "shared": true,
                         "type": "equalTo",
                         "value": 0
+                      },
+                      {
+                        "childId": "3796-6952-fa80-ff9d",
+                        "childName": "Primary - Orbital Drop Assault",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
                       }
                     ]
                   }
@@ -66126,6 +66137,17 @@
                       {
                         "childId": "6f9b-3d99-7ecd-3214",
                         "childName": "Primary - Armoured Spearhead",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      },
+                      {
+                        "childId": "3796-6952-fa80-ff9d",
+                        "childName": "Primary - Orbital Drop Assault",
                         "field": "forces",
                         "includeChildForces": true,
                         "includeChildSelections": true,
@@ -66499,6 +66521,17 @@
                           {
                             "childId": "6f9b-3d99-7ecd-3214",
                             "childName": "Primary - Armoured Spearhead",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "3796-6952-fa80-ff9d",
+                            "childName": "Primary - Orbital Drop Assault",
                             "field": "forces",
                             "includeChildForces": true,
                             "includeChildSelections": true,
