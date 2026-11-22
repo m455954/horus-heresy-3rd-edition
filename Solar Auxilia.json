@@ -9393,6 +9393,8 @@
         "id": "bc99-f75e-c0b6-6c0f",
         "hidden": false,
         "import": true,
+        "page": "48",
+        "publicationId": "0eca-ceab-6bad-9248",
         "type": "unit",
         "entryLinks": [
           {
@@ -9680,6 +9682,8 @@
             "id": "a81b-cc98-1357-5266",
             "hidden": false,
             "import": true,
+            "page": "48",
+            "publicationId": "0eca-ceab-6bad-9248",
             "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
@@ -9700,6 +9704,8 @@
                 "name": "Charonite ogryn",
                 "id": "8739-f535-a73c-eddc",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "0eca-ceab-6bad-9248",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -14985,6 +14991,8 @@
             "name": "Charonite claws",
             "id": "f050-8b66-f2d1-ff56",
             "hidden": false,
+            "page": "48",
+            "publicationId": "0eca-ceab-6bad-9248",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -32133,6 +32141,8 @@
             "name": "Charonite blade",
             "id": "89df-1efb-0455-5768",
             "hidden": false,
+            "page": "48",
+            "publicationId": "0eca-ceab-6bad-9248",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -32170,6 +32180,8 @@
             "name": "Charonite crusher",
             "id": "a53d-d934-831b-e902",
             "hidden": false,
+            "page": "48",
+            "publicationId": "0eca-ceab-6bad-9248",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -32214,6 +32226,8 @@
             "name": "Charonite shredder",
             "id": "0d3b-a867-7d16-c7b5",
             "hidden": false,
+            "page": "48",
+            "publicationId": "0eca-ceab-6bad-9248",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
