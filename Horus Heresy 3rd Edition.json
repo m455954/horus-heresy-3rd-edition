@@ -2,16 +2,16 @@
   "gameSystem": {
     "name": "Horus Heresy 3rd Edition",
     "id": "sys-9fe4-1dc3-b7c2-73cf",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
+    "authorContact": "\n",
+    "authorName": "",
+    "authorUrl": "",
     "battleScribeVersion": 2.03,
     "revision": 55,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
       {"name": "Officer of the Line (2)", "id": "901a-6b71-7a29-4597", "hidden": false},
-      {"name": "Allegiance", "id": "c408-52f1-b632-4c82", "hidden": false},
+      {"name": "Allegiance", "id": "c408-52f1-b632-4c82", "hidden": false, "page": "279", "publicationId": "7d63-5df4-c656-52de"},
       {"name": "Armour", "id": "643a-1012-bd51-6537", "hidden": false},
       {"name": "Asset", "id": "b720-ea51-7339-6a08", "hidden": false},
       {"name": "Command", "id": "6dbf-654a-f06f-2d69", "hidden": false},
@@ -38,12 +38,16 @@
         "name": "Command Model Sub-type",
         "id": "9871-cb62-5283-2216",
         "hidden": false,
+        "page": "176",
+        "publicationId": "7d63-5df4-c656-52de",
         "rules": [
           {
             "name": "Command Sub-Type",
             "id": "2126-084e-d5d1-9cca",
             "description": "The following Rules apply to all Models with the Command Sub-Type:\n- A Model with the Command Sub-Type may join and leave Units (see page 180).\n- A Model with the Command Sub-Type may Issue and Accept Challenges (see the Rules for Challenges on page 256).\n- The Controlling Player of a Unit that includes one or more Models with the Command Sub-Type may use the Characteristics of one of those Models to resolve any Characteristics Checks made for that Unit.",
             "hidden": false,
+            "page": "176",
+            "publicationId": "7d63-5df4-c656-52de",
             "alias": ["Command"]
           }
         ]
@@ -52,6 +56,8 @@
         "name": "Unique Model Sub-Type",
         "id": "b980-187b-2b17-d635",
         "hidden": false,
+        "page": "176",
+        "publicationId": "7d63-5df4-c656-52de",
         "rules": [
           {
             "name": "Unique Sub-Type",
@@ -99,6 +105,8 @@
         "name": "Sergeant Model Sub-Type",
         "id": "8045-89a4-76d4-fcef",
         "hidden": false,
+        "page": "177",
+        "publicationId": "7d63-5df4-c656-52de",
         "rules": [
           {
             "name": "Sergeant Sub-Type",
@@ -115,6 +123,8 @@
         "name": "Heavy Model Sub-Type",
         "id": "1e7d-9066-28d2-97a0",
         "hidden": false,
+        "page": "177",
+        "publicationId": "7d63-5df4-c656-52de",
         "rules": [
           {
             "name": "Heavy Sub-Type",
@@ -1139,6 +1149,8 @@
         "id": "8562-592c-8d4b-a1f0",
         "childForcesLabel": "Detachments",
         "hidden": false,
+        "page": "284",
+        "publicationId": "7d63-5df4-c656-52de",
         "sortIndex": 2,
         "categoryLinks": [
           {
@@ -1211,7 +1223,7 @@
             "field": "394e-d166-d4e5-022a",
             "includeChildForces": true,
             "includeChildSelections": true,
-            "scope": "roster",
+            "scope": "self",
             "shared": true,
             "type": "min",
             "value": 1
@@ -1222,6 +1234,8 @@
             "name": "Primary - Crusade Primary Detachment",
             "id": "8f12-c30a-6c20-6296",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -4382,6 +4396,8 @@
                 "name": "Crusade Primary Detachment",
                 "id": "3d0e-30f3-0b4f-ca89",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 High Command\n3 Command (1 Prime)\n4 Troops (1 Prime)\n4 Transports", "typeId": "ec3f-877b-f887-18b2"}]
@@ -4392,6 +4408,8 @@
             "name": "Warlord Detachment",
             "id": "50c3-ba24-7471-3d32",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 3,
             "categoryLinks": [
               {
@@ -4755,6 +4773,8 @@
                 "name": "Warlord Detachment",
                 "id": "2ca6-02a4-594d-298a",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Warlord\n1 Retinue\n1 Heavy Transport", "typeId": "ec3f-877b-f887-18b2"}]
@@ -4765,6 +4785,8 @@
             "name": "Auxiliary - Armoured Fist",
             "id": "cc51-fdce-8a34-dbcf",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 4,
             "categoryLinks": [
               {
@@ -5511,6 +5533,8 @@
                 "name": "Auxiliary - Armoured Fist",
                 "id": "2b3a-0641-7d2a-cd11",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Transport\n4 Heavy Transport", "typeId": "ec3f-877b-f887-18b2"}]
@@ -5521,6 +5545,8 @@
             "name": "Auxiliary - Tactical Support",
             "id": "2965-5682-3cbc-8b47",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 5,
             "categoryLinks": [
               {
@@ -6314,6 +6340,8 @@
                 "name": "Auxiliary - Tactical Support",
                 "id": "de6f-2661-5fa5-d9a8",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops\n2 Support", "typeId": "ec3f-877b-f887-18b2"}]
@@ -6324,6 +6352,8 @@
             "name": "Auxiliary - Armoured Support",
             "id": "4a2f-ac9e-195e-77cf",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 6,
             "categoryLinks": [
               {
@@ -6956,6 +6986,8 @@
                 "name": "Auxiliary - Armoured Support",
                 "id": "9792-86ef-a0e8-cc75",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Armour", "typeId": "ec3f-877b-f887-18b2"}]
@@ -6966,6 +6998,8 @@
             "name": "Auxiliary - Heavy Support",
             "id": "bd1f-82a0-abd4-cd56",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 7,
             "categoryLinks": [
               {
@@ -7576,6 +7610,8 @@
                 "name": "Auxiliary - Heavy Support",
                 "id": "8619-896f-cdd5-da60",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 War-engine", "typeId": "ec3f-877b-f887-18b2"}]
@@ -7586,6 +7622,8 @@
             "name": "Auxiliary - Combat Pioneer",
             "id": "edf5-6891-81d8-6309",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 8,
             "categoryLinks": [
               {
@@ -8212,6 +8250,8 @@
                 "name": "Auxiliary - Combat Pioneer",
                 "id": "e02b-8965-7b63-1a62",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Recon", "typeId": "ec3f-877b-f887-18b2"}]
@@ -8222,6 +8262,8 @@
             "name": "Auxiliary - Shock Assault",
             "id": "c9a5-3069-920b-32f1",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 9,
             "categoryLinks": [
               {
@@ -8843,6 +8885,8 @@
                 "name": "Auxiliary - Shock Assault",
                 "id": "9085-72d8-ea6d-6231",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Heavy Assault", "typeId": "ec3f-877b-f887-18b2"}]
@@ -8853,6 +8897,8 @@
             "name": "Auxiliary - First Strike",
             "id": "c444-8242-d3fc-b5b0",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 10,
             "categoryLinks": [
               {
@@ -9482,6 +9528,8 @@
                 "name": "Auxiliary - First Strike",
                 "id": "8dd7-7387-bab5-34a5",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Fast Attack", "typeId": "ec3f-877b-f887-18b2"}]
@@ -9492,6 +9540,8 @@
             "name": "Apex - Combat Retinue",
             "id": "7203-426e-7a82-0b01",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 11,
             "categoryLinks": [
               {
@@ -10342,6 +10392,8 @@
                 "name": "Apex - Combat Retinue",
                 "id": "3c2b-bcf6-b4ad-42ff",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Retinue (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -10352,6 +10404,8 @@
             "name": "Apex - Officer Cadre",
             "id": "90b7-c0fa-a9e1-6765",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 12,
             "categoryLinks": [
               {
@@ -12037,6 +12091,8 @@
                 "name": "Apex - Officer Cadre",
                 "id": "67ed-2fc3-acd9-2bb1",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Command (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -12047,6 +12103,8 @@
             "name": "Apex - Army Vanguard",
             "id": "0690-c05e-c301-f595",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 13,
             "categoryLinks": [
               {
@@ -12897,6 +12955,8 @@
                 "name": "Apex - Army Vanguard",
                 "id": "bacb-13a1-e8b7-0dfa",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Elites (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -12908,6 +12968,8 @@
             "id": "b86b-981d-9aab-5675",
             "comment": "EC Only",
             "hidden": true,
+            "page": "127",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 70,
             "categoryLinks": [
               {
@@ -13056,6 +13118,8 @@
                 "name": "Auxiliary - Primacy Wing",
                 "id": "672e-fb27-334e-a144",
                 "hidden": false,
+                "page": "127",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Recon\n1 Elites\n2 Fast Attack", "typeId": "ec3f-877b-f887-18b2"}]
@@ -13067,6 +13131,8 @@
             "id": "59b8-2183-4bab-b91c",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "16",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 14,
             "categoryLinks": [
               {
@@ -13288,6 +13354,8 @@
                 "name": "Auxiliary - Taghmata Cohort",
                 "id": "4eb6-edc4-aec3-1880",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Support", "typeId": "ec3f-877b-f887-18b2"}]
@@ -13299,6 +13367,8 @@
             "id": "6e73-e03d-9ae7-fd33",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "16",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 15,
             "categoryLinks": [
               {
@@ -13811,6 +13881,8 @@
                 "name": "Auxiliary - Apprentice Cadre",
                 "id": "5991-5729-dfb1-9b81",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Troops (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -13822,6 +13894,8 @@
             "id": "0594-4b9b-675b-f633",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "45",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 16,
             "categoryLinks": [
               {
@@ -14331,6 +14405,8 @@
                 "name": "Apex - The Heart of Power",
                 "id": "b720-5de6-6787-e015",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -14348,6 +14424,8 @@
             "id": "dbe3-9946-d4de-dc73",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "46",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 17,
             "categoryLinks": [
               {
@@ -14868,6 +14946,8 @@
                 "name": "Apex - Command Maniple",
                 "id": "cc79-587f-c558-08eb",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -14885,6 +14965,8 @@
             "id": "d5e2-3162-f591-6a81",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "47",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 18,
             "categoryLinks": [
               {
@@ -15415,6 +15497,8 @@
                 "name": "Apex - The Panoply of Cruelty",
                 "id": "f02e-0041-453f-d6a6",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Heavy Assault (3 Prime)\nOnly Ursurax Cohort", "typeId": "ec3f-877b-f887-18b2"}]
@@ -15426,6 +15510,8 @@
             "id": "1db9-6dc0-7da5-e517",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "48",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 19,
             "categoryLinks": [
               {
@@ -15956,6 +16042,8 @@
                 "name": "Apex - The Host of Destruction",
                 "id": "f1cb-2ba4-312f-394a",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Elites (1 Prime)\nOnly units with the Myrmidax trait", "typeId": "ec3f-877b-f887-18b2"}]
@@ -15967,6 +16055,8 @@
             "id": "4f19-3023-0077-1049",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "49",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 20,
             "categoryLinks": [
               {
@@ -16206,6 +16296,8 @@
                 "name": "Apex - Crux of Judgement",
                 "id": "8748-508c-334e-293b",
                 "hidden": false,
+                "page": "49",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -16223,6 +16315,8 @@
             "id": "a782-7985-325b-1840",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "50",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 21,
             "categoryLinks": [
               {
@@ -16727,6 +16821,8 @@
                 "name": "Apex - Iron Phalanx",
                 "id": "c8c3-77a8-88ac-f84d",
                 "hidden": false,
+                "page": "50",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -16744,6 +16840,8 @@
             "id": "7f03-c1a3-d883-8a98",
             "comment": "Mechanicum only",
             "hidden": true,
+            "page": "51",
+            "publicationId": "4dc3-3347-238d-99b5",
             "sortIndex": 22,
             "categoryLinks": [
               {
@@ -17287,6 +17385,8 @@
                 "name": "Apex - Thallax Command Cohort",
                 "id": "5094-e622-2c12-b34d",
                 "hidden": false,
+                "page": "51",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Support (3 Prime)\nThallax Cohorts only, must include a Praetorian", "typeId": "ec3f-877b-f887-18b2"}]
@@ -17298,6 +17398,8 @@
             "id": "1d3d-a6b8-94d8-443b",
             "comment": "IW Only",
             "hidden": true,
+            "page": "149",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 72,
             "categoryLinks": [
               {
@@ -17708,6 +17810,8 @@
                 "name": "Apex - The Hammer of Olympia",
                 "id": "57dd-6849-d6bb-7d28",
                 "hidden": false,
+                "page": "149",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -17725,6 +17829,8 @@
             "id": "5bc5-5224-c751-d437",
             "comment": "IW Only",
             "hidden": true,
+            "page": "149",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 71,
             "categoryLinks": [
               {
@@ -18114,6 +18220,8 @@
                 "name": "Auxiliary - The Ironfire Cohort",
                 "id": "6542-aa68-f0e2-e7db",
                 "hidden": false,
+                "page": "149",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Armour (1 Prime)\n2 Support\nArmour must be Arquitor Bombard units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -18125,6 +18233,8 @@
             "id": "3b60-24c1-dccc-23db",
             "comment": "DG Only",
             "hidden": true,
+            "page": "203",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 77,
             "categoryLinks": [
               {
@@ -18508,6 +18618,8 @@
                 "name": "Auxiliary - Reaping Host",
                 "id": "ab57-64ac-ce3b-d7ee",
                 "hidden": false,
+                "page": "203",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -18525,6 +18637,8 @@
             "id": "1da1-f220-0bad-5f78",
             "comment": "UM Only",
             "hidden": true,
+            "page": "247",
+            "publicationId": "b905-0414-1057-bb34",
             "sortIndex": 62,
             "categoryLinks": [
               {
@@ -19078,6 +19192,8 @@
                 "name": "Auxiliary - Primus Demi-Company",
                 "id": "e111-1255-0e05-f390",
                 "hidden": false,
+                "page": "247",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Command (1 Prime)\n2 Troops\n1 Support\n1 Fast Attack\nCommand must be Optae", "typeId": "ec3f-877b-f887-18b2"}]
@@ -19089,6 +19205,8 @@
             "id": "e1a1-2699-4681-47ab",
             "comment": "SA Only",
             "hidden": true,
+            "page": "18",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 30,
             "categoryLinks": [
               {
@@ -19493,6 +19611,8 @@
                 "name": "Auxiliary - Veletaris Tercio",
                 "id": "f0b1-0028-7052-8c85",
                 "hidden": false,
+                "page": "18",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -19510,6 +19630,8 @@
             "id": "6aff-b91d-02bb-7461",
             "comment": "SA Only",
             "hidden": true,
+            "page": "19",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 31,
             "categoryLinks": [
               {
@@ -19634,6 +19756,8 @@
                 "name": "Auxiliary - Armour Tercio",
                 "id": "3e9c-1d41-5f85-5195",
                 "hidden": false,
+                "page": "19",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -19651,6 +19775,8 @@
             "id": "371d-e9ef-7bf9-47de",
             "comment": "SA Only",
             "hidden": true,
+            "page": "19",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 32,
             "categoryLinks": [
               {
@@ -19775,6 +19901,8 @@
                 "name": "Auxiliary - Artillery Tercio",
                 "id": "161a-bd9a-d378-e967",
                 "hidden": false,
+                "page": "19",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -19792,6 +19920,8 @@
             "id": "243b-4ffd-9808-11d8",
             "comment": "SA Only",
             "hidden": true,
+            "page": "18",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 33,
             "categoryLinks": [
               {
@@ -20196,6 +20326,8 @@
                 "name": "Auxiliary - Infantry Tercio",
                 "id": "4562-6255-52f6-32a1",
                 "hidden": false,
+                "page": "18",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -20213,6 +20345,8 @@
             "id": "551a-23a1-7758-2688",
             "comment": "SA Only",
             "hidden": true,
+            "page": "19",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 34,
             "categoryLinks": [
               {
@@ -20351,6 +20485,8 @@
                 "name": "Auxiliary - Scout Tercio",
                 "id": "6989-ee49-8312-8daa",
                 "hidden": false,
+                "page": "19",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -20779,6 +20915,8 @@
                 "name": "Auxiliary - Chogorian Warband",
                 "id": "7542-8f2e-5846-cbfc",
                 "hidden": false,
+                "page": "147",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -21222,6 +21360,8 @@
                 "name": "Apex - Medusan Vanguard",
                 "id": "80a4-f7f4-423b-88ff",
                 "hidden": false,
+                "page": "231",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -21239,6 +21379,8 @@
             "id": "8fe1-7b62-49cf-479b",
             "comment": "NL",
             "hidden": true,
+            "page": "165",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 73,
             "categoryLinks": [
               {
@@ -21627,6 +21769,8 @@
                 "name": "Auxiliary - Terror Assault",
                 "id": "f340-29bf-3a12-c719",
                 "hidden": false,
+                "page": "165",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops (1 Prime)\n2 Fast Attack\nTroops must be Terror Squad units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -21638,6 +21782,8 @@
             "id": "dbbe-886f-3ce1-13c0",
             "comment": "NL - But no Logistical Benefit Prime Advantage",
             "hidden": true,
+            "page": "165",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 74,
             "categoryLinks": [
               {
@@ -21755,6 +21901,8 @@
                 "name": "Apex - Atramentar Hunt",
                 "id": "ede7-df64-3066-5b4f",
                 "hidden": false,
+                "page": "165",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -21772,6 +21920,8 @@
             "id": "bda6-c5d3-eafc-4eb5",
             "comment": "WE",
             "hidden": true,
+            "page": "183",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 75,
             "categoryLinks": [
               {
@@ -22171,6 +22321,8 @@
                 "name": "Auxiliary - Berserker Cadre",
                 "id": "bc9e-fd40-3b7a-536b",
                 "hidden": false,
+                "page": "183",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -22578,6 +22730,8 @@
                 "name": "Auxiliary - Bloodied Claw",
                 "id": "0f99-bf77-0aa5-472b",
                 "hidden": false,
+                "page": "167",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops (1 Prime)\n2 Heavy Assault\nTroops must be Grey Slayer units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -22979,6 +23133,8 @@
                 "name": "Auxiliary - Revelation Host",
                 "id": "6be1-9c79-9e96-8765",
                 "hidden": false,
+                "page": "211",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -22996,6 +23152,8 @@
             "id": "9bfb-c160-31df-9108",
             "comment": "WE",
             "hidden": true,
+            "page": "185",
+            "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 76,
             "categoryLinks": [
               {
@@ -23401,6 +23559,8 @@
                 "name": "Auxiliary - Sons of Bodt",
                 "id": "75be-9fdc-9268-507f",
                 "hidden": false,
+                "page": "185",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Support (2 Prime)\n3 Troops\nSupport must be Apothecary units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -23545,6 +23705,8 @@
                 "name": "Auxiliary - Spearhead Phalanx",
                 "id": "cadb-3107-445a-7e18",
                 "hidden": false,
+                "page": "231",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -23946,6 +24108,8 @@
                 "name": "Auxiliary - Supremacy Cadre",
                 "id": "e5dd-91bc-153a-557c",
                 "hidden": false,
+                "page": "249",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops (2 Prime)\n1 Heavy Assault\n1 Elites", "typeId": "ec3f-877b-f887-18b2"}]
@@ -24348,6 +24512,8 @@
                 "name": "Auxiliary - Stormwing Muster",
                 "id": "f51c-e26d-4ca6-817c",
                 "hidden": false,
+                "page": "128",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops (2 Prime)\n2 Transport", "typeId": "ec3f-877b-f887-18b2"}]
@@ -24744,6 +24910,8 @@
                 "name": "Auxiliary - Deathwing Conclave",
                 "id": "ea18-0464-9cb1-3a9a",
                 "hidden": false,
+                "page": "128",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Retinue (1 Prime)\n1 Elites\n1 Heavy Assault", "typeId": "ec3f-877b-f887-18b2"}]
@@ -25146,6 +25314,8 @@
                 "name": "Auxiliary - Ravenwing Lance",
                 "id": "398b-f105-6a08-4689",
                 "hidden": false,
+                "page": "128",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Fast Attack (1 Prime)\n2 Recon\nRecon must be Outrider Squadron units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -25548,6 +25718,8 @@
                 "name": "Auxiliary - Firewing Echelon",
                 "id": "b10c-b37e-de9f-7313",
                 "hidden": false,
+                "page": "128",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Recon (1 Prime)\n2 Elites\nElites must be Seeker Squad units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -25679,6 +25851,8 @@
                 "name": "Auxiliary - Ironwing Gauntlet",
                 "id": "6035-f8a5-6521-db9f",
                 "hidden": false,
+                "page": "127",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Heavy Transport\n2 Armour", "typeId": "ec3f-877b-f887-18b2"}]
@@ -26087,6 +26261,8 @@
                 "name": "Auxiliary - Dreadwing Cadre",
                 "id": "69ce-1506-df80-0ca0",
                 "hidden": false,
+                "page": "127",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Support (1 Prime)\nMust be Dreadwing Interemptor or Rapier Battery units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -26482,6 +26658,8 @@
                 "name": "Auxiliary - Siege Gauntlet",
                 "id": "f9c6-8c2b-953e-4df1",
                 "hidden": false,
+                "page": "187",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -26888,6 +27066,8 @@
                 "name": "Auxiliary - Immolation Covenant",
                 "id": "b8f9-2e31-caff-0940",
                 "hidden": false,
+                "page": "265",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Support (1 Prime)\n2 Armour\nArmour must be Predator or Vindicator units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -27018,6 +27198,8 @@
                 "name": "Auxiliary - Decapitation Cadre",
                 "id": "4c10-86a8-4326-a5cd",
                 "hidden": false,
+                "page": "265",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -27035,7 +27217,7 @@
             "id": "450b-0ca8-0beb-ff89",
             "comment": "TS",
             "hidden": true,
-            "page": 225,
+            "page": "219",
             "publicationId": "e54c-7040-0f35-d85d",
             "sortIndex": 78,
             "categoryLinks": [
@@ -27413,6 +27595,8 @@
                 "name": "Auxiliary - Prosperine Convocation",
                 "id": "36b7-d0fd-3dbf-f5bd",
                 "hidden": false,
+                "page": "219",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Troops (1 Prime)\n1 Fast Attack\n1 Elites\n1 Heavy Transport", "typeId": "ec3f-877b-f887-18b2"}]
@@ -27798,6 +27982,8 @@
                 "name": "Apex - Exalted Conclave",
                 "id": "0752-53a0-d424-bfd5",
                 "hidden": false,
+                "page": "273",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -28194,6 +28380,8 @@
                 "name": "Auxiliary - Headhunter Leviathal",
                 "id": "5d22-362d-b41e-10bb",
                 "hidden": false,
+                "page": "295",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -28625,6 +28813,8 @@
                 "name": "Auxiliary - Daemonic Manifestation",
                 "id": "ad12-fc53-77e8-f3a9",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Heavy Assault\nRequires Esoterist\nMust be Ruinstorm Daemon Brute units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -29170,6 +29360,8 @@
                 "name": "Auxiliary - Veteran Cadre",
                 "id": "21ca-4709-f4fd-8bb6",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Retinue\n1 Elites\n1 Heavy Transport\nRequires Legion Champion", "typeId": "ec3f-877b-f887-18b2"}]
@@ -29808,6 +30000,8 @@
                 "name": "Auxiliary - Apothecarion Delegation",
                 "id": "b93e-14ac-c8bd-ec57",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "6 Support\nMust select Apothecary units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -30424,6 +30618,8 @@
                 "name": "Auxiliary - Techmarine Covenant",
                 "id": "82c7-379a-f88d-d248",
                 "hidden": false,
+                "page": "17",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "6 Support\nMust select Techmarine units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -30938,6 +31134,8 @@
                 "name": "Auxiliary - Storm Battery",
                 "id": "6500-31b4-1df9-8040",
                 "hidden": false,
+                "page": "17",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -31623,6 +31821,8 @@
                 "name": "Auxiliary - Recon Demi-Company",
                 "id": "6e23-c06d-db93-08b2",
                 "hidden": false,
+                "page": "17",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -31640,6 +31840,8 @@
             "id": "9a10-a2d9-5a87-a5a9",
             "comment": "SA Only",
             "hidden": true,
+            "page": "16",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 35,
             "categoryLinks": [
               {
@@ -31733,6 +31935,8 @@
                 "name": "Auxiliary - Iron Tercio",
                 "id": "08e5-26be-4d97-a69b",
                 "hidden": false,
+                "page": "16",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -31758,6 +31962,8 @@
             "id": "2e50-319d-ae62-a50c",
             "comment": "Master of Descent only",
             "hidden": true,
+            "page": "45",
+            "publicationId": "10e2-87c7-4862-2cc4",
             "sortIndex": 82,
             "categoryLinks": [
               {
@@ -32413,6 +32619,8 @@
                 "name": "Auxiliary - Planetfall Speartip",
                 "id": "705d-cd68-dcc5-2010",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "10e2-87c7-4862-2cc4",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -34028,6 +34236,8 @@
             "name": "Auxiliary - Dreadnought Talon",
             "id": "9ffc-1414-bcb2-ca4b",
             "hidden": true,
+            "page": "57",
+            "publicationId": "5469-14da-d0a1-6092",
             "sortIndex": 23,
             "categoryLinks": [
               {
@@ -34353,6 +34563,8 @@
                 "name": "Auxiliary - Dreadnought Talon",
                 "id": "14d2-dab4-0166-523f",
                 "hidden": false,
+                "page": "57",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 War-Engine\nContemptor Dreadnoughts only\nRequires a Mortificator", "typeId": "ec3f-877b-f887-18b2"}]
@@ -34364,6 +34576,8 @@
             "id": "614d-275b-8366-4fff",
             "comment": "Miltia",
             "hidden": true,
+            "page": "10",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 83,
             "categoryLinks": [
               {
@@ -34702,6 +34916,8 @@
                 "name": "Apex - Grenadier Muster",
                 "id": "e103-931d-e423-9588",
                 "hidden": false,
+                "page": "10",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Elites (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -34713,6 +34929,8 @@
             "id": "50b1-d374-4295-96cf",
             "comment": "Miltia",
             "hidden": true,
+            "page": "10",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 84,
             "categoryLinks": [
               {
@@ -35051,6 +35269,8 @@
                 "name": "Apex - Ogryn Auxilia",
                 "id": "954f-eece-9405-882a",
                 "hidden": false,
+                "page": "10",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Heavy Assault (1 Prime)\nMust be Ogryn Brute Troop units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -35062,6 +35282,8 @@
             "id": "d109-bc0b-dd89-99a6",
             "comment": "Militia",
             "hidden": true,
+            "page": "10",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 85,
             "categoryLinks": [
               {
@@ -35392,6 +35614,8 @@
                 "name": "Apex - Infantry Cohort",
                 "id": "dda8-1ca1-f41d-d3d3",
                 "hidden": false,
+                "page": "10",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Troops (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -35403,6 +35627,8 @@
             "id": "860c-8228-4165-d760",
             "comment": "Militia - need to fix for no Medicae",
             "hidden": true,
+            "page": "10",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 86,
             "categoryLinks": [
               {
@@ -35741,6 +35967,8 @@
                 "name": "Apex - Artillery Division",
                 "id": "9ab4-b4fb-a93d-5e4d",
                 "hidden": false,
+                "page": "10",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Support (1 Prime)\nMust be NOT be Militia Medicae units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -35752,6 +35980,8 @@
             "id": "a611-ff21-3714-48e6",
             "comment": "Militia",
             "hidden": true,
+            "page": "11",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 87,
             "categoryLinks": [
               {
@@ -36090,6 +36320,8 @@
                 "name": "Apex - Cavalry Wing",
                 "id": "ba92-39f3-7cdf-0908",
                 "hidden": false,
+                "page": "11",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Recon (1 Prime)\nMust be Cavalry Troop units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -36101,6 +36333,8 @@
             "id": "388d-f480-70ab-8bed",
             "comment": "Militia",
             "hidden": true,
+            "page": "11",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 88,
             "categoryLinks": [
               {
@@ -36175,6 +36409,8 @@
                 "name": "Apex - Armoured Phalanx",
                 "id": "6cb8-64e8-596d-c6f4",
                 "hidden": false,
+                "page": "11",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "8 Armour", "typeId": "ec3f-877b-f887-18b2"}]
@@ -36186,8 +36422,8 @@
             "id": "2291-5e67-64bd-5edc",
             "comment": "Miltia",
             "hidden": true,
-            "page": 16,
-            "publicationId": "e54c-7040-0f35-d85d",
+            "page": "11",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 89,
             "categoryLinks": [
               {
@@ -36249,6 +36485,8 @@
                 "name": "Auxiliary - Oversight Delegation",
                 "id": "0f3e-f423-f4ae-0b81",
                 "hidden": false,
+                "page": "11",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 Command\n4 Support\nSupport must be Militia Medicae units", "typeId": "ec3f-877b-f887-18b2"}]
@@ -36260,6 +36498,8 @@
             "id": "36f3-796e-8f6d-3cb8",
             "comment": "Militia",
             "hidden": true,
+            "page": "11",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 90,
             "categoryLinks": [
               {
@@ -36315,6 +36555,8 @@
                 "name": "Auxiliary - Storm Cadre",
                 "id": "38f9-2311-e741-4d02",
                 "hidden": false,
+                "page": "11",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Elites", "typeId": "ec3f-877b-f887-18b2"}]
@@ -36326,6 +36568,8 @@
             "id": "2733-cda6-ff04-1d79",
             "comment": "Miltia",
             "hidden": true,
+            "page": "11",
+            "publicationId": "a5ca-d2f8-fa5a-c120",
             "sortIndex": 91,
             "categoryLinks": [
               {
@@ -36395,6 +36639,8 @@
                 "name": "Auxiliary - Daemonic Manifestation",
                 "id": "3dba-6c53-8672-2185",
                 "hidden": false,
+                "page": "11",
+                "publicationId": "a5ca-d2f8-fa5a-c120",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -36411,6 +36657,8 @@
             "name": "Apex - Linebreaker Echelon (Saturnine)",
             "id": "aafc-1a40-350a-5434",
             "hidden": true,
+            "page": "44",
+            "publicationId": "651c-de51-f503-188e",
             "sortIndex": 92,
             "categoryLinks": [
               {
@@ -37142,6 +37390,8 @@
                 "name": "Apex - Linebreaker Echelon (Saturnine)",
                 "id": "b91c-e279-b0a2-5256",
                 "hidden": false,
+                "page": "44",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -37158,6 +37408,8 @@
             "name": "Apex - Linebreaker Echelon (Cataphractii)",
             "id": "d7b3-5d00-8524-73fa",
             "hidden": true,
+            "page": "44",
+            "publicationId": "651c-de51-f503-188e",
             "sortIndex": 93,
             "categoryLinks": [
               {
@@ -37910,6 +38162,8 @@
                 "name": "Apex - Linebreaker Echelon (Cataphractii)",
                 "id": "8ead-715e-f6c9-a666",
                 "hidden": false,
+                "page": "44",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -37926,6 +38180,8 @@
             "name": "Apex - Linebreaker Echelon (Tartaros)",
             "id": "dd35-dc84-98ac-237d",
             "hidden": true,
+            "page": "44",
+            "publicationId": "651c-de51-f503-188e",
             "sortIndex": 94,
             "categoryLinks": [
               {
@@ -38657,6 +38913,8 @@
                 "name": "Apex - Linebreaker Echelon (Tartaros)",
                 "id": "9433-bcea-9023-d01d",
                 "hidden": false,
+                "page": "44",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -38673,6 +38931,8 @@
             "name": "Auxiliary - Maelstrom Sentry Battery",
             "id": "07f0-6f5f-59f4-f95f",
             "hidden": true,
+            "page": "44",
+            "publicationId": "651c-de51-f503-188e",
             "sortIndex": 95,
             "categoryLinks": [
               {
@@ -39350,6 +39610,8 @@
                 "name": "Auxiliary - Maelstrom Sentry Battery",
                 "id": "dd31-b17d-e816-a661",
                 "hidden": false,
+                "page": "44",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -39367,6 +39629,8 @@
             "id": "0b43-afde-9f1b-307e",
             "comment": "Custodes only",
             "hidden": true,
+            "page": "22",
+            "publicationId": "da4e-9dbd-5ed9-a0e5",
             "sortIndex": 97,
             "categoryLinks": [
               {
@@ -39707,6 +39971,8 @@
                 "name": "Apex - Moritoi Convocation",
                 "id": "4eeb-9cc0-ea64-0c01",
                 "hidden": false,
+                "page": "22",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 War-engine (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -39718,6 +39984,8 @@
             "id": "7fdf-9f23-ceee-41cc",
             "comment": "Custodes only",
             "hidden": true,
+            "page": "22",
+            "publicationId": "da4e-9dbd-5ed9-a0e5",
             "sortIndex": 98,
             "categoryLinks": [
               {
@@ -40052,6 +40320,8 @@
                 "name": "Auxiliary - Hykanatoi Convocation",
                 "id": "7f59-b841-823a-3d6a",
                 "hidden": false,
+                "page": "22",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Troops (1 Prime)\n1 Heavy Transport", "typeId": "ec3f-877b-f887-18b2"}]
@@ -40063,6 +40333,8 @@
             "id": "6da2-db78-0174-d0b1",
             "comment": "Custodes only",
             "hidden": true,
+            "page": "23",
+            "publicationId": "da4e-9dbd-5ed9-a0e5",
             "sortIndex": 99,
             "categoryLinks": [
               {
@@ -40403,6 +40675,8 @@
                 "name": "Auxiliary - Tharanatoi Convocation",
                 "id": "d531-ce49-19fa-3123",
                 "hidden": false,
+                "page": "23",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Heavy Assault (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -40414,6 +40688,8 @@
             "id": "f226-fdc7-a249-e980",
             "comment": "Custodes only",
             "hidden": true,
+            "page": "23",
+            "publicationId": "da4e-9dbd-5ed9-a0e5",
             "sortIndex": 100,
             "categoryLinks": [
               {
@@ -40754,6 +41030,8 @@
                 "name": "Auxiliary - Ephoroi Convocation",
                 "id": "2bb6-a8cc-bd80-3f1e",
                 "hidden": false,
+                "page": "23",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Recon (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -40765,6 +41043,8 @@
             "id": "750e-bcb0-0a41-3731",
             "comment": "Custodes only",
             "hidden": true,
+            "page": "23",
+            "publicationId": "da4e-9dbd-5ed9-a0e5",
             "sortIndex": 101,
             "categoryLinks": [
               {
@@ -41093,6 +41373,8 @@
                 "name": "Auxiliary - Kataphractoi Convocation",
                 "id": "4c60-336f-bb1b-2012",
                 "hidden": false,
+                "page": "23",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "2 Fast Attack (1 Prime)\n1 Heavy Transport\n1 Armour", "typeId": "ec3f-877b-f887-18b2"}]
@@ -41103,6 +41385,8 @@
             "name": "Apex - Leviathan Armoured Fist",
             "id": "d70e-7c57-6788-4adc",
             "hidden": true,
+            "page": "36",
+            "publicationId": "8f40-03eb-b2db-6054",
             "sortIndex": 102,
             "categoryLinks": [
               {
@@ -41424,6 +41708,8 @@
                 "name": "Apex - Leviathan Armoured Fist",
                 "id": "487b-ac6b-6e2c-31aa",
                 "hidden": false,
+                "page": "36",
+                "publicationId": "8f40-03eb-b2db-6054",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Lord of War\nDetachment can only be used in Leviathan Missions", "typeId": "ec3f-877b-f887-18b2"}]
@@ -41434,6 +41720,8 @@
             "name": "Apex - Leviathan Bastion of Fire",
             "id": "f55b-750d-fc70-6618",
             "hidden": true,
+            "page": "36",
+            "publicationId": "8f40-03eb-b2db-6054",
             "sortIndex": 103,
             "categoryLinks": [
               {
@@ -42071,6 +42359,8 @@
                 "name": "Apex - Leviathan Bastion of Fire",
                 "id": "9f33-793e-0c5b-3022",
                 "hidden": false,
+                "page": "36",
+                "publicationId": "8f40-03eb-b2db-6054",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "3 Support (1 Prime)\nDetachment can only be used in Leviathan Missions", "typeId": "ec3f-877b-f887-18b2"}]
@@ -42081,6 +42371,8 @@
             "name": "Apex - Armoured Command Squadron Detachment",
             "id": "3be1-161a-ee6d-24e0",
             "hidden": true,
+            "page": "34",
+            "publicationId": "0eca-ceab-6bad-9248",
             "sortIndex": 105,
             "categoryLinks": [
               {
@@ -42417,6 +42709,8 @@
                 "name": "Apex - Armoured Command Squadron Detachment",
                 "id": "5d19-d071-52b1-485f",
                 "hidden": false,
+                "page": "34",
+                "publicationId": "0eca-ceab-6bad-9248",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -42433,6 +42727,8 @@
             "name": "Auxiliary - Tank Commander Armoured Support",
             "id": "3624-6932-6197-19af",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 6,
             "categoryLinks": [
               {
@@ -42846,17 +43142,6 @@
                     "value": 0
                   },
                   {
-                    "childId": "6f9b-3d99-7ecd-3214",
-                    "childName": "Primary - Armoured Spearhead",
-                    "field": "forces",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "equalTo",
-                    "value": 0
-                  },
-                  {
                     "childId": "3796-6952-fa80-ff9d",
                     "childName": "Primary - Orbital Drop Assault",
                     "field": "forces",
@@ -43108,6 +43393,8 @@
                 "name": "Auxiliary - Tank Commander Armoured Support",
                 "id": "97e3-2d9c-df9a-346f",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "4 Armour", "typeId": "ec3f-877b-f887-18b2"}]
@@ -43119,6 +43406,8 @@
             "id": "aaa3-8a14-38ef-34e6",
             "comment": "SA Tank Commander Only",
             "hidden": true,
+            "page": "19",
+            "publicationId": "adda-966f-f129-ed26",
             "sortIndex": 31,
             "categoryLinks": [
               {
@@ -43207,6 +43496,8 @@
                 "name": "Auxiliary - Tank Commander Armour Tercio",
                 "id": "f5b9-8973-ecb5-8605",
                 "hidden": false,
+                "page": "19",
+                "publicationId": "adda-966f-f129-ed26",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -43223,6 +43514,8 @@
             "name": "Auxiliary - Helot Tercio",
             "id": "fd11-7b79-aba3-4e16",
             "hidden": true,
+            "page": "36",
+            "publicationId": "523a-934d-6ec7-b26f",
             "sortIndex": 108,
             "categoryLinks": [
               {
@@ -43379,6 +43672,8 @@
                 "name": "Auxiliary - Helot Tercio",
                 "id": "244b-3399-1c18-d048",
                 "hidden": false,
+                "page": "36",
+                "publicationId": "523a-934d-6ec7-b26f",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -43395,6 +43690,8 @@
             "name": "Auxiliary - Ætheric Incursion Detachment",
             "id": "b88e-e21c-c5e2-80be",
             "hidden": true,
+            "page": "48",
+            "publicationId": "523a-934d-6ec7-b26f",
             "sortIndex": 110,
             "categoryLinks": [
               {
@@ -43564,6 +43861,8 @@
                 "name": "Auxiliary - Ætheric Incursion Detachment",
                 "id": "dfdb-afc6-5783-62bf",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "523a-934d-6ec7-b26f",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -43580,6 +43879,8 @@
             "name": "Auxiliary - Ætheric Incursion",
             "id": "6018-b4fb-d64a-4b42",
             "hidden": true,
+            "page": "39",
+            "publicationId": "523a-934d-6ec7-b26f",
             "sortIndex": 109,
             "categoryLinks": [
               {
@@ -43985,6 +44286,8 @@
                 "name": "Auxiliary - Ætheric Incursion",
                 "id": "b9ee-c20d-ce11-c21f",
                 "hidden": false,
+                "page": "39",
+                "publicationId": "523a-934d-6ec7-b26f",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -44003,7 +44306,7 @@
             "comment": "Traitor Legions Only, Esoterist",
             "hidden": true,
             "page": "38",
-            "publicationId": "e54c-7040-0f35-d85d",
+            "publicationId": "3e49-c51c-1b8d-fefe",
             "sortIndex": 111,
             "categoryLinks": [
               {
@@ -44367,6 +44670,8 @@
                 "name": "Auxiliary - Rapturous Host",
                 "id": "22c8-ea22-e652-1ace",
                 "hidden": false,
+                "page": "38",
+                "publicationId": "3e49-c51c-1b8d-fefe",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -44383,6 +44688,8 @@
             "name": "Auxiliary - Antemasque Detachment",
             "id": "4f41-6be7-41a2-13c4",
             "hidden": true,
+            "page": "48",
+            "publicationId": "3e49-c51c-1b8d-fefe",
             "sortIndex": 112,
             "categoryLinks": [
               {
@@ -44552,6 +44859,8 @@
                 "name": "Auxiliary - Antemasque Detachment",
                 "id": "91cf-63be-4009-cb5d",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "3e49-c51c-1b8d-fefe",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -44568,6 +44877,8 @@
             "name": "Primary - Pride of the Legion",
             "id": "b2af-ccde-ddd4-94a9",
             "hidden": true,
+            "page": "2",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -44740,7 +45051,10 @@
                 "hidden": false,
                 "targetId": "abff-3686-c39a-9a24",
                 "constraints": [{"id": "af81-0323-b509-ccee", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
-              }
+              },
+              {"name": "Master of Automata", "id": "f1ca-ed48-67c0-f442", "hidden": false, "targetId": "43f5-bc69-29b9-2286"},
+              {"name": "Lord of Automata", "id": "1c37-7bcb-7c64-3550", "hidden": false, "targetId": "3e59-3bcf-4bf8-d404"},
+              {"name": "Legiones Thallaxes", "id": "2da0-461b-c66f-ef9d", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
             ],
             "constraints": [
               {
@@ -44969,6 +45283,8 @@
             "name": "Primary - Fury of the Ancients",
             "id": "d0e2-3466-3567-4bcf",
             "hidden": true,
+            "page": "3",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -45028,7 +45344,10 @@
                 "targetId": "9699-67c9-2c0b-e64b",
                 "tracked": true,
                 "constraints": [{"id": "9338-c37e-2f7c-0014", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2}]
-              }
+              },
+              {"name": "Master of Automata", "id": "7431-b5de-9093-e9b5", "hidden": false, "targetId": "43f5-bc69-29b9-2286"},
+              {"name": "Lord of Automata", "id": "6ced-f382-dc7d-fe9e", "hidden": false, "targetId": "3e59-3bcf-4bf8-d404"},
+              {"name": "Legiones Thallaxes", "id": "cefd-a1ef-eceb-70f2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
             ],
             "constraints": [
               {
@@ -45257,6 +45576,8 @@
             "name": "Primary - Sky-Hunter Phalanx",
             "id": "04d9-b191-7ea7-d461",
             "hidden": true,
+            "page": "4",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -45411,7 +45732,8 @@
                     ]
                   }
                 ]
-              }
+              },
+              {"name": "Legiones Thallaxes", "id": "0ddd-218a-d0a2-4c2f", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
             ],
             "constraints": [
               {
@@ -45623,6 +45945,8 @@
                 "name": "Primary - Sky-Hunter Phalanx",
                 "id": "5bb3-6072-480d-c258",
                 "hidden": false,
+                "page": "4",
+                "publicationId": "4e8d-9c4c-93a6-aea2",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -45639,6 +45963,8 @@
             "name": "Primary - Armoured Spearhead",
             "id": "6f9b-3d99-7ecd-3214",
             "hidden": true,
+            "page": "5",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -45912,6 +46238,8 @@
             "name": "Primary - Orbital Drop Assault",
             "id": "3796-6952-fa80-ff9d",
             "hidden": true,
+            "page": "6",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -46337,7 +46665,8 @@
                 "hidden": false,
                 "targetId": "abff-3686-c39a-9a24",
                 "constraints": [{"id": "90cb-5ebe-3ebd-76b8", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
-              }
+              },
+              {"name": "Legiones Thallaxes", "id": "74f6-24ad-fe04-afe2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
             ],
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
@@ -46555,6 +46884,8 @@
             "name": "Cohorts Vagus Detachment",
             "id": "bd8e-7352-fbc9-a56d",
             "hidden": false,
+            "page": "42",
+            "publicationId": "0eca-ceab-6bad-9248",
             "sortIndex": 104,
             "targetId": "2dfc-259d-d11b-dc8b",
             "type": "forceEntry",
@@ -47907,6 +48238,8 @@
         "id": "256b-b8a8-017a-75e9",
         "childForcesLabel": "Detachments",
         "hidden": false,
+        "page": "284",
+        "publicationId": "7d63-5df4-c656-52de",
         "sortIndex": 3,
         "categoryLinks": [{"name": "Army Configuration", "id": "5c8b-9e7e-b8c7-00b4", "hidden": false, "targetId": "abfa-86ab-1726-077a"}],
         "constraints": [
@@ -47937,6 +48270,8 @@
             "name": "Allied Detachment",
             "id": "7469-bbd2-a2ad-f8a8",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -49693,6 +50028,251 @@
                     ]
                   }
                 ]
+              },
+              {
+                "field": "error",
+                "type": "add",
+                "value": "Allied detachment only allowed with Crusade Primary Detachment",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "comment": "DA",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "0a35-fce3-188c-b3aa", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "0a35-fce3-188c-b3aa", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "EC",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9a22-d01f-ab5c-ec07", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "9a22-d01f-ab5c-ec07", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "IW",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "21c0-18db-03dd-ae07", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "21c0-18db-03dd-ae07", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "WS",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "f7b4-2531-0962-1379", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "f7b4-2531-0962-1379", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "SW",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "d995-cb33-be41-ecf8", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "d995-cb33-be41-ecf8", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "WS",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "f7b4-2531-0962-1379", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "f7b4-2531-0962-1379", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "IF",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "d186-cffc-0950-f632", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "d186-cffc-0950-f632", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "NL",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "486f-b32a-ac87-73dd", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "486f-b32a-ac87-73dd", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "BA",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cff-ac34-56ca-260f", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "9cff-ac34-56ca-260f", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "IH",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "736e-3967-e72b-e3ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "736e-3967-e72b-e3ac", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "WE",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "a956-190d-3b47-6258", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "a956-190d-3b47-6258", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "UM",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "656a-07b6-d4fd-57af", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "656a-07b6-d4fd-57af", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "DG",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "be98-aa9d-64ef-f62c", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "be98-aa9d-64ef-f62c", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "TS",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "2496-21e2-1870-e9b8", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "2496-21e2-1870-e9b8", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "SH",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "ac06-fcec-b634-5bd9", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "ac06-fcec-b634-5bd9", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "WB",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "4935-1832-63f7-91aa", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "4935-1832-63f7-91aa", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "SL",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "f148-a6e4-5a8c-3aeb", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "f148-a6e4-5a8c-3aeb", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "RG",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "340c-1d4f-1f31-fb70", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "340c-1d4f-1f31-fb70", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "AL",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "8813-5298-c368-ee16", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "8813-5298-c368-ee16", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "Blackshields",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "comment": "Shattered Legions",
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "d0e2-3466-3567-4bcf",
+                            "childName": "Primary - Fury of the Ancients",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "b2af-ccde-ddd4-94a9",
+                            "childName": "Primary - Pride of the Legion",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "04d9-b191-7ea7-d461",
+                            "childName": "Primary - Sky-Hunter Phalanx",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "6f9b-3d99-7ecd-3214",
+                            "childName": "Primary - Armoured Spearhead",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "3796-6952-fa80-ff9d",
+                            "childName": "Primary - Orbital Drop Assault",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -49700,6 +50280,8 @@
                 "name": "Allied Detachment",
                 "id": "d8a3-dd98-876d-6d97",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -51703,6 +52285,8 @@
         "id": "b7a1-629f-9d60-c2a9",
         "childForcesLabel": "Detachments",
         "hidden": false,
+        "page": "284",
+        "publicationId": "7d63-5df4-c656-52de",
         "sortIndex": 4,
         "categoryLinks": [
           {
@@ -51772,7 +52356,6 @@
             "id": "88b5-0992-cef7-bb94",
             "hidden": true,
             "targetId": "657f-b4bf-b1bc-02e7",
-            "tracked": true,
             "constraints": [{"id": "fb2a-8e26-7576-0aa8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
             "modifiers": [
               {
@@ -52129,6 +52712,8 @@
             "name": "Lord of War Detachment",
             "id": "0949-4e14-81ab-de0c",
             "hidden": false,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "typeId": "7c4f-ca47-b489-3125",
             "typeName": "Detachment Description",
             "characteristics": [
@@ -52847,6 +53432,8 @@
         "name": "Cohorts Vagus Detachment",
         "id": "2dfc-259d-d11b-dc8b",
         "hidden": true,
+        "page": "42",
+        "publicationId": "0eca-ceab-6bad-9248",
         "categoryLinks": [
           {
             "name": "Prime Heavy Assault",
@@ -53117,6 +53704,8 @@
             "name": "Cohorts Vagus Detachment",
             "id": "b635-17b3-8637-4e01",
             "hidden": false,
+            "page": "42",
+            "publicationId": "0eca-ceab-6bad-9248",
             "typeId": "7c4f-ca47-b489-3125",
             "typeName": "Detachment Description",
             "characteristics": [
@@ -53134,6 +53723,7 @@
         "id": "0100-417d-f496-971d",
         "childForcesLabel": "Detachments",
         "hidden": false,
+        "publicationId": "c731-1e58-7a7f-930c",
         "categoryLinks": [
           {
             "name": "Allegiance",
@@ -53215,6 +53805,8 @@
             "name": "Primary - Zone Mortalis Strike Force",
             "id": "33cf-087a-39ee-2532",
             "hidden": true,
+            "page": "31",
+            "publicationId": "c731-1e58-7a7f-930c",
             "sortIndex": 2,
             "categoryLinks": [
               {
@@ -55072,6 +55664,8 @@
                 "name": "Primary - Zone Mortalis Strike Force",
                 "id": "8ada-f0b2-4cb5-df0c",
                 "hidden": false,
+                "page": "31",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 High Command\n1 Command\n4 Troops (1 Prime)\n2 Heavy Assault (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -55082,6 +55676,8 @@
             "name": "Primary - Zone Mortalis Bulwark",
             "id": "a4bf-9629-2065-4885",
             "hidden": true,
+            "page": "31",
+            "publicationId": "c731-1e58-7a7f-930c",
             "sortIndex": 3,
             "categoryLinks": [
               {
@@ -56944,6 +57540,8 @@
                 "name": "Primary - Zone Mortalis Bulwark",
                 "id": "e0c0-03e4-32b1-f337",
                 "hidden": false,
+                "page": "31",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [
@@ -56956,6 +57554,8 @@
             "name": "Primary - Zone Mortalis Linebreaker",
             "id": "e46a-e7a0-2dfe-66cf",
             "hidden": true,
+            "page": "31",
+            "publicationId": "c731-1e58-7a7f-930c",
             "sortIndex": 4,
             "categoryLinks": [
               {
@@ -58695,6 +59295,8 @@
                 "name": "Primary - Zone Mortalis Linebreaker",
                 "id": "966a-dcbe-2d30-c13d",
                 "hidden": false,
+                "page": "31",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 High Command\n1 Command\n2 Heavy Assault\n2 Troops\n2 Elites (1 Prime)", "typeId": "ec3f-877b-f887-18b2"}]
@@ -60312,6 +60914,8 @@
             "name": "Primary - Crusade Primary Detachment",
             "id": "1792-ddc3-0761-cccd",
             "hidden": true,
+            "page": "284",
+            "publicationId": "7d63-5df4-c656-52de",
             "sortIndex": 1,
             "categoryLinks": [
               {
@@ -63444,6 +64048,8 @@
                 "name": "Primary - Crusade Primary Detachment",
                 "id": "4805-88c3-d343-de8d",
                 "hidden": false,
+                "page": "284",
+                "publicationId": "7d63-5df4-c656-52de",
                 "typeId": "7c4f-ca47-b489-3125",
                 "typeName": "Detachment Description",
                 "characteristics": [{"name": "Detachment Composition", "$text": "1 High Command\n3 Command (1 Prime)\n4 Troops (1 Prime)\n4 Transports", "typeId": "ec3f-877b-f887-18b2"}]
@@ -65044,47 +65650,52 @@
     ],
     "publications": [
       {
-        "name": "Horus Heresy - 3rd Edition Core Rulebook",
+        "name": "Warhammer: The Horus Heresy - Age of Darkness Rulebook",
         "id": "7d63-5df4-c656-52de",
         "hidden": false,
         "publicationDate": "July 26, 2025",
-        "publisher": "Horus Heresy - 3rd Edition Core Rulebook",
+        "publisher": "Warhammer: The Horus Heresy - Age of Darkness Rulebook",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-age-of-darkness-rulebook-2025-eng",
         "shortName": "CRB 3.0"
       },
       {
-        "name": "Horus Heresy - Liber Astartes 3rd Edition",
+        "name": "Liber Astartes: Loyalist Legiones Astartes Army Book",
         "id": "b905-0414-1057-bb34",
         "hidden": false,
         "publicationDate": "July 26, 2025",
-        "publisher": "Horus Heresy - Liber Astartes 3rd Edition",
-        "shortName": "LA 3.0"
+        "publisher": "Liber Astartes: Loyalist Legiones Astartes ",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-astartes-2025-eng",
+        "shortName": "Astartes"
       },
       {
-        "name": "Horus Heresy - Liber Hereticus 3rd Edition",
+        "name": "Liber Hereticus: Traitor Legiones Astartes Army Book",
         "id": "e54c-7040-0f35-d85d",
         "hidden": false,
         "publicationDate": "July 26, 2025",
-        "publisher": "Horus Heresy - Liber Hereticus 3rd Edition",
-        "shortName": "LH 3.0"
+        "publisher": "Liber Hereticus: Traitor Legiones Astartes",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-hereticus-2025-eng",
+        "shortName": "Hereticus"
       },
       {
-        "name": "Horus Heresy - Liber Auxilia 3rd Edition",
+        "name": "Liber Auxilia: Solar Auxilia Army Book",
         "id": "adda-966f-f129-ed26",
         "hidden": false,
         "publicationDate": "July 26, 2025",
-        "publisher": "Horus Heresy - Liber Auxilia 3rd Edition",
-        "shortName": "LX 3.0"
+        "publisher": "Liber Auxilia: Solar Auxilia",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-auxilia-2025-eng",
+        "shortName": "Solar Auxilia"
       },
       {
-        "name": "Horus Heresy - Liber Questoris 3rd Edition",
+        "name": "Liber Questoris: Knights and Titans Army Book",
         "id": "5a4b-8b0e-caa6-c7ed",
         "hidden": false,
         "publicationDate": "July 26, 2025",
-        "publisher": "Horus Heresy - Liber Questoris 3rd Edition",
-        "shortName": "LQ 3.0"
+        "publisher": "Liber Questoris: Knights and Titans",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-questoris-2025-eng",
+        "shortName": "Questoris Knights"
       },
       {
-        "name": "Journal Tactica - The Isstvan V Dropsite Massacre (Part One)",
+        "name": "Journal Tactica: The Isstvan V Dropsite Massacre (Part One)",
         "id": "10e2-87c7-4862-2cc4",
         "hidden": false,
         "publicationDate": "July 26, 2025",
@@ -65095,27 +65706,34 @@
         "name": "Legacies of the Age of Darkness",
         "id": "5469-14da-d0a1-6092",
         "hidden": false,
-        "publicationDate": "August 4, 2025",
+        "publicationDate": "October 30th, 2025",
         "publisher": "Warhammer Community",
         "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
-        "shortName": "LAoD 3.0"
+        "shortName": "Legacies"
       },
       {
-        "name": "Legacies of the Age of Darkness: Talons of the Emperor",
+        "name": "Legacies of the Age of Darkness: Legio Custodes",
         "id": "09c6-1c1d-03a7-9556",
         "hidden": false,
-        "publicationDate": "July 25, 2025",
+        "publicationDate": "April 2nd, 2026",
         "publisher": "Warhammer Community",
         "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
-        "shortName": "TE: Legacies"
+        "shortName": "Legacies: Custodes"
       },
-      {"name": "Github", "id": "e0e7-6fcd-7ee7-448d", "hidden": false, "publisherUrl": "https://github.com/BSData/horus-heresy-3rd-edition", "shortName": "Github"},
-      {"name": "Horus Heresy - Liber Mechanicum 3rd Edition", "id": "4dc3-3347-238d-99b5", "hidden": false, "publicationDate": "July 26, 2025", "shortName": "LM 3.0"},
+      {
+        "name": "Liber Mechanicum : Forces of the Taghmata Army Book",
+        "id": "4dc3-3347-238d-99b5",
+        "hidden": false,
+        "publicationDate": "July 26, 2025",
+        "publisher": "Liber Mechanicum : Forces of the Taghmata",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-mechanicum-2025-eng",
+        "shortName": "Mechanicum"
+      },
       {
         "name": "Legacies of the Age of Darkness: The Imperialis Militia",
         "id": "a5ca-d2f8-fa5a-c120",
         "hidden": false,
-        "publicationDate": "August 28, 2025",
+        "publicationDate": "October 30th, 2025",
         "publisher": "Warhammer Community",
         "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
         "shortName": "Militia: Legacies"
@@ -65124,10 +65742,118 @@
         "name": "Legacies of the Age of Darkness: The Legiones Inductii",
         "id": "1cef-cfb8-32c9-a1f4",
         "hidden": false,
-        "publicationDate": "September 25th, 2025",
+        "publicationDate": "October 30th, 2025",
         "publisher": "Warhammer Community",
         "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
         "shortName": "Inductii"
+      },
+      {
+        "name": "Legacies of the Age of Darkness: Legiones Astartes: Blackshields",
+        "id": "59a2-2e27-256e-89e5",
+        "hidden": false,
+        "publicationDate": "Jan 14th, 2026",
+        "publisher": "Warhammer Commuity",
+        "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
+        "shortName": "Blackshields"
+      },
+      {
+        "name": "Legacies of the Age of Darkness: Daemons of the Ruinstorm",
+        "id": "d1b4-f252-0bf3-2163",
+        "hidden": false,
+        "publicationDate": "September 4th, 2025",
+        "publisher": "Warhammer Community",
+        "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
+        "shortName": "Daemons"
+      },
+      {
+        "name": "Legacies of the Age of Darkness: Shattered Legions",
+        "id": "ac76-4b88-ce47-128e",
+        "hidden": false,
+        "publicationDate": "October 23rd, 2025",
+        "publisher": "Warhammer Community",
+        "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
+        "shortName": "Shattered Legions"
+      },
+      {
+        "name": "Legiones Astartes Primary Detachments",
+        "id": "4e8d-9c4c-93a6-aea2",
+        "hidden": false,
+        "publicationDate": "November 11th, 2026",
+        "publisher": "Warhammer Community",
+        "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
+        "shortName": "Additional Primary Detachments"
+      },
+      {
+        "name": "Journal Tactica: The Forges of Saturn",
+        "id": "651c-de51-f503-188e",
+        "hidden": false,
+        "publicationDate": "October 4th, 2025",
+        "publisher": "Games Workshop",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-the-forges-of-saturn-eng-2025",
+        "shortName": "The Forges of Saturn"
+      },
+      {
+        "name": "Journal Tactica: The Battle for Signus Cluster - Assault on Kol",
+        "id": "3e49-c51c-1b8d-fefe",
+        "hidden": false,
+        "publicationDate": "October 17th, 2026",
+        "publisher": "Games Workshop",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-the-battle-for-the-signus-cluster-assault-on-kol-eng-pb-2026",
+        "shortName": "Assault on Kol"
+      },
+      {
+        "name": "Journal Tactica: Skitarii - The Steel Hand of Mars",
+        "id": "19d2-81e2-4215-702c",
+        "hidden": false,
+        "publicationDate": "January 31st, 2026",
+        "publisher": "Games Workshop",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-skitarii-steel-hand-of-mars-eng-sb-2026",
+        "shortName": "Skitarii"
+      },
+      {
+        "name": "Journal Tactica: Mailed Fist - Legiones Astartes Super Heavy Tanks",
+        "id": "8f40-03eb-b2db-6054",
+        "hidden": false,
+        "publicationDate": "April 4th, 2026",
+        "publisher": "Journal Tactica: Mailed Fist - Legiones Astartes Super Heavy Tanks",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-mailed-fist-2026-eng",
+        "shortName": "Mailed Fist"
+      },
+      {
+        "name": "Journal Tactica: The Battle of Tallarn – Part One",
+        "id": "0eca-ceab-6bad-9248",
+        "hidden": false,
+        "publicationDate": "May 16th, 2026",
+        "publisher": "Journal Tactica: The Battle of Tallarn – Part One",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-the-battle-of-tallarn-p1-2026-eng",
+        "shortName": "Tallarn"
+      },
+      {
+        "name": "Journal Tactica: Zone Mortalis",
+        "id": "c731-1e58-7a7f-930c",
+        "hidden": false,
+        "publicationDate": "July 11th, 2026",
+        "publisher": "Journal Tactica: Zone Mortalis",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-zone-mortalis-eng-2026",
+        "shortName": "ZM"
+      },
+      {
+        "name": "Journal Tactica: Prospero Burns – The Judgement Of Valdor",
+        "id": "523a-934d-6ec7-b26f",
+        "hidden": false,
+        "publicationDate": "September 12th, 2026",
+        "publisher": "Journal Tactica: Prospero Burns – The Judgement Of Valdor",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/journal-tactica-prospero-burns-judgement-of-valdor-eng-2026",
+        "shortName": "Prospero Burns"
+      },
+      {
+        "name": "Liber Custodes: The Forces of the Emperor Army Book",
+        "id": "da4e-9dbd-5ed9-a0e5",
+        "hidden": false,
+        "publicationDate": "April 4th, 2026",
+        "publisher": "Liber Custodes: The Forces of the Emperor",
+        "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-liber-custodes-2026-hb-eng",
+        "shortName": "Custodes"
       }
     ],
     "selectionEntries": [
@@ -65136,6 +65862,8 @@
         "id": "f775-2f81-bd18-2777",
         "hidden": false,
         "import": true,
+        "page": "279",
+        "publicationId": "7d63-5df4-c656-52de",
         "sortIndex": 1,
         "type": "upgrade",
         "categoryLinks": [{"name": "Allegiance", "id": "5a4a-744e-eecc-1e4a", "hidden": false, "primary": true, "targetId": "c408-52f1-b632-4c82"}],
@@ -65143,7 +65871,18 @@
           {"id": "23e4-9237-6afd-776c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
           {"id": "1233-3e93-8e2e-bca5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
-        "entryLinks": [{"name": "Allegiance", "id": "b7d2-7697-3dc2-210c", "hidden": false, "import": true, "targetId": "9fa8-cbae-ef5e-4b7c", "type": "selectionEntryGroup"}]
+        "entryLinks": [
+          {
+            "name": "Allegiance",
+            "id": "b7d2-7697-3dc2-210c",
+            "hidden": false,
+            "import": true,
+            "page": "279",
+            "publicationId": "7d63-5df4-c656-52de",
+            "targetId": "9fa8-cbae-ef5e-4b7c",
+            "type": "selectionEntryGroup"
+          }
+        ]
       }
     ],
     "sharedProfiles": [
@@ -66497,17 +67236,6 @@
                             "value": 1
                           },
                           {
-                            "childId": "d0e2-3466-3567-4bcf",
-                            "childName": "Primary - Fury of the Ancients",
-                            "field": "forces",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
-                          },
-                          {
                             "childId": "04d9-b191-7ea7-d461",
                             "childName": "Primary - Sky-Hunter Phalanx",
                             "field": "forces",
@@ -66581,17 +67309,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66613,17 +67357,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66645,17 +67405,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66677,17 +67453,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66709,17 +67501,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66741,17 +67549,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66786,6 +67610,24 @@
                           {
                             "childId": "f5dc-c13a-5848-f3b8",
                             "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {
+                            "childId": "d0e2-3466-3567-4bcf",
+                            "childName": "Primary - Fury of the Ancients",
+                            "field": "forces",
                             "includeChildForces": true,
                             "includeChildSelections": true,
                             "scope": "roster",
@@ -66845,17 +67687,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66877,17 +67735,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66909,17 +67783,33 @@
                         "field": "hidden",
                         "type": "set",
                         "value": true,
-                        "conditions": [
+                        "conditionGroups": [
                           {
-                            "childId": "122b-0eda-4e29-401e",
-                            "childName": "Alone and Forgotten",
-                            "field": "selections",
-                            "includeChildForces": true,
-                            "includeChildSelections": true,
-                            "scope": "roster",
-                            "shared": true,
-                            "type": "atLeast",
-                            "value": 1
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "childName": "Alone and Forgotten",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -66982,6 +67872,8 @@
         "id": "9fa8-cbae-ef5e-4b7c",
         "defaultSelectionEntryId": "none",
         "hidden": false,
+        "page": "279",
+        "publicationId": "7d63-5df4-c656-52de",
         "constraints": [
           {"id": "2516-7312-a1b5-52fd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
           {"id": "a9e2-2b29-1e6c-e10c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}

@@ -2,7 +2,6 @@
   "catalogue": {
     "name": "Legio Titanicus",
     "id": "69c0-2783-c191-e6a2",
-    "authorName": "m455954",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 42,
@@ -322,6 +321,8 @@
             "name": "Titan Ordinal Primary Detachment",
             "id": "3290-f32c-c54a-2cc9",
             "hidden": true,
+            "page": "54",
+            "publicationId": "5a4b-8b0e-caa6-c7ed",
             "categoryLinks": [
               {
                 "name": "High Command",
@@ -648,6 +649,24 @@
                 "conditions": [
                   {"childId": "69c0-2783-c191-e6a2", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "69c0-2783-c191-e6a2", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Titan Ordinal Primary Detachment",
+                "id": "6fea-c67b-0859-f2d3",
+                "hidden": false,
+                "page": "54",
+                "publicationId": "5a4b-8b0e-caa6-c7ed",
+                "typeId": "7c4f-ca47-b489-3125",
+                "typeName": "Detachment Description",
+                "characteristics": [
+                  {
+                    "name": "Detachment Composition",
+                    "$text": "1 Lord of War\n1 Command\n4 Troops\n4 Transport\nOnly Legio Titanicus units. \nNo Lord of War Point limit\nCan have allied detachment\nMay include an additional Lord of War Detachment - but this may not contain Titans\n\n",
+                    "typeId": "ec3f-877b-f887-18b2"
+                  }
                 ]
               }
             ]

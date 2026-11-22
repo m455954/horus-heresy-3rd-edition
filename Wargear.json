@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "Wargear",
     "id": "fcc7-4319-bb04-2c25",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -64,6 +61,8 @@
             "name": "Frag grenades",
             "id": "3035-fae8-b4b2-ec46",
             "hidden": false,
+            "page": "314",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -79,6 +78,8 @@
             "name": "Frag grenades",
             "id": "c4a9-24d0-9e9e-99a6",
             "hidden": false,
+            "page": "314",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -1716,7 +1717,9 @@
             "name": "Artificia Kill-switch",
             "id": "de0e-0da2-a814-17cd",
             "description": "The Controlling Player of a Model with an artificia kill-switch may choose to activate it in the Effects Sub-Phase of any End Phase. When activated, that Player may select one friendly Model that has the Artificia Type that is within 12\" of the Model with the artificia kill-switch. The selected Model with the Artificia Type suffers D6+2 Unsaved Wounds. If this would cause that Model to be Removed as a Casualty, then if that Model has any version of the Explodes (X) Special Rule, that Special Rule is automatically activated. If a Model is Destroyed and Removed from Play due to the activation of an artificia kill-switch, then no Player may score any Victory Points for that Model being removed from play.",
-            "hidden": false
+            "hidden": false,
+            "page": "83",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ]
       },

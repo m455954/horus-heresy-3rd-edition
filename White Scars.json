@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "                         V - White Scars",
     "id": "f7b4-2531-0962-1379",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -166,24 +163,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
           {
             "field": "hidden",
             "type": "set",

@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "Special Rules",
     "id": "106b-693b-99f2-00c3",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -17,13 +14,17 @@
         "name": "Interdiction Cadres",
         "id": "a752-1dc3-403e-9336",
         "description": "All Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Concealed Positions and Expendable (1) Special Rules.",
-        "hidden": false
+        "hidden": false,
+        "page": "48",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "Concealed Positions",
         "id": "3595-4991-0833-7b8b",
         "description": "**This Special Rule allows Models to use an Advanced Reaction to arrive from Reserve in close proximity to an enemy Unit.**\n\n\nThe Controlling Player of a Unit that only contains Models with this Special Rule can use the Concealed Ambush Advanced Reaction.",
-        "hidden": false
+        "hidden": false,
+        "page": "48",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "Expendable (X)",
@@ -47,7 +48,9 @@
         "name": "Battlefield Coordinators",
         "id": "35dd-79de-75f5-f2c8",
         "description": "**This Special Rule allows the Controlling Player to reduce the Reaction Point cost of a Reaction once per Turn.**\n\nOnce per Turn, if a Unit that contains any Model with this Special Rule is within 18\" of a Unit that makes a Reaction, the Controlling Player can make an Intelligence Check for this Unit. If a Model from the Unit with this Special Rule has Line of Sight to a Model in the Reacting Unit, the Controlling Player can modify the result of that Check by -1. If the Check is successful, that Reaction costs one fewer Reaction Points (to a minimum of 0).",
-        "hidden": false
+        "hidden": false,
+        "page": "46",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "Support Unit (X)",
@@ -72,6 +75,8 @@
         "id": "bc30-3b33-2683-01a2",
         "description": "**Weapons with the Heavy (X) Special Rule gain +1 to a Characteristic when Stationary.**\n\nWhen making a Shooting Attack with a Weapon that has the Heavy (X) Special Rule, a modifier of +1 is added to a Characteristic if the Model with that Weapon is part of a Unit that remained Stationary in the Controlling Player’s previous Movement Phase. If the Characteristic listed is AP, then instead it improves the AP by one Step. The value of X in the specific variant of the Heavy (X) Special Rule determines which Characteristic gains the +1 modifier.",
         "hidden": false,
+        "page": "300",
+        "publicationId": "b905-0414-1057-bb34",
         "alias": ["Heavy"]
       },
       {
@@ -123,6 +128,8 @@
         "id": "94bc-c69f-99b6-8ba0",
         "description": "**A Weapon with the Duellist's Edge (X) Special Rule grants a bonus to Focus Rolls in Challenges.**\n\nIn Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared that the Model under their control will use a Weapon with the Duellist's Edge (X) Special Rule or has the Duellist's Edge (X) Special Rule, then that Player gains a bonus equal to the value of X on the Focus Roll.",
         "hidden": false,
+        "page": "297",
+        "publicationId": "b905-0414-1057-bb34",
         "alias": ["Duellist's Edge"]
       },
       {
@@ -389,7 +396,9 @@
         "name": "Mobile Command Vehicle",
         "id": "799f-1773-d0ae-d423",
         "description": "**A Model with this Special Rule can use some Characteristics of Embarked Models instead of its own.**\n\nWhen a Model with this Special Rule is required to make a Characteristic Check, the Controlling Player can use the required Characteristic for that Check from the Profile of one Model Embarked within this Model instead.",
-        "hidden": false
+        "hidden": false,
+        "page": "30",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Anathemata Discipline",
@@ -412,25 +421,33 @@
         "name": "Never Back Down",
         "id": "91a6-7f61-0c0b-a236",
         "description": "**A Model with this Special Rule must take part in a Challenge if able.**\n\nDuring the Challenge Sub-Phase, if a Model with this Special Rule is eligible, it must be declared as the Challenger or to accept a Challenge. If more than one Model with this Special Rule is eligible to be the Challenger or to accept a Challenge, the Controlling Player may select which one will be declared as the Challenger or to accept a Challenge.",
-        "hidden": false
+        "hidden": false,
+        "page": "32",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Master of Descent",
         "id": "b04c-3f1f-9fac-cd25",
         "description": "\"A Model with this Special Rule can arrive by Deep Strike in the first Battle Turn.\"\nIf a Model with this Special Rule is in Reserves and that Model and every other Model in the same Unit have the same Faction Trait, the Infantry Type and the Antigrav Sub-Type, that Model's Unit can make use of the Deep Strike Special Rule to enter play during the first Battle Turn. Only one Unit from the Army can make use of this Special Rule during the same Battle Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "45",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "Tip of the Spear",
         "id": "96e2-c6ab-8084-c1d2",
         "description": "**An Army whose Primary Detachment includes a Model with this Special Rule may select the Planetfall Speartip Auxiliary Detachment once per Army, following all the normal Rules for selecting Auxiliary Detachments.**\n\n\nThe Planetfall Speartip Auxiliary Detachments consists of one Retinue Slot which may only be used to select Praetorian Command Squad with Jump Packs Units, and two Prime Elite Slots which may only be used to select Veteran Assault Squad Units.",
-        "hidden": false
+        "hidden": false,
+        "page": "45",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "Master of Auxilia",
         "id": "da1d-168c-c688-80cb",
         "description": "**Overseers can join some Allied Units without penalty to some Characteristics.**\n\nIf a Model with this Special Rule joins a Unit with the Solar Auxilia or Imperialis Militia Trait, the Leadership and Cool Characteristics of Models in that Unit are not reduced as a results of this, but may be modified by other rules as normal.",
-        "hidden": false
+        "hidden": false,
+        "page": "40",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Feel No Pain (X)",
@@ -601,14 +618,16 @@
         "id": "e808-01eb-eddc-cec7",
         "description": "**A Unit containing any Models with the Psyker Trait or Malefic Sub-Type which suffers a wound from a Weapon with this Special Rule also suffers Perils of the Warp.**\n\nIf a Shooting Attack made for a Weapon or Model with this Special Rule inflicts one or more wounds on a Target Unit which contains any Models with the Psyker Trait or Malefic Sub-Type, regardless of whether any Damage is inflicted, that Target Unit suffers the Warp Rupture result on the Perils of the Warp Table at the end of Step 9 of that Shooting Attack.",
         "hidden": false,
-        "page": 62,
-        "publicationId": "09c6-1c1d-03a7-9556"
+        "page": "103",
+        "publicationId": "da4e-9dbd-5ed9-a0e5"
       },
       {
         "name": "Mastodon Transport Bay",
         "id": "4f26-7d6e-aa15-d1a4",
         "description": "**A Mastodon Super-heavy Assault Transport can transport larger Models as well as Infantry.**\n\nModels of any Type other than Vehicle may Embark on a Model with this Special Rule, however only 4 Models may be Embarked that do not have the Infantry or Paragon Type, and such a Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6.",
-        "hidden": false
+        "hidden": false,
+        "page": "120",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Legio Armsmen",
@@ -681,15 +700,17 @@
         "name": "Anathema",
         "id": "9ca0-a776-be65-b2b7",
         "description": "**Models with this Special Rule ignore the effects of Psychic Abilities and can only be wounded by a Weapon with the Psychic or Immaterial Trait on a 5+.**\n\nA Unit which includes any Models with this Special Rule may never be selected as the target of a Psychic Blessing or Psychic Curse, and Models with this Special Rule ignore all Damage inflicted by Psychic Weapons, Psychic Powers, Psychic Reactions or Perils of the Warp. If such a Model is selected as the Target Model of any attack or wound inflicted by a Psychic Weapon, Psychic Power, Psychic Reaction, or Perils of the Warp then all Damage caused has no effect and no Wound Tests, Armour Saves or Damage Mitigation Tests are made. Additionally, Wound Tests made for Weapons with the Psychic or Immaterial Trait that target any Unit that includes only Models with this Special Rule that have an unmodified result of 1, 2, 3 or 4 are never successful, regardless of the Strength Characteristic of a Hit or any Special Rules that set the Target Number for Wound Tests. This Special Rule has no effect on Armour Penetration Tests.",
-        "hidden": false
+        "hidden": false,
+        "page": "93",
+        "publicationId": "da4e-9dbd-5ed9-a0e5"
       },
       {
         "name": "Ex Oblivio",
         "id": "2bbf-2408-efc0-8789",
         "description": "**Models with this Special Rule automatically inflict Perils of the Warp on any Unit containing Models with the Psyker Trait or Malefic Sub-Type at the end of Combat.**\n\n\nIf, during Step 1 of the Resolution Sub-Phase of the Combat Phase (after any Models which made attacks as part of a Challenge have been returned to Combat), a Combat includes one or more Models with this Special Rule, then all Units (friendly or enemy) in that Combat which contain at least one Model with the Psyker Trait or the Malefic Sub-Type immediately suffer the Warp Rupture result on the Perils of the Warp Table. Any Models Removed as Casualties as a result of wounds inflicted by this are considered to have been removed in the Fight Sub-Phase for the purpose of scoring Combat Resolution Points.\n\n\nAdditionally, a Model with this Special Rule is considered to have the Psyker Trait for the purposes of nominating a Model as the Focus of the Nullify Advanced Reaction, as long as at least one Model from the Target Unit is within 12\" of the Model with this Special Rule.",
         "hidden": false,
-        "page": 56,
-        "publicationId": "09c6-1c1d-03a7-9556"
+        "page": "97",
+        "publicationId": "da4e-9dbd-5ed9-a0e5"
       },
       {
         "name": "Lightning Blows",
@@ -703,49 +724,65 @@
         "name": "Rapier Crew",
         "id": "6745-08ce-be63-3a62",
         "description": "**The Characteristics of different Models with this Special Rule are used in different situations.**\n\nEach time Wound Tests are made for a Fire Group that targets a Unit that includes any Models with this Special Rule, if any Rapier Carrier Models are in this Unit, the Toughness Characteristic of the Rapier Carriers is treated as being the majority. If any wounds are generated by these Wound Tests, the Target Model selected must be a Rapier Carrier Model if possible.\n\nEach time Wound Tests are made for a Strike Group targeting this Unit, the Toughness Characteristic of the Legionary Models is treated as being the majority. If any wounds are generated by these Wound Tests, the Target Model selected must be a Legionary Model, if possible.\n\nIf at any point there are only Rapier Carrier Models remaining in this Unit, those Models are immediately Removed as Casualties.",
-        "hidden": false
+        "hidden": false,
+        "page": "67",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Deathstorm",
         "id": "a89e-9755-0c6e-80db",
         "description": "**This Model makes a Shooting Attack when it is Deployed on the Battlefield.**\n\nWhen a Model with this Special Rule is deployed, any doors on the Model must be opened to their full extent. Then, this Model makes up to five Shooting Attacks as if it were the Shooting Phase. Each Shooting Attack must target a different Unit. After resolving these Shooting Attacks, this Model's Deathstorm missile launcher cannot be used to make Shooting Attacks again during this Battle.",
-        "hidden": false
+        "hidden": false,
+        "page": "70",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Gun Emplacement",
         "id": "c573-facf-1a23-cfdd",
         "description": "**A Model with this Special Rule has special restrictions that apply when ranges are measured to and from it.**\n\nThe hull of a Model with this Special Rule is only considered to be the central turret. The outriggers that form the gun carriage are ignored for all purposes.",
-        "hidden": false
+        "hidden": false,
+        "page": "71",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Stormbird Transport Bay",
         "id": "76fd-c251-18b0-054f",
         "description": "**A Sokar Stormbird can transport larger Models, including one Rhino, as well as infantry.**\nModels of any Type may Embark on a Model with this Special Rule, however only 2 Models may be Embarked that do not have the Infantry or Paragon Type, and such a Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6. In addition, one Rhino Model may be Embarked and is treated as having the Bulky (12) Special Rule for the purposes of Transport Capacity.",
-        "hidden": false
+        "hidden": false,
+        "page": "119",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Thunderhawk Transport Bay",
         "id": "4f9e-65d3-552c-e1be",
         "description": "**A Thunderhawk Gunship can transport larger Models as well as Infantry.**\n\nModels of any Type other than Vehicle may Embark on a Model with this Special Rule, however only 2 Models may be Embarked that do not have the Infantry or Paragon Type, and such a Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6.",
-        "hidden": false
+        "hidden": false,
+        "page": "118",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Heavy Drop Transport",
         "id": "aabf-caf3-8c57-5bbe",
         "description": "**Kharybdis can transport large Units to the Battlefield.**\n\nInstead of one of the Units that would normally be eligible to Embark within a Model with this Special Rule, one Model with the Walker Type can instead be Embarked upon it. The Embarked Model cannot have the Bulky (X) Special Rule with a value of greater than Bulky (7).",
-        "hidden": false
+        "hidden": false,
+        "page": "87",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Drop Transport",
         "id": "ad3b-84cf-3450-cf19",
         "description": "**Dreadclaws can transport a variety of Units to the Battlefield.**\n\nInstead of one of the Units that would normally be eligible to Embark within a Model with this Special Rule, one Model with the Walker Type can instead be Embarked upon it. The Embarked Model cannot have the Bulky (X) Special Rule with a value of greater than Bulky (6).",
-        "hidden": false
+        "hidden": false,
+        "page": "86",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Dreadnought Transport",
         "id": "ef04-738f-379a-6491",
         "description": "**Dreadnought Drop Pods transport dreadnoughts to the Battlefield.**\n\nOnly one Model may be Embarked on a Model with this Special Rule, and the Embarking Model must have the Walker Type. The Embarked Model cannot have the Bulky (X) Special Rule with a value of greater than Bulky (7).",
-        "hidden": false
+        "hidden": false,
+        "page": "85",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Impact Reactive Doors",
@@ -767,19 +804,25 @@
         "name": "Automated Fire Protocols",
         "id": "bbf2-c529-d30b-b6b1",
         "description": "**A Model with this Special Rule may not make Shooting Attacks except as part of a Reaction.**\n\nA Model with this Special Rule may not be selected to make a Shooting Attack during the Controlling Player's Shooting Phase and may only make the Overwatch Reaction and the Intercept and Automated Fire Advanced Reactions. When making Shooting Attacks as part of any of these Advanced Reactions, a Model with this Special Rule may attack with any Weapon it has, not just Defensive Weapons.",
-        "hidden": false
+        "hidden": false,
+        "page": "95",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Independent Sentries",
         "id": "7444-aeba-2958-ee0d",
         "description": "**Tarantulas are deployed and operate individually.**\n\nAlthough included in an army as a Unit that includes multiple Models, each Model with this Special Rule is considered to be a separate Unit for all other purposes, including Deployment and the scoring of Victory Points.",
-        "hidden": false
+        "hidden": false,
+        "page": "95",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Void Shields (X)",
         "id": "86e9-04a5-e7d9-0253",
         "description": "**A Model with this Special Rule ignores Penetrating Hits as long as it still has active void shields.**\n\nA Model with this Special Rule has a number of void shields equal to the value of X. While a Model with this Special Rule still has void shields, each time that Model suffers a Penetrating Hit as a result of a Shooting Attack, reduce the Damage of that Penetrating Hit to '0' and reduce the number of void shields this Model has by 1. If the number of void shields a Model has is reduced to 0, this Special Rule has no further effect during that battle.",
         "hidden": false,
+        "page": "311",
+        "publicationId": "b905-0414-1057-bb34",
         "alias": ["Void Shields"]
       },
       {
@@ -787,39 +830,50 @@
         "id": "84fd-366e-517d-e228",
         "comment": "(Raven Guard Only)",
         "description": "After the Controlling Player makes a Rush Move with a Unit that includes only Models with this Special Rule, they may also choose to make a Willpower Check for that Unit. If the Willpower Check is successful, any Charges targeting the selected Unit in the Assault Phase of the following Player Turn are Disordered. If the Willpower Check is failed, the selected Unit instead gains the Stunned Tactical Status.",
-        "hidden": false
+        "hidden": false,
+        "page": "277",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Medic (X)",
         "id": "93b3-c23d-7263-e013",
         "description": "**This Special Rule determines the difficulty of any Recovery Tests made due to other Reactions or Special Rules.**\n\nIf a Unit includes one or more Models with the Medic (X) Special Rule, then certain other Special Rules, Reactions or Gambits may allow the Controlling Player to make Recovery Tests for other Models in the same Unit. Note that the Medic (X) Special Rule does not allow Recovery Tests to be made, but simply establishes the Target Number for such Tests - Recovery Tests may only be made if another Special Rule, Reaction or Gambit allows them (see, for example, the Medic! Advanced Reaction).\n\n**Recovery Tests**\nA Recovery Test is made when one or more Unsaved Wounds are allocated to a Model, and is resolved by rolling a Dice and comparing the results to the value of 'X' in the variant of the Medic (X) Special Rule present in a Unit, then the Controlling Player chooses which is used to determine the Target Number. If the Recovery Test is successful then a single Unsaved Wound allocated to the Model has its Damage reduced by 1 (to a minimum of 0). If a Recovery Test is failed, then any Unsaved Wounds allocated to the Model are resolved as normal.\"",
         "hidden": false,
+        "page": "316",
+        "publicationId": "b905-0414-1057-bb34",
         "alias": ["Medic"]
       },
       {
         "name": "Aegis of Pain",
         "id": "2cfa-42a7-e9c8-6000",
         "description": "**A Unit made up of Models with the Reductor Trait gain bonuses when they have Cybertheurgic Statuses.**\n\nAll Models in a Unit composed entirely of Models with this Special Rule and the Reductor Trait gain the Fear (1) Special Rule while any model in the Unit also have one or more Cybertheurgic Statuses. If a Unit that includes any Models with this Special Rule already has any variant of the Fear (X) Special Rule, then this Special Rule has no effect and does not stack with or otherwise improve any existing variant of the Fear (X) Special Rule that any Model in the Unit has.",
-        "hidden": false
+        "hidden": false,
+        "page": "81",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Battle Meditation",
         "id": "853e-e83f-4e01-5609",
         "description": "**A Model with this Special Rule gains bonuses when engaged in a Challenge.**\n\nA Model with this Special Rule gains the Feel No Pain (6+) Special Rule when engaged in a Challenge. If the enemy Model in the same Challenge has a Weapon Skill Characteristic equal to or greater than that of the Model with this Special Rule then the Model with this Special Rule instead gains the Feel No Pain (5+) Special Rule. If the Model with this Special Rule already has a variant of the Feel No Pain (X) Special Rule then this Special Rule has no effect and does not stack with or improve the existing variant of the Feel No Pain (X) Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "82",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Command Throne",
         "id": "7de3-19ab-bd3b-cf37",
         "description": "**A Model with this Special Rule can reduce the costs of Reactions declared by the Controlling Player.**\n\n\nIf a Reaction is declared for a Unit that includes a majority of Models with any variant of the Mechanicum Trait, then the Controlling Player of the Reacting Unit may choose to make an Intelligence Check for any one Friendly Model with this Special Rule that is on the Battlefield - referred to here as the 'Commanding Model'. The following modifiers are applied to the Commanding Model's Intelligence Check:\n\n\n• If the Reacting Unit is not in Line of Sight of the Commanding Model, modify the result of the Check by +4.\n• If all Models in the Reacting Unit are more then 12\" from the Commanding Model modify the result of the Check by +2.\n• If the Reacting Unit includes a nuncio-vox or command vox relay then modify the result of the check by -1.\n\n\nIf the Check is Successful then the Reaction declared has its cost reduced by 1 (to a minimum of 0). If the Check is failed then the Unit that includes the Commanding Model suffers Cybertheurgic Feedback.\n\n\nOnce a reaction has had its cost reduced due the the effects of this Special Rule no further rolls may be made by any Models with this Special Rule to reduce the cost of any further Reactions made in the same Player Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "85",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Compact",
         "id": "af84-8623-a6f4-ecdb",
         "description": "**A Model with this Special Rule may Embark or Disembark from a Transport, even if its Type would normally stop it from doing so.**\n\nA Model with this Special Rule may Embark and Disembark from a Model with the Transport Sub-Type as though it had the Infantry Type. This does not replace its existing Type or grant it any other benefits of the Infantry Type, nor allow it to interact with other Rules or Special Rules that target or affect the Infantry Type.",
         "hidden": false,
-        "page": 84
+        "page": 84,
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Comptroller (X)",
@@ -827,6 +881,7 @@
         "description": "**If a Model with this Special Rule is part of a Unit then it can score more Victory Points for holding an Objective.**\n\n\nThe number of Victory Points scored when a Unit that includes a Model with this Special Rule controls an Objective is increased by the value of X attached to this variant of the Special Rule. This Special Rule has no effect and no bonus Victory Points are scored if any of the following are true:\n\n\n• The Unit controlling the Objective includes any Models with a different Faction to that or the Model with this Special Rule.\n• The majority of Models in the Unit controlling the Objective have the Command, Specialist or Champion Sub-Types.\n\n\nIf Models with multiple variants of this Special Rule are part of the same Unit, then the values of X do not stack and only the highest value is used.",
         "hidden": false,
         "page": 84,
+        "publicationId": "4dc3-3347-238d-99b5",
         "alias": ["Comptroller"]
       },
       {
@@ -834,123 +889,161 @@
         "id": "0127-9c75-45c7-9b42",
         "description": "**Models with this Special Rule need a commander to move or attack.**\n\nA Unit that includes any Models with this Special Rule that does not also include a Model with the Command Sub-Type or Sergeant Sub-Type, may not move in the Movement Phase, making Shooting Attacks in the Shooting Phase or Charge in the Assault Phase - but fights as normal if charged or part of an ongoing Combat.",
         "hidden": false,
-        "page": 91
+        "page": 91,
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Master of Machines",
         "id": "9470-0220-efcc-1c3d",
         "description": "**A Model with this Special Rule can join Units of Automata.**\n\nA Model with this Special Rule may join a Friendly Unit that includes Models with the Automata Type.",
-        "hidden": false
+        "hidden": false,
+        "page": "91",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Phased Refractor Shields",
         "id": "a3a3-a3e8-da13-56c1",
         "description": "**A Model with this Special Rule improves their Invulnerable Save against Shooting Attacks.**\n\nWhen the Controlling Player of a Model with this Special Rule chooses to make an Invulnerable Save for that Model against a wound generated by a Shooting Attack, that Invulnerable Save is improved by one step. For example, a Model with a 6+ Invulnerable Save Characteristic and this Special Rule that makes an Invulnerable saving throw against a wound inflicted by a Shooting Attack would have its Invulnerable Save Characteristic improved to a 5+ for that roll.",
-        "hidden": false
+        "hidden": false,
+        "page": "94",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Repair Automata",
         "id": "1394-90c6-4f63-e2ed",
         "description": "**A Unit that includes Models with this Special Rule may attempt to repair certain Models as if it was a single Model with the Battlesmith (X) Special Rule.**\n\nA Unit that includes one or more Models with this Special Rule may be used to activate the Battlesmith (X) Special Rule as if it was a single Model with that Special Rule. When activating the Battlesmith (X) Special Rule for a Unit that includes one or more Models with the Repair Automata Special Rule, select one Model in the Unit with the Repair Automata Special Rule to be the Acting Model and determine the value of X for this use of the Battlesmith (X) Special Rule based on the number of Models in the Unit with the Repair Automata Special Rule using the table below:\n\nNumber of Models = Value of X\n1-4 = 1\n5-8 = 2\n9-12 = 3",
-        "hidden": false
+        "hidden": false,
+        "page": "96",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Rite of Pure Thought",
         "id": "b587-c418-b46f-e5f8",
         "description": "**A Model with this Special Rule may not make Reactions of Volley Attacks and suffers other limitations.**\n\nA Model with this Special Rule may never make Reactions of any kind, make Volley Attacks or select any options other than Hold, Fall Back or Consolidate in the Resolution Sub-Phase. A Unit composed of a majority of Models with this Special Rule does not take Leadership Checks due to Models lost to a Shooting Attack, but does still make Checks due to the Panic (X) Special Rule. Furthermore, when Locked in Combat, no Combat Resolution Points are scored by any Player when a Model with this Special Rule is Removed as a Casualty.",
-        "hidden": false
+        "hidden": false,
+        "page": "96",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Shock Ram",
         "id": "7581-8ef0-5cd9-4b0e",
         "description": "**A Vehicle with this Special Rule inflicts more damage when it moves thought enemy Units.**\n\nWhen the Model with this Special Rule and the Vehicle Type moves through an enemy Unit, the number of Hits inflicted is increased from D6 to D6+3. Furthermore, if the Reactive Player declares a Death or Glory Reacting with a Vehicle that has this Special Rule as the target, then the Vehicle with this Special Rule gains a 6+ Invulnerable save against all Hits inflicted as part of that Reaction.",
-        "hidden": false
+        "hidden": false,
+        "page": "96",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Duty Before Death",
         "id": "e20b-fd1b-6229-eac2",
         "description": "Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Feel No Pain (6+) Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "262",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Skill Unmatched",
         "id": "d8ff-b46c-215c-6976",
         "comment": "Emperor's Children",
         "description": "**When Locked in Combat, this Unit may select an additional Special Rule to apply until the end of the Phase.**\n\nAt the End of the Charge Sub-Phase, if a Unit that includes any Models with this Special Rule is Locked in Combat with any enemy Units, this Unit's Controlling Player can select one of the following effects:\n\n• The Perfect Strike - If this effect is selected, until the end of this Phase, the Weapon Skill Characteristic of each Model in this Unit with this Special Rule is considered to be one point higher than normal when determining the score that Model needs to Hit it opponent in the Strike Step of the Challenge Sub-Phase or the Make Hit Tests Step of the Resolving an Initiative Step Step (this does not modify the Weapon Skill Characteristic of each Model in this Unit for the purposes of Hit Tests made for opposing Models).\n\n\n• The Perfect Guard - If this effect is selected, until the end of this Phase, the Weapon Skill Characteristic of each Model in this Unit with this Special Rule is considered to be one point higher than normal when determining the score an opposing Model needs to Hit this Model in the Strike Step of the Challenge Sub-Phase or the Make Hit Tests Step of the Resolving an Initiative Step Step (this does not modify the Weapon Skill Characteristics of each Model in this Unit for the purposes of Hit Tests made for their own attacks).",
-        "hidden": false
+        "hidden": false,
+        "page": "137",
+        "publicationId": "e54c-7040-0f35-d85d"
       },
       {
         "name": "Cult Arcana",
         "id": "f622-94c0-3997-9ee5",
         "description": "**All Models with the Thousand Sons Trait are Psykers and have a higher Willpower Characteristic than shown on their profile.**\n\nModels with this special rule gain a bonus of +1 Base Willpower Characteristic and gain the Psyker Trait",
         "hidden": true,
+        "page": "218",
         "publicationId": "e54c-7040-0f35-d85d"
       },
       {
         "name": "Consul-Delegatus",
         "id": "52a0-57ea-fbc5-a8c3",
         "description": "**A Command Model with this Special Rule unlocks an Apex Detachment, but awards Victory Points for Slay the Warlord.**\n\nAn Army may not include more than one Model with this Special Rule. If a Model with this Special Rule is selected to fill a Command Slot in any Detachment in the Crusade Force Organisation Chart, then the Controlling Player may select one Apex Detachment instead of the Auxiliary Detachment usually granted by filling a Command Slot. Additionally, a Model with this Special Rule counts as being a High Command Choice for the purposes of any version of the Slay the Warlord (X) Secondary Objective.",
-        "hidden": false
+        "hidden": false,
+        "page": "54",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Auxiliary Transport Bays",
         "id": "0408-7152-2a7e-8d2b",
         "description": "**A Thunderhawk Transporter can transport some Vehicle Models as well as Infantry.**\n\nIn addition to any other Models Embarked on a Model with this Special Rule, it may also have one of the following Embarked on it:\n• Up to two Rhino Models.\n• One Land Raider Carrier or Land Raider Explorator Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "78",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Shadows of Judgement",
         "id": "4849-aaba-9865-c0b1",
         "description": "While a Model with this Special Rule is engaged in a Challenge, it has the Duellist’s Edge (1) and Feel No Pain (5+) Special Rules.",
-        "hidden": false
+        "hidden": false,
+        "page": "113",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Irregulars",
         "id": "2d43-afcd-2393-d1bb",
         "description": "**A Unit composed of Models with this Special Rule can still score Objectives when Pinned, Stunned or Suppressed, and is automatically destroyed when it Falls Back into contact with a Battlefield Edge.**\n\n\nA Unit which is entirely composed of Models with this Special Rule (but not the Cavalry Type) is still eligible to\nControl or Contest an Objective Marker if it is affected by the Pinned, Stunned or Suppressed Tactical Status (in any combination), but only scores 1 Victory Point for that Objective Marker when affected by these Statuses, regardless of its value and any other Special Rules such as Line (X). While affected by any Tactical Status, Models in this Unit do not add the value of any variant of the Line (X) Special Rule they may have to their Tactical Strength when deciding if they can contest an Objective.\n\n\nAdditionally, when a Model from a Unit containing any Models with this Special Rule moves into Base Contact with any point on the Battlefield Edge as part of a Fall Back Move, all Models in that Unit are automatically removed as Casualties.",
-        "hidden": false
+        "hidden": false,
+        "page": "3",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Third-Line",
         "id": "9ac8-527e-1249-8600",
         "description": "**Models with this Special Rule lose a Hull Point when they suffer a Glancing Hit.**\n\n\nWhenever a Model with this Special Rule suffers a Glancing Hit, that Model loses one Hull Point in addition to the Glancing Hit’s standard effects and in addition to any other Hull Points lost. A Vehicle with the Super-heavy SubType that also has this Special Rule loses two Hull Points when it suffers a Glancing Hit – one for the effects of the Super-heavy Sub-Type and one for the effects of this Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "3",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Among the Ranks",
         "id": "1b09-3c2f-dfdf-bcf4",
         "description": "**Models with this Special Rule are deployed and operate individually.**\n\n\nAlthough included in an Army as a Unit that includes multiple Models, each Model with this Special Rule is considered to be a separate Unit for all other purposes, including Deployment and the scoring of Victory Points.",
-        "hidden": false
+        "hidden": false,
+        "page": "14",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Instil Order",
         "id": "1db8-0c91-88d9-0515",
         "description": "**Models with this Special Rule can inflict wounds on their Unit in order to remove a Tactical Status in the Start Phase.**\n\n\nDuring the Start Phase of their Turn as Active Player, the Controlling Player of a Unit which contains any Models\nwith this Special Rule and only includes Models with the Irregulars Special Rule can select for that Unit to suffer\nD3 Wounds with a Damage Characteristic of 1, an AP of 2 and no Saves of any kind allowed, allocated as if they\nwere inflicted by a Melee Attack. If they do so, a single Leadership Check or Cool Check is then made for that Unit, allowing the removal of one Tactical Status from all Models in that Unit (Pinned, Stunned or Suppressed if Cool Check was made, or Routed if a Leadership Check was made) if it is successful.",
-        "hidden": false
+        "hidden": false,
+        "page": "15",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Emplaced",
         "id": "8ed3-88a3-5e48-4c1c",
         "description": "**Models with this Special Rule are Removed as Casualties instead of making Fall Back Moves.**\n\n\nA Unit that includes any Models with this Special Rule cannot make any Reactions which would allow it to Move. In addition, if a Unit that includes any Models with this Special Rule is required to make a Fall Back Move, all Models in that Unit are immediately Removed as Casualties.",
-        "hidden": false
+        "hidden": false,
+        "page": "28",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Heavy Ordnance Crew",
         "id": "cb4b-8a2d-c6d1-5fee",
         "description": "**The Characteristics of different Models with this Special Rule are used in different situations and they are Removed as Casualties instead of making Fall Back Moves.**\n\n\nA Unit that includes any Models with this Special Rule cannot make any Reactions which would allow it to Move. In addition, if a Unit that includes any Models with this Special Rule is required to make a Fall Back Move, all Models in that Unit are removed from play.\n\n\nEach time Wound Tests are made for a Fire Group that targets a Unit that includes any Models with this Special Rule, if any Gun Carriage Models are in this Unit, the Toughness Characteristic of the Gun Carriage is treated as being the majority. If any wounds are generated by these Wound Tests, the Target Model selected must be a Gun Carriage Model if possible.\n\n\nEach time Wound Tests are made for a Strike Group targeting this Unit, the Toughness Characteristic of the Militia Gunner Models is treated as being the majority. If any wounds are generated by these Wound Tests, the Target Model selected must be a Militia Gunner Model, if possible.\n\n\nIf at any point there are only Gun Carriage Models remaining in this Unit, those Models are immediately Removed as Casualties.",
-        "hidden": false
+        "hidden": false,
+        "page": "30",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Independent Fire",
         "id": "f099-f97e-e274-b702",
         "description": "**A Model with this Special Rule can shoot at multiple targets at its full Ballistic Skill.**\n\n\nWhen making multiple Shooting Attacks in the same Shooting Phase, a Model with this Special Rule and the Vehicle Type does not have to make all attacks as Snap Shots.",
-        "hidden": false
+        "hidden": false,
+        "page": "42",
+        "publicationId": "a5ca-d2f8-fa5a-c120"
       },
       {
         "name": "Endless Horde (X)",
         "id": "2cda-6fea-e3c3-ff31",
         "description": "**This Special Rule can replace a Unit that has been wiped out with a new one in Reserves.**\n\n\nWhen a Unit that contains any Models with this Special Rule has its last Model Removed as a Casualty, the Controlling Player may choose to roll a D6. On a result equal to or greater than the value in brackets, a Unit identical to the one that was Removed as Casualties (with all Models and Wargear listed on the Controlling Player’s Army Roster) is placed into Reserves – and treated as a new Unit. On any other result, the Unit is removed as Casualties with no further effect. Any Victory Points that would be scored for the Unit Removed as Casualties are unaffected and scored as normal, and any new Unit that enters Reserves may be used to score Victory Points if also Removed as Casualties. Any other Models that have joined a Unit that contains any Models with this Special Rule either during Deployment, in Reserves or during the Battle are not placed into Reserves with the new Unit.",
         "hidden": false,
+        "page": "9",
+        "publicationId": "a5ca-d2f8-fa5a-c120",
         "alias": ["Endless Horde"]
       },
       {
@@ -965,299 +1058,396 @@
         "name": "Ravening Madmen",
         "id": "c320-4fba-0a25-15ff",
         "description": "\"Units with Models with this Special Rule count as having a Weapon Skill Characteristic of 3 when their opponent makes Hit Tests.\"\n\n\nAny Hit Tests made in the Assault Phase that target a Unit that includes one or more Models with this Special Rule always count the majority Weapon Skill Characteristic of the Target Unit as 3, regardless of the actual Weapon Skill Characteristic of the Models in that Unit. Additionally, a Unit that includes any Models with this Special Rule may only join or be joined by Models with this Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "192",
+        "publicationId": "e54c-7040-0f35-d85d"
       },
       {
         "name": "Loot the Dead (X)",
         "id": "e348-c621-0738-cb6e",
         "description": "**This Special Rule grants a new option for Units that win a Combat, allowing them to score Victory Points but forcing them to become Pinned.**\n\n\nWhen a Unit that is composed entirely of Models with this Special Rule is on the winning side of a Combat, the Loot and Pillage aftermath option may be selected for that Unit as long as all enemy Units involved in that Combat have been destroyed, are Falling Back or have Disengaged. Only one Unit may select this aftermath option per Combat:\n\n\nLoot and Pillage – A Unit that chooses to Loot and Pillage cannot move or make any attacks as part of this aftermath option, but instead scores Victory Points equal to the value of X attached to the variant of the Loot the Dead (X) Special Rule that the Unit has. Once these Victory Points have been scored, all Models in the Unit for which this aftermath option was selected gain the Pinned Tactical Status\n\n\n*NR Data authors note - there is currently no definitive ruling on rounding up or down for X values in Special Rules in HH v3.0 and we are not in any position to be making a ruling on that. We will update the values if an FAQ is released to address the subject. In the mean time, we advise discussing it with your opponent before you play.*",
         "hidden": false,
+        "page": "5",
+        "publicationId": "59a2-2e27-256e-89e5",
         "alias": ["Loot the Dead"]
       },
       {
         "name": "Aberrant",
         "id": "1a2c-52eb-c28c-55c8",
         "description": "**Models with this Special Rule must reduce certain Advanced Characteristics, but gain increased combat powers.**\n\n\nAll Models with this Special Rule that do not also have the Command, Champion, Specialist or Sergeant Sub-Types must reduce their Leadership, Willpower, Intelligence and Cool Characteristics by 1, but increase their Strength and Attacks Characteristics by 1. Furthermore, a Unit that includes any Models with this Special Rule and begins the Assault Phase with any Model in that Unit within 12\" of an enemy Model must declare a Charge targeting the Unit that includes that enemy Model – even if they cannot reach the Target Unit.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Clone",
         "id": "16f7-886f-f43b-0e6e",
         "description": "**Models with this Special Rule must reduce certain Advanced Characteristics, but gain increased resilience.**\n\n\nAll Models with this Special Rule that do not also have the Command, Champion, Specialist or Sergeant Sub-Types must reduce their Leadership, Willpower, Intelligence and Cool Characteristics by 1. Furthermore, a Unit that includes any Models with this Special Rule cannot make Reactions or Advanced Reactions, but gains a Damage Mitigation Test of 5+ – known as a Cloned Resilience Damage Mitigation Roll.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Doomed Heroics (X)",
         "id": "aea9-7451-7b2c-5b40",
         "description": "Whenever at least one Unit that includes a majority of Models with this Special Rule is on the winning side of a Combat where one or more of the following was true at the start of the Fight Sub-Phase, then the Controlling Player scores a number of Victory Points equal to the value of X (where there are multiple variants of this Special Rule in a Combat, use only the single highest value of X):\n\n\n • The total number of Models on the enemy side is more than twice the number of Models on the Blackshields side.\n • The enemy side includes more Models with the Command Trait or any Models with the Paragon Type.\n • The enemy side includes a majority of Models with a higher Weapon Skill Characteristic than the majority of Models on the Blackshields side.\n\n\nThis Oath of Moment may not be selected if the Detachment already has the Reapers of Lives or Spoils of Victory Oaths of Moment.",
         "hidden": false,
+        "page": "11",
+        "publicationId": "59a2-2e27-256e-89e5",
         "alias": ["Doomed Heroics"]
       },
       {
         "name": "Children of Old Night",
         "id": "022a-93b0-03f9-e9c2",
         "description": "**Models subject to this benefit are only affected by the Fear (X) Special Rule while they are within 6\" of a Model with that Special Rule instead of 12\".**\n\n\nIf the Dark Angels Legion was selected for this Army’s Shattered Legions Trait, Models from that Army subject to the Mutable Tactics Special Rule are only affected by the Fear (X) Special Rule while within 6\" of a Model with that Special Rule instead of while within 12\".",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Unparalleled Skill",
         "id": "0010-3a18-de32-aeaa",
         "description": "**A Hit Test result of 4+ is always successful for Models subject to this benefit.**\n\n\nIf the Emperor’s Children Legion was selected for this Army’s Shattered Legions Trait, when making a Hit Test for a Melee Attack for a Model from that Army subject to the Mutable Tactics Special Rule, a result of 4+ is always successful.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Accustomed to Devastation",
         "id": "482c-e0ee-0880-bb28",
         "description": "**A Leadership Check result of 9 or less is always successful for Models subject to this benefit in the Shooting Phase.**\n\n\nIf the Iron Warriors Legion was selected for this Army’s Shattered Legions Trait, when making a Leadership Check in the Morale Sub-Phase for a Unit from that Army subject to the Mutable Tactics Special Rule, a result of 9 or less is always successful.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Swift of Action",
         "id": "732e-5c3a-d16f-4ec7",
         "description": "**Models subject to this benefit have their Initiative modified by +1 while making Set-up Moves or Rushing.**\n\n\nIf the White Scars Legion was selected for this Army’s Shattered Legions Trait, when a Unit that only includes Models subject to the Mutable Tactics Special Rule makes a Set-up Move or is selected to Rush, modify the Initiative Characteristic of Models in that Unit by +1 until the end of that Sub-Phase.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Spirit of Fenris",
         "id": "6c60-04a5-fe8b-33b8",
         "description": "**Models with this benefit can make longer Set-up Moves than normal.**\n\n\nIf the Space Wolves Legion was selected for this Army’s Shattered Legions Trait, when making a Set-up Move for a Model from that Army subject to the Mutable Tactics Special Rule, the Controlling Player can add +1\" to the distance moved, to a maximum of 6\".",
-        "hidden": false
+        "hidden": false,
+        "page": "7",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Devastating Volleys",
         "id": "97b6-956c-7e40-9d96",
         "description": "**Models subject to this benefit can make Volley Attacks with bolters.**\n\n\nIf the Imperial Fists Legion was selected for this Army’s Shattered Legions Trait, when making a Volley Attack for a Model from that Army subject to the Mutable Tactics Special Rule, that Model can make Volley Attacks with a bolter as if it had the Assault Trait.",
-        "hidden": false
+        "hidden": false,
+        "page": "7",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Murderous Reputation",
         "id": "1596-3c2d-37cf-5283",
         "description": "**If any Models are destroyed by a Model subject to this benefit, the Controlling Player scores 1 additional Combat Resolution Point.**\n\n\nIf the Night Lords Legion was selected for this Army’s Shattered Legions Trait, if a Unit that includes any Models from that Army subject to the Mutable Tactics Special Rule causes any enemy Models to be Removed as a Casualty, the Controlling Player scores 1 additional Combat Resolution Point when resolving that Combat during that Player Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "7",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Vengeful Blows",
         "id": "8656-fbfe-c9b0-8018",
         "description": "**Models subject to this benefit get bonuses to Wound Tests if any Models in their Unit have been Removed as a Casualty during that phase.**\n\n\nIf the Blood Angels Legion was selected for this Army’s Shattered Legions Trait, when making a Wound Test for a Melee Attack for a Model from that Army subject to the Mutable Tactics Special Rule, add a modifier of +1 to the result if any Models from the same Unit have been Removed as a Casualty during that Phase.",
-        "hidden": false
+        "hidden": false,
+        "page": "7",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Iron Resolve",
         "id": "0548-d547-75f2-27e3",
         "description": "**Models subject to this benefit gain the Feel No Pain (4+) Special Rule against Volley Attacks.**\n\n\nIf the Iron Hands Legion was selected for this Army’s Shattered Legions Trait, when any attacks as part of a Volley Attack are allocated, if the Target Model is a Model from that Army subject to the Mutable Tactics Special Rule, that Model has the Feel No Pain (4+) Special Rule until that attack is resolved.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Frenzied Pursuit",
         "id": "8d0e-a7ef-6356-9f2e",
         "description": "**Models subject to this benefit move further when Pursuing.**\n\n\nIf the World Eaters Legion was selected for this Army’s Shattered Legions Trait, when a Unit that includes a Model from that Army subject to the Mutable Tactics Special Rule pursues an enemy Unit, the Controlling Player can add +2\" to the distance moved.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Methodical Fighters",
         "id": "7784-de56-b013-3d6d",
         "description": "**Shooting Attacks made as part of a Reaction that target a Unit that includes any Models subject to this benefit must be made as Snap Shots.**\n\n\nIf the Ultramarines Legion was selected for this Army’s Shattered Legions Trait, when an enemy Unit makes a Shooting Attack as part of a Reaction that Targets a Unit that includes any Models from that Army subject to the Mutable Tactics Special Rule, attacks made as part of that Shooting Attack are made as Snap Shots.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Children of Barbarus",
         "id": "a319-599c-c073-1834",
         "description": "**Models subject to this benefit gain the Move Through Cover Special Rule.**\n\n\nIf the Death Guard Legion was selected for this Army’s Shattered Legions Trait, Models from that Army subject to the Mutable Tactics Special Rule ignore the effects of Difficult Terrain and Dangerous Terrain. If called upon to take a Dangerous Terrain Test then such a Model is assumed to automatically pass without any Dice being rolled.",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Conjured Illusions",
         "id": "be9a-4c19-f85f-3c1e",
         "description": "**Enemy Units cannot Pursue a Unit that contains Models subject to this benefit.**\n\n\nIf the Thousand Sons Legion was selected for this Army’s Shattered Legions Trait, enemy Units cannot have the Pursue Aftermath option selected for them if any Units that had the Fall Back option selected for them include any Models from that Army subject to the Mutable Tactics Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Brutal Tradition",
         "id": "6bda-45d0-02cb-1f60",
         "description": "**Models subject to this benefit gain a bonus to Hit Tests while outnumbered.**\n\n\nIf the Sons of Horus Legion was selected for this Army’s Shattered Legions Trait, when making a Hit Test for a Model from that Army subject to the Mutable Tactics Special Rule, add a modifier of +1 to the result if its Controlling Player controls the fewest Models in that Combat. Models with the Bulky (X) Special Rule count as a number of Models equal to the value of X in the variant of the Bulky (X) Special Rule that Model has.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Zealous Devotion",
         "id": "32a9-c2cb-3d5f-8755",
         "description": "**When making a Charge Roll for a Unit that includes Models subject to this benefit, three Dice are rolled and the lowest two discarded.**\n\n\nIf the Word Bearers Legion was selected for this Army’s Shattered Legions Trait, when making a Charge Roll for a Unit that includes any Models from that Army subject to the Mutable Tactics Special Rule, the Controlling Player rolls one additional Dice and discards the two Dice with the lowest results.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Scions of the Flame",
         "id": "7ceb-962f-33fe-7d6b",
         "description": "**Models subject to this benefit are not affected by the Panic (X) Special Rule on Flame weapons.**\n\nIf the Salamanders Legion was selected for this Army’s Shattered Legions Trait, a Unit that includes a Model from that Army subject to the Mutable Tactics Special Rule is unaffected by any variant of the Panic (X) Special Rule on Weapons with the Flame Trait.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Masters of Obfuscation",
         "id": "b3ae-aeba-7242-31eb",
         "description": "**Models subject to this benefit gain the Shrouded (6+) Special Rule if they do not remain Stationary in the Movement Phase.**\n\n\nIf the Raven Guard Legion was selected for this Army’s Shattered Legions Trait, Models from that Army subject to the Mutable Tactics Special Rule that do not remain Stationary in their Controlling Player’s Movement Phase gain the Shrouded (6+) Special Rule until the start of the Controlling Player’s next Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "10",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Assassination Tactics",
         "id": "2e3c-bc73-1473-f55d",
         "description": "**Volley Attacks made for Models subject to this benefit gain the Precision (6+) Special Rule.**\n\n\nIf the Alpha Legion Legion was selected for this Army’s Shattered Legions Trait, when making Volley Attacks for a Model from that Army subject to the Mutable Tactics Special Rule, those attacks have the Precision (6+) Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "10",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Bound in Blood",
         "id": "10af-85f6-be03-1080",
         "description": "**Models subject to this benefit gain positive Modifiers to their Leadership and Cool Characteristics as the Battle progresses.**\n\n\nModels from this Army subject to the Mutable Tactics Special Rule modify their Leadership and Cool Characteristics by +1 during the second and third Battle Turn, and by +2 during the fourth and any subsequent Battle Turns.",
-        "hidden": false
+        "hidden": false,
+        "page": "5",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Legion Specialists",
         "id": "23f1-5b3b-34ec-db8a",
         "description": "If Models in this Unit would benefit from the Mutable Tactics Legion Tactica, they may only benefit from the bonus related to their Legion whose Trait was replaced as part of this Prime Advantage.",
-        "hidden": false
+        "hidden": false,
+        "page": "3",
+        "publicationId": "ac76-4b88-ce47-128e"
       },
       {
         "name": "Order Exemplars",
         "id": "8eec-6e7d-b0dd-2c93",
         "description": "When a Unit that includes any Models with this Special Rule is selected as part of a Detachment, during Army selection, a single option from the Orders of the Hekatonystika presented below must selected for all Models in that Unit.",
         "hidden": false,
+        "page": "137",
         "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Augmetic Transport Bay",
         "id": "9f41-c4ba-509a-20c3",
         "description": "**Transports can embark Automata and have increased Capacity.**\n\n\nA Model with this Special Rule may only have Models with the Automata Type and the Blackshields Trait Embark upon it. In addition, a Model with this Special Rule also increases its Transport Capacity by 3.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Panoply of Old",
         "id": "c768-6f33-f07c-7b92",
         "description": "**A Unit that includes Models with this Special Rule may make use of Wargear upgrades from a single Legion Armoury.**\n\n\nFor each Detachment with this Oath of Moment, the Controlling Player must select a single Legion Trait. All Units in that Detachment may make use of any Armoury of the Legion Wargear upgrades. This does not include any Rules or options from the chosen Legion’s Rites of War or any Prime Advantages – only options which replace Wargear. For the purposes of selecting Wargear upgrades only, all Models in the Detachment for which this Oath of Moment is selected are considered to have the Faction Trait of Legion chosen as part of this Oath of Moment.",
-        "hidden": false
+        "hidden": false,
+        "page": "4",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Blade of the Just",
         "id": "1592-e29d-a111-dfef",
         "description": "**A Unit which includes mostly Models with this Special Rule scores additional Victory Points for winning hard combats.**\n\n\nAll Models with the Blackshields Trait in a Detachment that has this Oath of Moment lose all variants of the Line (X) or Vanguard (X) Special Rule and may not thereafter gain any version of Line (X) or Vanguard (X) from any source. Such Models gain the Doomed Heroics (X) Special Rule, with the value of X on Doomed Heroics being equal to twice the value of X on the Special Rule lost. Models with the Blackshields Trait in a Detachment that has this Oath of Moment that do not have the Heedless Special Rule and no variant of either the Line (X) or Vanguard (X) Special Rule gain the Doomed Heroics (3) Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "11",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "To Fight and Die Alone",
         "id": "525c-b678-98e7-43ff",
         "description": "**A Model with this Special Rule cannot join Units, but gains bonuses when fighting alone.**\n\n\nA Model with this Special Rule may not join any other Unit, nor may it be joined by another Model. While part of a Combat where this Model is the only Model the Controlling Player controls in that Combat:\n\n\n- The Controlling Player gains a bonus of +1 to their Combat Resolution Score for each wound lost by that Model in that Combat Round.\n- If a Model with this Special Rule issues or accepts a Challenge, its Controlling Player scores 1 Victory Point.\n- Neither Player may score any Victory Points for this Model being Removed as a Casualty.",
-        "hidden": false
+        "hidden": false,
+        "page": "12",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Alone and Forgotten",
         "id": "1f14-ed97-b397-d409",
         "description": "**A Detachment with this Oath of Moment may only have Command Choices selected for it, but gains bonuses for those Units in Combat.**\n\n\nA Detachment that has this Oath of Moment may only include Command Choices. All Troops Slots in a Primary or Allied Detachment with this Oath of Moment, or any Auxiliary Detachment attached to such a Detachment, are replaced with Command Slots. However, the only Units that may be chosen to fill Command Slots in a Primary or Allied Detachment with this Oath of Moment, or any Detachments linked to them, are Centurions or Centurions in Terminator Armour.\n\n\nAll Command Choices selected for a Detachment with this Oath of Moment gain +1 to their Base Wounds Characteristic and may add +1 to one of the following Characteristics (each Model may have a different Characteristic selected): Willpower, Cool, or Intelligence\n\n\nAll Centurions and Centurions in Terminator Armour selected as part of a Detachment with this Oath of Moment gain Heedless and To Fight and Die Alone Special Rule:",
-        "hidden": false
+        "hidden": false,
+        "page": "12",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "An Eternity of War",
         "id": "3e9a-f17a-c60e-dcfa",
         "description": "**A Unit that includes Models with this Special Rule may Fall Back in any direction, but can become Routed when not locked in Combat.**\n\n\nWhen the Controlling Player of any Unit composed entirely of Models with the Blackshields Trait, and that is part of a Detachment with this Oath of Moment, is called upon to make a Fall Back Move during the Movement Phase, that move may be made in any direction. Models from a Unit affected by this Oath of Moment can be moved into Base Contact with enemy Models as part of a Fall Back Move made during the Movement Phase, and if any Model in such a Unit does so then all Models in that Unit lose the Routed Battlefield Status if they had it.\n\n\nHowever, if in the Effects Sub-Phase of the Controlling Player’s End Phase in any Battle Turn after Battle Turn One, a Unit affected by this Oath of Moment is not Locked in Combat, then it must have a Cool Check made for it. If this Check is failed then all Models in the Unit gain the Routed Battlefield Status.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "In Disgrace all are Equal",
         "id": "d35b-fa21-0757-9df7",
         "description": "**A Detachment with this Oath of Moment cannot take Command or High Command Choices, but gains bonus Prime Advantages.**\n\n\nA Detachment with this Oath of Moment may not include any Command or High Command Choices. All other Slots in all Detachments with this Oath of Moment become Prime Slots, but the only Prime Advantage that may be selected for any Slot in this Detachment is Petty Warlord. If a Unit is unable to have Petty Warlord selected for it then it may not have a Prime Advantage selected for it. A Unit that includes any Models with the Vehicle Type may not have a Prime Advantage selected for it.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Only in Death does Duty End",
         "id": "58df-6c2a-de82-81a0",
         "description": "**A Unit that includes Models with this Special Rule can have the Routed Status discarded in exchange for taking wounds.**\n\n\nIn the End Phase of the Controlling Player’s Turn, any Unit from a Detachment with this Oath of Moment that includes any Models with the Routed Status may have that Battlefield Status discarded immediately. If the Routed Status is removed from any Model in a Unit due to this Oath of Moment, then that Unit suffers 1D3+1 wounds with a Damage of 1 and an AP of -.",
-        "hidden": false
+        "hidden": false,
+        "page": "4",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Pride is our Armour",
         "id": "6c48-fb06-2b89-ffb1",
         "description": "**Any Detachment with this Special Rule must have all Troops Slots in a Primary or Allied Detachment replaced with Elites Slots.**\n\nA Primary or Allied Detachment with this Oath of Moment replaces all Troops Slots with Elites Slots. Furthermore, a Detachment with this Oath of Moment may not include any Troops Choices, including in any Auxiliary or Apex Detachment attached to that Detachment.",
-        "hidden": false
+        "hidden": false,
+        "page": "9",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Reapers of Lives",
         "id": "0b42-1704-ec3c-c821",
         "description": "**Units that include mostly Models with this Special Rule score Victory Points when used to destroy enemy Units.**\n\n\nAll Models with the Blackshields Trait in a Detachment with this Oath of Moment lose any variants of the Line (X) or Vanguard (X) Special Rule they may have, and may not thereafter gain any version of Line (X) or Vanguard (X) from any source, and a Unit that includes any Models with this Oath of Moment may not Control or Contest Objectives or score Victory Points from any other Primary or Secondary Objective. Instead the Controlling Player of a Detachment with this Oath of Moment gains D3 Victory Points for each enemy Unit entirely removed as Casualties as part of a Shooting Attack made for any Unit that includes a majority of Models with this Oath of Moment or as part of a Combat which includes any Models with this Oath of Moment under that Player’s Control.\n\n\n- If the Unit with this Oath of Moment is a Model with the Vehicle Type, only 1 Victory Point is scored instead.\n- If the enemy Unit whose destruction triggers this Special Rule includes any Models with the Expendable (X) Special Rule, then the number of Victory Points scored for this Special Rule is reduced by the value of X on that variant of the Expendable (X) Special Rule, to a minimum of 0.\n\n\nThis Oath of Moment may not be selected if the Detachment already has the Spoils of Victory Oath of Moment.",
-        "hidden": false
+        "hidden": false,
+        "page": "11",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Broken Helix",
         "id": "1a93-fdf9-dd1e-3df9",
         "description": "**For each Unit that includes any Models with this Special Rule, the Controlling Player must choose from one of two possible options that grant new Special Rules that replace existing ones.**\n\n\nA Model with the Blackshields Trait in a Detachment with this Oath of Moment, loses all variants of the following Special Rules and may not thereafter gain any version of Line (X) or Vanguard (X) from any source:\n\n\n• Fury of the Legion\n• Line (X)\n• Vanguard (X)\n\n\nInstead, such Models gain one of the following two Special Rules, chosen by the Controlling Player – all Models in a Detachment with this Oath of Moment must have the same Special Rule selected for them:\n\n\n• Clone\n• Aberrant",
-        "hidden": false
+        "hidden": false,
+        "page": "8",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Eternal Vendetta",
         "id": "d6d0-9273-d1d4-b167",
         "description": "**A Unit that includes Models with this Special Rule gains the Hatred (Legiones Astartes) Special Rule, but must always charge enemy Legiones Astartes Units.**\n\n\nWhen the opposing army includes any Detachment with any variant of the Legiones Astartes Trait, all Models in a Detachment with this Oath gain the Hatred (Legiones Astartes) Special Rule. If the opposing Army includes a Primary Detachment with any variant of the Legiones Astartes Trait, then the effects of the Hatred (X) Special Rule are expanded to include +1 to all Hit Tests made while in a Combat.\n\n\nHowever, all Units in a Detachment that include any Models with this Oath of Moment that begin the Assault Phase with any Model in that Unit within 12\" of an enemy Model with the Legiones Astartes Trait must declare a Charge targeting the Unit that includes that enemy Model – even if they cannot reach that Unit. Units that are not capable of making a Charge, such as Units that include Models with the Vehicle Type, are not affected by this additional requirement.",
-        "hidden": false
+        "hidden": false,
+        "page": "4",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Flesh is Weak",
         "id": "e895-dda1-cacc-5105",
         "description": "**A Model with this Special Rule gains the Automata Type and other Special Rules.**\n\n\nAll Models with the Blackshields Trait and the Infantry Type in a Detachment with this Oath of Moment must replace the Infantry Type with the Automata Type. They also replace the Blackshields Tactica Special Rule, Bastard Sons of Fate, with the Linked Cogitator Units Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Linked Cogitator Units",
         "id": "686e-7abe-2bf8-103e",
         "description": "**Models with this Special Rule can Control Objectives, and score bonus Victory Points based on the size of the Unit.**\n\n\nA Model with this Special Rule and the Automata Type can Control and Contest Objectives. However, such Models may not benefit from the Line (X) Special Rule, but instead gain a bonus to the number of Victory Points scored when controlling an Objective based on the number of Models with this Special Rule in the Unit.\n• If the Unit contains four or less Models with this Special Rule then it scores one less Victory Point when Controlling an Objective, to a minimum of 0.\n• If the Unit contains ten or more Models with this Special Rule then it scores one additional Victory Point when Controlling an Objective.\n\n\nFurther, any Model with the Transport Sub-Type selected as part of a Detachment that has this Oath of Moment gains the Augmetic Transport Bay Special Rule",
-        "hidden": false
+        "hidden": false,
+        "page": "6",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Legacy of Nikaea",
         "id": "4140-2a99-e941-539f",
         "description": "**Models with this Special Rule and specific Traits gain a Psychic Discipline.**\n\n\nAny Model with the Blackshields Trait and the Sergeant, Champion, Specialist or Command Sub-Type in a Detachment with this Oath of Moment gains the Psyker Trait. Furthermore, such Models gain the Malignant Psychic Discipline (if\nsuch a Model already has the Psyker Trait and access to other Psychic Disciplines, they retain those in addition to this Psychic Discipline)",
-        "hidden": false
+        "hidden": false,
+        "page": "7",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Spoils of Victory",
         "id": "dd0a-1123-9b03-5ad9",
         "description": "**A Unit that includes Models with this Special Rule can score Victory Points for looting the fallen, but loses the Line (X) or Vanguard (X) Special Rules.**\n\n\nAll Models with the Blackshields Trait in a Detachment with this Oath of Moment lose any variants of the Line (X) or Vanguard (X) Special Rule they may have, and may not thereafter gain any version of Line (X) or Vanguard (X) from any source, and a Unit that includes any Models with this Oath of Moment may not Control or Contest any Objective Marker.\n\n\nModels that have lost either the Line (X) or Vanguard (X) Special Rule due to this Oath of Moment instead gain the Loot the Dead (X) Special Rule – the value of X on the Loot the Dead (X) Special Rule depends on the value of X on the Special Rule variants that were removed:\n\n\n• For Models that have had any variant of Vanguard (X) removed by this Special Rule, the value of X on Loot the Dead is equal to half the value of X on the variant of Vanguard (X) that was removed.\n• For Models that have had any variant of Line (X) removed by this Special Rule, the value of X on Loot the Dead is equal to the value of X on the variant of Line (X) that was removed.\n\n\nThis Oath of Moment may not be selected if the Detachment already has the Reapers of Lives Oath of Moment\n\n\n*NR Data authors note - there is currently no definitive ruling on rounding up or down for X values in Special Rules in HH v3.0 and we are not in any position to be making a ruling on that. We will update the values if an FAQ is released to address the subject. In the mean time, we advise discussing it with your opponent before you play.\"*",
-        "hidden": false
+        "hidden": false,
+        "page": "5",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Taint of the Xenos",
         "id": "a8c4-6c76-4105-4e19",
         "description": "**Any Unit that includes Models with this Special Rule may select additional options as part of certain weapons lists.**\n\n\nWhen selecting Weapons for Models with the Blackshields Trait in a Detachment with this Oath of Moment, the following Weapons are considered part of the Legion Special Weapons list\n\n\n- Deathlock +15 Points\n- Doomlock +10 Points\n\n\n\nLikewise, the following Weapons are considered part of the Legion Officer Wargear list\n\n\n- Halo Blade +15 Points",
-        "hidden": false
+        "hidden": false,
+        "page": "10",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "The Weapons of Desperation",
         "id": "49ea-388e-cee3-7053",
         "description": "**A Model with this Special Rule must swap bolters and bolt pistols for other Weapons.**\n\n\nAll Models with the Blackshields Trait in a Detachment with this Oath of Moment must exchange all bolters and bolt pistols for a Weapon from the Weapons of Desperation list shown below (and such bolters and bolt pistols may not be\nexchanged for Weapons from any other lists). All Weapon exchanges required by this Oath of Moment are Free.\n\n\nWeapons of Desperation\n• Reclaimed melee weapon*\n• Reclaimed autogun\n• Reclaimed autopistol\n• Reclaimed lasgun\n• Reclaimed laspistol\n• Reclaimed shotgun\n• Reclaimed heavy stubber*\n\n\n*In any Unit only one Model in every three may select this option",
-        "hidden": false
+        "hidden": false,
+        "page": "10",
+        "publicationId": "59a2-2e27-256e-89e5"
       },
       {
         "name": "Icon of Authority",
         "id": "e7d0-9609-a2f8-1970",
         "description": "When a Weapon with this Special Rule is selected to make Attacks during the Declare Weapons and Set Initiative Step of the Fight Sub-Phase, all Models with the Skitarii Trait that are part of the same Unit as the Model with the Weapon with this Special Rule immediately recover from Pinned, Suppressed and Stunned.",
-        "hidden": false
+        "hidden": false,
+        "page": "40",
+        "publicationId": "19d2-81e2-4215-702c"
       },
       {
         "name": "Annihilation Cascade (X)",
         "id": "012f-3a25-15fa-61c1",
         "description": "**Penetrating Hits inflicted by attacks with the Annihilation Cascade (X) Special Rule can cause additional Hits.**\n\n\nAt the end of Step 9 of the Shooting Attack process or Step 8 of the Resolving an Initiative Step process for any Fire Group or Strike Group that includes Weapons with the Annihilation Cascade (X) Special Rule and which inflicted any Penetrating Hits, create a new Fire Group or Strike Group (respectively). This new Fire Group or Strike Group must then be selected in step 10 of the Shooting Attack or Step 9 of the Resolving an Initiative Step process (respectively) and resolved. This new Fire Group or Strike Group includes a number of Hits equal to the number of Hull Points the Target Model lost due to the Fire Group or Strike Group that triggered its creation. These Hits all have a Strength equal to the value of X attached to the variant of the Annihilation Cascade (X) Special Rule possessed by Weapons in the preceding Fire Group or Strike Group, an AP of '-', a Damage of 1 and no Special Rules.",
         "hidden": false,
+        "page": "93",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "alias": ["Annihilation Cascade"]
       },
       {
         "name": "Cortex Corruption",
         "id": "c5d7-0d8a-f7b8-7df9",
         "description": "**Units that include Models with this Special Rule cannot be joined by other Models or be targeted by Cybertheurgy.**\n\n\nA Unit that includes and Models with this Special Rule may not be joined by any other Model and no Model with this Special Rule may be the target of a Cybertheurgic Rite invoked for a friendly Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "43",
+        "publicationId": "0eca-ceab-6bad-9248"
       },
       {
         "name": "Command Transport",
         "id": "74c4-144a-6329-7669",
         "description": "**Models with this Special Rule may only carry Units that include a Command Model.**\n\n\nOnly Models from Units that include at least one Model with the Command Sub-Type may Embark on a Model that has this Special Rule. This does not allow Models that could not normally Embark on a Model with the Transport Type to do so.",
-        "hidden": false
+        "hidden": false,
+        "page": "44",
+        "publicationId": "0eca-ceab-6bad-9248"
       },
       {
         "name": "Command Vehicle (X)",
         "id": "581c-cbc9-1f23-d892",
         "description": "**A Model with this Special Rule allows other Units to use the value of X instead of their Cool or Leadership once per turn.**\n\n\nOnce per Turn, while a Model with this Special Rule is on the Battlefield and when the Controlling Player is required to make a Cool or Leadership Check for another Unit under their control that includes one or more Models with a nuncio-vox, command vox, or vox interlock, the value of X listed may be used to resolve that Check.",
         "hidden": false,
+        "page": "44",
+        "publicationId": "0eca-ceab-6bad-9248",
         "alias": ["Command Vehicle"]
       },
       {
@@ -1265,49 +1455,65 @@
         "id": "8e22-3f6e-10f3-6e80",
         "description": "**A Model with this Special Rule allows a number of detachments of tanks equal to the value of X to be included in an Army.**\n\n\nIf a Model with this Special Rule is selected to fill a High Command or Command Slot in any Detachment, then the Controlling Player may select a number of Auxiliary Detachments equal to the value of X in the specified variant of this Special Rule instead of just one - however, the Detachment selected may only include Armour Slots. If the Model with this Special Rule has the Solar Auxilia Trait, then these Auxiliary Detachments may include Armour Tercio Auxiliary Detachments.",
         "hidden": false,
+        "page": "45",
+        "publicationId": "0eca-ceab-6bad-9248",
         "alias": ["Tank Commander"]
       },
       {
         "name": "Subterranean",
         "id": "4cd3-8bb8-3e73-42b4",
         "description": "**Shooting Attacks made using a Weapon with this Special Rule interact with Cover Saves, Shrouded Damage Mitigation Rolls, Armour Facings, the Flyer Sub-Type and Levels differently to typical Shooting Attacks.**\n\n\nThe following effects are conferred onto any Weapon with this Special Rule:\n- A Cover Save or Shrouded Damage Mitigation Roll may bot be made to discard a wound or Penetrating Hit inflicted by a Weapon with this Special Rule, but Armour Saves or Invulnerable Saves may be made as normal.\n- Hits inflicted by a Weapon with this Special Rule against Vehicles always count as targeting that Vehicle's Side Armour facing.\n- A Weapon with this Special Rule may never be used to target a Model with the Flyer Sub-Type.\n- When targeting a Unit containing Models which are inside area terrain which has multiple levels, Hits inflicted by a Weapon with this Special Rule may never be allocated to Models on any level other than the lowest level.",
-        "hidden": false
+        "hidden": false,
+        "page": "47",
+        "publicationId": "0eca-ceab-6bad-9248"
       },
       {
         "name": "Armoured Warfare",
         "id": "704a-3f40-66bd-a4ee",
         "description": "**Models with this Special Rule provide the Auto-repair (4+) Special Rule to nearby Units with the Armour Tercio Trait.**\n\nAny Model with the Armour Tercio Trait gains the Auto-repair (4+) Special Rule as long as it is within 18\" of a Friendly Model with this Special Rule.",
-        "hidden": false
+        "hidden": false,
+        "page": "27",
+        "publicationId": "adda-966f-f129-ed26"
       },
       {
         "name": "Imperial Writ",
         "id": "a10c-2795-fd8e-ad5f",
         "description": "**Models with this Special Rule may be included in an Allied Detachment for a Legio Custodes Army, but may never have a Legiones Auxilia Designation.**\n\n\nModels with this Special Rule gain the Talons of the Emperor Trait. Additionally, an Army which contains any Models with this Special Rule may never have a Legiones Auxilia Designation selected for it.",
-        "hidden": false
+        "hidden": false,
+        "page": "36",
+        "publicationId": "523a-934d-6ec7-b26f"
       },
       {
         "name": "Convocators",
         "id": "ba1c-33d2-1061-4528",
         "description": "**Psykers can be selected as Nodes to modify the value of Line (X) possessed by Friendly or Enemy Units.**\n\n\nAt the start of each Victory Sub-Phase, the Controlling Player of at least one Model on the Battlefield with this Special Rule may nominate one Friendly or Enemy Unit. The Controlling Player must then select a Node. A Node must be a Friendly Model with both the Psyker Trait and this Special Rule, that has not already been selected as a Node during this Battle Turn, that is not Locked in Combat or under the effect of any Tactical Status, and make a Willpower Check using the Willpower Characteristic of the Node. If the Willpower Check is successful, all Models in the nominated Unit lose any variant of the Vanguard (X) Special Rule they have and gain the Line (1) Special Rule, or have any version of the Line (X) Special Rule they already have modified by +1 to a maximum of Line (3), until the end of the current Victory Sub-Phase. The Controlling Player may then select a new Node and repeat the process.\n\n\nIf the Willpower Check is failed the Node suffers D3 wounds against which no Armour Saves or Damage Mitigation rolls may be made, but Invulnerable Saves may be taken as normal. Additionally, all Models in the nominated Unit have the value of any variant of the Line (X) Special Rule they may have modified by -1 to a minimum of 0, and may not have any variant of the Line (X) Special Rule they may have positively modified, until the end of the current Victory Sub-Phase.",
-        "hidden": false
+        "hidden": false,
+        "page": "47",
+        "publicationId": "523a-934d-6ec7-b26f"
       },
       {
         "name": "Hedonists",
         "id": "9b7e-edb4-353c-3a3e",
         "description": "**Models with this Special Rule gain or improve Line (X) when nearby enemy Units are affected by Tactical Statuses.**\n\n\nAt the start of each of their Victory Sub-phases as the Active Player, the Controlling Player may nominate one Friendly Unit that contains only Models with this Special Rule. For each Tactical Status, either Pinned, Stunned, Suppressed or Routed that is applied to any enemy Unit that is within 18\" and Line of Sight of the nominated Friendly Unit and does not have the Vehicle Type, the nominated Friendly Unit loses any variant of the Vanguard (X) Special Rule and gains the Line (1) Special Rule for the duration of the Victory Sub-Phase, or modifies the value of any variant of the Line (X) Special Rule that they have to a maximum of Line (3).",
-        "hidden": false
+        "hidden": false,
+        "page": "46",
+        "publicationId": "3e49-c51c-1b8d-fefe"
       },
       {
         "name": "Soporific Musk",
         "id": "cdb4-49d4-88d7-a2c6",
         "description": "**Enemy Units in Combat with a Unit with this Special Rule must pass a Willpower Check before having an Aftermath option selected for them.**\n\n\nIf a Combat includes any Models with this Special Rule, the Controlling Player may choose that the Opposing Player must make a Willpower Check for each of their Units in the selected Combat, before selecting any Aftermath option for that Unit. If the Willpower Check is passed, the Player may select an Aftermath option as normal. If the Willpower Check is failed, the Player must select Hold. Note that if a Unit contains any Models with the Routed status, a Willpower Check must still be made for that Unit. If the Check is passed, the Unit must Fall Back and if the Check is failed the Unit must Hold, but the Models retain the Routed Status, regardless of the result.",
-        "hidden": false
+        "hidden": false,
+        "page": "46",
+        "publicationId": "3e49-c51c-1b8d-fefe"
       },
       {
         "name": "Squadron Tactics",
         "id": "4933-4ef8-5371-9566",
         "description": "While a Model with this Special Rule is within 6\" of another Model with this Special Rule, the Controlling Player may add 2 to Repair Rolls made for that Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "5",
+        "publicationId": "4e8d-9c4c-93a6-aea2"
       }
     ],
     "sharedSelectionEntries": [
@@ -1323,7 +1529,9 @@
             "name": "Augurs of Weakness",
             "id": "82b0-6411-2b56-f429",
             "description": "When making attacks targeting a Unit that includes one or more Models with the Vehicle Type, Models with the Order Exemplars Special rule gain the Armourbane Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -1338,7 +1546,9 @@
             "name": "Breakers of Witches",
             "id": "5824-3158-112b-02c6",
             "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that has one or more Models with the Malefic Sub-Type or Psyker Trait, Hit and Wound Tests made for Models with the Order Exemplars Special Rule in that Combat are modified by +1.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -1353,7 +1563,9 @@
             "name": "Hunters of Beasts",
             "id": "019d-0b52-c8ee-dae4",
             "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that includes one or more Models with Toughness Characteristic of 6 or higher, the Damage Characteristic of Wounds caused by a Model with this Special Rule is modified by +1.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -1368,7 +1580,9 @@
             "name": "Icons of Resolve",
             "id": "a931-e25a-ca2f-5b4d",
             "description": "When part of a Unit that is successfully Charged by an enemy Unit, Models with the Order Exemplars Special Rule set their Leadership Characteristic to 10 for the duration of the current Assault Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -1383,7 +1597,9 @@
             "name": "Reaper of Hosts",
             "id": "1855-7e6f-f103-271c",
             "description": "Whilst part of a Unit that is Locked in Combat with one or more enemy Units that outnumbers it, then all Models in that Unit with the Order Exemplars Special Rule modify their Attacks Characteristic by +1.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -1409,7 +1625,9 @@
             "name": "Slayer of Kings",
             "id": "1c57-5d1f-7e47-e6cd",
             "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that includes at least one Model with a Weapon Skill Characteristic of 6 or higher, the Attack Characteristic of Models with the Order Exemplars Special Rule may be set to 1. If this option is used then the Terranic greatswords those Models have gain the Critical Hit (6+) Special Rule until the Combat ends.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       }

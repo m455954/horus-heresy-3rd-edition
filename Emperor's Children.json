@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "                         III - Emperor's Children",
     "id": "9a22-d01f-ab5c-ec07",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -499,7 +496,9 @@
                 "name": "Sublime Swordsman",
                 "id": "6d26-1565-3692-ebe1",
                 "description": "\"In a Challenge, Fulgrim's Attacks Characteristic is modified if his Initiative Characteristic is higher than his opponent's.\"\n\n\nWhile a Model with this Special Rule is taking part in a Challenge, if its Controlling Player has Challenge Advantage, modify the Attacks Characteristic of the Model with this Special Rule by +1 for each point that its Base Initiative Characteristic is higher than its opponent's Bas Initiative Characteristic.",
-                "hidden": false
+                "hidden": false,
+                "page": "131",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Sire of the Emperor's Children",
@@ -4298,7 +4297,9 @@
                     "name": "Flawless Execution",
                     "id": "86e3-f975-2e97-1c9b",
                     "description": "\"Emperor's Children gain an Initiative bonus when they successfully Charge.\"\n\n\nOn any Turn in which they made a Charge Move, Models with this Special Rule gain an additional modifier to their Combat Initiative of +1 until the end of the Phase.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "126",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
@@ -4318,6 +4319,8 @@
                     "name": "Paragon of Excellence",
                     "id": "b19c-f3e5-0bab-16ad",
                     "hidden": false,
+                    "page": "126",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -4351,6 +4354,8 @@
                     "name": "Perfect Counter",
                     "id": "9c3a-ccbc-1997-cbc0",
                     "hidden": false,
+                    "page": "127",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

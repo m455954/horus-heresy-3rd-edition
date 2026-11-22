@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "Weapons",
     "id": "a22d-4dd0-c59d-57d3",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -26,8 +23,8 @@
             "name": "Bolt pistol",
             "id": "8942-0add-2a97-19f2",
             "hidden": false,
-            "page": 52,
-            "publicationId": "a5ca-d2f8-fa5a-c120",
+            "page": "320",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -232,8 +229,8 @@
             "name": "Bolter",
             "id": "1ec7-f2ae-0123-5766",
             "hidden": false,
-            "page": 52,
-            "publicationId": "a5ca-d2f8-fa5a-c120",
+            "page": "320",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -289,6 +286,8 @@
             "name": "Plasma pistol (Sustained)",
             "id": "d37a-cbef-57b7-ce14",
             "hidden": false,
+            "page": "325",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -305,6 +304,8 @@
             "name": "Plasma pistol (Maximal)",
             "id": "8da8-cce8-1320-2454",
             "hidden": false,
+            "page": "325",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -798,6 +799,8 @@
             "name": "Power fist",
             "id": "1ac2-7865-9237-8752",
             "hidden": false,
+            "page": "328",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -5763,6 +5766,8 @@
             "name": "Phosphex bombs",
             "id": "346b-bb91-350b-6e1d",
             "hidden": false,
+            "page": "324",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -5880,8 +5885,8 @@
             "name": "Rad grenades",
             "id": "cd07-ddf1-caeb-fcdd",
             "hidden": false,
-            "page": 55,
-            "publicationId": "a5ca-d2f8-fa5a-c120",
+            "page": "326",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -6459,6 +6464,8 @@
             "name": "Grenade harness",
             "id": "a767-65aa-71ba-cc22",
             "hidden": false,
+            "page": "326",
+            "publicationId": "4e8d-9c4c-93a6-aea2",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -7439,8 +7446,8 @@
             "name": "Krak grenades",
             "id": "18b8-b0a0-a95e-3236",
             "hidden": false,
-            "page": 57,
-            "publicationId": "a5ca-d2f8-fa5a-c120",
+            "page": "328",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -7470,8 +7477,8 @@
             "name": "Melta bombs",
             "id": "d0b8-6aa6-9753-e0d9",
             "hidden": false,
-            "page": 57,
-            "publicationId": "a5ca-d2f8-fa5a-c120",
+            "page": "328",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -9643,6 +9650,8 @@
         "id": "65da-539f-9e31-5a40",
         "hidden": false,
         "import": true,
+        "page": "125",
+        "publicationId": "b905-0414-1057-bb34",
         "type": "upgrade",
         "infoLinks": [
           {
@@ -9660,6 +9669,7 @@
             "name": "Calibanite Warblade",
             "id": "aeaf-1517-6d36-15f4",
             "hidden": false,
+            "page": "125",
             "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
@@ -9697,6 +9707,7 @@
             "name": "Terranic greatsword",
             "id": "8a17-f55d-3f4b-9eb9",
             "hidden": false,
+            "page": "125",
             "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",

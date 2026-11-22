@@ -2,9 +2,9 @@
   "catalogue": {
     "name": "Legiones Astartes",
     "id": "9b32-f350-6aa9-9c09",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
+    "authorContact": "\n",
+    "authorName": "",
+    "authorUrl": "",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -1435,24 +1435,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
           }
         ]
       },
@@ -1482,24 +1464,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
           }
         ]
       },
@@ -1520,24 +1484,6 @@
               {
                 "childId": "6f9b-3d99-7ecd-3214",
                 "childName": "Primary - Armoured Spearhead",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
                 "field": "forces",
                 "includeChildForces": true,
                 "includeChildSelections": true,
@@ -57835,7 +57781,15 @@
               }
             ]
           },
-          {"name": "Deathstorm", "id": "eba3-9185-3cee-74c9", "hidden": false, "targetId": "a89e-9755-0c6e-80db", "type": "rule"},
+          {
+            "name": "Deathstorm",
+            "id": "eba3-9185-3cee-74c9",
+            "hidden": false,
+            "page": "70",
+            "publicationId": "b905-0414-1057-bb34",
+            "targetId": "a89e-9755-0c6e-80db",
+            "type": "rule"
+          },
           {
             "name": "Squadron Tactics",
             "id": "1a05-d723-3e82-1452",
@@ -72640,15 +72594,8 @@
                 ]
               }
             ]
-          }
-        ],
-        "rules": [
-          {
-            "name": "Battlefield Coordinators",
-            "id": "e1bc-531b-4440-d1aa",
-            "description": "\"This Special Rule allows the Controlling Player to reduce the Reaction Point cost of a Reaction once per Turn.\"\n\n\nOnce per Turn, if a Unit that contains Models with this Special Rule is within 18\" of a Unit that makes a Reaction, the Controlling Player can make an Intelligence Check for this Unit. If a Model from the Unit with this Special Rule has Line of Sight to a Model in the Reacting Unit , the Controlling Player can modify the result of that Check by -1. If the Check is successful that Reaction costs one fewer Reaction Points (to a minimum of 0).",
-            "hidden": false
-          }
+          },
+          {"name": "Battlefield Coordinators", "id": "0dcc-4e89-4220-9835", "hidden": false, "targetId": "35dd-79de-75f5-f2c8", "type": "rule"}
         ],
         "selectionEntries": [
           {
@@ -124267,6 +124214,8 @@
             "comment": "Dark Angels",
             "hidden": true,
             "import": true,
+            "page": "125",
+            "publicationId": "b905-0414-1057-bb34",
             "type": "upgrade",
             "constraints": [
               {"id": "5fe8-9bf9-3081-b789", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
@@ -124319,7 +124268,9 @@
                 "name": "Paladin of the Hekatonystika",
                 "id": "4f22-da6c-0ce3-8aba",
                 "description": "This Prime Advantage can only be selected once per Army. One Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gains the following benefits:\n\n\n• Has its Base Weapon Skill Characteristic modified by +1.\n• Must have its bolter exchanged for a Terranic greatsword for Free.\n• Gains the Order Exemplars Special Rule (see page 137).",
-                "hidden": false
+                "hidden": false,
+                "page": "125",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124557,6 +124508,16 @@
                   },
                   {"childId": "4041-105d-29a6-2c22", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "equalTo", "value": 1}
                 ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Phoenix Warden",
+                "id": "47ec-5bf6-3c14-0fab",
+                "description": "A Model selected to fill a Prime Force Organization Slot with this Prime Advantage:\n\n\n- Must have its combi-bolter and power weapon exchanged for a Phoenix power spear for Free.\n- Gains the Skill Unmatched Special Rule",
+                "hidden": false,
+                "page": "125",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -126856,11 +126817,23 @@
         "id": "9035-6bbe-3431-876d",
         "hidden": false,
         "import": true,
+        "page": "137",
+        "publicationId": "b905-0414-1057-bb34",
         "constraints": [
           {"id": "1150-ab29-db16-7436", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
           {"id": "4a4e-e25a-a979-c751", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
-        "infoLinks": [{"name": "Order Exemplars", "id": "8faf-d3b2-41f9-a908", "hidden": false, "targetId": "8eec-6e7d-b0dd-2c93", "type": "rule"}],
+        "infoLinks": [
+          {
+            "name": "Order Exemplars",
+            "id": "8faf-d3b2-41f9-a908",
+            "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34",
+            "targetId": "8eec-6e7d-b0dd-2c93",
+            "type": "rule"
+          }
+        ],
         "selectionEntries": [
           {
             "name": "Augurs of Weakness",
@@ -126876,7 +126849,9 @@
                 "name": "Augurs of Weakness",
                 "id": "c51d-6538-2afb-3f8c",
                 "description": "When making attacks targeting a Unit that includes one or more Models with the Vehicle Type, Models with the Order Exemplars Special rule gain the Armourbane Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -126893,7 +126868,9 @@
                 "name": "Icons of Resolve",
                 "id": "dd6a-62bc-85e5-ed45",
                 "description": "When part of a Unit that is successfully Charged by an enemy Unit, Models with the Order Exemplars Special Rule set their Leadership Characteristic to 10 for the duration of the current Assault Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -126921,7 +126898,9 @@
                 "name": "Slayer of Kings",
                 "id": "d81e-74ac-25ab-8993",
                 "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that includes at least one Model with a Weapon Skill Characteristic of 6 or higher, the Attack Characteristic of Models with the Order Exemplars Special Rule may be set to 1. If this option is used then the Terranic greatswords those Models have gain the Critical Hit (6+) Special Rule until the Combat ends.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -126938,7 +126917,9 @@
                 "name": "Hunters of Beasts",
                 "id": "706f-a632-3701-09b2",
                 "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that includes one or more Models with Toughness Characteristic of 6 or higher, the Damage Characteristic of Wounds caused by a Model with this Special Rule is modified by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -126955,7 +126936,9 @@
                 "name": "Reaper of Hosts",
                 "id": "a25b-5b49-2cd9-a862",
                 "description": "Whilst part of a Unit that is Locked in Combat with one or more enemy Units that outnumbers it, then all Models in that Unit with the Order Exemplars Special Rule modify their Attacks Characteristic by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -126972,7 +126955,9 @@
                 "name": "Breakers of Witches",
                 "id": "f6d6-92bd-94ca-3704",
                 "description": "Whilst part of a Unit that is Locked in Combat with an enemy Unit that has one or more Models with the Malefic Sub-Type or Psyker Trait, Hit and Wound Tests made for Models with the Order Exemplars Special Rule in that Combat are modified by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "137",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           }

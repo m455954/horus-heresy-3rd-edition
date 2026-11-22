@@ -2,9 +2,6 @@
   "catalogue": {
     "name": "                         I - Dark Angels",
     "id": "0a35-fce3-188c-b3aa",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
-    "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
@@ -161,27 +158,7 @@
         "import": true,
         "targetId": "f369-7a8f-853b-fdc5",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "War-engine", "id": "c20e-155b-73ed-e0aa", "primary": true, "targetId": "2499-7239-685f-8465"}],
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "categoryLinks": [{"name": "War-engine", "id": "c20e-155b-73ed-e0aa", "primary": true, "targetId": "2499-7239-685f-8465"}]
       },
       {
         "name": "Firewing Enigmatus Cabal",
@@ -216,13 +193,17 @@
         "name": "The Angels of Death",
         "id": "7fd2-c16b-0e15-9de7",
         "description": "\"Negative modifiers to Dark Angels' Leadership, Willpower, Cool and Intelligence are limited.\"\nModels with this Special Rule may never have their Leadership Characteristic modified to less than 6. Additionally, any variant of Fear (X) Special Rule may only reduce the Leadership, Willpower, Cool and Intelligence Characteristics of any Model with this Special Rule by a maximum of 1, regardless of the value of X.",
-        "hidden": false
+        "hidden": false,
+        "page": "126",
+        "publicationId": "b905-0414-1057-bb34"
       },
       {
         "name": "Companions",
         "id": "7978-7a3f-abd4-bdcc",
         "description": "While a Model with both the Dark Angels Trait and either the Paragon Type or Command Sub-Type is part of a Unit that includes any Models with this Special Rule, Precision Wound caused as part of a Shooting Attack cannot be allocated to that Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "134",
+        "publicationId": "b905-0414-1057-bb34"
       }
     ],
     "sharedSelectionEntries": [
@@ -256,6 +237,7 @@
             "id": "7797-4238-4aae-543c",
             "hidden": false,
             "import": true,
+            "sortIndex": 2,
             "targetId": "d3f9-b9e6-3ea5-cc8e",
             "type": "selectionEntry",
             "constraints": [
@@ -268,6 +250,7 @@
             "id": "f5d8-0940-5388-101c",
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "targetId": "2942-f783-d627-33c5",
             "type": "selectionEntry",
             "constraints": [
@@ -280,6 +263,7 @@
             "id": "d547-a448-103f-85d8",
             "hidden": false,
             "import": true,
+            "sortIndex": 6,
             "targetId": "60e4-ca33-2e68-9afc",
             "type": "selectionEntry",
             "constraints": [
@@ -292,6 +276,7 @@
             "id": "e9d9-0a33-3a8a-2843",
             "hidden": false,
             "import": true,
+            "sortIndex": 7,
             "targetId": "fa20-82bc-c7de-9e97",
             "type": "selectionEntry",
             "constraints": [
@@ -313,6 +298,7 @@
             "id": "b299-0e50-7272-7f2d",
             "hidden": false,
             "import": true,
+            "sortIndex": 8,
             "targetId": "969e-8b5b-1410-cfc6",
             "type": "selectionEntryGroup"
           }
@@ -336,30 +322,15 @@
             ]
           }
         ],
-        "profiles": [
-          {
-            "name": "Armour of the Forest",
-            "id": "55dd-63ea-8d31-d53f",
-            "hidden": false,
-            "publicationId": "b905-0414-1057-bb34",
-            "typeId": "5ec5-e0c3-1701-6f16",
-            "typeName": "Wargear",
-            "characteristics": [
-              {"name": "Summary", "$text": "This Wargear reduces the amount of Damage suffered from any wound inflicted in a Challenge.", "typeId": "8e7d-a0ae-fd85-983c"},
-              {
-                "name": "Description",
-                "$text": "When a Model with this Special Rule is engaged in a Challenge, the Damage Characteristic of any wound inflicted on that Model is reduced by 1, to a minimum of 1.�",
-                "typeId": "9944-2f6d-d61b-03b5"
-              }
-            ]
-          }
-        ],
         "selectionEntries": [
           {
             "name": "The Blade",
             "id": "cb76-bb4b-7531-63f4",
             "hidden": false,
             "import": true,
+            "page": "132",
+            "publicationId": "b905-0414-1057-bb34",
+            "sortIndex": 4,
             "type": "upgrade",
             "constraints": [
               {"id": "6864-23ff-7a13-cbb0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -381,6 +352,8 @@
                 "name": "The Blade",
                 "id": "4b75-752f-231d-0dec",
                 "hidden": false,
+                "page": "132",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "3587-6dcd-005c-c263",
                 "typeName": "Melee Weapon",
                 "characteristics": [
@@ -400,6 +373,7 @@
             "id": "8f86-aa12-6bd3-6872",
             "hidden": false,
             "import": true,
+            "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
               {"name": "Infantry Model Type", "id": "6703-8853-40ea-837c", "primary": false, "targetId": "594d-fa82-13cb-a345"},
@@ -421,6 +395,8 @@
                 "name": "Corswain",
                 "id": "4e3c-f62e-3bf6-bdc9",
                 "hidden": false,
+                "page": "132",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -439,6 +415,37 @@
                   {"name": "IN", "$text": "9", "typeId": "29c5-925d-5b1d-1e77"},
                   {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
                   {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Armour of the Forest",
+            "id": "bcf8-133c-0ae8-1786",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 5,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "099a-ebab-9257-583e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "aad6-4d15-49c7-299f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "Armour of the Forest",
+                "id": "55dd-63ea-8d31-d53f",
+                "hidden": false,
+                "page": "132",
+                "publicationId": "b905-0414-1057-bb34",
+                "typeId": "5ec5-e0c3-1701-6f16",
+                "typeName": "Wargear",
+                "characteristics": [
+                  {"name": "Summary", "$text": "This Wargear reduces the amount of Damage suffered from any wound inflicted in a Challenge.", "typeId": "8e7d-a0ae-fd85-983c"},
+                  {
+                    "name": "Description",
+                    "$text": "When a Model with this Special Rule is engaged in a Challenge, the Damage Characteristic of any wound inflicted on that Model is reduced by 1, to a minimum of 1.",
+                    "typeId": "9944-2f6d-d61b-03b5"
+                  }
                 ]
               }
             ]
@@ -562,6 +569,8 @@
                 "name": "Deathwing Companion",
                 "id": "1908-f6a7-dab1-8040",
                 "hidden": false,
+                "page": "134",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -947,6 +956,8 @@
                 "name": "Deathwing Oathbearer",
                 "id": "8b7e-e3a5-29cf-2956",
                 "hidden": false,
+                "page": "134",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -1804,6 +1815,8 @@
                 "name": "Order Cenobite",
                 "id": "f02a-ca40-76e4-8ee3",
                 "hidden": false,
+                "page": "136",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -1945,6 +1958,8 @@
                 "name": "Order Preceptor",
                 "id": "d285-c93a-d184-358c",
                 "hidden": false,
+                "page": "136",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -2170,7 +2185,7 @@
                 "name": "Lion El'Johnson",
                 "id": "fc34-5535-3a8f-32ea",
                 "hidden": false,
-                "page": "p.130",
+                "page": "130",
                 "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
@@ -2196,6 +2211,8 @@
                 "name": "The Lion's Choler",
                 "id": "6d03-7db0-97c7-c902",
                 "hidden": false,
+                "page": "131",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2214,7 +2231,7 @@
                 "id": "8e92-fc97-9979-9973",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled and these Slots contain at least one Tactical Squad Unit, at least one Assault Squad Unit and at least one Breacher Squad Unit, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\n-When the Controlling Player of a Model with this Special Rule makes a Reserve Roll for a Outrider Squadron Unit which only includes Models with the Dark Angels Trait or a Scimitar Jetbike Squadron Unit which only includes Models with the Dark Angels Trait, that Roll is modified by +1.",
                 "hidden": false,
-                "page": "p.131",
+                "page": "131",
                 "publicationId": "7d63-5df4-c656-52de"
               }
             ]
@@ -2254,6 +2271,8 @@
             "id": "b884-a934-46bd-30f3",
             "hidden": false,
             "import": true,
+            "page": "130",
+            "publicationId": "b905-0414-1057-bb34",
             "type": "upgrade",
             "constraints": [
               {"id": "b20a-e8e4-6a84-3e69", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -2275,7 +2294,7 @@
                 "name": "The Fusil Actinaeus",
                 "id": "7302-7d51-19e7-17ee",
                 "hidden": false,
-                "page": "p.130",
+                "page": "130",
                 "publicationId": "b905-0414-1057-bb34",
                 "typeId": "c591-09ed-3e6f-eb2b",
                 "typeName": "Ranged Weapon",
@@ -2421,6 +2440,7 @@
             "id": "00b1-d389-28be-b163",
             "hidden": false,
             "import": true,
+            "sortIndex": 3,
             "targetId": "5ad2-c3b4-f5eb-5b10",
             "type": "selectionEntry",
             "constraints": [
@@ -2433,6 +2453,7 @@
             "id": "5884-db2a-3d84-c50a",
             "hidden": false,
             "import": true,
+            "sortIndex": 2,
             "targetId": "e2ee-052e-163c-6e65",
             "type": "selectionEntry",
             "constraints": [
@@ -2483,6 +2504,9 @@
             "id": "aaaa-0f3f-1b3e-75bb",
             "hidden": false,
             "import": true,
+            "page": "133",
+            "publicationId": "b905-0414-1057-bb34",
+            "sortIndex": 4,
             "type": "upgrade",
             "constraints": [
               {"id": "9b7d-3a60-b854-88f6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -2493,6 +2517,8 @@
                 "name": "The Death of Worlds",
                 "id": "8c0b-1435-0d77-8f5d",
                 "hidden": false,
+                "page": "133",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "3587-6dcd-005c-c263",
                 "typeName": "Melee Weapon",
                 "characteristics": [
@@ -2512,6 +2538,7 @@
             "id": "8e82-13e7-cba4-a6a9",
             "hidden": false,
             "import": true,
+            "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
               {"name": "Infantry Model Type", "id": "d695-ab86-440c-899c", "primary": false, "targetId": "594d-fa82-13cb-a345"},
@@ -2545,6 +2572,8 @@
                 "name": "Marduk Sedras",
                 "id": "03cf-486a-0bef-4c02",
                 "hidden": false,
+                "page": "133",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -2571,7 +2600,9 @@
                 "name": "Ancient of War",
                 "id": "460d-7e6b-54d2-8bbe",
                 "description": "While Marduk is part of a Unit that includes only Models with the Dark Angels Trait, all Models in that Unit gain the Hatred(Traitor) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "133",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           }
@@ -2582,6 +2613,7 @@
         "id": "e5a9-b2ba-1f96-478d",
         "hidden": false,
         "import": true,
+        "page": "",
         "type": "upgrade",
         "costs": [{"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}, {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0}],
         "profiles": [
@@ -2589,6 +2621,7 @@
             "name": "Cytheron pattern aegis",
             "id": "7fef-74ce-92f3-65bb",
             "hidden": false,
+            "page": "134",
             "publicationId": "b905-0414-1057-bb34",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
@@ -2608,6 +2641,7 @@
         "id": "e2ee-052e-163c-6e65",
         "hidden": false,
         "import": true,
+        "publicationId": "b905-0414-1057-bb34",
         "type": "upgrade",
         "infoLinks": [
           {
@@ -2643,6 +2677,8 @@
             "name": "Plasma burner (Sustained)",
             "id": "5c21-b963-f546-c8b5",
             "hidden": false,
+            "page": "125",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2659,6 +2695,8 @@
             "name": "Plasma burner (Maximal)",
             "id": "3645-1391-89db-af30",
             "hidden": false,
+            "page": "125",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2678,6 +2716,8 @@
         "id": "509f-0a58-f6e8-c8f5",
         "hidden": false,
         "import": true,
+        "page": "137",
+        "publicationId": "b905-0414-1057-bb34",
         "type": "upgrade",
         "infoLinks": [
           {
@@ -2713,6 +2753,8 @@
             "name": "Plasma caster (Sustained)",
             "id": "ddc8-a2d3-62a1-cca3",
             "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2729,6 +2771,8 @@
             "name": "Plasma caster (Maximal)",
             "id": "d52e-f6cc-1c93-4286",
             "hidden": false,
+            "page": "137",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2748,6 +2792,8 @@
         "id": "a645-4447-2176-3ca5",
         "hidden": false,
         "import": true,
+        "page": "125",
+        "publicationId": "b905-0414-1057-bb34",
         "type": "upgrade",
         "costs": [{"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}, {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0}],
         "infoLinks": [
@@ -2784,6 +2830,8 @@
             "name": "Plasma incinerator (Sustained)",
             "id": "12bf-6478-f1e5-d8dc",
             "hidden": false,
+            "page": "125",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2800,6 +2848,8 @@
             "name": "Plasma incinerator (Maximal)",
             "id": "dcec-48ef-cbcc-0c70",
             "hidden": false,
+            "page": "125",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2819,6 +2869,8 @@
         "id": "1109-8c89-3feb-323f",
         "hidden": false,
         "import": true,
+        "page": "135",
+        "publicationId": "b905-0414-1057-bb34",
         "type": "upgrade",
         "costs": [{"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}, {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0}],
         "infoLinks": [
@@ -2860,6 +2912,8 @@
             "name": "Rad missile",
             "id": "6108-e6f2-dcae-ec8b",
             "hidden": false,
+            "page": "135",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2876,6 +2930,8 @@
             "name": "Stasis missile",
             "id": "ad51-8f80-b129-038e",
             "hidden": false,
+            "page": "135",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -2896,6 +2952,8 @@
         "comment": "Retinue",
         "hidden": false,
         "import": false,
+        "page": "79",
+        "publicationId": "5469-14da-d0a1-6092",
         "type": "unit",
         "costs": [
           {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 240},
@@ -2984,6 +3042,8 @@
                 "name": "Cataphractii Companion",
                 "id": "c1b1-60e1-fb29-0386",
                 "hidden": false,
+                "page": "79",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -3221,6 +3281,8 @@
                 "name": "Cataphractii Oathbearer",
                 "id": "f880-35e0-2966-c434",
                 "hidden": false,
+                "page": "79",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -3428,6 +3490,8 @@
         "comment": "Retinue",
         "hidden": false,
         "import": false,
+        "page": "80",
+        "publicationId": "5469-14da-d0a1-6092",
         "type": "unit",
         "costs": [
           {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 240},
@@ -3511,6 +3575,8 @@
                 "name": "Tartaros Companion",
                 "id": "fd46-14ec-1229-e3ca",
                 "hidden": false,
+                "page": "80",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -3741,6 +3807,8 @@
                 "name": "Tartaros Oathbearer",
                 "id": "0c68-0a27-f335-0301",
                 "hidden": false,
+                "page": "80",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -3948,6 +4016,8 @@
         "comment": "Elite",
         "hidden": false,
         "import": true,
+        "page": "81",
+        "publicationId": "5469-14da-d0a1-6092",
         "type": "unit",
         "costs": [
           {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 65},
@@ -4004,7 +4074,8 @@
             "id": "0a25-1715-cb15-26cf",
             "description": "\"This Special Rule provides bonuses when Models with it are Locked in Combat with larger enemies.\"\n\n\nWhilst a Model with this Special Rule is part of a Unit that is Locked in Combat with an enemy Unit that includes one or more Models with the Walker Type, Automata Type or Malefic Sub-Type:\n• That Model with this Special Rule has its Toughness Characteristic modified by +1.\n• When making a Characteristic Check that uses the Leadership, Cool, Willpower or Intelligence Characteristics of that Model with this Special Rule, the Controlling Player may ignore negative modifiers to that Characteristic.",
             "hidden": false,
-            "publicationId": "b905-0414-1057-bb34"
+            "page": "81",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -4050,6 +4121,8 @@
                 "name": "Order Cenobite",
                 "id": "f230-99f9-b71b-29b8",
                 "hidden": false,
+                "page": "81",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -4191,6 +4264,8 @@
                 "name": "Order Preceptor",
                 "id": "6a8f-a07f-5f04-853e",
                 "hidden": false,
+                "page": "81",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -4434,6 +4509,15 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "d0e2-3466-3567-4bcf",
+                    "childName": "Primary - Fury of the Ancients",
+                    "field": "forces",
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
@@ -4445,7 +4529,9 @@
             "name": "Vengeful Rage",
             "id": "7da0-d00d-d2c6-da3d",
             "description": "Whilst a Model with this Special Rule has a Current Wounds Characteristic of 4 or less, then in each of the Controlling Player’s Shooting Phases it must have a Shooting Attack made for it targeting the nearest Unit that has a Line of Sight to the Model, regardless of whether that Unit is an enemy or friendly Unit. Such a Shooting Attack must use all Weapons that are within range of at least one Model in the Target Unit.",
-            "hidden": false
+            "hidden": false,
+            "page": "83",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -4469,6 +4555,8 @@
                 "name": "Excindio Battle-automata",
                 "id": "65fe-f798-3feb-6a0d",
                 "hidden": false,
+                "page": "82",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -4551,6 +4639,8 @@
                 "name": "Excindio claws",
                 "id": "6528-9015-e535-9e77",
                 "hidden": false,
+                "page": "83",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "3587-6dcd-005c-c263",
                 "typeName": "Melee Weapon",
                 "characteristics": [
@@ -4641,6 +4731,8 @@
                     "name": "Athanax phosphex canister launcher",
                     "id": "3136-c1a5-72c3-64ea",
                     "hidden": false,
+                    "page": "83",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
@@ -4694,6 +4786,8 @@
                     "name": "Tyrhenius nerve induction shredder",
                     "id": "18ac-c5d6-69a7-362d",
                     "hidden": false,
+                    "page": "83",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
@@ -4739,6 +4833,8 @@
                     "name": "Magaron atomantic pulse cannon",
                     "id": "db19-f137-b035-ce41",
                     "hidden": false,
+                    "page": "83",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
@@ -4802,6 +4898,8 @@
                     "name": "Cytheron graviton flux projector",
                     "id": "dabc-1b78-b679-09e2",
                     "hidden": false,
+                    "page": "83",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
@@ -5130,6 +5228,8 @@
             "comment": "1",
             "description": "\"The Controlling Player of any Units with this Special Rule may select an enemy Unit to score extra Victory\nPoints from.\"\n\n\nAt the end of the Declare Mission Reserves Step the Controlling Player of any Units with this Special Rule may select one Unit from the Opposing Player’s Army, this Unit is the ‘Marked’ Unit. Once per Battle, the Controlling Player scores additional Victory Points equal to the value of X if a Friendly Unit with the Marked for Death (X) Special Rule scores Victory Points as a result of the Vanguard (X) Special Rule when the enemy Unit that fulfils the conditions of the Vanguard (X) Special Rule is the Marked Unit.",
             "hidden": false,
+            "page": "85",
+            "publicationId": "5469-14da-d0a1-6092",
             "modifiers": [{"field": "name", "type": "set", "value": "Marked for Death (1)"}]
           }
         ],
@@ -5155,6 +5255,8 @@
                 "name": "Firewing Enigmatii",
                 "id": "0c50-b9db-de3f-20c4",
                 "hidden": false,
+                "page": "84",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -5220,6 +5322,8 @@
                     "name": "Calibanite charge-blade (Charged)",
                     "id": "f507-b594-fb45-8cf7",
                     "hidden": false,
+                    "page": "85",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
@@ -5236,6 +5340,8 @@
                     "name": "Calibanite charge-blade (Uncharged)",
                     "id": "5232-ed60-86f5-ef42",
                     "hidden": false,
+                    "page": "85",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
@@ -5286,6 +5392,8 @@
                     "name": "Needle Pistol",
                     "id": "8ecd-a5c8-720a-a870",
                     "hidden": false,
+                    "page": "85",
+                    "publicationId": "5469-14da-d0a1-6092",
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
@@ -5322,6 +5430,8 @@
                 "name": "Enigmatus Missile Launcher (Frag missile)",
                 "id": "7884-1481-2eaa-c35d",
                 "hidden": false,
+                "page": "85",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "c591-09ed-3e6f-eb2b",
                 "typeName": "Ranged Weapon",
                 "characteristics": [
@@ -5338,6 +5448,8 @@
                 "name": "Enigmatus Missile Launcher (Krak missile)",
                 "id": "110a-b522-a0df-9fc5",
                 "hidden": false,
+                "page": "85",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "c591-09ed-3e6f-eb2b",
                 "typeName": "Ranged Weapon",
                 "characteristics": [
@@ -5354,6 +5466,8 @@
                 "name": "Enigmatus Missile Launcher (Stasis missile)",
                 "id": "f24b-19f7-f2f5-11a1",
                 "hidden": false,
+                "page": "85",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "c591-09ed-3e6f-eb2b",
                 "typeName": "Ranged Weapon",
                 "characteristics": [
@@ -5636,6 +5750,8 @@
             "id": "6b77-3948-b9f0-d340",
             "hidden": false,
             "import": true,
+            "page": "126",
+            "publicationId": "b905-0414-1057-bb34",
             "type": "upgrade",
             "selectionEntries": [
               {
@@ -5643,6 +5759,8 @@
                 "id": "f799-fcfe-cfcc-44bc",
                 "hidden": false,
                 "import": true,
+                "page": "127",
+                "publicationId": "b905-0414-1057-bb34",
                 "sortIndex": 3,
                 "type": "upgrade",
                 "constraints": [
@@ -5687,6 +5805,8 @@
                 "id": "e6a5-276b-607d-408a",
                 "hidden": false,
                 "import": true,
+                "page": "126",
+                "publicationId": "b905-0414-1057-bb34",
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
@@ -5716,20 +5836,15 @@
                 "id": "d41f-621c-86db-ed91",
                 "hidden": false,
                 "import": true,
+                "page": "126",
+                "publicationId": "b905-0414-1057-bb34",
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
                   {"id": "33ef-5028-8750-a9c9", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "fbd9-8a1b-f291-88bf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "rules": [
-                  {
-                    "name": "The Angel of Death",
-                    "id": "a5f8-57c5-1fd0-f755",
-                    "description": "\"Negative modifiers to Dark Angels' Leadership, Willpower, Cool and Intelligence are limited.\"\n\n\nModels with this Special Rule may never have their Leadership Characteristic modified to less than 6. Additionally, any variant of the Fear (X) Special Rule may only reduce the Leadership, Cool, Willpower and Intelligence Characteristics of any Model with this Special Rule by a maximum of 1, regardless of the value of X.",
-                    "hidden": false
-                  }
-                ]
+                "infoLinks": [{"name": "The Angels of Death", "id": "8595-ad16-e6ff-b42f", "hidden": false, "targetId": "7fd2-c16b-0e15-9de7", "type": "rule"}]
               }
             ]
           }
