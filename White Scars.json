@@ -98,26 +98,6 @@
             ],
             "modifiers": [{"field": "category", "type": "set-primary", "value": "2425-4123-aa05-0c0e"}, {"field": "category", "type": "remove", "value": "5d5e-958f-e388-50b5"}]
           }
-        ],
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
         ]
       },
       {
