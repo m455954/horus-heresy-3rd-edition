@@ -20161,7 +20161,43 @@
             ]
           }
         ],
-        "modifiers": [{"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"},
+          {
+            "field": "category",
+            "type": "remove",
+            "value": "3420-1652-ccd9-aa8e",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6f9b-3d99-7ecd-3214",
+                    "childName": "Primary - Armoured Spearhead",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d215-b142-31a1-42b5",
+                    "childName": "Decurion Magna",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "selectionEntries": [
           {
             "name": "Fellblade Super-Heavy Tank",
@@ -20301,6 +20337,33 @@
                         "scope": "force",
                         "shared": true,
                         "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "High Command Detachment Choice",
+                "id": "1dce-987e-d938-4c0d",
+                "hidden": true,
+                "import": true,
+                "targetId": "969e-8b5b-1410-cfc6",
+                "type": "selectionEntryGroup",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "d215-b142-31a1-42b5",
+                        "childName": "Decurion Magna",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -70467,7 +70530,43 @@
             ]
           }
         ],
-        "modifiers": [{"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"},
+          {
+            "field": "category",
+            "type": "remove",
+            "value": "3420-1652-ccd9-aa8e",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6f9b-3d99-7ecd-3214",
+                    "childName": "Primary - Armoured Spearhead",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "aa78-3efb-9847-9c2d",
+                    "childName": "Decurion Magna",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "selectionEntries": [
           {
             "name": "Falchion Super-Heavy Tank Destroyer",
@@ -70602,6 +70701,33 @@
                         "scope": "force",
                         "shared": true,
                         "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "High Command Detachment Choice",
+                "id": "2b08-c98c-cb0f-559b",
+                "hidden": true,
+                "import": true,
+                "targetId": "969e-8b5b-1410-cfc6",
+                "type": "selectionEntryGroup",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "aa78-3efb-9847-9c2d",
+                        "childName": "Decurion Magna",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
                         "value": 1
                       }
                     ]
@@ -126541,7 +126667,8 @@
                 "categoryLinks": [{"name": "Command Decurion", "id": "a74d-ff7a-04b1-0d93", "hidden": false, "primary": false, "targetId": "42a3-8f43-17e0-e597"}],
                 "modifiers": [
                   {"field": "category", "scope": "unit", "type": "set-primary", "value": "20f7-dff3-810c-f7a7"},
-                  {"field": "category", "scope": "unit", "type": "remove", "value": "643a-1012-bd51-6537"}
+                  {"field": "category", "scope": "unit", "type": "remove", "value": "643a-1012-bd51-6537"},
+                  {"field": "category", "type": "add", "value": "6dbf-654a-f06f-2d69"}
                 ]
               }
             ]

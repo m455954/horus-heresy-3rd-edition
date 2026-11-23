@@ -1066,7 +1066,8 @@
       {"name": "Command - Battlesmith or Decurion only", "id": "20f7-dff3-810c-f7a7", "hidden": false},
       {"name": "Support - Battlesmith or Vehicle only", "id": "0d7e-01ea-3b33-11e4", "hidden": false},
       {"name": "Command Decurion", "id": "42a3-8f43-17e0-e597", "hidden": false},
-      {"name": "Armour Decurion", "id": "533e-ae4f-7783-d3aa", "hidden": false}
+      {"name": "Armour Decurion", "id": "533e-ae4f-7783-d3aa", "hidden": false},
+      {"name": "+1 Auxiliary from Decurion in Armoured Spearhead", "id": "ef0c-d477-c88d-d576", "hidden": false}
     ],
     "costTypes": [
       {
