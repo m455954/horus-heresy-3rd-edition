@@ -20161,43 +20161,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"},
-          {
-            "field": "category",
-            "type": "remove",
-            "value": "3420-1652-ccd9-aa8e",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "6f9b-3d99-7ecd-3214",
-                    "childName": "Primary - Armoured Spearhead",
-                    "field": "forces",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "d215-b142-31a1-42b5",
-                    "childName": "Decurion Magna",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"}],
         "selectionEntries": [
           {
             "name": "Fellblade Super-Heavy Tank",
@@ -70530,43 +70494,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"},
-          {
-            "field": "category",
-            "type": "remove",
-            "value": "3420-1652-ccd9-aa8e",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "6f9b-3d99-7ecd-3214",
-                    "childName": "Primary - Armoured Spearhead",
-                    "field": "forces",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "aa78-3efb-9847-9c2d",
-                    "childName": "Decurion Magna",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "8d49-126f-5500-aa28"}],
         "selectionEntries": [
           {
             "name": "Falchion Super-Heavy Tank Destroyer",
