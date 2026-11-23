@@ -5578,6 +5578,8 @@
                 "name": "Phraetus Anointed",
                 "id": "d98e-333e-8785-a1db",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -5872,6 +5874,8 @@
                 "name": "Phraetus Disciple",
                 "id": "9564-4aa9-d14c-071e",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -6124,6 +6128,8 @@
             "name": "Warpfire Mantle",
             "id": "0e4c-fae0-ac7a-bf8c",
             "hidden": false,
+            "page": "47",
+            "publicationId": "651c-de51-f503-188e",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [

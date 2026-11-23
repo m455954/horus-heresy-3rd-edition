@@ -8083,6 +8083,8 @@
             "name": "Power lash",
             "id": "0c26-fa08-5c28-867d",
             "hidden": false,
+            "page": "40",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
@@ -8146,6 +8148,8 @@
             "name": "Nemesis rifle",
             "id": "b344-8fb2-bb69-c170",
             "hidden": false,
+            "page": "33",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -11401,6 +11405,8 @@
             "name": "Proteus Assault Cannon",
             "id": "4424-9a4d-7bcd-909b",
             "hidden": false,
+            "page": "68",
+            "publicationId": "5469-14da-d0a1-6092",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
@@ -11446,6 +11452,8 @@
             "name": "Rad Missile",
             "id": "3932-2623-6f2b-c9be",
             "hidden": false,
+            "page": "69",
+            "publicationId": "5469-14da-d0a1-6092",
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [

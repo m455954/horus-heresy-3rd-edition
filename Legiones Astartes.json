@@ -4352,6 +4352,8 @@
                     "name": "Legionary",
                     "id": "f4d7-47cd-3915-8ddf",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -5130,6 +5132,8 @@
                     "name": "Rapier Carrier",
                     "id": "220d-a25a-fd27-54a1",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -6118,6 +6122,8 @@
                     "name": "Legionary",
                     "id": "091c-5ba7-38f8-dfdf",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -7426,6 +7432,8 @@
                     "name": "Rapier Carrier",
                     "id": "2777-af6c-ae76-df0e",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -8138,6 +8146,8 @@
                     "name": "Legionary (Master Sergeant)",
                     "id": "d516-4b29-ad61-4ce2",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -10337,6 +10347,8 @@
                     "name": "Legionary",
                     "id": "f2c4-d1e5-f2ce-07b8",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -11137,6 +11149,8 @@
                     "name": "Rapier Carrier",
                     "id": "5cdd-af91-ca66-79b7",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -11841,6 +11855,8 @@
                     "name": "Legionary (Petty Warlord)",
                     "id": "ba47-32ed-db25-a505",
                     "hidden": false,
+                    "page": "67",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "a76f-8e23-8c3e-166d",
                     "typeName": "Profile",
                     "characteristics": [
@@ -12992,6 +13008,8 @@
                 "name": "Saturnine Terminator",
                 "id": "7a00-4d27-27c7-7fb5",
                 "hidden": false,
+                "page": "57",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -13224,6 +13242,8 @@
                 "name": "Saturnine Terminator Sergeant",
                 "id": "f36d-6211-0d23-2c56",
                 "hidden": false,
+                "page": "57",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -13807,6 +13827,8 @@
                 "name": "Centurion",
                 "id": "68a5-6198-8a6e-7d3a",
                 "hidden": false,
+                "page": "27",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -15280,6 +15302,8 @@
                 "name": "Saturnine Praetor",
                 "id": "bb05-5cc6-b512-1692",
                 "hidden": false,
+                "page": "25",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -15808,6 +15832,8 @@
                 "name": "Assault Legionary",
                 "id": "add7-e9dc-9076-1469",
                 "hidden": false,
+                "page": "61",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -16620,6 +16646,8 @@
                 "name": "Assault Sergeant",
                 "id": "0b6c-790b-9073-fa33",
                 "hidden": false,
+                "page": "61",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -17895,6 +17923,8 @@
                 "name": "Breacher Sergeant",
                 "id": "dfd4-9125-a52d-b903",
                 "hidden": false,
+                "page": "62",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -18848,6 +18878,8 @@
                 "name": "Breacher Legionary",
                 "id": "f349-e714-ec2e-c90a",
                 "hidden": false,
+                "page": "62",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -19572,6 +19604,8 @@
                 "name": "Araknae Quad Accelerator Platform",
                 "id": "6cd5-ee99-2851-a7a3",
                 "hidden": false,
+                "page": "71",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -19761,6 +19795,8 @@
                 "name": "Saturnine Dreadnought",
                 "id": "1d79-c4d4-ac14-dc8f",
                 "hidden": false,
+                "page": "76",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -20277,6 +20313,8 @@
                 "name": "Fellblade Super-Heavy Tank",
                 "id": "1149-0d9a-dfd2-0f82",
                 "hidden": false,
+                "page": "116",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -20527,6 +20565,8 @@
                 "name": "Chosen Champion",
                 "id": "53c0-fc8b-5872-4fb7",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -21496,6 +21536,8 @@
                 "name": "Chosen",
                 "id": "2867-4edf-0313-1ca5",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -22571,6 +22613,8 @@
                 "name": "Rhino",
                 "id": "196a-7cdc-85d8-0d51",
                 "hidden": false,
+                "page": "79",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -23329,6 +23373,8 @@
                 "name": "Spartan",
                 "id": "5905-610b-0319-c8a3",
                 "hidden": false,
+                "page": "84",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -23941,6 +23987,8 @@
                 "name": "Veteran Legionary",
                 "id": "e737-c6bf-71e7-f2e2",
                 "hidden": false,
+                "page": "51",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -24740,6 +24788,8 @@
                 "name": "Veteran Sergeant",
                 "id": "d2f8-e0fa-a0ec-90b2",
                 "hidden": false,
+                "page": "51",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -25896,6 +25946,8 @@
                 "name": "Veteran Legionary",
                 "id": "4db0-5c43-9bc7-82e0",
                 "hidden": false,
+                "page": "52",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -26472,6 +26524,8 @@
                 "name": "Veteran Sergeant",
                 "id": "06ae-4d19-1703-6580",
                 "hidden": false,
+                "page": "52",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -27389,6 +27443,8 @@
                 "name": "Legionary",
                 "id": "1335-5f58-6ff2-8cdd",
                 "hidden": false,
+                "page": "59",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -29019,6 +29075,8 @@
                 "name": "Sergeant",
                 "id": "a26c-477f-0baa-20b6",
                 "hidden": false,
+                "page": "59",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -29994,6 +30052,8 @@
                 "name": "Deredeo Dreadnought",
                 "id": "607c-5b94-f491-22b9",
                 "hidden": false,
+                "page": "74",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -30332,6 +30392,8 @@
                 "name": "Leviathan Dreadnought",
                 "id": "0630-53fc-023c-3072",
                 "hidden": false,
+                "page": "75",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -31056,6 +31118,8 @@
                 "name": "Praetor",
                 "id": "778f-7cd8-3172-9e70",
                 "hidden": false,
+                "page": "23",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -32362,6 +32426,8 @@
                 "name": "Cataphractii Praetor",
                 "id": "a5d8-ad4b-bf2c-cb23",
                 "hidden": false,
+                "page": "24",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -33019,6 +33085,8 @@
                 "name": "Optae",
                 "id": "ee93-1662-c9db-ffa5",
                 "hidden": false,
+                "page": "29",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -34255,6 +34323,8 @@
                 "name": "Cataphractii Centurion",
                 "id": "8ed4-1b4d-61e0-1380",
                 "hidden": false,
+                "page": "28",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -34921,6 +34991,8 @@
                 "name": "Damocles Command Rhino",
                 "id": "b41c-5369-c3ee-8da6",
                 "hidden": false,
+                "page": "30",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -35671,6 +35743,8 @@
                 "name": "Librarian",
                 "id": "430f-9109-0fc4-4823",
                 "hidden": false,
+                "page": "31",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -36287,6 +36361,8 @@
                 "name": "Legion Champion",
                 "id": "676d-46b5-fc7a-0e01",
                 "hidden": false,
+                "page": "32",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -36768,6 +36844,8 @@
                 "name": "Vigilator",
                 "id": "6583-4291-5772-f9b2",
                 "hidden": false,
+                "page": "33",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -37268,6 +37346,8 @@
                 "name": "Esoterist",
                 "id": "1d8a-ecd6-c916-8dd5",
                 "hidden": false,
+                "page": "34",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -37537,6 +37617,8 @@
                 "name": "Master of Signals",
                 "id": "501b-d998-9c84-c0fd",
                 "hidden": false,
+                "page": "36",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -38120,6 +38202,8 @@
                 "name": "Praevian",
                 "id": "9f88-7b15-eace-4b42",
                 "hidden": false,
+                "page": "37",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -38730,6 +38814,8 @@
                 "name": "Moritat",
                 "id": "4569-e4ee-cc43-56e1",
                 "hidden": false,
+                "page": "38",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -39151,6 +39237,8 @@
                 "name": "Siege Breaker",
                 "id": "c134-47b6-e069-4d52",
                 "hidden": false,
+                "page": "39",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -39991,6 +40079,8 @@
                 "name": "Herald",
                 "id": "a7a3-f701-bc4e-e04e",
                 "hidden": false,
+                "page": "41",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -40664,6 +40754,8 @@
                 "name": "Chaplain",
                 "id": "3387-8bf6-0a1f-9222",
                 "hidden": false,
+                "page": "42",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -41193,6 +41285,8 @@
                 "name": "Chosen Champion w/Jump Pack",
                 "id": "8bea-9bbd-18e1-7686",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -42169,6 +42263,8 @@
                 "name": "Chosen w/Jump Pack",
                 "id": "e322-5781-2049-6ce6",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -43205,6 +43301,8 @@
                 "name": "Veteran Champion",
                 "id": "39a2-3088-79ef-bc67",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -44237,6 +44335,8 @@
                 "name": "Veteran",
                 "id": "0d57-d2df-eae5-3137",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -45378,6 +45478,8 @@
                 "name": "Tartaros Chosen",
                 "id": "cdee-b4cc-e7b1-23a3",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -45678,6 +45780,8 @@
                 "name": "Tartaros Chosen Champion",
                 "id": "62c0-2148-1dc2-e188",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -46274,6 +46378,8 @@
                 "name": "Cataphractii Terminator",
                 "id": "b09e-63c0-b8de-4b52",
                 "hidden": false,
+                "page": "55",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -46681,6 +46787,8 @@
                 "name": "Cataphractii Terminator Sergeant",
                 "id": "2e07-d211-4eac-4b22",
                 "hidden": false,
+                "page": "55",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -47346,6 +47454,8 @@
                 "id": "01c6-c5ec-1619-9951",
                 "hidden": false,
                 "noindex": true,
+                "page": "53",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -47936,6 +48046,8 @@
                 "name": "Seeker Sergeant",
                 "id": "6dc9-6b8a-c2bc-c17c",
                 "hidden": false,
+                "page": "53",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -48792,6 +48904,8 @@
                 "name": "Tartaros Terminator",
                 "id": "5814-6358-7b63-6007",
                 "hidden": false,
+                "page": "56",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -49150,6 +49264,8 @@
                 "name": "Tartaros Terminator Sergeant",
                 "id": "c22b-e7a4-9426-8bdf",
                 "hidden": false,
+                "page": "56",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -49642,6 +49758,8 @@
                 "name": "Cataphractii Chosen",
                 "id": "5ae4-c54c-ffce-8855",
                 "hidden": false,
+                "page": "49",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -49948,6 +50066,8 @@
                 "name": "Cataphractii Chosen Champion",
                 "id": "ecec-39f5-fba3-3b28",
                 "hidden": false,
+                "page": "49",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -50560,6 +50680,8 @@
                 "name": "Despoiler Legionary",
                 "id": "f5ca-0752-fac9-b8c2",
                 "hidden": false,
+                "page": "60",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -51184,6 +51306,8 @@
                 "name": "Despoiler Sergeant",
                 "id": "7f32-b05f-47fd-3560",
                 "hidden": false,
+                "page": "60",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -51935,6 +52059,8 @@
                 "name": "Sergeant",
                 "id": "c597-7e02-9326-1594",
                 "hidden": false,
+                "page": "65",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -52783,6 +52909,8 @@
                 "name": "Legionary",
                 "id": "808e-63b2-2be3-2095",
                 "hidden": false,
+                "page": "65",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -54141,6 +54269,8 @@
         "id": "1734-8863-96bf-f052",
         "hidden": false,
         "import": true,
+        "page": "66",
+        "publicationId": "b905-0414-1057-bb34",
         "sortIndex": 35,
         "type": "unit",
         "costs": [
@@ -54398,6 +54528,8 @@
                 "name": "Sergeant",
                 "id": "1a17-e28a-bcba-6f41",
                 "hidden": false,
+                "page": "66",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -55235,6 +55367,8 @@
                 "name": "Legionary",
                 "id": "7b35-9c2e-4c06-bf77",
                 "hidden": false,
+                "page": "66",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -56699,6 +56833,8 @@
                 "name": "Apothecary",
                 "id": "3ac3-5b9a-fe4e-dbdd",
                 "hidden": false,
+                "page": "68",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -57274,6 +57410,8 @@
                 "name": "Techmarine",
                 "id": "7db5-c340-71a3-889e",
                 "hidden": false,
+                "page": "69",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -57837,6 +57975,8 @@
                 "name": "Deathstorm Drop Pod",
                 "id": "5f61-9550-e27d-0815",
                 "hidden": false,
+                "page": "70",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -58021,6 +58161,8 @@
                 "name": "Contemptor Dreadnought",
                 "id": "09cc-04a1-362a-7cfd",
                 "hidden": false,
+                "page": "73",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -58837,6 +58979,8 @@
                 "name": "Termite",
                 "id": "9ddd-2feb-eb49-a01c",
                 "hidden": false,
+                "page": "81",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -59159,6 +59303,8 @@
                 "name": "Drop Pod",
                 "id": "301f-4e7f-80be-4d07",
                 "hidden": false,
+                "page": "80",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -59439,6 +59585,8 @@
                 "name": "Land Raider Carrier",
                 "id": "218c-cb59-ceed-cebb",
                 "hidden": false,
+                "page": "83",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -59715,6 +59863,8 @@
                 "name": "Dreadnought Drop Pod",
                 "id": "5239-b766-f2ab-ef23",
                 "hidden": false,
+                "page": "85",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -59777,7 +59927,7 @@
             "id": "2023-49ca-0e60-7a69",
             "hidden": false,
             "import": true,
-            "sortIndex": 1,
+            "sortIndex": 2,
             "targetId": "a6fd-3d58-c22e-1887",
             "type": "selectionEntry",
             "constraints": [
@@ -59898,7 +60048,7 @@
             "id": "2a79-56e7-eb3f-85de",
             "hidden": false,
             "import": true,
-            "sortIndex": 2,
+            "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
               {"name": "Vehicle Model Type", "id": "6f3b-0de3-6302-6584", "hidden": false, "primary": false, "targetId": "aa5a-c9fd-1eb1-7a45"},
@@ -59925,6 +60075,8 @@
                 "name": "Kharybdis Assault Claw",
                 "id": "2123-757e-fda2-0134",
                 "hidden": false,
+                "page": "87",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -60122,6 +60274,8 @@
                 "name": "Dreadclaw Drop Pod",
                 "id": "df68-7b86-ffca-dd24",
                 "hidden": false,
+                "page": "86",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -60614,6 +60768,8 @@
                 "name": "Outrider Sergeant",
                 "id": "ff81-a685-0d86-86cc",
                 "hidden": false,
+                "page": "91",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -61046,6 +61202,8 @@
                 "name": "Outrider",
                 "id": "a3ad-5eec-1d90-29df",
                 "hidden": false,
+                "page": "91",
+                "publicationId": "4e8d-9c4c-93a6-aea2",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -61799,6 +61957,8 @@
                 "name": "Recon Sergeant",
                 "id": "8c57-ce95-cf20-2539",
                 "hidden": false,
+                "page": "89",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -62448,6 +62608,8 @@
                 "name": "Recon Legionary",
                 "id": "5f5b-8466-7747-6f6f",
                 "hidden": false,
+                "page": "89",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -62997,6 +63159,8 @@
                 "name": "Sabre",
                 "id": "83f9-e0e6-3e57-ecfc",
                 "hidden": false,
+                "page": "90",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -63344,6 +63508,8 @@
                 "name": "Land Raider Explorator",
                 "id": "f5f1-967b-07e2-2dfa",
                 "hidden": false,
+                "page": "92",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -63595,6 +63761,8 @@
                 "name": "Tarantula Sentry Gun",
                 "id": "5f4e-654c-e9a6-1eed",
                 "hidden": false,
+                "page": "94",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -63940,6 +64108,8 @@
                 "name": "Scimitar Sergeant",
                 "id": "41bc-006f-8e95-9d0c",
                 "hidden": false,
+                "page": "100",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -65135,6 +65305,8 @@
                 "name": "Xiphon Interceptor",
                 "id": "ef03-482f-1eeb-8591",
                 "hidden": false,
+                "page": "97",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -65321,6 +65493,8 @@
                 "name": "Storm Eagle",
                 "id": "d777-b946-eb06-f8fd",
                 "hidden": false,
+                "page": "98",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -65625,6 +65799,8 @@
                 "name": "Fire Raptor",
                 "id": "4e72-7900-e1f2-802b",
                 "hidden": false,
+                "page": "99",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -66372,6 +66548,8 @@
                 "name": "Predator",
                 "id": "3e05-3bdc-7328-c224",
                 "hidden": false,
+                "page": "105",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -66715,6 +66893,8 @@
                 "name": "Land Speeder",
                 "id": "8b50-82d6-aded-cf10",
                 "hidden": false,
+                "page": "102",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -67238,6 +67418,8 @@
                 "name": "Sicaran",
                 "id": "319b-bf92-5a78-f0da",
                 "hidden": false,
+                "page": "106",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -67564,6 +67746,8 @@
                 "name": "Sicaran Venator",
                 "id": "86cb-2a1e-b0d8-5007",
                 "hidden": false,
+                "page": "107",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -67857,6 +68041,8 @@
                 "name": "Kratos Assault Tank",
                 "id": "6184-d104-3191-5758",
                 "hidden": false,
+                "page": "108",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -68282,6 +68468,8 @@
                 "name": "Vindicator Siege Tank",
                 "id": "c7a5-d9df-f3b7-a753",
                 "hidden": false,
+                "page": "109",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -68558,6 +68746,8 @@
                 "name": "Scorpius Missile Tank",
                 "id": "d011-9280-334a-33f0",
                 "hidden": false,
+                "page": "110",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -69264,6 +69454,8 @@
                 "name": "Arquitor Bombard",
                 "id": "b735-9ffe-6c91-b540",
                 "hidden": false,
+                "page": "111",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -69713,6 +69905,8 @@
                 "name": "Cerberus Heavy Tank Destroyer",
                 "id": "e7da-fd8f-5088-39c2",
                 "hidden": false,
+                "page": "113",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -69933,6 +70127,8 @@
                 "name": "Typhon Heavy Siege Tank",
                 "id": "64ac-6285-4e96-7a3b",
                 "hidden": false,
+                "page": "114",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -70141,6 +70337,8 @@
                 "name": "Glaive Super-Heavy Special Weapons Tank",
                 "id": "af76-432a-1421-e12f",
                 "hidden": false,
+                "page": "115",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -70416,6 +70614,8 @@
                 "name": "Falchion Super-Heavy Tank Destroyer",
                 "id": "d383-994f-c54b-5027",
                 "hidden": false,
+                "page": "117",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -70622,6 +70822,8 @@
                 "name": "Thunderhawk Gunship",
                 "id": "87c2-48c6-931c-949f",
                 "hidden": false,
+                "page": "118",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -70888,6 +71090,8 @@
                 "name": "Mastodon Super-Heavy Assault Transport",
                 "id": "fbf1-bb0b-d02e-a5fb",
                 "hidden": false,
+                "page": "120",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -71097,6 +71301,8 @@
                 "name": "Sokar Stormbird",
                 "id": "4466-5bc3-82b2-3b1e",
                 "hidden": false,
+                "page": "119",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -71443,6 +71649,8 @@
                 "name": "Master of Descent",
                 "id": "a294-fbdc-f303-f485",
                 "hidden": false,
+                "page": "44",
+                "publicationId": "10e2-87c7-4862-2cc4",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -72000,6 +72208,8 @@
                 "name": "Overseer",
                 "id": "7836-42bd-2afe-6be8",
                 "hidden": false,
+                "page": "40",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -72406,7 +72616,9 @@
             "name": "Locus Strike",
             "id": "bd58-c37f-597f-8057",
             "description": "When making a Return Fire Reaction for a Model with this Special Rule, any Turret Mounted Weapons are treated as Defensive Weapons regardless of their Characteristics. If the Turret Mounted Weapon on a Model with this Special Rule is already a Defensive Weapon, the Controlling Player of that Model can instead add +1 to Hit Tests made for that Weapons Fire Group when making that Reaction.",
-            "hidden": false
+            "hidden": false,
+            "page": "20",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -72421,7 +72633,9 @@
             "name": "Point Defence",
             "id": "4add-017a-caa3-babd",
             "description": "When a Model with this Special Rule is the Target of a Charge, during Step 4 of the Charge Procedure, a Model with this Special Rule may make an additional Volley Attack. This additional Volley Attack is made as a separate Shooting Attack after resolving its first Volley Attack and the Controlling Player must select only one Pintle Mounted Weapon to make attacks as part of this second Volley Attack. If any Models are Removed as a Casualty as a result of this Model's Shooting Attacks as part of this Volley Attack, the Charging Unit subtracts 1 from the result of any Charge Rolls made during this Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "20",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -72476,7 +72690,9 @@
             "name": "Decurion Sagittar",
             "id": "d4b7-63bd-84a3-c5a4",
             "description": "A Model with this upgrade gains a Pintle Mounted Iliastus assault cannon and an augury scanner. Additionally the Pintle Mounted Iliastus assault cannon gains the Skyfire and the Precision (6+) Special Rules.",
-            "hidden": false
+            "hidden": false,
+            "page": "188",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -72859,6 +73075,8 @@
                 "name": "Command and Control Legionary",
                 "id": "70f3-cb39-4978-aec2",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "10e2-87c7-4862-2cc4",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -73662,6 +73880,8 @@
                 "name": "Hyperios Missile Tank",
                 "id": "edc5-e56d-27e4-9275",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "10e2-87c7-4862-2cc4",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -74461,6 +74681,8 @@
               {
                 "name": "Outrider Praetor",
                 "id": "b3ed-ceb5-4507-85f1",
+                "page": "24",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -75239,6 +75461,8 @@
               {
                 "name": "Outrider Centurion",
                 "id": "526a-2b4b-4d11-9b6c",
+                "page": "25",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -75882,6 +76106,8 @@
               {
                 "name": "Librarian with Jump Pack",
                 "id": "17ae-853a-4244-a33e",
+                "page": "26",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -76517,6 +76743,8 @@
               {
                 "name": "Outrider Librarian",
                 "id": "0724-6d12-4f41-afd2",
+                "page": "27",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -77176,6 +77404,8 @@
               {
                 "name": "Cataphractii Librarian",
                 "id": "6808-be93-4cf3-b00b",
+                "page": "28",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -77621,6 +77851,8 @@
               {
                 "name": "Esoterist with Jump Pack",
                 "id": "59dc-64ad-41be-859b",
+                "page": "29",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -78016,6 +78248,8 @@
                 "name": "Outrider Esoterist",
                 "id": "9dd9-2796-4072-91d0",
                 "hidden": false,
+                "page": "30",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -78450,6 +78684,8 @@
               {
                 "name": "Cataphractii Esoterist",
                 "id": "e59c-5d2e-486b-b9ce",
+                "page": "31",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -78779,6 +79015,8 @@
               {
                 "name": "Legion Champion with Jump Pack",
                 "id": "ec3f-0b61-45bb-be94",
+                "page": "32",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -79202,6 +79440,8 @@
               {
                 "name": "Outrider Legion Champion",
                 "id": "1e18-f160-4966-b2a4",
+                "page": "33",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -79639,6 +79879,8 @@
               {
                 "name": "Cataphractii Legion Champion",
                 "id": "4199-27ec-4c7a-90c0",
+                "page": "34",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -79996,6 +80238,8 @@
               {
                 "name": "Chaplain with Jump Pack",
                 "id": "8512-2030-4d1c-8ba8",
+                "page": "35",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -80588,6 +80832,8 @@
               {
                 "name": "Outrider Chaplain",
                 "id": "6455-6e39-4c23-968f",
+                "page": "36",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -81204,6 +81450,8 @@
               {
                 "name": "Cataphractii Chaplain",
                 "id": "5a74-5ca8-484b-8bd3",
+                "page": "37",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -81699,6 +81947,8 @@
               {
                 "name": "Herald with Jump Pack",
                 "id": "a516-82e2-4d06-8d28",
+                "page": "38",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -82562,6 +82812,8 @@
               {
                 "name": "Outrider Herald",
                 "id": "f41a-a760-4757-9321",
+                "page": "39",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -83441,6 +83693,8 @@
               {
                 "name": "Cataphractii Herald",
                 "id": "93fa-3fb6-414d-b4bc",
+                "page": "40",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -83820,6 +84074,8 @@
               {
                 "name": "Siege Breaker with Jump Pack",
                 "id": "d996-9ab6-4662-b839",
+                "page": "41",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -84597,6 +84853,8 @@
               {
                 "name": "Outrider Siege Breaker",
                 "id": "79fe-3486-4ec2-af96",
+                "page": "42",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -85381,6 +85639,8 @@
               {
                 "name": "Cataphractii Siege Breaker",
                 "id": "de43-1e67-46df-89bd",
+                "page": "43",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -85890,6 +86150,8 @@
               {
                 "name": "Master of Signals with Jump Pack",
                 "id": "55cb-7989-42e4-8d57",
+                "page": "44",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -86466,6 +86728,8 @@
               {
                 "name": "Outrider Master of Signals",
                 "id": "2f18-cc59-4e43-a2e4",
+                "page": "45",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -87043,6 +87307,8 @@
               {
                 "name": "Moritat Mortalis",
                 "id": "712d-cc05-4b7f-9eb5",
+                "page": "46",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -87463,6 +87729,8 @@
               {
                 "name": "Forge Lord",
                 "id": "e387-7f65-4483-9c4c",
+                "page": "47",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -88260,6 +88528,8 @@
               {
                 "name": "Outrider Forge Lord",
                 "id": "72a3-556a-4a46-98e8",
+                "page": "49",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -88966,6 +89236,8 @@
               {
                 "name": "Cataphractii Forge Lord",
                 "id": "1681-83e8-4b5f-9098",
+                "page": "50",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -89597,6 +89869,8 @@
               {
                 "name": "Primus Medicae",
                 "id": "e24e-3738-4897-9d16",
+                "page": "51",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -90252,6 +90526,8 @@
               {
                 "name": "Outrider Primus Medicae",
                 "id": "8e28-dc6f-405a-9c30",
+                "page": "52",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -90801,6 +91077,8 @@
               {
                 "name": "Cataphractii Primus Medicae",
                 "id": "a198-a6cf-407f-98a6",
+                "page": "53",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -91232,6 +91510,8 @@
               {
                 "name": "Delegatus",
                 "id": "d67c-daa9-4c7c-825e",
+                "page": "54",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -92450,6 +92730,8 @@
               {
                 "name": "Outrider Delegatus",
                 "id": "24fe-6527-4706-9acf",
+                "page": "55",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -93005,6 +93287,8 @@
               {
                 "name": "Cataphractii Delegatus",
                 "id": "590f-8896-4ca4-bde8",
+                "page": "56",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -93525,6 +93809,8 @@
               {
                 "name": "Mortificator",
                 "id": "358d-1733-4e40-8d68",
+                "page": "57",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -94025,6 +94311,8 @@
               {
                 "name": "Cataphractii Mortificator",
                 "id": "9134-1b9b-4d8d-abbd",
+                "page": "58",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -94344,6 +94632,8 @@
               {
                 "name": "Warmonger",
                 "id": "fc13-aed4-489e-98ce",
+                "page": "59",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -95224,6 +95514,8 @@
               {
                 "name": "Cataphractii Warmonger",
                 "id": "213b-e539-42df-9706",
+                "page": "60",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -95701,6 +95993,8 @@
               {
                 "name": "Pathfinder",
                 "id": "4654-6539-4edb-bb0a",
+                "page": "61",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -96704,6 +96998,8 @@
               {
                 "name": "Armistos",
                 "id": "01bf-a5a3-4a8e-a8b9",
+                "page": "62",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -97230,6 +97526,8 @@
               {
                 "name": "Scimitar Chosen",
                 "id": "4622-ce47-49eb-809d",
+                "page": "63",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -97683,6 +97981,8 @@
               {
                 "name": "Scimitar Chosen Champion",
                 "id": "a3b5-0eb6-49e4-a56e",
+                "page": "63",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -98288,6 +98588,8 @@
               {
                 "name": "Outrider Chosen",
                 "id": "4872-eed9-4d83-9e2b",
+                "page": "64",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -98722,6 +99024,8 @@
               {
                 "name": "Outrider Chosen Champion",
                 "id": "1366-1b49-4fff-b68d",
+                "page": "64",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -99681,6 +99985,8 @@
               {
                 "name": "Breacher Veteran",
                 "id": "0f07-ec10-4bca-8312",
+                "page": "48",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -100549,6 +100855,8 @@
               {
                 "name": "Veteran Breacher Sergeant",
                 "id": "9948-cec9-4fb4-a044",
+                "page": "48",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -101923,6 +102231,8 @@
               {
                 "name": "Support Veteran",
                 "id": "ad43-4ee4-4f97-b3ec",
+                "page": "66",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -102488,6 +102798,8 @@
               {
                 "name": "Veteran Support Sergeant",
                 "id": "9030-5556-4f94-a3be",
+                "page": "66",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -103178,6 +103490,8 @@
               {
                 "name": "Tartaros Terminator",
                 "id": "9e88-1393-4b9f-bb9f",
+                "page": "67",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -103455,6 +103769,8 @@
               {
                 "name": "Tartaros Terminator Sergeant",
                 "id": "911c-6cab-4258-8715",
+                "page": "67",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -104177,6 +104493,8 @@
               {
                 "name": "Indomitus Terminator",
                 "id": "ec09-1ff2-4440-82bd",
+                "page": "68",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -104861,6 +105179,8 @@
               {
                 "name": "Indomitus Terminator Sergeant",
                 "id": "3e07-8622-4dc3-a915",
+                "page": "68",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -106001,6 +106321,8 @@
               {
                 "name": "Mortalis Destroyer",
                 "id": "7ee7-9d90-4533-b0aa",
+                "page": "69",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -106906,6 +107228,8 @@
               {
                 "name": "Mortalis Destroyer Sergeant",
                 "id": "a4cc-eb7b-4579-924a",
+                "page": "69",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -107973,6 +108297,8 @@
               {
                 "name": "Assault Destroyer",
                 "id": "8289-ffff-4b07-9273",
+                "page": "70",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -108811,6 +109137,8 @@
               {
                 "name": "Assault Destroyer Sergeant",
                 "id": "74ef-9f7c-4aba-ac89",
+                "page": "70",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -109661,6 +109989,8 @@
               {
                 "name": "Castra Ferrum Dreadnought",
                 "id": "f02a-7801-4178-9c75",
+                "page": "71",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -110474,6 +110804,8 @@
               {
                 "name": "Land Raider Achilles",
                 "id": "21e4-7e11-4fe1-80e3",
+                "page": "72",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -110794,6 +111126,8 @@
               {
                 "name": "Caestus Assault Ram",
                 "id": "8516-e396-49af-aed3",
+                "page": "73",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -111092,6 +111426,8 @@
               {
                 "name": "Attack Bike",
                 "id": "22ab-3237-4d3a-ae8e",
+                "page": "74",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -111834,6 +112170,8 @@
               {
                 "name": "Scout",
                 "id": "b369-1827-46ab-854a",
+                "page": "75",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -112699,6 +113037,8 @@
               {
                 "name": "Scout Sergeant",
                 "id": "651f-bbd4-4c93-b400",
+                "page": "75",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -113778,6 +114118,8 @@
               {
                 "name": "Legion Basilisk",
                 "id": "a713-9bf6-46a3-b31a",
+                "page": "76",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -113963,6 +114305,8 @@
               {
                 "name": "Legion Medusa",
                 "id": "95d9-bca5-4c37-a683",
+                "page": "77",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -114098,6 +114442,8 @@
               {
                 "name": "Thunderhawk Transporter",
                 "id": "cf50-c56d-4100-90a9",
+                "page": "78",
+                "publicationId": "5469-14da-d0a1-6092",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -114209,7 +114555,9 @@
             "name": "Brutal Enforcement",
             "id": "e5b4-9cd5-b310-f6a7",
             "description": "\"A Model with this Special Rule may target a friendly Unit with a Shooting Attack and the targeted Unit loses the Routed Tactical Status.\"\n\n\nAt the start of the Move Sub-Phase, the Controlling Player of a Model with this Special Rule can select one Unit from their Army with the Routed Tactical Status that is within 12\" of the Model with this Special Rule. If they do, the Model with this Special Rule immediately makes a Shooting Attack, targeting that Unit, using only it's Banestrike bolt cannon. This Shooting Attack does not cause any Leadership Checks. Once this Shooting Attack has been resolved, the Target Unit loses the Routed Tactical Status.",
-            "hidden": false
+            "hidden": false,
+            "page": "246",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ]
       },
@@ -114435,6 +114783,8 @@
                 "name": "Saturnine Centurion",
                 "id": "ca0d-74c3-3c4b-3634",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -114837,6 +115187,8 @@
                 "name": "Saturnine Chosen",
                 "id": "5c5c-2517-faf8-fc9a",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -115257,6 +115609,8 @@
                 "name": "Saturnine Chosen Champion",
                 "id": "bf80-22ad-1b37-5d1b",
                 "hidden": false,
+                "page": "46",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -115919,6 +116273,8 @@
                 "name": "Whirlwind",
                 "id": "f387-9e15-4c1c-69c6",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "8f40-03eb-b2db-6054",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -116401,7 +116757,16 @@
             ]
           }
         ],
-        "rules": [{"name": "Decurion Magna", "id": "1580-1005-922e-2a0e", "description": "A Model with this upgrade has an Incursor pattern command array", "hidden": false}]
+        "rules": [
+          {
+            "name": "Decurion Magna",
+            "id": "1580-1005-922e-2a0e",
+            "description": "A Model with this upgrade has an Incursor pattern command array",
+            "hidden": false,
+            "page": "47",
+            "publicationId": "8f40-03eb-b2db-6054"
+          }
+        ]
       },
       {
         "name": "Spartan Prometheus Command Tank",
@@ -116631,6 +116996,8 @@
                 "name": "Prometheus Command Tank",
                 "id": "0601-d375-81be-ec57",
                 "hidden": false,
+                "page": "45",
+                "publicationId": "0eca-ceab-6bad-9248",
                 "typeId": "2a80-eec8-a736-2fe3",
                 "typeName": "Vehicle",
                 "characteristics": [
@@ -117028,6 +117395,8 @@
                 "name": "Veteran Despoiler",
                 "id": "a8f3-15c3-b7b0-fa89",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -117720,6 +118089,8 @@
                 "name": "Veteran Despoiler Sergeant",
                 "id": "9ec9-0747-54d7-b7ab",
                 "hidden": false,
+                "page": "47",
+                "publicationId": "c731-1e58-7a7f-930c",
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
@@ -118566,7 +118937,9 @@
             "name": "Insidious Corruption",
             "id": "bfb9-8812-f3f4-bedd",
             "description": "Any of the following Units selected as part of the Primary Detachment of an Army with the Traitor Allegiance may be given the Malefic Sub-Type for +20 Points per Model\n\n\n- Praetor\n- Praetor with Jump Pack\n- Cataphractii Praetor\n- Tartaros Praetor\n- Saturnine Praetor",
-            "hidden": false
+            "hidden": false,
+            "page": "38",
+            "publicationId": "3e49-c51c-1b8d-fefe"
           }
         ]
       }
@@ -126276,6 +126649,8 @@
             "id": "fc42-7d7b-e1ba-8946",
             "hidden": false,
             "import": true,
+            "page": "225",
+            "publicationId": "e54c-7040-0f35-d85d",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126300,6 +126675,7 @@
                 "name": "Clarity",
                 "id": "7e8a-247e-9bc2-7bd0",
                 "hidden": false,
+                "page": "225",
                 "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
@@ -126332,6 +126708,7 @@
                 "name": "Emanation of Dread",
                 "id": "c129-33fb-09a4-158e",
                 "hidden": false,
+                "page": "225",
                 "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7d31-7144-3b28-c850",
                 "typeName": "Psychic Ranged Weapon",
@@ -126352,6 +126729,8 @@
             "id": "cff7-56bc-7e47-1c7d",
             "hidden": false,
             "import": true,
+            "page": "224",
+            "publicationId": "e54c-7040-0f35-d85d",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126365,6 +126744,8 @@
                 "name": "Paths of Consequence",
                 "id": "05e6-9cfb-4643-aef4",
                 "hidden": false,
+                "page": "224",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
                 "characteristics": [
@@ -126404,6 +126785,8 @@
                 "name": "Fated Shots",
                 "id": "4bcd-8d44-c215-dcae",
                 "hidden": false,
+                "page": "224",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
                 "characteristics": [
@@ -126442,6 +126825,8 @@
             "id": "ef46-38e5-0b94-41c1",
             "hidden": false,
             "import": true,
+            "page": "223",
+            "publicationId": "e54c-7040-0f35-d85d",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126466,6 +126851,8 @@
                 "name": "Stoneform",
                 "id": "0e87-fe08-ef7c-fa67",
                 "hidden": false,
+                "page": "223",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "d59e-df4b-630f-f185",
                 "typeName": "Psychic Reaction",
                 "characteristics": [
@@ -126506,6 +126893,8 @@
                 "name": "Bloodboil",
                 "id": "19a5-f8c9-01a8-0815",
                 "hidden": false,
+                "page": "223",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7d31-7144-3b28-c850",
                 "typeName": "Psychic Ranged Weapon",
                 "characteristics": [
@@ -126525,6 +126914,8 @@
             "id": "6c08-592d-ebee-6003",
             "hidden": false,
             "import": true,
+            "page": "222",
+            "publicationId": "e54c-7040-0f35-d85d",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126559,6 +126950,8 @@
                 "name": "Inferno Shield",
                 "id": "2d94-c111-3b1e-3939",
                 "hidden": false,
+                "page": "222",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
                 "characteristics": [
@@ -126598,6 +126991,8 @@
                 "name": "Burning Grasp",
                 "id": "edb9-a11c-a6f4-a6c6",
                 "hidden": false,
+                "page": "222",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "f553-2eab-e909-ee56",
                 "typeName": "Psychic Melee Weapon",
                 "characteristics": [
@@ -126625,6 +127020,8 @@
             "id": "ba0e-77b7-36be-8a4e",
             "hidden": false,
             "import": true,
+            "page": "221",
+            "publicationId": "e54c-7040-0f35-d85d",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126659,6 +127056,8 @@
                 "name": "Kine Shield",
                 "id": "b999-2724-8a1e-421a",
                 "hidden": false,
+                "page": "221",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "d59e-df4b-630f-f185",
                 "typeName": "Psychic Reaction",
                 "characteristics": [
@@ -126699,6 +127098,8 @@
                 "name": "Crushing Force",
                 "id": "6839-ed41-6a24-3f0d",
                 "hidden": false,
+                "page": "221",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "7d31-7144-3b28-c850",
                 "typeName": "Psychic Ranged Weapon",
                 "characteristics": [
@@ -126718,6 +127119,8 @@
             "id": "8cef-b559-1a61-ead7",
             "hidden": true,
             "import": true,
+            "page": "48",
+            "publicationId": "651c-de51-f503-188e",
             "type": "upgrade",
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
@@ -126750,6 +127153,8 @@
                 "name": "Psychometry",
                 "id": "a0be-2ceb-6200-f1a0",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
                 "characteristics": [
@@ -126785,6 +127190,8 @@
                 "name": "Machine Empathy",
                 "id": "d3b1-69d4-87ed-4dfa",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "651c-de51-f503-188e",
                 "typeId": "9dfb-2fa3-00e7-8cfd",
                 "typeName": "Psychic Power",
                 "characteristics": [

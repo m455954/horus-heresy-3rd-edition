@@ -26,6 +26,8 @@
             "name": "Strato-vox",
             "id": "256b-875a-0dad-6e7b",
             "hidden": false,
+            "page": "44",
+            "publicationId": "10e2-87c7-4862-2cc4",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -133,6 +135,8 @@
             "name": "Occulix targeting auspex",
             "id": "3ad7-63c7-4717-3f4d",
             "hidden": false,
+            "page": "57",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -558,6 +562,8 @@
             "name": "Icon of Allegiance",
             "id": "7923-80f1-b921-8cc9",
             "hidden": false,
+            "page": "41",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -784,6 +790,8 @@
             "name": "Atomantic Pavise",
             "id": "aa14-e472-db74-a003",
             "hidden": false,
+            "page": "71",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -1438,6 +1446,8 @@
             "name": "Ætheric Juncture Splicer",
             "id": "8491-b2cc-d716-3b23",
             "hidden": false,
+            "page": "59",
+            "publicationId": "5469-14da-d0a1-6092",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -1468,6 +1478,8 @@
             "name": "Proteus Pattern Storm Shield",
             "id": "3c85-2a9a-c541-d34b",
             "hidden": false,
+            "page": "68",
+            "publicationId": "5469-14da-d0a1-6092",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
@@ -1758,6 +1770,8 @@
             "name": "Incursor Pattern Command Array",
             "id": "5963-2046-554b-266c",
             "hidden": false,
+            "page": "47",
+            "publicationId": "8f40-03eb-b2db-6054",
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
