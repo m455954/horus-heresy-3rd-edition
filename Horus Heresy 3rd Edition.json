@@ -67176,57 +67176,6 @@
                     "type": "or",
                     "conditionGroups": [
                       {
-                        "type": "and",
-                        "conditionGroups": [
-                          {
-                            "type": "and",
-                            "conditionGroups": [
-                              {
-                                "type": "or",
-                                "conditions": [
-                                  {"childId": "8f12-c30a-6c20-6296", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
-                                  {"childId": "7469-bbd2-a2ad-f8a8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
-                                  {
-                                    "childId": "33cf-087a-39ee-2532",
-                                    "childName": "Primary - Zone Mortalis Strike Force",
-                                    "field": "selections",
-                                    "includeChildSelections": true,
-                                    "scope": "force",
-                                    "shared": true,
-                                    "type": "instanceOf",
-                                    "value": 1
-                                  },
-                                  {
-                                    "childId": "a4bf-9629-2065-4885",
-                                    "childName": "Primary - Zone Mortalis Bulwark",
-                                    "field": "selections",
-                                    "includeChildSelections": true,
-                                    "scope": "force",
-                                    "shared": true,
-                                    "type": "instanceOf",
-                                    "value": 1
-                                  },
-                                  {
-                                    "childId": "e46a-e7a0-2dfe-66cf",
-                                    "childName": "Primary - Zone Mortalis Linebreaker",
-                                    "field": "selections",
-                                    "includeChildSelections": true,
-                                    "scope": "force",
-                                    "shared": true,
-                                    "type": "instanceOf",
-                                    "value": 1
-                                  }
-                                ]
-                              }
-                            ],
-                            "conditions": [
-                              {"childId": "d9a6-9b5f-b18a-4d63", "field": "selections", "includeChildSelections": true, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
-                            ]
-                          }
-                        ],
-                        "conditions": [{"childId": "2f57-6e9d-8a7b-5c2e", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
-                      },
-                      {
                         "type": "or",
                         "conditions": [
                           {
@@ -67274,8 +67223,54 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {"childId": "8f12-c30a-6c20-6296", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "7469-bbd2-a2ad-f8a8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                              {
+                                "childId": "33cf-087a-39ee-2532",
+                                "childName": "Primary - Zone Mortalis Strike Force",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a4bf-9629-2065-4885",
+                                "childName": "Primary - Zone Mortalis Bulwark",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "e46a-e7a0-2dfe-66cf",
+                                "childName": "Primary - Zone Mortalis Linebreaker",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {"childId": "d9a6-9b5f-b18a-4d63", "field": "selections", "includeChildSelections": true, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
                       }
-                    ]
+                    ],
+                    "conditions": [{"childId": "2f57-6e9d-8a7b-5c2e", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
                   }
                 ]
               }
