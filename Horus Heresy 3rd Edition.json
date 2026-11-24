@@ -64432,7 +64432,8 @@
           {"name": "Auxiliary - Helot Tercio", "id": "c551-7174-041e-8b1d", "hidden": true, "targetId": "fd11-7b79-aba3-4e16", "type": "forceEntry"},
           {"name": "Auxiliary - Ætheric Incursion Detachment", "id": "2170-8e08-1f14-721c", "hidden": false, "targetId": "b88e-e21c-c5e2-80be", "type": "forceEntry"},
           {"name": "Auxiliary - Ætheric Incursion", "id": "2ce0-5435-24cc-a066", "hidden": false, "targetId": "6018-b4fb-d64a-4b42", "type": "forceEntry"},
-          {"name": "Auxiliary - Rapturous Host", "id": "6ffe-ce41-0559-06ae", "hidden": false, "targetId": "93b6-10db-e72b-3e32", "type": "forceEntry"}
+          {"name": "Auxiliary - Rapturous Host", "id": "6ffe-ce41-0559-06ae", "hidden": false, "targetId": "93b6-10db-e72b-3e32", "type": "forceEntry"},
+          {"name": "Auxiliary - Antemasque Detachment", "id": "119f-5243-cf6b-9517", "hidden": false, "targetId": "4f41-6be7-41a2-13c4", "type": "forceEntry"}
         ],
         "modifiers": [
           {
