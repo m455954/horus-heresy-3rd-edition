@@ -48941,8 +48941,7 @@
                         "value": 1
                       }
                     ]
-                  },
-                  {"field": "54cf-b1ba-3ec1-a55d", "type": "set", "value": 0}
+                  }
                 ]
               },
               {
@@ -70483,6 +70482,56 @@
                                 "shared": true,
                                 "type": "instanceOf",
                                 "value": 1
+                              },
+                              {
+                                "childId": "b2af-ccde-ddd4-94a9",
+                                "childName": "Primary - Pride of the Legion",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "04d9-b191-7ea7-d461",
+                                "childName": "Primary - Sky-Hunter Phalanx",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "6f9b-3d99-7ecd-3214",
+                                "childName": "Primary - Armoured Spearhead",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "3796-6952-fa80-ff9d",
+                                "childName": "Primary - Orbital Drop Assault",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
                               }
                             ]
                           }
@@ -70675,6 +70724,56 @@
                               {
                                 "childId": "e46a-e7a0-2dfe-66cf",
                                 "childName": "Primary - Zone Mortalis Linebreaker",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "3796-6952-fa80-ff9d",
+                                "childName": "Primary - Orbital Drop Assault",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "b2af-ccde-ddd4-94a9",
+                                "childName": "Primary - Pride of the Legion",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "d0e2-3466-3567-4bcf",
+                                "childName": "Primary - Fury of the Ancients",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "04d9-b191-7ea7-d461",
+                                "childName": "Primary - Sky-Hunter Phalanx",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "6f9b-3d99-7ecd-3214",
+                                "childName": "Primary - Armoured Spearhead",
                                 "field": "selections",
                                 "includeChildSelections": true,
                                 "scope": "force",
