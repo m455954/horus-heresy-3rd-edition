@@ -1404,17 +1404,34 @@
                     "field": "4cd1-9b97-f2e4-f29a",
                     "type": "set",
                     "value": 0,
-                    "conditions": [
+                    "conditionGroups": [
                       {
-                        "childId": "610d-c9b0-ccb0-cba9",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
                       {
                         "childId": "c195-9a6a-a56b-4634",
                         "field": "forces",
@@ -1427,37 +1444,37 @@
                     ]
                   },
                   {
-                    "field": "4cd1-9b97-f2e4-f29a",
-                    "type": "increment",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "122b-0eda-4e29-401e",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
                     "field": "tracked",
                     "type": "set",
                     "value": false,
-                    "conditions": [
+                    "conditionGroups": [
                       {
-                        "childId": "610d-c9b0-ccb0-cba9",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
                       {
                         "childId": "c195-9a6a-a56b-4634",
                         "field": "forces",
@@ -2381,6 +2398,7 @@
                         "type": "and",
                         "conditionGroups": [
                           {
+                            "comment": "Sire of the X conditions not met",
                             "type": "or",
                             "conditionGroups": [
                               {
@@ -4062,6 +4080,32 @@
                         "scope": "roster",
                         "shared": true,
                         "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
                         "value": 1
                       }
                     ]
@@ -10151,6 +10195,17 @@
                     "shared": true,
                     "type": "equalTo",
                     "value": 0
+                  },
+                  {
+                    "childId": "122b-0eda-4e29-401e",
+                    "childName": "Alone and Forgotten",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               },
@@ -10420,17 +10475,35 @@
                     "field": "bcdd-2dff-ec88-dfd8",
                     "type": "set",
                     "value": 0,
-                    "conditions": [
+                    "conditionGroups": [
                       {
-                        "childId": "610d-c9b0-ccb0-cba9",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "childName": "Alone and Forgotten",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
                       {
                         "childId": "c195-9a6a-a56b-4634",
                         "field": "forces",
@@ -10462,17 +10535,35 @@
                     "field": "d6ac-cfd0-4b4e-00b3",
                     "type": "set",
                     "value": 0,
-                    "conditions": [
+                    "conditionGroups": [
                       {
-                        "childId": "610d-c9b0-ccb0-cba9",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "childName": "Alone and Forgotten",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
                       {
                         "childId": "c195-9a6a-a56b-4634",
                         "field": "forces",
@@ -10488,6 +10579,34 @@
                     "field": "tracked",
                     "type": "set",
                     "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "childName": "Alone and Forgotten",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
                     "conditions": [
                       {
                         "childId": "c195-9a6a-a56b-4634",
@@ -10583,7 +10702,7 @@
               {
                 "name": "High Command",
                 "id": "ba71-3bc8-fbf9-b695",
-                "hidden": false,
+                "hidden": true,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [{"id": "a9f8-7517-de0a-4edb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 0}]
               },
@@ -11850,6 +11969,17 @@
                     "shared": true,
                     "type": "equalTo",
                     "value": 0
+                  },
+                  {
+                    "childId": "122b-0eda-4e29-401e",
+                    "childName": "Alone and Forgotten",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               },
@@ -12708,6 +12838,17 @@
                     "childId": "3796-6952-fa80-ff9d",
                     "childName": "Primary - Orbital Drop Assault",
                     "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  },
+                  {
+                    "childId": "122b-0eda-4e29-401e",
+                    "childName": "Alone and Forgotten",
+                    "field": "selections",
                     "includeChildForces": true,
                     "includeChildSelections": true,
                     "scope": "roster",
@@ -30102,6 +30243,60 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "f7a1-8b24-bf2e-0357",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "childName": "Alone and Forgotten",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "childName": "Alone and Forgotten",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -44887,7 +45082,103 @@
                 "id": "b0bd-0ac9-5ec0-124b",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
-                "constraints": [{"id": "1cbc-28cf-2195-d4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "1cbc-28cf-2195-d4ea", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "1cbc-28cf-2195-d4ea",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime High Command",
@@ -44901,7 +45192,85 @@
                 "id": "754a-7f72-dace-026d",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
-                "constraints": [{"id": "1098-fc63-8944-ffa3", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "1098-fc63-8944-ffa3", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "1098-fc63-8944-ffa3",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime Command",
@@ -44909,28 +45278,252 @@
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "tracked": true,
-                "constraints": [{"id": "44bf-8d53-5f96-b28d", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "44bf-8d53-5f96-b28d", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "44bf-8d53-5f96-b28d",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "44bf-8d53-5f96-b28d",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "c857-47bd-6a4f-fcf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Retinue",
                 "id": "cf0e-09cf-72e1-2154",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
-                "constraints": [{"id": "9950-699d-6b6b-0cfb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}]
+                "constraints": [{"id": "9950-699d-6b6b-0cfb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "9950-699d-6b6b-0cfb",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Retinue",
                 "id": "7f63-27e3-462e-b3d3",
                 "hidden": false,
                 "targetId": "c66b-ef39-b20f-725b",
-                "constraints": [{"id": "7781-4d05-c2fe-36cb", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "7781-4d05-c2fe-36cb", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "7781-4d05-c2fe-36cb",
+                    "type": "set",
+                    "value": 3,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Elites",
                 "id": "41ff-c42c-a00f-5765",
                 "hidden": false,
                 "targetId": "5d5e-958f-e388-50b5",
-                "constraints": [{"id": "5fe6-5956-5916-e409", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}]
+                "constraints": [{"id": "5fe6-5956-5916-e409", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "5fe6-5956-5916-e409",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Elites",
@@ -44938,14 +45531,134 @@
                 "hidden": false,
                 "targetId": "276f-7a07-a56c-affd",
                 "tracked": true,
-                "constraints": [{"id": "e41d-9b74-4109-335c", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "e41d-9b74-4109-335c", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "e41d-9b74-4109-335c",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "e41d-9b74-4109-335c",
+                    "type": "set",
+                    "value": 5,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Heavy Assault",
                 "id": "4769-344c-a5db-fb18",
                 "hidden": false,
                 "targetId": "3235-bd79-e9b1-60fa",
-                "constraints": [{"id": "1f09-e500-fb4c-352b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}]
+                "constraints": [{"id": "1f09-e500-fb4c-352b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "1f09-e500-fb4c-352b",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Heavy Assault",
@@ -44953,7 +45666,89 @@
                 "hidden": false,
                 "targetId": "1e95-35f0-1353-ffa1",
                 "tracked": true,
-                "constraints": [{"id": "6525-f60b-fa60-7a6e", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "6525-f60b-fa60-7a6e", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "6525-f60b-fa60-7a6e",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "6525-f60b-fa60-7a6e",
+                    "type": "set",
+                    "value": 5,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Heavy Transport",
@@ -44966,6 +45761,18 @@
                     "field": "b860-c2ad-92a8-732a",
                     "type": "increment",
                     "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ],
                     "repeats": [
                       {
                         "childId": "5d5e-958f-e388-50b5",
@@ -45009,6 +45816,23 @@
                     "conditionGroups": [
                       {
                         "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "122b-0eda-4e29-401e",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "equalTo",
+                                "value": 0
+                              }
+                            ]
+                          }
+                        ],
                         "conditions": [
                           {
                             "childId": "5d5e-958f-e388-50b5",
@@ -45043,6 +45867,23 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "field": "b860-c2ad-92a8-732a",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -45055,7 +45896,113 @@
               },
               {"name": "Master of Automata", "id": "f1ca-ed48-67c0-f442", "hidden": false, "targetId": "43f5-bc69-29b9-2286"},
               {"name": "Lord of Automata", "id": "1c37-7bcb-7c64-3550", "hidden": false, "targetId": "3e59-3bcf-4bf8-d404"},
-              {"name": "Legiones Thallaxes", "id": "2da0-461b-c66f-ef9d", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
+              {"name": "Legiones Thallaxes", "id": "2da0-461b-c66f-ef9d", "hidden": false, "targetId": "6f78-9e60-4884-63d2"},
+              {
+                "name": "Command - Centurions Only",
+                "id": "8917-aebc-65fa-c6a1",
+                "hidden": false,
+                "targetId": "1429-f03a-e8a5-478c",
+                "constraints": [{"id": "7f11-8e8c-370f-3a61", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prime Command - Centurions Only",
+                "id": "f64a-a8ef-3dde-2aa2",
+                "hidden": false,
+                "targetId": "afc8-c83d-00a6-936e",
+                "constraints": [{"id": "2ece-9580-e462-743e", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "2ece-9580-e462-743e",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
             ],
             "constraints": [
               {
@@ -45293,7 +46240,85 @@
                 "id": "4a2f-dafe-1d94-0452",
                 "hidden": false,
                 "targetId": "10fd-793f-8c01-ecc2",
-                "constraints": [{"id": "3acc-e98e-8046-2c54", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "3acc-e98e-8046-2c54", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "3acc-e98e-8046-2c54",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime High Command",
@@ -45307,7 +46332,85 @@
                 "id": "c14b-0e82-df67-2db3",
                 "hidden": false,
                 "targetId": "d4c0-6b33-adf5-aa41",
-                "constraints": [{"id": "da61-c1da-244a-aa4d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "da61-c1da-244a-aa4d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "da61-c1da-244a-aa4d",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime Command",
@@ -45315,28 +46418,204 @@
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "tracked": true,
-                "constraints": [{"id": "488f-130d-aca7-f309", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "488f-130d-aca7-f309", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "488f-130d-aca7-f309",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "488f-130d-aca7-f309",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "c857-47bd-6a4f-fcf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Retinue",
                 "id": "d6c5-b69b-5906-a304",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
-                "constraints": [{"id": "284f-abc1-ddd2-165c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "284f-abc1-ddd2-165c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "284f-abc1-ddd2-165c",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Retinue",
                 "id": "5261-c394-90a5-414f",
                 "hidden": false,
                 "targetId": "c66b-ef39-b20f-725b",
-                "constraints": [{"id": "495c-2b9e-85c6-ff7f", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "495c-2b9e-85c6-ff7f", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "495c-2b9e-85c6-ff7f",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "childName": "In Disgrace all are Equal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "childName": "In Disgrace all are Equal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "War-engine",
                 "id": "dbf2-f60a-3abb-29f8",
                 "hidden": false,
                 "targetId": "2499-7239-685f-8465",
-                "constraints": [{"id": "7d11-f554-b7fa-a61b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}]
+                "constraints": [{"id": "7d11-f554-b7fa-a61b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}],
+                "modifiers": [
+                  {
+                    "field": "7d11-f554-b7fa-a61b",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime War-engine",
@@ -45344,12 +46623,175 @@
                 "hidden": false,
                 "targetId": "9699-67c9-2c0b-e64b",
                 "tracked": true,
-                "constraints": [{"id": "9338-c37e-2f7c-0014", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "9338-c37e-2f7c-0014", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "9338-c37e-2f7c-0014",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "9338-c37e-2f7c-0014",
+                    "type": "set",
+                    "value": 10,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "childName": "In Disgrace all are Equal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {"name": "Master of Automata", "id": "7431-b5de-9093-e9b5", "hidden": false, "targetId": "43f5-bc69-29b9-2286"},
               {"name": "Lord of Automata", "id": "6ced-f382-dc7d-fe9e", "hidden": false, "targetId": "3e59-3bcf-4bf8-d404"},
               {"name": "Legiones Thallaxes", "id": "cefd-a1ef-eceb-70f2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"},
-              {"name": "Rewards of Treachery", "id": "5def-16a2-d750-6741", "hidden": false, "targetId": "fe7f-1287-4162-a65d"}
+              {"name": "Rewards of Treachery", "id": "5def-16a2-d750-6741", "hidden": false, "targetId": "fe7f-1287-4162-a65d"},
+              {
+                "name": "Command - Centurions Only",
+                "id": "e189-e29d-d7ae-e46b",
+                "hidden": false,
+                "targetId": "1429-f03a-e8a5-478c",
+                "constraints": [{"id": "bad3-58f3-400d-2a78", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prime Command - Centurions Only",
+                "id": "5e7c-3a1a-a2c2-3730",
+                "hidden": false,
+                "targetId": "afc8-c83d-00a6-936e",
+                "constraints": [{"id": "674b-da57-917d-5e49", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "674b-da57-917d-5e49",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
             ],
             "constraints": [
               {
@@ -45587,7 +47029,85 @@
                 "id": "a1f9-c91b-d647-bb85",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
-                "constraints": [{"id": "cca8-5aff-4444-b409", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "cca8-5aff-4444-b409", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "cca8-5aff-4444-b409",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime High Command",
@@ -45601,7 +47121,85 @@
                 "id": "8ef5-0d3c-740e-075e",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
-                "constraints": [{"id": "fdb9-a836-a0f1-968b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "fdb9-a836-a0f1-968b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "fdb9-a836-a0f1-968b",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime Command",
@@ -45609,7 +47207,101 @@
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "tracked": true,
-                "constraints": [{"id": "fae9-b58f-dc7e-0014", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "fae9-b58f-dc7e-0014", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "fae9-b58f-dc7e-0014",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "fae9-b58f-dc7e-0014",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "c857-47bd-6a4f-fcf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Retinue",
@@ -45635,6 +47327,42 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "53a1-89cd-4c86-d45d",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -45643,7 +47371,61 @@
                 "id": "b2fb-94a5-0d1f-aff9",
                 "hidden": false,
                 "targetId": "c66b-ef39-b20f-725b",
-                "constraints": [{"id": "b5f2-12aa-2efa-e79b", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "b5f2-12aa-2efa-e79b", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "b5f2-12aa-2efa-e79b",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Fast Attack",
@@ -45669,6 +47451,42 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "8e55-4867-33bb-1ad0",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -45678,7 +47496,82 @@
                 "hidden": false,
                 "targetId": "c291-144b-3da6-37ed",
                 "tracked": true,
-                "constraints": [{"id": "1768-f82f-541d-4700", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "1768-f82f-541d-4700", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "1768-f82f-541d-4700",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "1768-f82f-541d-4700",
+                    "type": "set",
+                    "value": 10,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "childName": "In Disgrace all are Equal",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Elites - Golden Keshig only",
@@ -45703,6 +47596,42 @@
                         "shared": true,
                         "value": 1
                       }
+                    ]
+                  },
+                  {
+                    "field": "496b-5c3e-558b-3b14",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
                     ]
                   }
                 ]
@@ -45732,10 +47661,134 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "cfd3-e0c3-cb87-8c1d",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
                   }
                 ]
               },
-              {"name": "Legiones Thallaxes", "id": "0ddd-218a-d0a2-4c2f", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
+              {"name": "Legiones Thallaxes", "id": "0ddd-218a-d0a2-4c2f", "hidden": false, "targetId": "6f78-9e60-4884-63d2"},
+              {
+                "name": "Command - Centurions Only",
+                "id": "d689-9b5d-8424-be21",
+                "hidden": false,
+                "targetId": "1429-f03a-e8a5-478c",
+                "constraints": [{"id": "6b25-cf6f-d114-fbd0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prime Command - Centurions Only",
+                "id": "5703-3396-7236-eedd",
+                "hidden": false,
+                "targetId": "afc8-c83d-00a6-936e",
+                "constraints": [{"id": "f373-3ee7-cb62-70b6", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "f373-3ee7-cb62-70b6",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
             ],
             "constraints": [
               {
@@ -45974,7 +48027,85 @@
                 "id": "fb1e-5b44-80d4-62b1",
                 "hidden": false,
                 "targetId": "80c1-b49d-ae67-3269",
-                "constraints": [{"id": "4680-c145-442f-da4a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "4680-c145-442f-da4a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "4680-c145-442f-da4a",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime High Command",
@@ -45988,42 +48119,434 @@
                 "id": "2f8e-6d53-110f-980d",
                 "hidden": false,
                 "targetId": "20f7-dff3-810c-f7a7",
-                "constraints": [{"id": "c2ce-1e4b-8379-e340", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}]
+                "constraints": [{"id": "c2ce-1e4b-8379-e340", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "c2ce-1e4b-8379-e340",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime Command",
                 "id": "35f3-499b-7073-805c",
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
-                "constraints": [{"id": "3699-f18d-58b1-ce98", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "3699-f18d-58b1-ce98", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "3699-f18d-58b1-ce98",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "3699-f18d-58b1-ce98",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "c857-47bd-6a4f-fcf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "atLeast", "value": 1}]
+                  },
+                  {
+                    "field": "3699-f18d-58b1-ce98",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Support - Battlesmith or Vehicle only",
                 "id": "6e58-ba61-0000-42a1",
                 "hidden": false,
                 "targetId": "0d7e-01ea-3b33-11e4",
-                "constraints": [{"id": "35a0-5637-554a-02d6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "35a0-5637-554a-02d6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "35a0-5637-554a-02d6",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Support",
                 "id": "31b0-8b9a-5d71-7e81",
                 "hidden": false,
                 "targetId": "1c79-ecdf-9a64-84c9",
-                "constraints": [{"id": "3203-e2de-b85e-e6c3", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "3203-e2de-b85e-e6c3", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "3203-e2de-b85e-e6c3",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Armour",
                 "id": "d8fa-485e-5cc6-50a5",
                 "hidden": false,
                 "targetId": "643a-1012-bd51-6537",
-                "constraints": [{"id": "68ff-52db-5b24-725e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}]
+                "constraints": [{"id": "68ff-52db-5b24-725e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 10}],
+                "modifiers": [
+                  {
+                    "field": "68ff-52db-5b24-725e",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Armour",
                 "id": "c1b2-26d5-4843-32cd",
                 "hidden": false,
                 "targetId": "4460-7bc1-4d80-aecb",
-                "constraints": [{"id": "97dc-a594-30be-2d78", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "97dc-a594-30be-2d78", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "97dc-a594-30be-2d78",
+                    "type": "set",
+                    "value": 10,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Command - Centurions Only",
+                "id": "871a-0d0d-dd6b-075d",
+                "hidden": false,
+                "targetId": "1429-f03a-e8a5-478c",
+                "constraints": [{"id": "8bb0-f184-1421-d192", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prime Command - Centurions Only",
+                "id": "bd5a-2833-0cf3-efb3",
+                "hidden": false,
+                "targetId": "afc8-c83d-00a6-936e",
+                "constraints": [{"id": "5e69-442a-2441-7b7c", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
               }
             ],
             "costs": [
@@ -46249,7 +48772,85 @@
                 "id": "3f59-f713-3a73-a99d",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
-                "constraints": [{"id": "0942-ba69-d1cd-f34a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "0942-ba69-d1cd-f34a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "0942-ba69-d1cd-f34a",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime High Command",
@@ -46263,7 +48864,86 @@
                 "id": "742f-0767-3e3c-9d96",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
-                "constraints": [{"id": "54cf-b1ba-3ec1-a55d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "54cf-b1ba-3ec1-a55d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "54cf-b1ba-3ec1-a55d",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {"field": "54cf-b1ba-3ec1-a55d", "type": "set", "value": 0}
+                ]
               },
               {
                 "name": "Prime Command",
@@ -46271,28 +48951,272 @@
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "tracked": true,
-                "constraints": [{"id": "450e-1ef4-c87c-c9be", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "450e-1ef4-c87c-c9be", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450e-1ef4-c87c-c9be",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "450e-1ef4-c87c-c9be",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "c857-47bd-6a4f-fcf8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Retinue",
                 "id": "fa11-6491-c431-c4ec",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
-                "constraints": [{"id": "401d-40b2-b145-d311", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "401d-40b2-b145-d311", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "401d-40b2-b145-d311",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Retinue",
                 "id": "0884-9f2a-5507-9127",
                 "hidden": false,
                 "targetId": "c66b-ef39-b20f-725b",
-                "constraints": [{"id": "91a5-f103-61ff-bd28", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "91a5-f103-61ff-bd28", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "91a5-f103-61ff-bd28",
+                    "type": "set",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Elites",
                 "id": "8682-3673-207d-26b1",
                 "hidden": false,
                 "targetId": "5d5e-958f-e388-50b5",
-                "constraints": [{"id": "909f-d1e8-18ab-e1da", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "909f-d1e8-18ab-e1da", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "909f-d1e8-18ab-e1da",
+                    "type": "set",
+                    "value": 4,
+                    "conditions": [
+                      {
+                        "childId": "f5dc-c13a-5848-f3b8",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "909f-d1e8-18ab-e1da",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Elites",
@@ -46300,14 +49224,175 @@
                 "hidden": false,
                 "targetId": "276f-7a07-a56c-affd",
                 "tracked": true,
-                "constraints": [{"id": "9047-e1d6-1966-8741", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "9047-e1d6-1966-8741", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "9047-e1d6-1966-8741",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "9047-e1d6-1966-8741",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "9047-e1d6-1966-8741",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "f5dc-c13a-5848-f3b8",
+                        "childName": "Pride is our Armour",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Troops",
                 "id": "ab40-2583-efd2-3bde",
                 "hidden": false,
                 "targetId": "88e6-d373-4152-0dd8",
-                "constraints": [{"id": "eb88-0d5c-99c0-4d24", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "eb88-0d5c-99c0-4d24", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "eb88-0d5c-99c0-4d24",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f5dc-c13a-5848-f3b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "f5dc-c13a-5848-f3b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
               },
               {
                 "name": "Prime Troops",
@@ -46315,21 +49400,216 @@
                 "hidden": false,
                 "targetId": "c3f9-a7f3-984b-3fda",
                 "tracked": true,
-                "constraints": [{"id": "a052-898f-1569-ef59", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "a052-898f-1569-ef59", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "a052-898f-1569-ef59",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f5dc-c13a-5848-f3b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f5dc-c13a-5848-f3b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "122b-0eda-4e29-401e",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "f5dc-c13a-5848-f3b8",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "a052-898f-1569-ef59",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Support",
                 "id": "2fc9-52ed-d091-a423",
                 "hidden": false,
                 "targetId": "345f-9ba6-9b02-ed5c",
-                "constraints": [{"id": "6c04-75ca-0202-56e9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "6c04-75ca-0202-56e9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "6c04-75ca-0202-56e9",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Support",
                 "id": "4f27-ac99-e5c9-e2e3",
                 "hidden": false,
                 "targetId": "1c79-ecdf-9a64-84c9",
-                "constraints": [{"id": "c825-d864-99ad-88c0", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
+                "constraints": [{"id": "c825-d864-99ad-88c0", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "c825-d864-99ad-88c0",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Transport",
@@ -46482,6 +49762,24 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -46497,7 +49795,45 @@
                 "id": "7789-7ad2-6034-73a3",
                 "hidden": false,
                 "targetId": "3235-bd79-e9b1-60fa",
-                "constraints": [{"id": "763c-4848-cb1b-856c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                "constraints": [{"id": "763c-4848-cb1b-856c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "763c-4848-cb1b-856c",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Prime Heavy Assault",
@@ -46505,7 +49841,81 @@
                 "hidden": false,
                 "targetId": "1e95-35f0-1353-ffa1",
                 "tracked": true,
-                "constraints": [{"id": "e030-9ec9-f0f9-6647", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                "constraints": [{"id": "e030-9ec9-f0f9-6647", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "e030-9ec9-f0f9-6647",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "e030-9ec9-f0f9-6647",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "610d-c9b0-ccb0-cba9",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
               },
               {
                 "name": "Heavy Transport",
@@ -46658,6 +50068,24 @@
                         "value": 1
                       }
                     ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -46668,7 +50096,95 @@
                 "targetId": "abff-3686-c39a-9a24",
                 "constraints": [{"id": "90cb-5ebe-3ebd-76b8", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}]
               },
-              {"name": "Legiones Thallaxes", "id": "74f6-24ad-fe04-afe2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
+              {"name": "Legiones Thallaxes", "id": "74f6-24ad-fe04-afe2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"},
+              {
+                "name": "Command - Centurions Only",
+                "id": "f510-9029-4456-eefc",
+                "hidden": true,
+                "targetId": "1429-f03a-e8a5-478c",
+                "constraints": [{"id": "0148-1597-6340-e992", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Prime Command - Centurions Only",
+                "id": "de17-51da-6002-796e",
+                "hidden": false,
+                "targetId": "afc8-c83d-00a6-936e",
+                "constraints": [{"id": "f322-49ce-a953-689f", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+                "modifiers": [
+                  {
+                    "field": "f322-49ce-a953-689f",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "tracked",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "c195-9a6a-a56b-4634",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "122b-0eda-4e29-401e",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
             ],
             "costs": [
               {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
@@ -66974,6 +70490,22 @@
                         "conditions": [
                           {"childId": "d9a6-9b5f-b18a-4d63", "field": "selections", "includeChildSelections": true, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
                         ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
                       }
                     ],
                     "conditions": [{"childId": "b980-187b-2b17-d635", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}]
@@ -67060,6 +70592,24 @@
                 "conditionGroups": [
                   {
                     "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
                     "conditions": [
                       {"childId": "b980-187b-2b17-d635", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1},
                       {"childId": "8045-89a4-76d4-fcef", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "equalTo", "value": 0}
@@ -67269,6 +70819,23 @@
                         ],
                         "conditions": [
                           {"childId": "d9a6-9b5f-b18a-4d63", "field": "selections", "includeChildSelections": true, "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "610d-c9b0-ccb0-cba9",
+                            "childName": "In Disgrace all are Equal",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "forces", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}
                         ]
                       }
                     ],

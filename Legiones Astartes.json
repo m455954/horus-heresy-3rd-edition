@@ -126171,6 +126171,17 @@
                     "shared": true,
                     "type": "equalTo",
                     "value": 0
+                  },
+                  {
+                    "childId": "610d-c9b0-ccb0-cba9",
+                    "childName": "In Disgrace all are Equal",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -126229,6 +126240,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "610d-c9b0-ccb0-cba9",
+                    "childName": "In Disgrace all are Equal",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
