@@ -45,6 +45,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "601c-aa25-c822-448a", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2c12-83ba-6a93-f08f", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -58,6 +77,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "4186-996b-3a05-fe85", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "34ce-cfbd-235d-69b9", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -71,6 +109,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "a0b8-66e0-e0d8-d844", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "e560-6bf2-3495-d6dd", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -164,6 +221,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "065d-43ba-d874-f748", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "1bbb-9e0b-1f2d-b07a", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -177,6 +253,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "a935-60b5-333f-9330", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2185-ed82-f734-0045", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -190,6 +285,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "1db2-94ab-0c4e-51b3", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "cf1b-6af0-3e3c-5f58", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -203,6 +317,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "438a-693b-8713-33d4", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "37cf-c317-04d9-281e", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -216,6 +349,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "ddc5-a274-df29-cc45", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "9e5d-066f-f703-8a1a", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -229,6 +381,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "f97e-5588-454e-e0dd", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "a10e-c7bb-de2b-138d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -242,6 +413,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "b43b-1d11-4ecd-d073", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "531e-6ec1-e52f-e76b", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -255,6 +445,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "dc17-6c87-20ee-0652", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "862a-2654-93ac-9915", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -268,6 +477,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d7ab-c5fe-f0b3-8209", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2f70-5caf-260f-7854", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -281,6 +509,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "7f20-93ea-6efc-2f2e", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4c05-c6fc-0d26-005a", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -294,6 +541,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "0a7e-0241-6232-cc5b", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "3a1b-66a7-451a-9a8e", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -307,6 +573,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "12a0-5f72-93e7-a0fa", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f5aa-c6af-354e-d77e", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -320,6 +605,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "7ed8-3862-ae09-5ea6", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f128-b5ba-f6d3-5868", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -333,6 +637,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d19e-492f-ef05-4c28", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4435-dc26-18f7-37e2", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -346,6 +669,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "08e2-05df-0667-c572", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "bf08-19c9-ed6c-7606", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -359,6 +701,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "ff33-1731-a2e9-6082", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "c851-778b-84b9-14e2", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -372,6 +733,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "69f0-2238-42d8-27f1", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "d98a-5a69-a22c-aafd", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -385,6 +765,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "bb97-6301-e809-b167", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "0029-a6ce-32ed-fd2e", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -398,6 +797,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "8a0e-aca1-c693-a9d2", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "b896-107c-a9a5-0d56", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -411,6 +829,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "e881-7066-1f98-b2f0", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2005-0719-cf72-01c2", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -424,6 +861,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "c416-36e4-3093-9391", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "73fd-0ce2-1e04-3280", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -437,6 +893,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "02ef-426e-387c-695b", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "1d92-dd0f-1129-95ad", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -450,6 +925,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "e749-2396-eff4-0319", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "da2b-3f16-aa12-cefd", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -463,6 +957,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "ce71-1a59-3a8a-b62b", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "a0cc-7dc3-ae90-c4be", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -476,6 +989,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "03d0-06eb-2ada-7a95", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "e4b6-5c39-d472-94c2", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -489,6 +1021,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "2e99-b418-ac43-9917", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f7f0-80a5-0998-8e2c", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -502,6 +1053,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "5783-1f29-cf57-5638", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "87f2-346c-e890-2605", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -515,6 +1085,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d578-cca3-1f8c-c9b6", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "0a29-7aa7-8249-4483", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -528,6 +1117,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "a6e5-827f-c451-5709", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "e805-5096-868b-d243", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -554,6 +1162,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d6fa-a6f7-8956-703f", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "672f-dd9e-9cae-1f93", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -567,6 +1194,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "238c-d52c-48eb-dcd3", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "8fef-a104-8aaa-3046", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -580,6 +1226,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "fec8-2d8e-bfd8-8575", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "9091-912a-6576-45e9", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -606,6 +1271,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "9f32-c515-7c26-c947", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "e7b7-e63e-041e-212b", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -619,6 +1303,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "12d3-178d-7003-37d5", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2fac-dd27-a8e7-6b64", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -632,6 +1335,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "2867-abb2-ac7e-6b93", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "6794-d532-afc0-b0e9", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -645,6 +1367,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "fd79-b34b-96f4-f4d8", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f844-9032-2241-d851", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -671,6 +1412,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d653-05c8-afeb-cc9b", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "3f04-029d-cfb0-8233", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -684,6 +1444,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "3ba7-d01f-f429-7545", "hidden": false, "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "e96c-cbf5-b7f9-afe1", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -750,6 +1529,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "991e-aa9f-04eb-228a", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "7330-7e1c-9dec-cbd8", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -763,6 +1561,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "d9b9-ff64-baed-ca49", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "427e-f4de-c45a-2e11", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -776,6 +1593,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "b4d3-108e-d0a1-a7d5", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4e86-ce5c-6729-93e9", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -789,6 +1625,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "ccd8-238e-a0f7-a9c8", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "550a-872d-ccd3-9927", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -802,6 +1657,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "44d6-5e7c-d3d6-6778", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "b839-8229-910c-6d22", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -815,6 +1689,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "cefd-9682-8df9-938c", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "24b9-466c-3136-1a01", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -828,6 +1721,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "ec56-8056-691e-ebf6", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "423f-0fda-e732-e9c3", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -841,6 +1753,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "8385-4a23-9d4d-239a", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f36d-8993-2a72-d3af", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -854,6 +1785,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "7bdf-19cf-36ee-0556", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4c38-d6c4-574b-8a79", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -867,6 +1817,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "2e77-40ca-3382-229b", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "d00b-aec2-2f37-7155", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -880,6 +1849,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "2de2-7744-60ed-0a27", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "7ae5-1ebf-c202-545d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -893,6 +1881,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "f40a-b619-2e9f-789c", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "6535-e1c5-b872-6249", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -906,6 +1913,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "f931-eca9-a4ea-8065", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "8c73-a20c-31e3-2411", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -919,6 +1945,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "b872-f37c-dcf3-69f7", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "7b42-d04d-257a-a4fc", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -932,6 +1977,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "7042-b122-f461-650c", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "9367-61c4-a7b8-2c85", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -945,6 +2009,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "f800-7649-7585-edc9", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "d371-974a-5cc8-70ed", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -958,6 +2041,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "c7c6-5551-d77e-f450", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "c8b9-e690-aba8-f37b", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -971,6 +2073,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "1c7f-0192-da66-be9b", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "1538-5827-68fd-c15f", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -984,6 +2105,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "73fb-0f4f-7e73-bcd8", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "5b28-cd4d-9724-36c5", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -997,6 +2137,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "795c-b687-70b1-8814", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4b22-b7ed-2a16-901e", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1010,6 +2169,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "0c50-481b-718d-795d", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "d6f6-b218-72b4-2a01", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1023,6 +2201,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "891e-6141-2496-81e9", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "9852-f81d-4eee-239f", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1036,6 +2233,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "e52e-03cf-d211-9399", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f050-fdb3-2160-cd82", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1049,6 +2265,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "0727-9063-abbc-6cc2", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "a6e6-f682-f55b-10aa", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1062,6 +2297,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "fc86-8a23-2f1f-47f9", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "78e4-871b-65e8-c61d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1075,6 +2329,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "91e2-776e-c21e-5e82", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "4503-d5b1-a7bb-b4d1", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1088,6 +2361,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "560a-95cf-0d3d-0ec7", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "3ccd-4fb6-26a3-d2c3", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1101,6 +2393,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "98d6-bf7a-e1b6-c1fc", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "6b5c-fe53-831f-573d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1114,6 +2425,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "321c-45c3-f116-2589", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "a406-513a-94fa-417d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1127,6 +2457,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "28f5-9730-82b6-fac1", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "950a-c619-8b4f-3ad3", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1140,6 +2489,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "970b-dbe2-f35d-5195", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "b0fe-a652-77ca-a80d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1153,6 +2521,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "8c9f-40d3-236a-5db9", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "b63c-17ba-0822-ffe0", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1176,7 +2563,26 @@
           {"name": "Rewards of Treachery", "id": "c977-7b36-ae02-c9ee", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "8d2f-1df7-68e3-88cc", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Dark Angels"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Dark Angels"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1190,7 +2596,26 @@
           {"name": "Rewards of Treachery", "id": "0443-c70d-9ffe-86b8", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "c671-597f-a74d-a5e2", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Emperor's Children"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Emperor's Children"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1204,7 +2629,26 @@
           {"name": "Rewards of Treachery", "id": "2c8b-8ce7-8e69-a8af", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "3f17-0053-8267-bbd9", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Iron Warriors"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Iron Warriors"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1218,7 +2662,26 @@
           {"name": "Rewards of Treachery", "id": "da78-947a-95c5-505e", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "b0e3-6dfd-2402-19ea", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "White Scars"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "White Scars"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1232,7 +2695,26 @@
           {"name": "Rewards of Treachery", "id": "ec63-11a4-8de5-c6ae", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "fbc0-4615-9f6e-512d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Space Wolves"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Space Wolves"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1246,7 +2728,26 @@
           {"name": "Rewards of Treachery", "id": "453f-1827-1477-87e5", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "f406-4952-82c8-461d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Imperial Fists"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Imperial Fists"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1260,7 +2761,26 @@
           {"name": "Rewards of Treachery", "id": "4ee2-1431-83dd-d3a1", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "0ce4-7794-f6ed-1848", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Night Lords"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Night Lords"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1274,7 +2794,26 @@
           {"name": "Rewards of Treachery", "id": "c8f8-650b-765b-bd08", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "6867-0485-d4a1-978d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Blood Angels"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Blood Angels"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1288,7 +2827,26 @@
           {"name": "Rewards of Treachery", "id": "16d4-fe8b-3375-2c04", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "1cde-4975-df6e-9fef", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Iron Hands"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Iron Hands"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1302,7 +2860,26 @@
           {"name": "Rewards of Treachery", "id": "6c44-5e96-9fef-25a6", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "61a0-f5fa-33c7-1311", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "World Eaters"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "World Eaters"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1316,7 +2893,26 @@
           {"name": "Rewards of Treachery", "id": "7ad7-4b3f-e114-8bbc", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "0786-490d-8cdc-f781", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Ultramarines"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Ultramarines"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1330,7 +2926,26 @@
           {"name": "Rewards of Treachery", "id": "9a73-ff9e-847c-8dd5", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "9800-2d9f-e103-527d", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Death Guard"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Death Guard"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1344,7 +2959,26 @@
           {"name": "Rewards of Treachery", "id": "bb79-909d-7e60-aa87", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "2b98-20a8-6fd2-ca24", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Thousand Sons"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Thousand Sons"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1358,7 +2992,26 @@
           {"name": "Rewards of Treachery", "id": "a020-b4e5-7969-c740", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "d798-e286-5b26-60ac", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Sons of Horus"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Sons of Horus"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1372,7 +3025,26 @@
           {"name": "Rewards of Treachery", "id": "4a48-a5b0-fe9c-5c57", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "7a3b-76ef-b609-7fcd", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Word Bearers"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Word Bearers"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1386,7 +3058,26 @@
           {"name": "Rewards of Treachery", "id": "88dd-96e5-8238-2561", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "787d-5ccf-eb74-768a", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Salamanders"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Salamanders"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Inductii Squad",
@@ -1400,7 +3091,26 @@
           {"name": "Rewards of Treachery", "id": "2d9c-24e8-2142-1998", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "fb83-49e6-b975-6801", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
         ],
-        "modifiers": [{"field": "name", "type": "prepend", "value": "Raven Guard"}]
+        "modifiers": [
+          {"field": "name", "type": "prepend", "value": "Raven Guard"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Cataphractii Terminator Deathwing Companions",
@@ -1413,6 +3123,25 @@
         "categoryLinks": [
           {"name": "Rewards of Treachery", "id": "fac2-c74a-d9fa-eaa5", "primary": true, "targetId": "fe7f-1287-4162-a65d"},
           {"name": "Alpha Legion", "id": "a4c7-4fec-7b3c-a46f", "primary": false, "targetId": "a114-fe5b-0a4f-632e"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d0e2-3466-3567-4bcf",
+                "childName": "Primary - Fury of the Ancients",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       }
     ],

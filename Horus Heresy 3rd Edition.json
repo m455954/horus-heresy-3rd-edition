@@ -45348,7 +45348,8 @@
               },
               {"name": "Master of Automata", "id": "7431-b5de-9093-e9b5", "hidden": false, "targetId": "43f5-bc69-29b9-2286"},
               {"name": "Lord of Automata", "id": "6ced-f382-dc7d-fe9e", "hidden": false, "targetId": "3e59-3bcf-4bf8-d404"},
-              {"name": "Legiones Thallaxes", "id": "cefd-a1ef-eceb-70f2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"}
+              {"name": "Legiones Thallaxes", "id": "cefd-a1ef-eceb-70f2", "hidden": false, "targetId": "6f78-9e60-4884-63d2"},
+              {"name": "Rewards of Treachery", "id": "5def-16a2-d750-6741", "hidden": false, "targetId": "fe7f-1287-4162-a65d"}
             ],
             "constraints": [
               {
