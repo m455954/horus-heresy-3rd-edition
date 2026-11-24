@@ -2423,7 +2423,16 @@
                     "id": "96d4-b3e6-4214-8b29",
                     "hidden": false,
                     "constraints": [
-                      {"id": "2e25-8451-4913-b971", "field": "selections", "scope": "unit", "shared": true, "type": "max", "value": 0},
+                      {
+                        "id": "2e25-8451-4913-b971",
+                        "automatic": true,
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit-self",
+                        "shared": true,
+                        "type": "max",
+                        "value": 0
+                      },
                       {"id": "314e-851e-5369-83cd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
                     "modifiers": [
@@ -2946,7 +2955,7 @@
                 "name": "For every five Models in this Unit, one Ravager with jump pack may have one bolt pistol exchanged for ",
                 "id": "1633-ecaa-ec4d-b5ac",
                 "hidden": false,
-                "constraints": [{"id": "0fa3-d8b2-dfb3-3090", "field": "selections", "scope": "unit", "shared": true, "type": "max", "value": 0}],
+                "constraints": [{"id": "0fa3-d8b2-dfb3-3090", "field": "selections", "includeChildSelections": true, "scope": "unit-self", "shared": true, "type": "max", "value": 0}],
                 "entryLinks": [
                   {
                     "name": "Thunder hammer",
