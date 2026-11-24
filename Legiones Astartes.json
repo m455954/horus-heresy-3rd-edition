@@ -1107,27 +1107,7 @@
         "import": true,
         "targetId": "29c3-0b90-216c-b071",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Transport", "id": "0add-1a19-39a7-587b", "primary": true, "targetId": "d162-4711-5d60-0a48"}],
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "3796-6952-fa80-ff9d",
-                "childName": "Primary - Orbital Drop Assault",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "categoryLinks": [{"name": "Transport", "id": "0add-1a19-39a7-587b", "primary": true, "targetId": "d162-4711-5d60-0a48"}]
       },
       {
         "name": "Land Raider Carrier",
