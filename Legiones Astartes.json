@@ -27022,6 +27022,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -47059,6 +47070,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -49537,6 +49559,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -61675,6 +61708,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -101870,6 +101914,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -104137,6 +104192,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -105830,6 +105896,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -107807,6 +107884,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -109815,6 +109903,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
@@ -118820,6 +118919,17 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  },
+                  {
+                    "childId": "53f8-ca8c-239c-1d3d",
+                    "childName": "The Broken Helix",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
                   }
                 ]
               }
