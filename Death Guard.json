@@ -535,24 +535,6 @@
         ]
       },
       {
-        "name": "Legion Tactica: DG",
-        "id": "060b-6a98-e2f0-c977",
-        "hidden": false,
-        "import": true,
-        "publicationId": "e54c-7040-0f35-d85d",
-        "type": "upgrade",
-        "rules": [
-          {
-            "name": "Remorseless Advance",
-            "id": "0785-334d-203e-d83f",
-            "description": "Models with this Special Rule may Move and still benefit from the Heavy (X) Special Rule.\n\n\nA Model with this Special Rule that has moved no more than 4\" in the Movement Phase and did not Rush may still benefit from any variant of the Heavy (X) Special Rule on any Weapons that they have. Additionally, the Controlling Player of a Model with this Special Rule may ignore negative modifiers to the Movement Characteristic of that Model as a result of moving in Difficult Terrain.",
-            "hidden": false,
-            "page": 202,
-            "publicationId": "e54c-7040-0f35-d85d"
-          }
-        ]
-      },
-      {
         "name": "Gambit: Steadfast Resilience",
         "id": "24ba-d290-8eaf-e37a",
         "hidden": false,
@@ -2206,7 +2188,9 @@
             "name": "Barbaran Resilience",
             "id": "8ad3-66c1-2cbb-cb4d",
             "description": "\"A Unit containing any Models with this Special Rule never gains the Routed Tactical Status due to suffering 25% or more Casualties in the Shooting Phase.\"\n\n\n\n\nA Unit containing any Models with this Special Rule is never required to take a Leadership Check in the Morale Sub-Phase to avoid gaining the Routed Tactical Status due to having a certain number of Models removed from that Unit as Casualties from a single Shooting Attack",
-            "hidden": false
+            "hidden": false,
+            "page": "15",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -2458,7 +2442,9 @@
                     "name": "Remorseless Advance",
                     "id": "b6d9-4f33-1999-d0ff",
                     "description": "\"Models with this Special Rule may Move and still benefit from the Heavy (X) Special Rule.\"\n\nA Model with this Special Rule that has moved no more than 4\" in the Movement Phase and did not Rush may still benefit from any variant of the Heavy (X) Special Rule on any Weapons that they have. Additionally, the Controlling Player of a Model with this Special Rule may ignore negative modifiers to the Movement Characteristic of that Model as a result of moving in Difficult Terrain.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "202",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },

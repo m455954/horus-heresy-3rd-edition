@@ -396,13 +396,17 @@
                 "name": "Sire of the Blood Angels",
                 "id": "3101-6bf8-77e9-8d3b",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Assault Squads, then all Force Organisation Slots with Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Deep Strike Special Rule and the Blood Angels Trait in the same Army:\n- Once per Turn, when the Controlling Player of a Model with this Special Rule makes a Reserves Roll for a Unit which only includes Models with the Blood Angels Trait and the Deep Strike Special Rule, before the Reserves Roll is made, that Player can choose to modify that Roll by +1. If this modifier is applied, that Unit must be deployed using the Deep Strike Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "213",
+                "publicationId": "b905-0414-1057-bb34"
               },
               {
                 "name": "Angelic Descent",
                 "id": "3177-fe61-6b99-37cd",
                 "description": "While a Model with this Special Rule is Engaged in a Challenge, its Controlling Player can select the \"Angelic Descent\" Gambit.",
-                "hidden": false
+                "hidden": false,
+                "page": "213",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -762,7 +766,9 @@
                 "name": "Archein of Wisdom",
                 "id": "66dc-7a58-a98a-bff3",
                 "description": "While a Model with this Special Rule is Engaged in a Challenge, its Controlling Player can select the \"Archein of Wisdom\" Gambit.",
-                "hidden": false
+                "hidden": false,
+                "page": "214",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -1275,7 +1281,9 @@
                 "name": "The Ghost of Saiph",
                 "id": "c53e-47f3-f4eb-eaf0",
                 "description": "\"This Special Rule allows Aster Crohne to avoid being Removed as a Casualty.\"\n\n\nThe first time in any battle that a Model with this Special Rule is reduced to 0 Wounds, before Removing this Model as a Casualty, the Controlling Player must roll a Dice. On a result of a 4+, that Model is not Removed as a Casualty and has its Current Wounds Characteristic Set to 1.",
-                "hidden": false
+                "hidden": false,
+                "page": "216",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -3965,7 +3973,15 @@
         "infoLinks": [
           {"name": "[Allegiance]", "id": "657a-a151-492c-61cc", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
           {"name": "[Legiones Astartes]", "id": "40f9-01f1-c0b5-4618", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
-          {"name": "Inductii", "id": "e1ee-7a40-6ca0-3c99", "hidden": false, "targetId": "9829-1d35-5b26-51ce", "type": "rule"},
+          {
+            "name": "Inductii",
+            "id": "e1ee-7a40-6ca0-3c99",
+            "hidden": false,
+            "page": "1",
+            "publicationId": "1cef-cfb8-32c9-a1f4",
+            "targetId": "9829-1d35-5b26-51ce",
+            "type": "rule"
+          },
           {
             "name": "Vanguard (X)",
             "id": "b72d-33dc-45d0-a1eb",
@@ -4001,7 +4017,9 @@
             "name": "Eaters of the Dead",
             "id": "748f-e452-1223-9e6a",
             "description": "\"A Unit containing any Models with this Special Rule may perform a unique aftermath option, causing every enemy Unit with at least one Model within 8\" to make a Panic Check.\"\n\n\nIn Step 4 of the Resolution Sub-Phase a Player that has won Combat must select the following aftermath option for any Units in that Combat entirely composed of Models with this Special Rule. Any Unit the winning Player controls in that Combat which is only partially composed of Models with this Special Rule may have a Cool Check made for it instead, allowing a different aftermath option to be selected for it if the Check is successful. \n\n\n\"The Thirst\" – A Leadership Check must immediately be made for each enemy Unit that is not part of the Combat which has any Models within 8\" of one or more Models from this Unit. If this Leadership Check is failed, then all Models in that Unit gain the Routed Status. This aftermath option is resolved after all other aftermath options from the given Combat have been completed.",
-            "hidden": false
+            "hidden": false,
+            "page": "10",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [

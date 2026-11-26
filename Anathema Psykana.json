@@ -504,7 +504,9 @@
                 "name": "The Soulless Queen",
                 "id": "ad45-65be-f637-41c1",
                 "description": "While a Model with this Special Rule is in a Challenge, its Controlling Player can select the following Gambit: Abyssal Strike",
-                "hidden": false
+                "hidden": false,
+                "page": "60",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -1371,7 +1373,9 @@
                 "name": "Divisio Tactica",
                 "id": "848b-ce83-c722-e13a",
                 "description": "All Models with the Anathema Psykana Trait (excluding Models with the Vehicle Type) are subject to the Anathema Special Rule..",
-                "hidden": false
+                "hidden": false,
+                "page": "59",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ]
           }

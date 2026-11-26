@@ -119,7 +119,9 @@
         "name": "Weapons Array",
         "id": "770d-05ec-12b7-6d51",
         "description": "\"Weapons with this Special Rule may make Shooting Attacks into multiple Firing Arcs.\"\nWhen making a Shooting Attack with a Weapon that has this Special Rule, the Weapon may be used to attack once into all four Firing Arcs (Front, Left, Right and Rear). This does count as making multiple Shooting Attacks, but do not need to be made as Snap Shots.",
-        "hidden": false
+        "hidden": false,
+        "page": "196",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Forward Deployment",
@@ -350,6 +352,8 @@
             "id": "7259-0f03-d857-36ab",
             "description": "A Model with this Special Rule may only be used to attack an enemy Unit that is at a range equal to or greater than the value of X attached to the specific variant of this Special Rule that it has.",
             "hidden": false,
+            "page": "203",
+            "publicationId": "5469-14da-d0a1-6092",
             "modifiers": [{"field": "name", "type": "set", "value": "Minimum Range (24)"}]
           }
         ]
@@ -822,13 +826,17 @@
                 "name": "Platform",
                 "id": "1a3c-2b94-e02b-2846",
                 "description": "\"Models can be placed on top of this Model as if it were an Area of Terrain.\"\nModels can move over and end a move on top of this Model, treating it as if it were an area of Light Area Terrain. However, unlike other Areas of Terrain, protrusions and other parts of the Model do block Line of Sight.",
-                "hidden": false
+                "hidden": false,
+                "page": "198",
+                "publicationId": "5469-14da-d0a1-6092"
               },
               {
                 "name": "Landing Pad",
                 "id": "5176-19cc-02f0-cb81",
                 "description": "If a Model with the Flyer Sub-Type that is assigned a Drop Mission ends a Move made as part of that Mission within 3\" of a Model with this Special Rule, the Controlling Player may choose to deploy any disembarking Models onto any point on the Model with this Special Rule instead of in Base Contact with the Flyer Model they were Embarked upon.\n\n\nLikewise, if a Model with the Flyer Sub-Type that has been assigned an Extraction Mission ends a Move made as part of that Mission within 3\" of a Model with this Special Rule, then any friendly Unit that has all of its Models in base contact with the Model with this Special Rule may immediately be Embarked on the Model with the Flyer Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "198",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ]
           }
@@ -890,13 +898,17 @@
                 "name": "Armoured Platform",
                 "id": "53cd-6b49-70bb-8004",
                 "description": "\"Models can be placed on top of this Model as if it were an Area of Terrain.\"\nModels can move over and end a move on top of this Model, treating it as if it were an area of Terrain that grants a 5+ Cover Save to all Models on it. This Area of Terrain allows Line of Sight to be drawn into and out of its zone, but a Model outside that zone cannot draw a Line of Sight through the Area of Terrain to Models on the other side",
-                "hidden": false
+                "hidden": false,
+                "page": "199",
+                "publicationId": "5469-14da-d0a1-6092"
               },
               {
                 "name": "Aegis Barricade",
                 "id": "3c44-336c-1356-33e2",
                 "description": "\"Any Model with the Infantry or Paragon Types that is in base contact with an Aegis Barricade gains a 5+ Cover Save.\"\nAegis Defence Line Barricades do not have any Characteristics and cannot be targeted, attacked, damaged or otherwise affected by any Rule or Weapon. Models can move through an Aegis Barricade and if they do move through such a Barricade must reduce the maximum distance that can be moved in that Move by 2\" as if it was Difficult Terrain. Aegis Barricades do not block a Line of Sight drawn through them. Aegis Barricades must be Deployed so that at least one part of each Barricade is in contact with an Aegis Defence Line Core Platform or another Barricade – as long as one Barricade in any chain of Barricades is itself in contact with a Core Platform. All Models with the Infantry or Paragon Types that are in contact with a Barricade gains a 5+ Cover Save. The destruction of linked Aegis Core Platforms has no effect on Aegis Barricades, which remain in place.",
-                "hidden": false
+                "hidden": false,
+                "page": "199",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ],
             "selectionEntries": [

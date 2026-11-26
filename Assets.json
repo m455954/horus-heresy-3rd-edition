@@ -506,7 +506,9 @@
         "name": "The Minefield Asset Trait",
         "id": "1d82-cb03-376e-f062",
         "description": "A Battlefield Asset with the Minefield Trait must be set up with the centre of the Marker anywhere on the Battlefield that is more than 6\" from the centre of any other Battlefield Asset Markers with the Minefield Asset Trait, and not within an opponent's Deployment Zone.",
-        "hidden": false
+        "hidden": false,
+        "page": "40",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "The Explosive Asset Trait",
@@ -520,13 +522,17 @@
         "name": "The Attacker Asset Trait",
         "id": "dcb6-3210-cd5a-9d00",
         "description": "Battlefield Assets with the Attacker Trait may only be selected by the Player taking that role in the Mission being played.",
-        "hidden": false
+        "hidden": false,
+        "page": "40",
+        "publicationId": "10e2-87c7-4862-2cc4"
       },
       {
         "name": "The Defender Asset Trait",
         "id": "ad11-1191-3191-7509",
         "description": "Battlefield Assets with the Defender Trait may only be selected by the Player taking that role in the Mission being played.",
-        "hidden": false
+        "hidden": false,
+        "page": "40",
+        "publicationId": "10e2-87c7-4862-2cc4"
       }
     ],
     "sharedSelectionEntries": [

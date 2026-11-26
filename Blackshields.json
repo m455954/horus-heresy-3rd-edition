@@ -395,13 +395,17 @@
             "name": " Fangs of the Emperor ",
             "id": "bd25-f108-3015-dd31",
             "description": "If Endryd Haar is selected as the only High Command Choice in a Primary Detachment, then all Units from that Primary Detachment that are composed entirely of Models with the Blackshields Trait, the Infantry Type and that do not have any variant of the Bulky (X) Special Rule gain the Infiltrate (12) Special Rule",
-            "hidden": false
+            "hidden": false,
+            "page": "14",
+            "publicationId": "59a2-2e27-256e-89e5"
           },
           {
             "name": " The Riven Hound",
             "id": "6864-01df-8848-bc77",
             "description": "While a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select The Riven Hound Gambit:",
-            "hidden": false
+            "hidden": false,
+            "page": "14",
+            "publicationId": "59a2-2e27-256e-89e5"
           }
         ],
         "selectionEntries": [
@@ -1050,7 +1054,9 @@
                     "name": "Bastard Sons of Fate",
                     "id": "4351-d554-72bb-7820",
                     "description": "\" Blackshields gain bonuses to Toughness and Strength when under the effect of certain Battlefield Statuses.\"\n\n\nWhile affected by any of the Pinned, Suppressed or Stunned Battlefield Statuses, a Model with the Blackshields Trait gains a bonus of +1 to their Toughness and Strength Characteristics. If affected by more than one such Battlefield Status then this bonus is increased to +2.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "3",
+                    "publicationId": "59a2-2e27-256e-89e5"
                   }
                 ]
               },
@@ -1097,7 +1103,9 @@
                     "name": "Oaths of Moment",
                     "id": "e8c6-3113-c65d-f636",
                     "description": "An Army that includes any Detachments with the Blackshields Faction may select a number of Oaths of Moment for each such Detachment, these are sets of rules that add a number of additional options and Special Rules to Units in that Detachment. The number of Oaths of Moment that may be selected for a Detachment depends on what type of Detachment it is, as shown on the table below:\n \nPrimary Detachment : 2 \nAllied Detachment : 1\n\n\nNote that any Auxiliary or Apex Detachments attached to a Blackshields Allied or Primary Detachment must use the same Oaths of Moment as the Detachment to which they are attached. Other types of Detachment may not have Oaths of Moment selected for them.\n\n\nOaths of Moment are selected when a Detachment is added to the Army Roster, and each such Oath of Moment will explain any effects it may have on which Units may be selected for the Detachment. Most Oaths of Moment will also add Special Rules or other effects to some or all Units in the Detachment, this will also be explained by each individual Oath of Moment.\n\n\nNote that some Oaths of Moment require that certain Special Rules be removed from Models and replaced with other Special Rules. In a Detachment that has more than one Oath of Moment, the effects of these are applied one at a time in an order of the Controlling Player's choice – and if the first Oath of Moment removes a Special Rule it cannot then be affected, modified or removed by the second.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "3",
+                    "publicationId": "59a2-2e27-256e-89e5"
                   }
                 ]
               }

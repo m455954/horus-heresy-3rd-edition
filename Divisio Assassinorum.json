@@ -280,7 +280,9 @@
                 "name": "Deadshot",
                 "id": "f324-cfdc-cdd0-eef3",
                 "description": "Models with this Special Rule ignore Shrouded (X) Damage Mitigation Rolls and never have to make Snap Shots if they remain Stationary, and gain one optional additional Special Rule when making a Shooting Attack.\n\n\nWhen a Shooting Attack is made for a Model with this Special Rule in the Controlling Player’s Shooting Phase, if that Model remained Stationary during the Controlling Player’s previous Movement Phase, that Shooting Attack never has to be made as Snap Shots and Shrouded (X) Damage Mitigation Rolls may never be made against wounds inflicted as part of that Shooting Attack.\n\n\nAdditionally, when a Shooting Attack is made for a Model with this Special Rule, at the start of Step 3 of the Shooting Attack procedure, the Attacking Player can select one of the following Special Rules to apply to all Weapons that Model has for the duration of that Shooting Attack:\n• Murderous (5+)\n• Shred (5+)\n• Shock (Pinned, Suppressed)",
-                "hidden": false
+                "hidden": false,
+                "page": "81",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               },
               {
                 "name": "Murderous (X)",
@@ -288,6 +290,8 @@
                 "comment": "5+",
                 "description": "\"Wounds inflicted by a Weapon with this Special Rule can ignore the Eternal Warrior (X) Special Rule.\"\n\n\nWhen any Wound Test is made for an attack with the Murderous (X) Special Rule, if the result of the Dice roll, before any modifiers are applied, is equal to or greater than the value of X attached to this variant of the Murderous (X) Special Rule, then if a wound is inflicted by that Wound Test, that wound’s Damage may not be modified by any instance of the Eternal Warrior (X) Special Rule",
                 "hidden": false,
+                "page": "81",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "modifiers": [{"field": "name", "type": "set", "value": "Murderous (5+)"}]
               }
             ],
@@ -617,7 +621,9 @@
                 "name": "Frenzon Rage",
                 "id": "b383-d476-9d55-286c",
                 "description": "While a Model with this Special Rule is engaged in a Challenge, its Controlling Player must select the Biological Overload Gambit – any Special Rule or Gambit that would stop the Controlling Player from selecting this Gambit is ignored\nand has no effect:",
-                "hidden": false
+                "hidden": false,
+                "page": "75",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -902,13 +908,17 @@
                 "name": "Polymorphine",
                 "id": "12e0-7d68-05cc-adf1",
                 "description": "\"A Model with this Special Rule cannot be targeted by Shooting Attacks or Charges unless it has already attacked in the Battle or an enemy Unit has passed a specific Intelligence Check.\"\n\n\nA Unit composed entirely of Models with this Special Rule may not be selected as the Target Unit of a Shooting Attack or a Charge. \n\n\nWhen an enemy Unit finishes a Move within 3\" of a Model with this Special Rule, that Unit’s Controlling Player can make an Intelligence Check for that Unit. If that Check is passed, this Special Rule has no effect for that Model for the rest of the Battle. In addition, if a Model with this Special Rule makes a Shooting Attack or ends a Charge Move in Base Contact with an enemy Model, this Special Rule has no effect for that Model for the rest of the Battle.",
-                "hidden": false
+                "hidden": false,
+                "page": "71",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               },
               {
                 "name": "Reign of Confusion",
                 "id": "9b71-b7e3-808e-e495",
                 "description": "\"The first Unit Charged by a Model with this Special Rule in a Battle becomes Stunned.\"\n\n\nThe first time in a Battle each Model with this Special Rule has a Charge declared for it, as long as that Model is still under the effects of the Polymorphine Special Rule, the Target Unit of that Charge immediately gains the Stunned Tactical Status.",
-                "hidden": false
+                "hidden": false,
+                "page": "71",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -1078,6 +1088,8 @@
                     "comment": "6+",
                     "description": "\"Attacks made with the Bypass (X) Special Rule can sometimes ignore all Saves and Damage Mitigation Rolls.\"\n\n\nWhen any Wound Test is made for an attack with the Bypass (X) Special Rule, if the result of the Dice roll, before any modifiers are applied, is equal to or greater than the value of X attached to this variant of the Bypass (X) Special Rule, then if a wound is inflicted by that Wound Test, that wound ignores all Saving Throws and Damage Mitigation Rolls. Note that the Bypass (X) Special Rule may only be triggered by a Wound Test and has no effect when making an Armour Penetration Test.",
                     "hidden": false,
+                    "page": "71",
+                    "publicationId": "da4e-9dbd-5ed9-a0e5",
                     "alias": ["Bypass"],
                     "modifiers": [{"field": "name", "type": "set", "value": "Bypass (6+)"}]
                   }
@@ -1226,7 +1238,9 @@
                 "name": "Etherium",
                 "id": "2d22-46c2-f6f0-d80f",
                 "description": "When a Model with this Special Rule is allocated an Unsaved Wound as part of a Shooting Attack, the Damage of that Unsaved Wound is reduced by 1 to a minimum of 1.",
-                "hidden": false
+                "hidden": false,
+                "page": "73",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [

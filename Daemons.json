@@ -1890,7 +1890,9 @@
                 "name": "Champion of the Dominion",
                 "id": "8841-ea90-e750-bbd6",
                 "description": "During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, it must be declared as the Challenger or to accept a Challenge. If more than one Model with this Special Rule is eligible to be the Challenger or to accept a Challenge, the Controlling Player may select which one will be declared as the Challenger or to accept a Challenge.\n\n\nAdditionally, if a Model with this Special Rule would gain the Disgraced Status, it instead suffers automatic wounds as per the Malefic Sub-Type, but these wounds must be allocated to the Model with this Special Rule, and cannot be allocated to Models in any Unit it may have joined.",
-                "hidden": false
+                "hidden": false,
+                "page": "9",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -5891,7 +5893,9 @@
                     "name": "Warpdoom",
                     "id": "48af-0676-15dd-8d5a",
                     "description": "If a Model is reduced to 0 Wounds or 0 Hull Points by an attack made with a Weapon with this Special Rule, before the Model is Removed as a Casualty, it automatically Explodes as per the Explodes (X) Special Rule.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "42",
+                    "publicationId": "523a-934d-6ec7-b26f"
                   }
                 ]
               }
@@ -6033,7 +6037,9 @@
             "name": "Tides of Change",
             "id": "6355-6fe8-50fc-27e8",
             "description": "The Base Reaction Allotment for a Player whose Army includes a Model with this Special Rule is determined by rolling a D3 at the start of each of their Player turns as the Reactive Player. The result of this Roll plus any Bonus Reaction Points gained via the Battle Points Limit is their Reaction Allotment for that Turn.",
-            "hidden": false
+            "hidden": false,
+            "page": "46",
+            "publicationId": "523a-934d-6ec7-b26f"
           }
         ],
         "selectionEntries": [
@@ -6218,7 +6224,9 @@
                     "name": "Warpblaze",
                     "id": "589f-d825-b4e0-0075",
                     "description": "A model that suffers an Unsaved Wound from a Weapon with this Special Rule suffers D3 wounds instead of 1. Note that the amount of wounds suffered may be limited by Special Rules such as Eternal Warrior (X).",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "46",
+                    "publicationId": "523a-934d-6ec7-b26f"
                   }
                 ]
               }
@@ -7068,7 +7076,9 @@
             "name": "Infernal Mitosis",
             "id": "887e-477a-6bde-c369",
             "description": "A Unit that contains one or more Models with this Special Rule may declare the Infernal Mitosis Reaction",
-            "hidden": false
+            "hidden": false,
+            "page": "45",
+            "publicationId": "523a-934d-6ec7-b26f"
           }
         ],
         "selectionEntries": [
@@ -9266,7 +9276,9 @@
                         "name": "Deflect",
                         "id": "c5f3-2df6-05fe-25a3",
                         "description": "When a Weapon with this Special Rule is selected for a Model during a Challenge, the Controlling Player may select one successful Hit Test made by the opposing Player with a result of 6 and set the result to 1.",
-                        "hidden": false
+                        "hidden": false,
+                        "page": "45",
+                        "publicationId": "3e49-c51c-1b8d-fefe"
                       }
                     ]
                   }
@@ -9363,7 +9375,9 @@
                 "name": "Encroaching Ruin",
                 "id": "efc2-b62a-b43a-0cf0",
                 "description": "A Model with this Trait gains the Deep Strike Special Rule and the Desecrators Special Rule. Additionally, a Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and have up to two of the following Psychic Disciplines selected for it:\n\n\n- Pyromancy for +10 Points per Model\n- Telekinesis for +20 Points per Model\n- Divination for +20 Points per Model",
-                "hidden": false
+                "hidden": false,
+                "page": "4",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -9475,7 +9489,9 @@
                 "name": "Heedless Slaughter",
                 "id": "cf9f-01ff-b2a2-c8ae",
                 "description": "A Model with this Trait gains the Desecrators Special Rule. Additionally, any Unit that contains at least one Model with this Trait can never be the Focus nor the Target of a Psychic Blessing or Psychic Curse.",
-                "hidden": false
+                "hidden": false,
+                "page": "4",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ]
           },
@@ -9578,7 +9594,9 @@
                 "name": "Putrid Corruption",
                 "id": "725e-d067-fbfb-fbc1",
                 "description": "Any Model with this Trait gains the Desecrators Special Rule, the Feel No Pain (6+) Special Rule and the Heavy Sub-Type. Additionally, each Model with this Trait that also has any variant of the Bulky (X) Special Rule also gains the Explodes (5+) Special Rule.\n\n\nA Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and may have the Biomancy Psychic Discipline selected for it for +20 Points.",
-                "hidden": false
+                "hidden": false,
+                "page": "4",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -9671,7 +9689,9 @@
                 "name": "Rapturous Sensation",
                 "id": "e8c5-f7dd-28a3-88af",
                 "description": "A Model with this Trait gains the Desecrators Special Rule. Any Model with this Trait that does not have the Heavy Sub-Type gains the Light Sub-Type.\n\n\nA Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and have up to two of the following Psychic Disciplines selected for it:\n\n\n- Telekinesis for +20 Points per Model\n- Telepathy for +10 Points per Model",
-                "hidden": false
+                "hidden": false,
+                "page": "4",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -9773,7 +9793,9 @@
                 "name": "Formless Distortion",
                 "id": "4309-fe7a-fa49-9393",
                 "description": "A Model with this Trait gains the Desecrators Special Rule.\n\n\nEach time a Unit that contains a Model with this Trait is declared as the Target Unit of a Charge Move, any Set-up Move made by the enemy Charging Unit is reduced by D3\", to a minimum of 1\".\n\nA Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and have up to two of the following Psychic Disciplines selected for it:\n\n\n- Divination for +20 Points per Model\n- Telepathy for +10 Points per Model",
-                "hidden": false
+                "hidden": false,
+                "page": "5",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -9855,7 +9877,9 @@
                 "name": "Infernal Tempest",
                 "id": "ab6b-90d9-da54-e89e",
                 "description": "Any Model with this Trait gains the Desecrators Special Rule and the Aflame (1) Special Rule.\n\nA Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and may have the Pyromancy Psychic Discipline selected for it for +10 Points.",
-                "hidden": false
+                "hidden": false,
+                "page": "5",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -9969,7 +9993,9 @@
                 "name": "Ravenous Dissolution",
                 "id": "9635-dc6c-d52b-110b",
                 "description": "Any Model with this Trait gains the Desecrators Special Rule and the Hatred (Malefic, Psyker) Special Rule.\n\nA Model with this Ætheric Dominion Trait that has the Command or Champion Sub-Type may be given the Psyker Trait and have up to two of the following Psychic Disciplines selected for it:\n\n\n- Telekinesis for +20 Points per Model\n- Divination for +20 Points per Model\n- Telepathy for +10 Points per Model",
-                "hidden": false
+                "hidden": false,
+                "page": "5",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ],
             "selectionEntryGroups": [
@@ -10048,6 +10074,16 @@
                 "targetId": "3009-9bbb-a8f6-1b47",
                 "type": "rule",
                 "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "4+"}]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Malevolent Artifice",
+                "id": "2707-16d9-07ff-6961",
+                "description": "Any Model with this Trait gains the Desecrators Special Rule and the Armour-breaker (4+) Special Rule\nIf a Unit that is made up of Models with this Ætheric Dominion is selected to fill a Prime Slot, the Paragon of Malevolence Prime Advantage may be selected",
+                "hidden": false,
+                "page": "6",
+                "publicationId": "d1b4-f252-0bf3-2163"
               }
             ]
           }

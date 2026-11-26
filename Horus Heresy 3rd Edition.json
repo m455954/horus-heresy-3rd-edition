@@ -285,6 +285,8 @@
             "id": "a7d3-aaa8-8179-33d1",
             "description": "The following Rules apply to all Models with the Automata Type:\n\n\n- Models with the Automata Type cannot gain any Tactical Statuses and are considered to automatically pass any Check made to avoid gaining a Tactical Status. However, if a Unit that contains any Models with the Automata Type also includes any Models that do not have the Automata Type, that Check must be made using the Characteristics of one of the Models that does not have the Automata Type and is not automatically passed.\n- When targeting a Unit that includes any Models with the Automata Type, the effects of the Poisoned (X) Special Rule only trigger on a Wound Test with a result of a '6' before modifiers are applied, regardless of the value of X for that variant of the Special Rule.\n- A Unit that includes one or more Models with the Automata Type may not make Reactions.",
             "hidden": false,
+            "page": "175",
+            "publicationId": "7d63-5df4-c656-52de",
             "alias": ["Automata"]
           }
         ]
@@ -308,7 +310,9 @@
             "name": "Rapid Sub-Type",
             "id": "8872-e95d-dcd2-19d5",
             "description": "- A Model with this Sub-Type may Rush - however the additional distance moved when Rushing is not determined by an Initiative Characteristic, but is always an additional 6\".\n- When Rushing, a Model with this Sub-Type may make Shooting Attacks, but all Shooting Attacks are made as Snap Shots. A Model with this Sub-Type may not make multiple Shooting Attacks in the same Turn as one where it Rushes.\n- A Model with both this Sub-Type and the Transport Sub-Type, that the Controlling Player chooses to Rush in a Turn, may not Disembark any Models in the same Turn (unless required to make an Emergency Disembarkation by another Rule or Special Rule).",
-            "hidden": false
+            "hidden": false,
+            "page": "223",
+            "publicationId": "7d63-5df4-c656-52de"
           }
         ]
       },
@@ -322,6 +326,8 @@
             "id": "263f-be63-a120-1f2f",
             "description": "The following Rules apply to all Models with the Unstoppable Sub-Type:\n• A Unit comprised entirely of Models with this Sub-Type is never Locked in Combat, and during the Movement Phase may move normally even if there is an enemy Model in Base Contact with it. Enemy Models in Base Contact with such a Model in the Assault Phase may attack it as thought they were Locked in Combat and engaged with it.\n• A Model with this Sub-Type may move through enemy Models if it began the Movement Phase in Base Contact with one or move enemy Models - but may not end a move in the Movement Phase in Base Contact with an enemy Model.\n• A Model with this Sub-Type may never Embark on a Model with the Transport Sub-Type, even if another Special Rule would allow it to do so.\n• While there are one or more enemy Models in Base Contact with a Model with this Sub-Type, the Model with this Sub-Type may not make Shooting Attacks, even though it does not count as being Locked in Combat.",
             "hidden": false,
+            "page": "68",
+            "publicationId": "4dc3-3347-238d-99b5",
             "alias": ["Unstoppable"]
           }
         ]
@@ -340,6 +346,8 @@
             "id": "17e4-e94d-099b-f44b",
             "description": "The following Rules apply to all Models with the Super-Heavy Sub-Type\n\n\n- Models with this Sub-Type are not affected by Difficult Terrain or Dangerous Terrain, but may still neither pass through nor end their move in Impassable Terrain.\n- A Model with this Sub-Type always gains any benefits for having remained Stationary when making Shooting Attacks, regardless of whether the Model moved in the Preceding Movement Phase.\n- When making multiple Shooting Attacks in the same Shooting Phase, a Model with this Sub-Type does not have to make all attacks as Snap Shots.\n- A Model with this Sub-Type may only make Reactions in response to actions undertaken by Units that contain one or more Models with the Paragon Type, Super-Heavy Sub-Type, Knight Sub-Type or Titan Sub-Type.\n- When a player is instructed to roll on the Vehicle Damage Table for a Model with this Sub-Type, no roll is made. Instead , the Model loses a single Hull Point.\n- If a Model with this Sub-Type has a Transport Capacity, then it may transport any number of Units, so long as the number of Models in the transported Units does not exceed the Vehicle's Transport Capacity.",
             "hidden": false,
+            "page": "223",
+            "publicationId": "7d63-5df4-c656-52de",
             "alias": ["Super-Heavy"]
           }
         ]
@@ -354,6 +362,8 @@
             "id": "ff09-959b-1777-c8b9",
             "description": "- Whilst on the Battlefield, a Model with the Flyer Sub-Type does not block Line of Sight or the Movement of any Model.\n- When moving a Model with the Flyer Sub-Type, ignore all Terrain effects and Rules. However, a Model with the Flyer Sub-Type may still not end a move in or on Impassable Terrain, a Terrain Feature, or a Building.\n- Models with the Flyer Sub-Type may move through Models with the Vehicle Type, but never inflict Hits on enemy Units they move through and are never eligible to be the Target of the Death or Glory Advanced Reaction.\n- No Model of any kind may join a Unit that includes a Model with the Flyer Sub-Type.\n- A Model with the Flyer Sub-Type can never gain any Tactical Statuses and ignores any Rules that would force it to do so.\n- A Model with the Flyer Sub-Type may never be Locked in Combat or attacked in any way during the Assault Phase and may not be targeted by attacks made using a Melee Weapon.\n- A Model with the Flyer Sub-Type may never make a Reaction of any kind, unless that Reaction specifically states it may be made by Models with the Flyer Sub-Type - but can be targeted by Reactions.\n- When a Player is instructed to roll on the Vehicle Damage Table for a Model with this Sub-Type, no roll is made. Instead, the Model loses a single Hull Point.",
             "hidden": false,
+            "page": "224",
+            "publicationId": "7d63-5df4-c656-52de",
             "alias": ["Flyer"]
           }
         ]
@@ -557,6 +567,8 @@
             "id": "1498-b800-3984-286c",
             "description": "The following Rules apply to all Models with the Fortification Type:\n• A Model with the Fortification Type can never be moved by any Rule or effect after it has been Deployed.\n• A Model with the Fortification Type can never be placed into Reserves and must always be deployed at the start of a Battle.\n• A Model with the Fortification Type may never Hold, Control or Contest an Objective Marker of any kind.\n• A Model with the Fortification Type can never be affected by any kind of Status, including both Tactical Statuses and Cybertheurgic Statuses. However, such a Model can be affected by Cybertheurgic Rites that do not apply a Cybertheurgic Status.\n• A Unit that includes a Model with the Fortification Type may never be joined by any other Models of any Type.\n• A Model with the Fortification Type cannot make Reactions of any kind, unless a specific Sub-Type states otherwise.",
             "hidden": false,
+            "page": "191",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Fortification"]
           }
         ]
@@ -571,6 +583,8 @@
             "id": "4e4e-7b92-cb21-86de",
             "description": "The following Rules apply to all Models with the Emplacement Sub-Type:\n• A Model with the Emplacement Sub-Type has a Ballistic Skill Characteristic and can make Shooting Attacks.\n• A Model with the Emplacement Sub-Type can have the Return Fire and Interceptor Reactions made for it",
             "hidden": false,
+            "page": "193",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Emplacement"]
           }
         ]
@@ -585,6 +599,8 @@
             "id": "894b-4c1c-9e09-0ffc",
             "description": "The following Rules apply to all Models with the Bunker Sub-Type:\n• A Model with the Bunker Sub-Type has a Transport Capacity Characteristic.\n• Only Models with the Infantry Type that have no variant of the Bulky (X) Special Rule may Embark on a Model with the Bunker Sub-Type.\n• A Model with the Bunker Sub-Type can be Captured",
             "hidden": false,
+            "page": "193",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Bunker"]
           }
         ]
@@ -599,6 +615,8 @@
             "id": "c363-0bc3-7cb7-6d63",
             "description": "The following Rules apply to all Models with the Structure Sub-Type:\n• A Model with the Structure Sub-Type can be Captured",
             "hidden": false,
+            "page": "193",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Structure"]
           }
         ]
@@ -753,6 +771,8 @@
             "id": "4888-0346-c11f-ad8d",
             "description": "\"The following Rules apply to all Models with the Ordinatus Sub-Type:\n\n\n• Models with this Sub-Type are not affected in any way by Difficult Terrain or Dangerous Terrain, and may pass through Impassable Terrain as long as they do not end a Move on or within an area of Impassable Terrain.\n• When making multiple Shooting Attacks in the same Shooting Phase, a Model with this Sub-Type does not have to make all attacks as Snap Shots.\n• A Model with this Sub-Type is limited on when and which Reactions may be made for it.\n• The Rules for applying Damage to a Model with this Sub-Type vary from those used with other Models with the Vehicle Type.\n• The Rules for Shooting Attacks and Combats that involve Ordinatus are changed as noted in this addendum.\n• If a Model with this Sub-Type has a Transport Capacity, then it may transport any number of Units, so long as the number of Models in the transported Units does not exceed the Vehicle’s Transport Capacity.\n• A Model with this Sub-Type cannot gain any Tactical Statuses or Cybertheurgic Statuses.\n• A Model with this Sub-Type cannot be affected by any Psychic Weapon, Psychic Reaction or Psychic Power.\n• A Model with this Sub-Type may not be targeted by the Battlesmith (X) Special Rule.",
             "hidden": false,
+            "page": "187",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Ordinatus"]
           }
         ]
@@ -913,6 +933,8 @@
             "id": "1262-6cfa-8d01-ff15",
             "description": "The following Rules apply to all Models with the Artificia Type:\n• Models with the Artificia Type cannot gain any Cybertheurgic Statuses, but can gain Tactical Statuses or other kinds of Status effects.\n• When targeting a Unit that includes any Models with the Artificia Type, the effects of the Poisoned (X) Special Rule only trigger on a Wound Test with a result of a ‘6’ before modifiers are applied, regardless of the value of X for that variant of the Special Rule.",
             "hidden": false,
+            "page": "82",
+            "publicationId": "5469-14da-d0a1-6092",
             "alias": ["Artificia"]
           }
         ]
@@ -32149,7 +32171,9 @@
                 "name": "Iron Tercio",
                 "id": "d67e-d02f-4598-ed8a",
                 "description": "Units selected as part of this Detachment which contains both one or more Tech-priests and one or more Models with the Automata Type may Hold, Control and Contest Objectives.",
-                "hidden": false
+                "hidden": false,
+                "page": "16",
+                "publicationId": "adda-966f-f129-ed26"
               }
             ]
           },
@@ -69174,7 +69198,7 @@
         "publicationDate": "July 26, 2025",
         "publisher": "Warhammer: The Horus Heresy - Age of Darkness Rulebook",
         "publisherUrl": "https://www.warhammer.com/en-GB/shop/horus-heresy-age-of-darkness-rulebook-2025-eng",
-        "shortName": "CRB 3.0"
+        "shortName": "Rulebook"
       },
       {
         "name": "Liber Astartes: Loyalist Legiones Astartes Army Book",
@@ -69218,7 +69242,7 @@
         "hidden": false,
         "publicationDate": "July 26, 2025",
         "publisher": "Journal Tactica - The Isstvan V Dropsite Massacre (Part One)",
-        "shortName": "JT - Isstvan V pt.1"
+        "shortName": "Isstvan V pt.1"
       },
       {
         "name": "Legacies of the Age of Darkness",
@@ -69254,7 +69278,7 @@
         "publicationDate": "October 30th, 2025",
         "publisher": "Warhammer Community",
         "publisherUrl": "https://www.warhammer-community.com/en-gb/downloads/warhammer-the-horus-heresy/",
-        "shortName": "Militia: Legacies"
+        "shortName": "Militia"
       },
       {
         "name": "Legacies of the Age of Darkness: The Legiones Inductii",
@@ -69964,7 +69988,9 @@
             "name": "Paragon of Malevolence Prime Advantage",
             "id": "a60b-971a-c97d-5d5f",
             "description": "Add one additional Force Organisation Slot to the Detachment that includes the Prime Slot, this Slot may be of any Battlefield Role other than High Command, Command, Warlord or Lord of War and can only be filled by a Unit selected from the Machina Malefica section of the Mechanicum Taghmata Army List. This Advantage may only be selected once per Detachment.\n\nNote that The Paragon of Malevolence Prime Advantage may be selected if the Unit chosen to fill the Prime Slot has the Unique Sub-Type, in the same manner as the Logistical Benefit Prime Advantage. However, the Paragon of Malevolence Prime Advantage can only be selected once per Detachment and cannot be selected if the Logistical Benefit Prime Advantage is also selected for that Detachment.",
-            "hidden": false
+            "hidden": false,
+            "page": "6",
+            "publicationId": "d1b4-f252-0bf3-2163"
           }
         ]
       },
@@ -70096,7 +70122,9 @@
             "name": "Barrage Weapons in Zone Mortalis",
             "id": "9029-fd5b-9c4d-aa00",
             "description": "\"Weapons with the Barrage (X) Special Rule may not make attacks without Line of Sight\"\n\n\nWeapons with the Barrage (X) Special Rule cannot be used to make Shooting Attacks targeting Units to which they do not have Line of Sight, but may make Shooting Attacks as normal targeting Units to which they do have Line of Sight.",
-            "hidden": false
+            "hidden": false,
+            "page": "10",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Firestorm & Shrapnel",

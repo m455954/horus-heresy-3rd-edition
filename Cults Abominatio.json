@@ -164,7 +164,9 @@
                 "name": "Osmeotic Regeneration",
                 "id": "c069-7277-e634-4827",
                 "description": "\"An Infernus Assassin may regenerate lost Wounds when this Gambit is selected.\"\n\n\nWhile a Model with this Special Rule is in a Challenge, its Controlling Player can select the following Gambit:\n\n\nOsmeotic Regeneration: When this Gambit is selected, this Model’s Controlling Player may not apply any positive modifiers to the Focus Roll. However, if this Model is not reduced to 0 Wounds in Step 4 of the Strike Step, and the opposing Model suffered at least 1 Wound, this Model increases their Wounds Characteristic by +1, to a maximum of their Base Wounds Characteristic, before Players return to Step 2 of the Challenge procedure or they move to the Glory Step. Note that any Wounds regained due to this Special Rule do not alter the amount of wounds inflicted by the Opponent for the purposes of Combat Resolution.",
-                "hidden": false
+                "hidden": false,
+                "page": "207",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ],
             "selectionEntries": [
@@ -250,7 +252,9 @@
                     "name": "Transmutation",
                     "id": "b676-3cd3-6acb-7197",
                     "description": "During Step 2 of the Fight Sub-Phase or the Focus Step of a Challenge, when the Controlling Player declares that a Weapon with this Special Rule will be used, they may choose to set the Combat Initiative of the Model that will Attack with this Weapon to match the highest Base Initiative Characteristic of any enemy Model that is part of the same Combat, until the end of the current Phase.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "207",
+                    "publicationId": "5469-14da-d0a1-6092"
                   }
                 ]
               }
@@ -285,7 +289,16 @@
               },
               {"id": "c7c0-abd7-dac5-e588", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "rules": [{"name": "Dummy Prime rule", "id": "b05f-eb26-4e29-6b09", "description": "blah blah blah", "hidden": false}]
+            "rules": [
+              {
+                "name": "Dummy Prime rule",
+                "id": "b05f-eb26-4e29-6b09",
+                "description": "blah blah blah",
+                "hidden": false,
+                "page": "207",
+                "publicationId": "5469-14da-d0a1-6092"
+              }
+            ]
           }
         ]
       }

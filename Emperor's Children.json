@@ -504,7 +504,9 @@
                 "name": "Sire of the Emperor's Children",
                 "id": "f112-30ce-d5cc-6abf",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n\n• If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squad Units and/or Assault Squad Units, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\n\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Emperor's Children Trait in the same Army:\n\n• A Unit that includes only Models with the Emperor's Children Trait gains an additional +1 Combat Resolution Point if all Models in that Unit are not within the Controlling Player's Deployment Zone during the Resolution Sub-Phase. If the Mission being played does not define Deployment Zones, the Controlling Player gains this bonus when not within 12\" of their Battlefield Edge, or if no Battlefield Edge is specified, a Battlefield Edge that is selected prior to the First Turn.",
-                "hidden": false
+                "hidden": false,
+                "page": "131",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -757,7 +759,9 @@
                 "name": "Scion of Corruption",
                 "id": "4813-5921-d51d-8697",
                 "description": "Fulgrim Transfigured cannot be included in the same Army as Fulgrim",
-                "hidden": false
+                "hidden": false,
+                "page": "133",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Avatar of Perfection",
@@ -3445,7 +3449,9 @@
             "name": "Vengeful Hate",
             "id": "d277-f81b-58d5-9efa",
             "description": "\"Rylanor can fight in a Challenge when Fulgrim is the Challenger.\"\nIf a Model with this Special Rule is Locked in Combat with an enemy Unit that contains Fulgrim or Fulgrim Transfigured, the Model with this Special Rule is considered to be eligible to take part in a Challenge. In such a Challenge, if Fulgrim or Fulgrim Transfigured is the Challenger, Rylanor must be the Challenged.",
-            "hidden": false
+            "hidden": false,
+            "page": "87",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -3587,7 +3593,9 @@
             "name": "Designated Quarry",
             "id": "08ac-a817-ea27-5bca",
             "description": "\"Models with this Special Rule can have their Ballistic Skill improved once per Battle against a specific target.\"\nOnce per Battle, before making a Shooting Attack in the Controlling Player’s Shooting Phase, the Controlling Player of a Unit with this Special Rule that did not Move in the previous Movement Phase may select an enemy Unit with the Vehicle Type as that Unit’s Designated Quarry. When the Unit with this Special Rule makes a Shooting Attack that targets an enemy Unit that is selected as their Designated Quarry, the Ballistic Skill Characteristic of all Models with this Special Rule in the Unit making the Shooting Attack is modified by +1 for the duration of the current Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "88",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -4011,7 +4019,9 @@
             "name": "Perfection Embodied",
             "id": "ea0c-650f-82c9-6483",
             "description": "\"An additional Dice is rolled when making a Check to avoid Tactical Statuses for a Unit containing any Models with this Special Rule, discarding the worst result in the Shooting Phase and the best result in the Combat Phase.\"\n\n\nWhen a Check is made for a Unit containing any Models with this Special Rule to avoid gaining a Tactical Status, the Controlling Player must roll an additional Dice, discarding the Dice which, once rolled, has the highest result if the Check is made in the Morale Sub-Phase, or the Dice which, once rolled, has the lowest result if the Check is made in the Resolution Sub-Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "4",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
