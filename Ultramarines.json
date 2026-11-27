@@ -263,13 +263,17 @@
             "name": "Calculating Swordsman",
             "id": "6632-7df5-ab7f-5077",
             "description": "\"Guilliman gains a bonus to the Focus Roll based on the Battle Turn number.\"\n\n\nWhile a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select the following Gambit for that Model:\n\n\nCalculating Swordsman: If this Gambit is selected, this Model's Controlling Player gains a positive modifier to the Focus Roll corresponding to the number of the current Battle Turn to a maximum of +4.",
-            "hidden": false
+            "hidden": false,
+            "page": "249",
+            "publicationId": "b905-0414-1057-bb34"
           },
           {
             "name": "Sire of the Ultramarines",
             "id": "720b-ef86-bb5d-a4e0",
             "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n\n\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled, including at least two Assault Squad Units and at least two Tactical Squad Units, then all Force Organization Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\n\n\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Infantry Type and the Ultramarines Trait in the same Army:\n\n\n- Until the end of the first Battle Turn of the Battle all Models in this Army with the Infantry Type and the Ultramarines Trait may Hold, Claim and Contest Objectives even if they are under the effects of a Tactical Status.",
-            "hidden": false
+            "hidden": false,
+            "page": "249",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -561,7 +565,9 @@
             "name": "Lords of Ultramar",
             "id": "fa2f-c377-c3f1-4fc0",
             "description": "\"Friendly Models in range may use this Model's Characteristics when recovering from a Tactical Status.\"\n\n\nDuring the Statuses Sub-Phase, any friendly Unit that does not include a Model with the Vehicle Type, with one or mode Models within 12\" of a Model with this Special Rule, that is not itself under the effect of any Tactical Status may use the unmodified Characteristic of a Model with this Special Rule when making Checks to remove Tactical Statuses.",
-            "hidden": false
+            "hidden": false,
+            "page": "252",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -1468,7 +1474,9 @@
             "name": "The Blade of Wisdom",
             "id": "0e0a-8683-91d5-0e97",
             "description": "\"Models with this Special Rule gain a bonus when Locked in Combat with Units which have Tactical Statuses.\"\nWhen Locked in Combat with any Units which contain at least one Model which has any Tactical Statuses, Models in that Combat with this Special Rule gain an additional modifier of +1 to their Attacks Characteristic until the end of the Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "119",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -2886,7 +2894,9 @@
             "name": "Certainty and Resolve",
             "id": "23fe-a928-85fd-db1b",
             "description": "\"Models with this Special Rule are never removed as Casualties when they Fall Back into a Battlefield Edge, and are more likely to have the Routed Tactical Status removed from them in the End Phase.\"\n\n\n\n\nWhen any Models in a Unit entirely composed of Models with this Special Rule enter contact with a Battlefield Edge within the Controlling Player’s Deployment Zone as part of a Fall Back Move, that Unit automatically loses the Routed Tactical Status and gains the Suppressed Tactical Status. Additionally, when making a Leadership Check in the Statuses Sub-Phase of the End Phase to remove the Routed Tactical Status from a Unit entirely composed of Models with this Special Rule, the Controlling Player may roll an additional Dice, discarding the Dice which, once rolled, has the highest result.",
-            "hidden": false
+            "hidden": false,
+            "page": "14",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -3312,7 +3322,9 @@
                     "name": "Tactical Flexibility",
                     "id": "76ed-8b55-fbb1-7a26",
                     "description": "\"An Ultramarines army may reduce the cost of a Reaction each Turn.\"\nOnce per Turn, when declaring a Reaction for a Unit that only contains Models with this Special Rule, the Controlling Player may choose to activate the Tactical Flexibility Special Rule. When they do, modify the Reaction Point cost of that Reaction by -1, to a minimum of 0.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "246",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

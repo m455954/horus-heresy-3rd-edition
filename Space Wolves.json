@@ -621,7 +621,9 @@
             "name": "The Dreams of the Death Wolf",
             "id": "2426-7053-7aa7-e784",
             "description": "During Initiative Step 1 of any Combat that includes one or more Models with this Special Rule, the Controlling Player may make one additional attack for each Model with this Special Rule that has been Removed as a Casualty during any preceding Initiative Steps of that Combat. These attacks can target any enemy Unit in that Combat and use the following profile.",
-            "hidden": false
+            "hidden": false,
+            "page": "176",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -805,7 +807,9 @@
                 "name": "Ymira class stasis bombs",
                 "id": "b242-983e-0849-d555",
                 "description": "When the Target Unit of an enemy Charge Move is not already Locked in Combat and includes at least one Model with Ymira class stasis bombs, then any Charge Roll made is determined by rolling 2D6 and discarding the highest result instead of the lowest result.",
-                "hidden": false
+                "hidden": false,
+                "page": "176",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           }
@@ -2003,7 +2007,9 @@
             "name": "Lordsbane",
             "id": "f9ca-fd70-db65-9cde",
             "description": "During the Glory Step of a Challenge involving a Thegn Model with this Special Rule, if that Model was not Removed as a Casualty during that Challenge, the Controlling Player gains a number of Combat Resolution Points equal to the number of Varagyr Models in the same Unit, to a maximum of +4, for that Combat in the following Resolution Sub-Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "175",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -2633,7 +2639,9 @@
             "name": "Wolf-kin of Russ",
             "id": "7939-0441-e971-1fc9",
             "description": "A unit containing Models with this Special Rule may never be joined by any Model other than Leman Russ.",
-            "hidden": false
+            "hidden": false,
+            "page": "174",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -3769,7 +3777,9 @@
             "name": "Scouring Tempest",
             "id": "445e-a947-c889-e72f",
             "description": "When a Unit that contains any Models with this Special Rule is selected to make a Shooting Attack, if five or more Models make attacks with hand flamers, those hand flamers gain the Panic (1) Special Rule until that Shooting Attack has been resolved.",
-            "hidden": false
+            "hidden": false,
+            "page": "106",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -6027,7 +6037,9 @@
             "name": "Headstrong",
             "id": "85e0-965d-2a05-619e",
             "description": "\"Models with this Special Rule may make a Charge in the same Turn they Rush, but become Stunned and Pinned if they fail such a Charge.\"\n\n\nA Unit which only includes Models with this Special Rule may have a Charge declared for it in the same Player Turn that it made a Rush move, but if that Charge's Charge Roll is failed all Models in that Unit immediately gain the Stunned and Pinned Tactical Statuses.",
-            "hidden": false
+            "hidden": false,
+            "page": "7",
+            "publicationId": "a5ca-d2f8-fa5a-c120"
           }
         ],
         "selectionEntries": [
@@ -6566,7 +6578,9 @@
                     "name": "The Hunter's Strike",
                     "id": "d308-069a-4b67-96e1",
                     "description": "\"Space Wolves make a longer Set-up Move.\"\n\nModels with this Special Rule must add +2\" to the distance of any Set-up Move, to a maximum of 6\".",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "166",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },
@@ -6617,32 +6631,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Space Wolf Prime Benefits",
-        "id": "4f92-fa67-3535-33aa",
-        "hidden": false,
-        "selectionEntries": [
-          {
-            "name": "Pack Thegn",
-            "id": "50b2-4273-37bf-5625",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
-              {"id": "b121-33b7-1afd-f47e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "25c7-bd55-1b2c-229e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
-            "rules": [
-              {
-                "name": "Pack Thegn",
-                "id": "e992-bf76-dc0a-94f3",
-                "description": "Has it's Base Attacks and Weapon Skill Characteristics modified by +1\nMay have it's power sword exchanged with one frost sword or frost axe for Free, or with one frost claw for +5 Points",
-                "hidden": false
               }
             ]
           }

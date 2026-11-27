@@ -767,7 +767,9 @@
                 "name": "Avatar of Perfection",
                 "id": "a157-73e8-6253-a4eb",
                 "description": "Fulgrim Transfigured must have a Challenge declared for him and may use the Heroic Intervention Reaction without expending a Reaction Point.\n\nIn the Controlling Player's Challenge Sub-Phase, if a Model with this Special Rule is eligible to have a Challenge declared for it, the Controlling Player must do so. In addition, if the Controlling Player of a Model with this Special Rule declares that they will use the Heroic Intervention Advanced Reaction, and selects a Model with this Special Rule, they are not required to spend any points from their Reaction Allotment to do so.",
-                "hidden": false
+                "hidden": false,
+                "page": "133",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1293,7 +1295,9 @@
                 "name": "The Faultless Blade",
                 "id": "0630-bd2c-4ef8-d46f",
                 "description": "\"Lucius gains an increased benefit from the Paragon of Excellence Gambit.\"\n\n\nIf the Paragon of Excellence Gambit is selected for a Model with this Special Rule, add a +4 modifier to the Focus Roll instead of +2.",
-                "hidden": false
+                "hidden": false,
+                "page": "135",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1528,7 +1532,9 @@
                 "name": "A Brother Betrayed",
                 "id": "65b3-d1e0-2056-54a2",
                 "description": "\"This Gambitallows Saul Tarvitz to gain benefits when fighting specific opponents.\"\n\n\nWhile a Model with this Special Rule is in a Challenge with an enemy Model with the Emperor's Children, World Eaters, Sons of Horus, or Death Guard Traits, its Controlling Player can select the following Gambit:\n\n\nBite of the Betrayed: This Gambit can only be selected during the first Face-Off Step of a Challenge. If this Gambit is selected, until this Challenge ends, modify this Model's Weapon Skill, Strength, and Toughness Characteristics by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "136",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -4446,13 +4452,17 @@
                     "name": "Lords of Profligacy",
                     "id": "bee4-d406-d0ed-8ad5",
                     "description": "\"The Controlling Player may choose that a Unit becomes Stupefied when it is the target of a Shooting Attack.\"\n\n\nAfter a Shooting Attack that targets a Unit entirely composed of Models with this Special Rule is resolved, that Unit's Controlling Player can choose for the targeted Unit to become Stupefied.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "128",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   },
                   {
                     "name": "Stupefied",
                     "id": "a156-b925-3127-c3a3",
                     "description": "When a Unit becomes Stupefied, all Tactical Statuses affecting it are removed. In addition, while a Unit is Stupefied:\n\n\n- Models in that Unit have the Feel No Pain (6+) Special Rule.\n- The Strength Characteristic of Models in that Unit is modified by +1.\n- Models in that Unit cannot gain Tactical Statuses.\n- The Controlling Player of a Unit that is Stupefied may not declare any Reactions for that Unit and must make all Shooting Attacks declared for that Unit as Snap Shots.\n- In the Effects Sub-Phase of the Controlling Player's End Phase, the Controlling Player must make a Cool Check for each Unit from their Army that is Stupefied. If the Check is passed, that Unit is no longer Stupefied.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "128",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },

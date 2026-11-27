@@ -2331,7 +2331,9 @@
             "name": "Dark Dreams",
             "id": "fadc-47b5-ab46-5c29",
             "description": "\"The Controlling Player may attempt to gain a Damage Mitigation Roll for Sevatar.\"\n\n\nIn this Model's Controlling Player's Effects Sub-Phase, this Model's Controlling Player can roll one Dice and consult the following table:\n\n\nResult : Effect\n1 : Until the start of the Controlling Player's next Effects Sub-Phase, this Model loses the Command Sub-Type and gains the Specialist Sub-Type.\n2-4 : No effect.\n5+ : Until the start of the Controlling Player's next Effects Sub-Phase, this Model gains the Feel No Pain (5+) Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "169",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -2582,13 +2584,17 @@
             "name": "Cloaked in Murder",
             "id": "b360-4910-e7aa-f3aa",
             "description": "When the Controlling Player declares an enemy Unit that is already Locked in Combat as the Target of a Charge made by a Unit made up entirely of Models with this Special Rule, Models with this Special Rule modify their Set-up Move Distance by +1\", to a maximum of 6\" until that Charge Move is resolved.",
-            "hidden": false
+            "hidden": false,
+            "page": "110",
+            "publicationId": "5469-14da-d0a1-6092"
           },
           {
             "name": "Sworn Loyalty",
             "id": "cf80-6b95-295b-bcb9",
             "description": "When included in an Army in which a Sevatar Unit has been selected as part of the Primary Detachment and is on the Battlefield, when the Controlling Player of a Night Lords Atramentar Flay-clade Unit makes a Leadership Check for that Unit, they may always use Sevatar’s Base Leadership Characteristic instead.",
-            "hidden": false
+            "hidden": false,
+            "page": "110",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -3322,7 +3328,9 @@
             "name": "Unscrupulous Murderers",
             "id": "1422-57bc-8e89-6bc1",
             "description": "\"This Special Rule allows a unique aftermath option to be selected in which every Inductii has a chance to inflict a Precision Hit.\"\n\n\nA Unit which contains any Models with this Special Rule may have the Art of Murder aftermath option selected for it in Step 4 of the Resolution Sub-Phase of the Assault Phase for any Combat in which that Unit has won or drawn the Combat.\n\n\n\"The Art of Murder\" - The Controlling Player rolls a single Dice for every Model in this Unit which has the Unscrupulous Murderers Special Rule. For every unmodified result of '6', the Controlling Player may allocate a single wound to an enemy Model of their choosing from the selected Combat which has had the Hold, Disengage or Fall Back aftermath option selected for its Unit. These wounds have an Ap of - and a Damage of 1, and are resolved immediately.",
-            "hidden": false
+            "hidden": false,
+            "page": "9",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -3617,7 +3625,9 @@
                     "name": "A Talent for Murder",
                     "id": "aa79-e448-8b39-344f",
                     "description": "\"Night Lords have an improved Weapon Skill Characteristic when fighting Units that have Tactical Statuses\"\n\nWhen Locked in Combat with any Units which contain at least one Model which has any Tactical Statuses, Models in that Combat with this Special Rule gain an additional modifier of +1 to their Weapon Skill Characteristic until the end of the Phase.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "164",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },

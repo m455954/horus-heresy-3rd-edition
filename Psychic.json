@@ -1148,7 +1148,9 @@
             "name": "Malignity",
             "id": "3e96-1e50-5d01-4a17",
             "description": "After selecting a Target Unit for an attack with this Special Rule, but before making any Hit Tests, first make a Willpower Check for the Model making the attack. If the check is failed, then the attack ends immediately, and if a double is rolled when making this Willpower Check then the attacking Unit suffers Perils of the Warp. If the check is passed, then the attacker selects a single ranged weapon from any Model in the Target Unit. The rest of this attack is then resolved using the FP, RS, AP, D and Special Rules of the selected weapon. If the selected Weapon had the Blast (X) or Template special rules, then the FP of this attack is treated as D6 instead of the value of the selected weapon and the attack does not use the Blast (X) or Template Special Rules and no blast markers or templates are placed.",
-            "hidden": false
+            "hidden": false,
+            "page": "39",
+            "publicationId": "3e49-c51c-1b8d-fefe"
           }
         ]
       }

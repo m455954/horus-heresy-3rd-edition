@@ -3190,7 +3190,9 @@
             "name": " Forbidden Augmentations",
             "id": "a970-5323-770e-2687",
             "description": "\"Medic! Advanced Reactions may be declared for a Unit entirely composed of Models with this Special Rule, for which the Target Number of any resultant Recovery Tests is 5+.\"\n\n\n\n\nA Unit containing only Models with this Special Rule is considered to contain one or more Models with the Medic (X) Special Rule for the purposes of declaring the Medic! Advanced Reaction. If a Unit containing only Models with this Special Rule is the Target Unit of a Medic! Advanced Reaction, all Recovery Tests made as part of that Reaction have a Target Number of 5+.",
-            "hidden": false
+            "hidden": false,
+            "page": "11",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -3392,7 +3394,9 @@
                     "name": "The Gorgon's Scales",
                     "id": "eb2b-55d2-bfa4-e1dd",
                     "description": "\"Shooting Attacks targeting Iron Hands suffer a Strength penalty\"\n\nThe Ranged Strength of attacks made as a part of a Shooting Attack are modified by -1 when resolving Wound Tests against a Unit that includes only Models with this Special Rule.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "230",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

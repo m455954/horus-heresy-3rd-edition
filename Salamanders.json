@@ -201,22 +201,6 @@
         ]
       }
     ],
-    "sharedRules": [
-      {
-        "name": "Promethean Endurance",
-        "id": "381f-10db-0c78-f16e",
-        "comment": "Legion Tactica",
-        "description": "\"Wound Tests made against Salamanders fail on the unmodified roll of 1 or 2.\"\nWound Tests that have an unmodified result of 1 or 2 that target any Unit that includes only Models with this Special Rule are never successful regardless of the Strength Characteristic of a Hit or any Special Rules that set the Target Number for Wound Tests. This Special Rule has no effect on Armour Penetration Tests.",
-        "hidden": false
-      },
-      {
-        "name": "Blood of Fire",
-        "id": "ab8a-b7f2-64d5-1a66",
-        "comment": "Legion Tactica",
-        "description": "\"Units of Salamanders may ignore Tactical Status Checks applied from Flame Weapons.\"\nA Unit made up entirely of Models with this Special Rule is unaffected by any variant of the Panic (X) Special Rule on Weapons with the Flame Trait.",
-        "hidden": false
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Firedrake Terminator Squad",
@@ -1010,14 +994,18 @@
                 "name": "Sire of the Salamanders",
                 "id": "f993-f0f6-0007-c78f",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled and at least one Model in each Unit filling those Slots has been upgraded with a Forge-crafted Weapon, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Salamanders Trait in the same Army:\n\n- Until the end of the first Battle Turn of the Battle, the Controlling Player may ignore all negative modifiers to the Leadership, Willpower, Cool and Intelligence Characteristics of all Models with this Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "287",
+                "publicationId": "b905-0414-1057-bb34"
               },
               {
                 "name": "The Undying Fire",
                 "id": "1ecc-db65-4f4c-31d0",
                 "comment": "Rule",
                 "description": "While a Model with this Special Rule is in a Challenge, its Controlling Player can select the \"The Undying Fire\" Gambit.",
-                "hidden": false
+                "hidden": false,
+                "page": "287",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -1582,7 +1570,8 @@
                   {"id": "67ee-bce5-26ea-1dae", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
                   {"id": "62e9-507f-eedc-32cb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
                 ]
-              }
+              },
+              {"name": "Drakenscale", "id": "c0d1-dde2-9927-02cb", "hidden": false, "import": true, "targetId": "b021-e506-1ecd-b3c5", "type": "selectionEntry"}
             ],
             "infoLinks": [
               {
@@ -1641,16 +1630,12 @@
             ],
             "rules": [
               {
-                "name": "Drakenscale Armour",
-                "id": "1620-ee37-56b9-0bbf",
-                "description": "Wounds with the Flame, Plasma, Melta or Volkite Trait allocated to a Model with this Special Rule have their\nDamage Characteristic set to 1.",
-                "hidden": false
-              },
-              {
                 "name": "Whispers of Isstvan",
                 "id": "8c3f-37cd-8c73-42fe",
                 "description": "Cassian Dracos Reborn has the Cybertheurgist Trait and may use the Scrap-code Infection Cybertheurgic Rite only\n(see Liber Mechanicum, page 65). When this Cybertheurgic Rite is invoked for Cassian Dracos, Cassian Dracos is\ncounted as having the Heterodox Trait even though he does not have the Traitor Trait.",
-                "hidden": false
+                "hidden": false,
+                "page": "136",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ]
           }
@@ -1746,7 +1731,9 @@
             "name": "Creed of Flame",
             "id": "56c3-51e8-34f1-8e70",
             "description": "Models with this Special Rule can make Volley Attacks with Weapons with the Flame Trait.\n\n\nAny weapon with the Flame Trait that a Model with this Special Rule has also gains the Assault Trait, and ignores the\neffects of the Limited (X) Special Rule when making Volley Attacks.",
-            "hidden": false
+            "hidden": false,
+            "page": "137",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -2991,7 +2978,9 @@
             "name": " Wargear of Heroes",
             "id": "cf68-7286-8f20-52cc",
             "description": "\"Models with this Special Rule which inflict any unsaved wounds confer a bonus to Combat Resolution scores.\"\n\n\n\n\nWhen resolving a Combat in the Resolution Sub-Phase of the Assault Phase, the Controlling Player of any Models with this Special Rule which have inflicted at least one unsaved wound in that Combat in the same Turn scores 1 additional Combat Resolution Point.",
-            "hidden": false
+            "hidden": false,
+            "page": "20",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -3692,7 +3681,9 @@
                 "name": "Duty Before Death",
                 "id": "9d88-56a3-2a32-4166",
                 "description": "Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Feel No Pain (6+)\nSpecial Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "262",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           }
@@ -3726,13 +3717,17 @@
                     "name": "Promethean Endurance",
                     "id": "66e4-08d7-3d6c-235a",
                     "description": "\"Wound Tests made against Salamanders fail on the unmodified roll of a 1 or 2.\"\n\n\nWound Tests that have an unmodified result of 1 or 2 that target any Unit that includes only Models with this Special Rule are never successful regardless of the Strength Characteristic of a Hit or any Special Rules that set the Target Number for Wound Tests. This Special Rule has no effect on Armour Penetration Tests.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "264",
+                    "publicationId": "b905-0414-1057-bb34"
                   },
                   {
                     "name": "Blood of Fire",
                     "id": "792f-e75a-1bb2-f36e",
                     "description": "\"Units of Salamanders may ignore Tactical Status Checks applied from Flame Weapons.\"\n\n\nA Unit made up entirely of Models with this Special Rule is unaffected by any variant of the Panic (X) Special Rule on Weapons with the Flame Trait.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "264",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

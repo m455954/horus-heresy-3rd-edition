@@ -681,31 +681,41 @@
         "name": "Desecrators",
         "id": "abbc-74e2-bd52-60fd",
         "description": "**Models with this Special Rule that pass a Willpower Check gain the Line (X) Special Rule.**\n\n\n\n\nAt the start of each Victory Sub-Phase, the Controlling Player of a Unit composed entirely of Models with this Special Rule may make a Willpower Check. If the Willpower Check is passed all Models in the Unit gain the Line (X) Special Rule until the end of the current Victory Sub-Phase. The value of X is determined by how much the final result of the Check is less than the Willpower Characteristic used for the Check:\n\n\n0-1 = Line (1)\n2 = Line (2)\n3 or more = Line (3)\n\n\nIf the Willpower Check is failed, the Unit suffers Perils of the Warp.",
-        "hidden": false
+        "hidden": false,
+        "page": "22",
+        "publicationId": "d1b4-f252-0bf3-2163"
       },
       {
         "name": "Primal Terror",
         "id": "44bb-4eee-0299-caba",
         "description": "**Opposing Units must make Leadership Checks when making a Reaction triggered by, or a Charge targeting, a Model with this Special Rule.**\n\n\n\n\nWhen a Unit with a Model with the Primal Terror Special Rule is declared as the Target Unit of a Charge or as the Target Unit of a Reaction or Advanced Reaction, the Controlling Player of the Unit the Charge or Reaction is declared for must make a Leadership Check. If the Check is passed, the Charge or Reaction is resolved as normal. If the Check is failed, the Unit the Charge or Reaction was declared for immediately gains the Stunned Status and the Controlling Player may not declare another Charge or Reaction for that Unit during this Phase, but their remaining Reaction Allotment is not reduced.",
-        "hidden": false
+        "hidden": false,
+        "page": "22",
+        "publicationId": "d1b4-f252-0bf3-2163"
       },
       {
         "name": "Champion of the Dark Gods",
         "id": "b086-4006-5762-38f1",
         "description": "During the Challenge Sub-Phase, if a Model with this Special Rule is eligible, is must be declared as the Challenger or to accept a Challenge. If more than one Model with this Special Rule is eligible to be the Challenger or to accept a Challenge, the Controlling Player may select which one will be declared as the Challenger or to accept a Challenge. Additionally, if a Model with this Special Rule would gain the Disgraced Status, it is instead removed from the Battlefield and placed into Reserves.",
-        "hidden": false
+        "hidden": false,
+        "page": "41",
+        "publicationId": "523a-934d-6ec7-b26f"
       },
       {
         "name": "Herald of Unreality",
         "id": "395b-8055-cbc3-2642",
         "description": "**During the Declare Mission Reserves Step, the Controlling Player may select one other Unit that contains only Models with the  [Ætheric Dominion] Trait, for each Model with this Special Rule in an Army. Each Model in each of the selected Units gains the Deep Strike Special Rule and the Warp Rift Trait for the duration of the Battle.**\n\n\n\n\nDuring any of their Reserves Sub-Phases, the Controlling Player of any Model with this Special Rule can select one friendly Model with this Special Rule, that is not Locked in Combat, to open a warp rift. If they do so, they can select one Unit from their Army that is in Reserves that only contains Models with the Warp Rift Trait. Reserve Rolls made for that Unit during this Sub-Phase are automatically successful, and the Unit performs a Deep Strike as normal, with the following exceptions:\n\n\n- The first Model from the Unit must be placed in Base-to-Base Contact with the Model that opened the warp rift.\n- The Unit may have a Charge declared for it in the Charge Sub-Phase of the same Player Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "10",
+        "publicationId": "d1b4-f252-0bf3-2163"
       },
       {
         "name": "Exquisite Suffering",
         "id": "a034-592a-3661-13a6",
         "description": "**Daemonettes score additional Combat Resolution Points when their opponents fail Feel No Pain Damage Mitigation Rolls.**\n\n\nWhen totalling the Combat Resolution Points scored by Players in a Combat, the Controlling Player of any Models with this Special Rule gain +1 Combat Resolution Point for each Feel No Pain Damage Mitigation Roll made for an Enemy Model, against a Wound from a Melee Attack made by any Models with this Special Rule that resulted in a 1.",
-        "hidden": false
+        "hidden": false,
+        "page": "44",
+        "publicationId": "3e49-c51c-1b8d-fefe"
       }
     ],
     "sharedSelectionEntries": [

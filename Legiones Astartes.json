@@ -70863,7 +70863,9 @@
             "name": "Thunderhawk Transport Bay",
             "id": "a0f0-4c33-3a37-bd28",
             "description": "\"A Thunderhawk Gunship can transport larger Models as well as infantry\"\n\n\nModels of any Type other than Vehicle may embark on a Model with this Special Rule, however only 2 Models may be Embarked that do not have the Infantry or Paragon Type, and such Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6.",
-            "hidden": false
+            "hidden": false,
+            "page": "118",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -71043,7 +71045,9 @@
             "name": "Mastodon Transport Bay",
             "id": "e072-e4f5-b964-a208",
             "description": "\" A Mastodon Super-heavy Assault Transport can transport larger Models as well as infantry.\"\n\n\nModels of any Type other than Vehicle may Embark on a Model with this Special Rule, however only 4 Models may be Embarked that do not have the Infantry or Paragon Type, and such a Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6.",
-            "hidden": false
+            "hidden": false,
+            "page": "120",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -71342,7 +71346,9 @@
             "name": "Stormbird Transport Bay",
             "id": "f5b1-633c-7aff-b319",
             "description": "\"A Sokar Stormbird can transport larger Models, including one Rhino, as well as infantry\"\n\n\nModels of any Type may embark on a Model with this Special Rule, however only 2 Models may be Embarked that do not have the Infantry or Paragon Type, and such Model may not have any variant of the Bulky (X) Special Rule where the value of X is greater than 6. In addition one Rhino Model may be Embarked and is treated as having the Bulky (12) Special Rule for the purposes of Transport Capacity.",
-            "hidden": false
+            "hidden": false,
+            "page": "119",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -124434,7 +124440,9 @@
                 "name": "Concealed Positions",
                 "id": "1d63-2f66-d366-3a2a",
                 "description": "\"This Special Rule allows Models to use an Advanced Reaction to arrive from Reserves in close proximity to an enemy Unit.\"\n\n\nThe Controlling Player of a Unit that only contains Models with this Special Rule can use the Concealed Ambush Advanced Reaction.",
-                "hidden": false
+                "hidden": false,
+                "page": "48",
+                "publicationId": "10e2-87c7-4862-2cc4"
               }
             ]
           },
@@ -124482,7 +124490,9 @@
                 "name": "Sagyar Mazan",
                 "id": "9f0b-0cb1-94df-2aea",
                 "description": "All Models in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Expendable (2) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "145",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124511,7 +124521,9 @@
                 "id": "d62f-a349-502e-2b2b",
                 "description": " Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Wraiths Special Rule.",
                 "hidden": false,
-                "noindex": true
+                "noindex": true,
+                "page": "277",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124578,7 +124590,9 @@
                 "name": "Pack Thegn",
                 "id": "6f8f-beff-6ab3-36bf",
                 "description": "Has it's Base Attacks and Weapon Skill Characteristics modified by +1\nMay have it's power sword exchanged with one frost sword or frost axe for Free, or with one frost claw for +5 Points",
-                "hidden": false
+                "hidden": false,
+                "page": "165",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124614,13 +124628,17 @@
                 "name": "Chain-brothers",
                 "id": "35fd-5174-6893-be56",
                 "description": "While a Model with this Special Rule is within Unit Coherency of the other Model from your Army with this Special Rule, that Model gains a bonus of +1 to Hit Tests made in the Assault Phase. If a Model that is engaged in a Challenge is in the same Combat as the other Model from your Army with this Special Rule, that Model is treated as being in Unit Coherency  with that other Model for the purposes of this Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "181",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Chain-bonded",
                 "id": "9fea-f2f7-72b0-919d",
                 "description": "This Prime Advantage can only be selected once per Army. When this Prime Advantage is selected, the Controlling Player must select another Unit which only includes Models with the World Eaters Trait that has the Command Battlefield Role from their Army. One Model in the selected Unit and one Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage both gain the Chain-brothers Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "181",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -124721,7 +124739,9 @@
                 "name": "The Iron-clad",
                 "id": "e352-0632-37a3-86fb",
                 "description": "This Prime Advantage can only be selected once per Army. Add one additional War Engine Battlefield Role Slot to the Detachment that includes the Prime Force Organisation Slot with this Prime Advantage. A Unit that is selected to fill that Slot gains the Champion Sub-Type if it did not already have it.",
-                "hidden": false
+                "hidden": false,
+                "page": "229",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124830,7 +124850,9 @@
                 "name": "Revenants",
                 "id": "96ed-7ab8-2b26-dfc5",
                 "description": "Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Fear (1) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "209",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124880,7 +124902,9 @@
                 "name": "Castellan",
                 "id": "b133-b035-b76f-de4a",
                 "description": "A Model selected to fill a Prime Force Organisation Slot with this Prime Advantage: gains an augury scanner; cannot select any of the Centurion's listed options and instead must have their bolter exchanged for one of the following options for Free: Heavy bolter, Autocannon, Iliastus assault cannon",
-                "hidden": false
+                "hidden": false,
+                "page": "185",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           },
@@ -124957,7 +124981,9 @@
                 "name": "Martial Supremacy",
                 "id": "4335-fd54-4bc4-f802",
                 "description": "One Model in the Unit selected to fill a Prime Force Organization Slot with this Prime Advantage gains the Champion Sub-type and the Duellist's Edge (1) special rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "245",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -125097,7 +125123,9 @@
                 "name": "Unnatural Resilience",
                 "id": "b436-54d4-5a5b-629a",
                 "description": "This Prime Advantage can only be selected once per Army. A Model selected to fill a Prime Force Organisation Slot with this Prime Advantage: Has its Base Wounds Characteristic modified by +1. Gains the Eternal Warrior (2) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "201",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -125133,7 +125161,9 @@
                 "name": "Telekine Shift",
                 "id": "3aa8-e3ad-265b-03c7",
                 "description": "When the Controlling Player chooses to make a Rush Move with a Unit made of Models with this Special Rule, they may also choose to make a Willpower Check for that Unit. If the Willpower Check is successful, the Unit gains the Antigrav Sub-Type and the Move Through Cover Special Rule until the end of the current Movement Phase. If the Willpower Check is failed, the selected Unit may not Move during the current Movement Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "217",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -125220,7 +125250,9 @@
                 "name": "True Believers",
                 "id": "a33a-8552-323c-e8be",
                 "description": "All Models in the Unit selected to fill the Prime Slot gain the Malefic Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "18",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -125248,7 +125280,9 @@
                 "name": "Exhortation of Butchery",
                 "id": "21f3-2111-65c0-20c6",
                 "description": "At the start of the Charge Sub-Phase of their Battle Turn, the Controlling Player of a Unit which contains any Models with this Special Rule may elect for that Unit to become Lost to the Nails",
-                "hidden": false
+                "hidden": false,
+                "page": "13",
+                "publicationId": "1cef-cfb8-32c9-a1f4"
               }
             ]
           },
@@ -125287,7 +125321,9 @@
                 "name": "Exemplars of the Legions",
                 "id": "f0b1-22e1-ceaf-1e5c",
                 "description": "If a Unit that has the Command Battlefield Role, and which only includes Models with the Shattered Legions Trait, is selected to fill a Prime Force Organisation Slot, the following Prime Advantage can be selected:\n\n\nExemplars of the Legion\n\n\nAdd one additional Force Organisation Slot to the Detachment that includes the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage. The Slot added may be of any Battlefield Role other than High Command, Command, Warlord or Lord of War (note that a Detachment may gain more than one additional Force Organisation Slot if this option is selected for multiple Units in the same Detachment).\n\n\nEach Unit selected to fill such a Slot must:\n\n\n • Be from the Legiones Astartes Army List.\n • Not include any Models that have the Unique Sub-Type.\n • Have a Faction Trait that matches the Legion that is represented by the Model that was selected to fill the Battlefield Role Slot with this Prime Advantage.\n\n\nAll Models in any of these Units have their Faction Trait replaced with ‘Shattered Legions’ and have the Legion Specialists Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "3",
+                "publicationId": "ac76-4b88-ce47-128e"
               }
             ],
             "selectionEntries": [
@@ -126223,7 +126259,9 @@
                 "name": "Petty Warlord",
                 "id": "e648-3433-03ce-2caf",
                 "description": "One Model in the Unit selected to fill the Prime Slot that has the Sergeant Sub-Type gains +1 to its Attacks, Weapon Skill and Leadership Characteristics and the Champion Sub-Type (if it already has the Champion Sub-Type it instead increases its Leadership by an additional +1).\n\n\nFurther, if this Prime Advantage is selected for a Unit in a Primary or Allied Detachment, then an Auxiliary Detachment may be attached to that Detachment as if this Unit was a Command Choice. All Slots in Auxiliary Detachments selected using this Prime Advantage become Prime Slots, but the only Prime Advantage that may be selected for any Slot in such a Detachment is Petty Warlord.",
-                "hidden": false
+                "hidden": false,
+                "page": "9",
+                "publicationId": "59a2-2e27-256e-89e5"
               }
             ]
           },
@@ -126301,7 +126339,9 @@
                 "name": "Ancient of War",
                 "id": "1700-f3fc-f332-63de",
                 "description": "This Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule. ",
-                "hidden": false
+                "hidden": false,
+                "page": "3",
+                "publicationId": "4e8d-9c4c-93a6-aea2"
               }
             ]
           },
@@ -126370,7 +126410,9 @@
                 "name": "Skilled Riders",
                 "id": "efb2-d439-d8fb-1a07",
                 "description": "Models with the Cavalry Type in a Unit selected to fi ll a Slot with this Prime Advantage gain the Shrouded (6+) and Move Through Cover Special Rules. ",
-                "hidden": false
+                "hidden": false,
+                "page": "4",
+                "publicationId": "4e8d-9c4c-93a6-aea2"
               }
             ]
           }
@@ -127178,7 +127220,9 @@
                 "name": "Inferno Shield",
                 "id": "f48e-1cf8-7995-ec35",
                 "description": "At the end of each Initiative Step, each Unit that scored any Hits against a Unit that contains any Models with this Special Rule suffers D6 Hits with a Strength of 4, an AP of '-' and a Damage of 1, allocated by that Unit's Controlling Player.",
-                "hidden": false
+                "hidden": false,
+                "page": "222",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },

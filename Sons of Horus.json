@@ -204,6 +204,24 @@
         "categoryLinks": [{"name": "Troops", "id": "5d90-56f6-a5cf-04cf", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
+    "sharedRules": [
+      {
+        "name": "Eyes of the Warmaster",
+        "id": "115b-6dbb-68ff-272c",
+        "description": "If this Model with this Special Rule joins a Unit with a different Faction Trait, the Leadership and Cool Characteristics of Models in that Unit are not reduced.",
+        "hidden": false,
+        "page": "260",
+        "publicationId": "e54c-7040-0f35-d85d"
+      },
+      {
+        "name": "Master of War",
+        "id": "0c1d-c962-034a-5d61",
+        "description": "\"Horus grants the Army his is part of an additional point of Reaction Allotment.\"\n\n\nThe Controlling Player of an Army that includes a Model with this Special Rule has +1 to their Reaction Allotment in each Turn, unless that Model is Removed as a Casualty.",
+        "hidden": false,
+        "page": "253",
+        "publicationId": "e54c-7040-0f35-d85d"
+      }
+    ],
     "sharedSelectionEntries": [
       {
         "name": "Horus Lupercal",
@@ -447,7 +465,9 @@
                 "name": "Sire of the Sons of Horus",
                 "id": "8daf-f0b8-3363-dda2",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n\n\n• If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squad Units and/or Despoiler Squad Units, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\n\n\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Infantry and Primarch Type with the Sons of Horus Trait in the same Army:\n\n\n• Until the end of the first Battle Turn of the Battle, The Controlling Player of a Model with this Special Rule can add +1 to the Move Characteristic of Models from their Army with the Sons of Horus Trait (Excluding Models with the Vehicle Type).",
-                "hidden": false
+                "hidden": false,
+                "page": "251",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -462,14 +482,7 @@
               {"id": "bedb-a2b2-48dc-2fc2", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "944f-f9b9-2531-9382", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "rules": [
-              {
-                "name": "Master of War",
-                "id": "423c-7478-2a6a-7e8a",
-                "description": "\"Horus grants the Army his is part of an additional point of Reaction Allotment.\"\n\n\nThe Controlling Player of an Army that includes a Model with this Special Rule has +1 to their Reaction Allotment in each Turn, unless that Model is Removed as a Casualty.",
-                "hidden": false
-              }
-            ]
+            "infoLinks": [{"name": "Master of War", "id": "043b-18d4-b55e-ac46", "hidden": false, "targetId": "0c1d-c962-034a-5d61", "type": "rule"}]
           }
         ]
       },
@@ -568,7 +581,9 @@
             "name": "Master of the Justaerin",
             "id": "d225-97fb-d027-0786",
             "description": "\"Abaddon confers additional Special Rules to Justaerin Terminator Squads that he joins.\"\n\n\nIf a Model with this Special Rule joins a Justaerin Terminator Squad Unit in Reserves, Models in that Unit are also treated as having the Deep Strike Special Rule. In addition, when a Model with this Special Rule is deployed as part of a Deep Strike, that Model and each other Model in the same Unit gain the Feel No Pain (5+) Special Rule until the Controlling Player's next Effects Sub-Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "254",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -780,7 +795,8 @@
         ],
         "infoLinks": [
           {"name": "[Allegiance]", "id": "0265-a22a-f554-637a", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "[Legiones Astartes]", "id": "c187-00d5-a3a1-317f", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"}
+          {"name": "[Legiones Astartes]", "id": "c187-00d5-a3a1-317f", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {"name": "Eyes of the Warmaster", "id": "d8be-67c1-d474-773e", "hidden": false, "targetId": "115b-6dbb-68ff-272c", "type": "rule"}
         ],
         "modifiers": [
           {
@@ -799,14 +815,6 @@
                 "value": 1
               }
             ]
-          }
-        ],
-        "rules": [
-          {
-            "name": "Eyes of the Warmaster",
-            "id": "7398-ad0f-3ef5-1996",
-            "description": "If this Model with this Special Rule joins a Unit with a different Faction Trait, the Leadership and Cool Characteristics of Models in that Unit are not reduced.",
-            "hidden": false
           }
         ],
         "selectionEntries": [
@@ -1389,14 +1397,7 @@
               {"id": "383c-9a3f-45cf-ab44", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "4fab-a673-093a-d34c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "rules": [
-              {
-                "name": "Master of War",
-                "id": "9901-2d17-1858-6822",
-                "description": "\"Horus grants the Army his is part of an additional point of Reaction Allotment.\"\n\n\nThe Controlling Player of an Army that includes a Model with this Special Rule has +1 to their Reaction Allotment in each Turn, unless that Model is Removed as a Casualty.",
-                "hidden": false
-              }
-            ]
+            "infoLinks": [{"name": "Master of War", "id": "41c7-5b16-c3b0-101d", "hidden": false, "targetId": "0c1d-c962-034a-5d61", "type": "rule"}]
           },
           {
             "name": "The Warmaster Ascended",
@@ -1414,7 +1415,9 @@
                 "name": "The Warmaster Ascended",
                 "id": "6ec4-9625-7b27-ebf0",
                 "description": "Horus Ascended cannot be included in the same Army as Horus Lupercal.",
-                "hidden": false
+                "hidden": false,
+                "page": "253",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           },
@@ -1434,7 +1437,9 @@
                 "name": "The Spreading Corruption",
                 "id": "bee8-1792-f2a7-7860",
                 "description": "\"Horus can join Units that have the Malefic Sub-Type.\"\n\n\nA Model with this Special Rule can join Units with the Malefic Sub-Type as if it had that Sub-Type and while part of such a Unit, is treated as having that Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "253",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ]
           }
@@ -2059,7 +2064,9 @@
             "name": "Haunted",
             "id": "0489-ef07-92b3-d7eb",
             "description": "\"Aximand's Controlling Player gains additional Victory Points if he kills Garviel Loken in a Challenge.\"\n\n\nThe Controlling Player of a Model with this Special Rule gains 2 Victory Points if Garviel Loken is Removed as a Casualty whilst engaged in a Challenge with a Model with this Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "255",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -2285,7 +2292,9 @@
             "name": "Born Survivor",
             "id": "1b08-3f16-f8a7-7c26",
             "description": "\"This Special Rule allows Garviel Loken to avoid being Removed as a Casualty.\"\n\n\nIf the Wounds Characteristic of a Model with this Special Rule is reduced to 0 or less, the Controlling Player can roll one Dice. On a 4+, this Model is not Removed as a Casualty and has it's current Wounds Characteristic set to '1'.",
-            "hidden": false
+            "hidden": false,
+            "page": "258",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -3425,7 +3434,9 @@
             "name": "Broken in Body",
             "id": "09a4-6c81-3c6f-360d",
             "description": "\"Maloghurst's Controlling Player can choose whether he fights in Challenges.\"\n\n\nEach time an enemy Model declares a Challenge, the Controlling Player of a Model with this Special Rule can select whether the Model with this Special Rule is eligible to take part in a Challenge.",
-            "hidden": false
+            "hidden": false,
+            "page": "259",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -4469,7 +4480,8 @@
             ]
           },
           {"name": "[Allegiance]", "id": "b838-dbba-4de8-2465", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "[Legiones Astartes]", "id": "f690-4e21-4126-fb27", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"}
+          {"name": "[Legiones Astartes]", "id": "f690-4e21-4126-fb27", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {"name": "Eyes of the Warmaster", "id": "b6e5-460f-e41c-797d", "hidden": false, "targetId": "115b-6dbb-68ff-272c", "type": "rule"}
         ],
         "modifiers": [
           {
@@ -4488,14 +4500,6 @@
                 "value": 1
               }
             ]
-          }
-        ],
-        "rules": [
-          {
-            "name": "Eyes of the Warmaster",
-            "id": "e72a-6d41-00ef-420c",
-            "description": "If this Model with this Special Rule joins a Unit with a different Faction Trait, the Leadership and Cool Characteristics of Models in that Unit are not reduced.",
-            "hidden": false
           }
         ],
         "selectionEntries": [
@@ -4772,7 +4776,9 @@
             "name": "Honour Above All",
             "id": "581c-4e5f-ecef-ea50",
             "description": "When any Model that has joined a Unit that includes any Models with this Special Rule takes part in a Challenge, all Models in that Unit with this Special Rule gain a bonus of +1 to all Wound Tests made during the following Fight Sub-Phase of that Assault Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "128",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -5096,7 +5102,9 @@
                 "name": "Creed of Brutality",
                 "id": "6f7c-5db8-17fc-65a5",
                 "description": "\"If a Unit containing any Models with this Special Rule succeeds on a Leadership Check in the Start Phase, they gain the Impact (S) Special Rule until the end of the Battle Turn.\"\n\n\n\n\nIn the Effects Sub-Phase of their Start Phase, the Controlling Player of a Unit containing any Models with this Special Rule can make a Leadership Check for that Unit, and if any Model in that Unit is within 6\" of a friendly Model with the Sons of Horus Trait and a Weapon Skill Characteristic of 5 or more, that friendly Model’s Leadership Characteristic may be used to resolve this Leadership Check. If that Check is successful, every Model in the Unit gains the Impact (S) Special Rule until the end of that Battle Turn. If the Check is unsuccessful, every Model in that Unit immediately gains the Stunned Tactical Status.",
-                "hidden": false
+                "hidden": false,
+                "page": "18",
+                "publicationId": "1cef-cfb8-32c9-a1f4"
               }
             ],
             "selectionEntryGroups": [
@@ -5383,7 +5391,9 @@
                     "name": "Death Dealers",
                     "id": "c839-3f77-5885-b209",
                     "description": "\"Sons of Horus make Volley Attacks at their full Ballistic Skill Characteristic\"\nWhen a Model with this Special Rule makes Volley Attacks, it is not required to fire Snap Shots.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "248",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
@@ -5434,43 +5444,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Sons of Horus Prime Benefits",
-        "id": "96c3-9da2-edfa-22df",
-        "hidden": false,
-        "selectionEntries": [
-          {
-            "name": "Martial Supremacy",
-            "id": "9a8f-e85c-1bf5-a350",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [
-              {"id": "9d34-edf0-8f8f-ad35", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "0e3b-01e5-b8f5-175e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
-            "infoLinks": [
-              {
-                "name": "Duellist's Edge (X)",
-                "id": "e75f-6dcb-8324-8bec",
-                "hidden": false,
-                "targetId": "94bc-c69f-99b6-8ba0",
-                "type": "rule",
-                "modifiers": [{"arg": "X", "comment": "1", "field": "name", "type": "replace", "value": "1"}]
-              }
-            ],
-            "modifiers": [{"field": "category", "type": "add", "value": "5a95-e564-96b2-8dc9"}],
-            "rules": [
-              {
-                "name": "Martial Supremacy",
-                "id": "73c7-8c85-f108-f3cd",
-                "description": "One Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gains the Champion Sub-Type and the Duellist's Edge (1) Special Rule.",
-                "hidden": false
               }
             ]
           }

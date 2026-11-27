@@ -229,14 +229,9 @@
         "name": "The Blood is Forever",
         "id": "8daf-a58f-2cb6-034d",
         "description": "\"Models with this Special Rule gain a Damage Mitigation Roll when they are outnumbered.\"\nWhile the Unit a Model with this Special Rule is part of is Locked in Combat with an enemy Unit or Units who total number of Models outnumber them, a Model with this Special Rule gains the Feel No Pain (5+) Special Rule. If outnumbered by more than twice their own number, Models with this Special Rule instead gain the Feel No Pain (4+) Special Rule. Any Model that joins a Unit that includes any Models with this Special Rule does not gain this Special Rule and does not count for the purpose of determining when the Unit is outnumbered.",
-        "hidden": false
-      },
-      {
-        "name": "Revenants",
-        "id": "a324-366f-d373-8d25",
-        "comment": "Prime Upgrade",
-        "description": "Models in a Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Fear (1) Special Rule",
-        "hidden": false
+        "hidden": false,
+        "page": "218",
+        "publicationId": "b905-0414-1057-bb34"
       }
     ],
     "sharedSelectionEntries": [
@@ -1444,7 +1439,9 @@
                 "name": "Incaendius Boost Pack",
                 "id": "1ab5-f4fe-44a0-e57d",
                 "description": "When a Model with this Special Rule makes a Rush, it gains the Antigrav Sub-Type for the duration of the Movement Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "221",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -4411,7 +4408,9 @@
                     "name": "Encarmine Fury",
                     "id": "2acc-e20b-bef4-a9cc",
                     "description": "\"The strength of their attacks ins increased when Blood Angels successfully Charge.\"\nOn any Turn in which they made a Charge Move, Models with this Special Rule modify their Strength Characteristic by +1 until the end of the Turn.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "210",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

@@ -122,15 +122,6 @@
         ]
       }
     ],
-    "sharedRules": [
-      {
-        "name": "Shadow Walkers",
-        "id": "01bc-3bfe-f526-3be0",
-        "comment": "Legion Tactica",
-        "description": "\"Raven Guard\" Models are harder to hit with Shooting Attacks made at longer range.\"\nWhen a Unit that includes only Models with this Special Rule is the target of a Shooting Attack, all attacks must be made as Snap Shots when the distance between the closest Model in the attacking Unit and the Target Unit is 18\" or greater.",
-        "hidden": false
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Corvus Corax",
@@ -306,14 +297,18 @@
                 "name": "Sire of the Raven Guard",
                 "id": "3d17-d27e-0a47-adad",
                 "description": "If a model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex, and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squad Units and/or Assault Squad Units, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with Infantry Type and the Raven Guard Trait in the same Army:\n- Until the end of the first Battle Turn of the Battle, all Models in this Army with the Infantry Type and the Raven Guard Trait have the Move Through Cover Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "281",
+                "publicationId": "b905-0414-1057-bb34"
               },
               {
                 "name": "The Shadowed Lord",
                 "id": "9303-1545-03a3-96ff",
                 "comment": "Rule",
                 "description": "While a Model with this Special Rule is Engaged in a Challenge, its Controlling Player can select the \"The Shadowed Lord\" Gambit.",
-                "hidden": false
+                "hidden": false,
+                "page": "281",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -625,7 +620,9 @@
                 "name": "The Blood Crow",
                 "id": "4c2d-30f3-17ee-3ce9",
                 "description": "\"Kaedes Nex always uses his full Ballistic Skill and reduces the effectiveness of an enemy's Damage Mitigation Rolls.\"\nA Model with this Special Rule is never forced to make Shooting Attacks as Snap Shots and may never have their Ballistic Skill modified to be less than 6, unless the Target Unit has the Flyer Sub-Type. Additionally, any Shrouded Damage Mitigation Rolls made against wounds inflicted by a Shooting Attack made by a Model with this Special Rule are only successful on a roll of 6+, regardless of the variant of the Shrouded (X) Special Rule the selected Target Model has or any Special Rules to the contrary.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -787,7 +784,9 @@
             "name": "Fatal Strike",
             "id": "22c9-a8ff-c91a-9b1f",
             "description": "\"Fatal Strike temporarily increases the Ballistic Skill Characteristic.\"\nOnce per Battle, if a Unit with this Special Rule remains Stationary in the previous Movement Phase, the Unit's Controlling Player may select that Unit to make a Fatal Strike during the Shooting Phase. When making a Fatal Strike, a modifier of +2 is added to the Ballistic Skill Characteristic of all Models with this Special Rule in the Selected Unit for the duration of the current Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "284",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -1664,7 +1663,9 @@
             "name": "Corax’s Shame",
             "id": "a570-1ee9-7d43-843f",
             "description": "\"Models with this Special Rule suffer restrictions when in an Army with Corvus Corax.\"\nA Unit that includes any Models with this Special Rule cannot be joined by a Corvus Corax Model. Additionally, Reserves Rolls made for a Unit that includes any Models with this Special Rule are modified by -1 during any Reserves Sub-Phase in which a friendly Corvus Corax Model was also in Reserves at the start of that Sub-Phase",
-            "hidden": false
+            "hidden": false,
+            "page": "139",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -2267,7 +2268,9 @@
             "name": " Unchained Conviction",
             "id": "67e0-d4ac-8002-576d",
             "description": "\"Models with this Special Rule which would gain the Pinned Tactical Status instead make an immediate Fall Back Move.\"\n\n\n\n\nWhenever Models in a Unit entirely composed of Models with this Special Rule gain the Pinned Tactical Status, that Unit must immediately make a Fall Back Move as described on page 249 of the Warhammer: The Horus Heresy – Age of Darkness Rulebook. Once this Move has been resolved, all Models in that Unit discard the Pinned Tactical Status.",
-            "hidden": false
+            "hidden": false,
+            "page": "21",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -2495,7 +2498,9 @@
                     "name": "Shadow Walkers",
                     "id": "230f-0123-360b-48b6",
                     "description": "\"Raven Guard Models are harder to hit with Shooting Attacks made at longer range.\"\n\n\nWhen a Unit that includes only Models with this Special Rule is the target of a Shooting Attack, all attacks must be made as Snap Shots when the distance between the closest Model in the attacking Unit and the Target Unit is 18\" or greater.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "278",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

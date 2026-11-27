@@ -69755,7 +69755,9 @@
             "name": "Rewards of Treachery",
             "id": "faf0-ba93-2013-3f34",
             "description": "Add one additional Battlefield Role Slot to the Detachment that includes the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage. This Slot may be of any Battlefield Role other than High Command, Command, Warlord or Lord of War (note that a Detachment may gain more than one additional Force Organisation slot if this option is selected for multiple Units in the same Detachment).\n\nEach Unit selected to fill such a Slot must:\n• Be from the Legiones Astartes Army List.\n• Not have the Alpha Legion Faction Trait on their Unit Profile.\n• Not include any Models that have the Unique Sub-Type.\n\nAll Models in any of these Units have their Faction Trait replaced with 'Alpha Legion'.",
-            "hidden": false
+            "hidden": false,
+            "page": "293",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -69800,7 +69802,9 @@
             "name": "Clade Operative",
             "id": "be0c-7465-c500-8e2e",
             "description": "Add three additional Support Force Organisation Slots to the Detachment that includes the Prime Slot with this Prime Advantage. These Force Organisation Slots may only be filled by Units selected from the Divisio Assassinorum Army List. This Prime Advantage may only be selected for a single Force Organisation Slot in an Army’s Primary Detachment.",
-            "hidden": false
+            "hidden": false,
+            "page": "67",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -69834,7 +69838,9 @@
             "name": "Lord of Automata",
             "id": "8e20-4195-d824-af90",
             "description": "**This Special Rule allows an Iron Father to be accompanied by a Unit of Battle-automata.**\n\nWhen a Model with this Special Rule is included in a Detachment, one additional Force Organisation Slot is added to that Detachment. This Slot can only be filled with one Castellax Battle Maniple or Castellax Destructor Maniple Unit selected from Liber Mechanicum. When such a Unit is included in this way, its Cybernetica Trait is replaced with 'Bonded Automata', and this Unit can be included even though it does not have the same Faction Trait as the other Units in that Detachment. In addition, a Model with this Special Rule may join a Friendly Unit that includes Models with the Automata Type. If a Model with bthis Special Rule joins a Unit with the Automata Type, the Leadership and Cool Characteristics or Models in that unit are not reduced.",
-            "hidden": false
+            "hidden": false,
+            "page": "235",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ]
       },
@@ -69861,7 +69867,9 @@
             "name": "Cult Operative",
             "id": "9fe3-11a3-64da-a83e",
             "description": "Add one additional Support Force Organisation Slot to the Detachment that includes the Prime Slot with this Prime Advantage. This Force Organisation Slot may only be filled by a Unit selected from the Cults Abominatio Army List. This Prime Advantage may only be selected for a single Force Organisation Slot in an Army’s Primary Detachment.",
-            "hidden": false
+            "hidden": false,
+            "page": "205",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ]
       },
@@ -69897,7 +69905,9 @@
             "name": "Logisticae",
             "id": "aa55-7ce2-3344-0d79",
             "description": "Add one additional Transport or Heavy Transport Battlefield Role Slot to the Detachment that includes the Prime Force Organisation Slot with this Prime Advantage. Modify the Transport Capacity of a Unit that is selected to fill that slot by +2.",
-            "hidden": false
+            "hidden": false,
+            "page": "245",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntryGroups": [
@@ -70130,50 +70140,66 @@
             "name": "Firestorm & Shrapnel",
             "id": "4eaf-bd35-f9d0-b10b",
             "description": "\"The Scatter distance of Blasts is limited by Walls and Doorways.\"\n\n\nBlast Markers cannot scatter through Wall Terrain or Doorways in the Closed State. If a Scatter roll takes a Blast Marker's centre point into contact with a Wall or Door in a Closed State, the Blast Marker scatters only as far as the point where its centre contacts the edge of the Wall or Doorway in the Closed State. Resolve the Weapon's effect from that spot.\n\n\nIf a line cannot be drawn between any point of the Base of a Model hit by a Blast Marker or Template and the centre of the Blast Marker (or any point of the Base of the Model making the attack in the case of a Weapon that has the Template Special Rule) that does not pass through a Wall or Doorway in the Closed State, then that Model is not hit by the attack.",
-            "hidden": false
+            "hidden": false,
+            "page": "10",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "No Fly Zone",
             "id": "114f-c1d9-6ff5-dcdb",
             "description": "\"Flyers cannot be used in Zone Mortalis Battles.\"\n\n\nModels with the Flyer Sub-Type may not be used in Zone Mortalis Missions. If either Player has included a Model with the Flyer Sub-Type in their Army Roster, the Model may not be Deployed onto the Battlefield at any point during the Battle, but is not counted as having been Removed as a Casualty or otherwise destroyed for the purpose of resolving the Mission.",
-            "hidden": false
+            "hidden": false,
+            "page": "10",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Blind Panic",
             "id": "f06f-7f64-034b-45a9",
             "description": "\"Routed Units can cause other friendly Pinned, Stunned or Suppressed Units to become Routed when moving past them.\"\n\n\nIf any Model from a Unit that is Falling Back ends its move or passes within 2\" of any Models from other friendly Units that are under the effect of a Tactical Status that is not the Routed Status, then a Leadership Check must be made for each of those Units in the following Morale Sub-Phase. If the Check made for any of those Units is failed, all Models in that Unit gain the Routed Status.",
-            "hidden": false
+            "hidden": false,
+            "page": "11",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Confined Space (X)",
             "id": "54a7-8aad-d346-0386",
             "description": "\"Confined Spaces are Impassable to Models with the Bulky (X) Special Rule.\"\n\n\nSpecific rooms, corridors or sections of the Zone Mortalis Battlefield are defined as having different versions of the Confined Space (X) Special Rule, according to the Mission being used. Players should take note of how the Confined Space (X) Special Rule is applied in the Mission they intend to play when selecting their Army.\n\n\nEach area defined as having the Confined Space (X) Special Rule (sometimes referred to as \"Confined Spaces\") is counted as Impassable Terrain for all Models with the Vehicle Type that have a Base Hull Points Characteristic of 3 or greater or Models with a variant of the Bulky (X) Special Rule that is equal to or greater than the variant of the Confined Space (X) Special Rule. For example, an area defined as having Confined Space (4) is Impassable Terrain for all Models with Bulky (4) and greater.\n\n\nNote that Models with the Antigrav Sub-Type that have the Bulky (X) Special Rule may not be moved over or through a Confined Space that counts as Impassable Terrain for that Model.\n\n\nConfined Spaces otherwise count as Open Terrain and as such do not provide a Cover Save, unless other Area Terrain is also defined in the same area.",
             "hidden": false,
+            "page": "11",
+            "publicationId": "c731-1e58-7a7f-930c",
             "alias": ["Confined Space"]
           },
           {
             "name": "Doorway (X)",
             "id": "e88e-daf4-7163-3f05",
             "description": "\"Doorways may slow the movement of Models if those Models have the Bulky (X) Special Rule.\"\n\n\nNo Model may make a Set-up Move or Charge Move through an area of Doorway Terrain (sometimes referred to as a 'Doorway') if the Model has a variant of the Bulky (X) Special Rule, of which the value of X is greater than the value of X in the Doorway (X) Special Rule assigned to that Doorway. Otherwise, a Doorway does not reduce the distance of Set-up Moves or Charge Moves. Each Doorway counts as Impassable Terrain to Models with the Vehicle Type, regardless of the Doorway's State.\n\n\nAdditionally, if a Unit starts a Move outside any area of Doorway Terrain, but includes any Models with the Bulky (X) Special Rule that could potentially enter an area of Doorway Terrain, the Player must declare if they want their Unit to cross through any Area of Doorway Terrain as part of their Move.\n\n\nIf the Controlling Player chooses not to cross any area of Doorway Terrain the Unit moves as normal, but no Models in the Unit may cross any area of Doorway Terrain. If the Controlling Player chooses for any Model with the Bulky (X) Special Rule in the Unit to cross any area of Doorway Terrain, then the Model with the Bulky (X) Special Rule's Movement Characteristic is reduced by the amount by which its variant of the Bulky (X) Special Rule exceeds that variant of the Doorway (X) Special Rule, for the duration of that Movement Phase. For example, a Model with the Bulky (6) Special Rule that is moved through a Doorway with the Doorway (4) Special Rule, would have its Movement Characteristic reduced by 2\".\n\n\nIf the application of this modifier would leave the Unit unable to reach an area of Doorway Terrain it is still applied, even if the Controlling Player alters the Unit's movement and no longer intends for it to cross the Doorway.\n\n\nModels with the Bulky (X) variant may move normally through a Doorway if the value of Bulky (X) is equal to or less than the value of the Doorway (X) Special Rule assigned to the Doorway they intend to Move through.\n\n\nIf the variant of the Bulky (X) Special Rule that a Model has is greater than double the number that is X in the variant of the Doorway (X) Special Rule, that item of Terrain counts as Impassable Terrain to that Model.\n\n\n**STATE**\nA Doorway can either be Closed or Open. Unless stated otherwise in the Mission Rules, all Doorways begin the Battle in the Closed State.\n\n\n**Open**: Doorways in the Open State do not block Line of Sight and Models may Move through the Doorway in accordance with the Doorway (X) Special Rule.\n**Closed**: A Doorway in the Closed State is Impassable Terrain. Models cannot Move or draw Line of Sight through a Doorway in the Closed State.\n\n\n**OPERATING DOORWAYS**\nDuring the Movement Phase, the Controlling Player of a Unit that has started or ended a Move with at least one Model in Base Contact with a Doorway may attempt to change its State, either opening a Closed Doorway or closing an Open Doorway, by making an Intelligence Check using the Characteristics of any single Model that is within 2\" of the Doorway. If the Intelligence Check is successful, the State of the Doorway is immediately changed. If the Intelligence Check is unsuccessful, the State remains unchanged. No more than one Check per Unit may be made for each Doorway during each Player Turn.\n\n\n**CRUSHED**\nIf any Model is on a piece of Doorway Terrain when it is changed from the Open State to the Closed State, or this results in one or more Models from any Unit being no longer positioned in Unit Coherency, the Unit the Model is part of, or the Unit that is no longer in Unit Coherency, suffers an immediate Hit, with a Strength of 8, an AP of - and a Damage Characteristic of 2. The Doorway Terrain then counts as Open Terrain for the remainder of the Battle and the Doorway Terrain Piece must be removed from the Battlefield if possible.",
-            "hidden": false
+            "hidden": false,
+            "page": "12",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Abyssal Darkness",
             "id": "1a3c-0625-b424-dc04",
             "description": "If this Zone Mortalis Mission Special Rule is in effect, no Line of Sight may be drawn through more than 6\" of an area (or areas) defined as having the Abyssal Darkness Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "28",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Breach Action",
             "id": "5b43-1d79-fb24-4745",
             "description": "During the Reserves Sub-Phase of their first Player Turn, each Player may change the State of D3 Doorways that are within their Deployment Zone from Closed to Open. Doorways that have their State changed in this manner remain open for the duration of the Battle, and their State may not be changed for any reason.",
-            "hidden": false
+            "hidden": false,
+            "page": "28",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Cogitator Terminal",
             "id": "9f38-8b99-c1db-5fb5",
             "description": "Any Model that ends its Movement in Base Contact with a Cogitator Terminal may attempt to manipulate it by taking an Interface Test before another Unit is selected to Move, or before the Reactive Player resolves any Reaction that may be triggered by that Movement.\n\n\nTo take an Interface Test, roll 2D6 and subtract the result from the current value of the Model's Intelligence Characteristic before consulting the following table to determine the effect.\n\n\n-2 or less - Malicious Input Detected! - This Interface Test is failed. The Model for which the Interface Check was made suffers three Hits with a Strength of 4, an AP of -, and a Damage of 1. No further Interface Tests may be made at this Cogitator Terminal for the remainder of the Battle.\n-1 - Failed Interface. - This Interface Test is failed. All Doorways on the Battlefield are immediately set to the Closed State and any further Interface Tests taken at this Cogitator Terminal are modified by an additional -2.\n0 - Interfacing... - This Interface Test is failed. There is no effect of this Interface Test, but any further Interface Tests taken at this Cogitator Terminal are modified by an additional -2.\n1 - Access Granted. - This Interface Test is successful. The Controlling Player may select one Doorway that is Closed and change its State to Open.\n2 - Welcome, Adept. - This Interface Test is successful. The Controlling Player may select one Doorway and change its State to any State, and may select one Section of the Battlefield  to gain the Abyssal Darkness Special Rule (or lose that Special Rule if the Section already has it).\n3+ - Debug Protocols Online. - This Interface Test is successful. The Controlling Player may select up to 3 Doorways and change their State to any State, and up to 3 Sections of the Battlefield to gain the Abyssal Darkness Special Rule (or lose that Special Rule if that Section already has it). Additionally, all Interface Tests made by the Controlling Player are modified by +1 until the Player makes a failed Interface Test, and all Interface Tests made by the Opposing Player are modified by -2 until that Player makes a successful Interface Test.",
-            "hidden": false
+            "hidden": false,
+            "page": "29",
+            "publicationId": "c731-1e58-7a7f-930c"
           }
         ]
       },
@@ -70192,37 +70218,49 @@
             "name": "The Ceiling",
             "id": "1d76-9672-b07d-ffd4",
             "description": "All of Zone Mortalis Missions detailed within this Journal Tactica assume that there is a ceiling over the Battlefield. This affects the Rules by preventing the use of indirect fire weapons and aircraft but also in conjunction with the Rules for Walls, divides the Battlefield into discrete areas. It is usually impractical to represent the ceiling with Terrain, but it is good practice for both Players to confirm prior to selecting Armies for, and playing any of the Zone Mortalis Missions, that they understand how the ceiling impacts gameplay.",
-            "hidden": false
+            "hidden": false,
+            "page": "4",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Corridors and Chambers",
             "id": "0b5c-58e9-973e-16b2",
             "description": "\"Players must make Hazard Checks if Models are Moved over 9\" through Corridors & Chambers.\"\n\n\nCorridors &  Chambers are Open Terrain, as defined on page 235 of the Warhammer: The Horus Heresy - Age of Darkness Rulebook. However, if any Model is moved a distance greater than 9\" during any Phase, not including the total distance of a combined Set-up Move and Charge, the Controlling Player of that Model must take a Hazard Test for that Model. To take a Hazard Test, the Controlling Player must roll a Dice. On a result of 1, that Model is immediately Removed as a Casualty. Unless otherwise stated in the Mission Rules, which may designate specific areas of the Battlefield as having variants of the Confined Space (X) Special Rule, all Corridors & Chambers have the Confined Space (10) Special Rule.\n\n\nNote that Area Terrain has the same variant of the Confined Space (X) Special Rule as the area of the Zone Mortalis Battlefield that it is placed in. Any Dangerous Terrain Tests that the Controlling Player of any Models is required to make are made in addition to any Hazard Tests that they are required to make.",
-            "hidden": false
+            "hidden": false,
+            "page": "5",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Walls",
             "id": "1d7c-3958-6d65-6599",
             "description": "\"Walls block Line of Sight and cannot be moved through or over.\"\n\n\nWalls are Impassable Terrain to all Models and no Line of Movement or Line of Sight can be drawn through or over them, including for Models with the Antigrav Sub-Type. Note, Terrain representing broken or incomplete walls or barriers may instead be designated as Barricades.",
-            "hidden": false
+            "hidden": false,
+            "page": "5",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Ladders Stairways and Hatches",
             "id": "8c0a-e47c-a576-094d",
             "description": "\"These Terrain pieces provide access for Models to move between different levels.\"\n\n\nIn a Zone Mortalis Battle, Models may only move vertically when in Base Contact with a piece of Terrain designated as Ladder, Stairways & Hatches, Models use the Rules for vertical movement on page 234 of the Warhammer: The Horus Heresy - Age of Darkness Rulebook.",
-            "hidden": false
+            "hidden": false,
+            "page": "6",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Barricades",
             "id": "db6d-c9a8-f138-7579",
             "description": "\"Models behind a Barricade gain a 5+ Cover Save from Shooting Attacks.\"\n\n\nAny Model that is part of a Unit that is the Target of a Shooting Attack gains a 5+ Cover Save if all of the following conditions are met:\n\n\n- The Line of Sight from every Model that is making a Shooting Attack in a set Fire Group, to all Models in the Target Unit, passes through a Barricade.\n- The generated Fire Pool does not contain any Weapons with the Barrage (X) Special Rule.\n- Any Models from the Target Unit are closer to at least one Barricade than Models from the Unit making the Shooting Attack.\n\n\nModels can move through Barricades, and if they do move through such a Barricade, they must reduce the maximum distance that can be moved in that Move by 2\" as if it was Difficult Terrain. Barricades do not block Line of Sight drawn through them.",
-            "hidden": false
+            "hidden": false,
+            "page": "6",
+            "publicationId": "c731-1e58-7a7f-930c"
           },
           {
             "name": "Doorways",
             "id": "2056-c856-fa48-29ad",
             "description": "\"Doorways are bulkheads or openings in Walls, and may be opened and closed during the Battle.\"\n\n\nDoorways may be designated in gaps between Walls that are between 2\" and 4\" in width. Doorways have the Fortification Type so may be targeted by Shooting Attacks and attacked in Combat, and have an Armour Value of 12 on all facings and 3 Hull Points.\n\n\n**Attacking Doorways**\nWhen determining if a Doorway can be targeted by a Shooting Attack, Charged and fought in Combat, or affected by a Special Rule, treat the Doorway as a Vehicle unless it is specifically stated otherwise. When attacking a Doorway, make Hit Tests and Armour Penetration Tests as if it were a Stationary Vehicle. In Combat, Doorways are hit automatically and treated as having a Movement Characteristic of 0 and can be attacked with Weapons that have the Detonation Special Rule. If a Doorway suffers a Glancing Hit then it suffers 1 point of Damage regardless of the Damage Characteristic of the Hit. If a Doorway suffers a Penetrating Hit, then that Doorway suffers Damage equal to the Damage Characteristic of the Hit. When a Doorway has its Hull Points Characteristic reduced to 0, its State is immediately changed to Open and cannot be changed again for the remainder of the Battle.\n\n\n**Doorways and Combat**\nA Doorway can be the target if a Charge and can be Engaged and attacked during the Assault Phase. However, a Doorway may never make attacks of any kind during the Assault Phase and cannot lock an enemy Unit in Combat. In the Resolution Sub-Phase of the Assault Phase, if one side of the Combat is always the winner, regardless of how many Combat Resolution Points are scored. However, a Doorway never takes Panic Checks and has no Aftermath option selected for it - any Units on the opposing side have Aftermath options selected as normal. If a side in a Combat has both Doorways and Models with other Types then the winner of the Combat is determined normally - but any Doorways cannot have Aftermath options chosen for them. Additional Rules for operating Doorways are detailed in the Doorways (X) Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "7",
+            "publicationId": "c731-1e58-7a7f-930c"
           }
         ]
       }
@@ -70609,7 +70647,9 @@
                 "name": "Combat Veterans",
                 "id": "0e33-ff98-7868-268c",
                 "description": "All Models in the Unit selected to fill the Prime Slot gain a bonus of +1 to their Leadership, Cool, Intelligence and Willpower Characteristics to a maximum of 10 (this includes only Models selected as part of the Unit, not Models that later join the Unit either before or during Battle).",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ]
           },
@@ -70646,7 +70686,9 @@
                 "name": "Special Assignment",
                 "id": "e08d-ad7a-0fc3-10d3",
                 "description": "This Prime Advantage may only be selected for a Command Slot. A Command Slot for which this Prime Advantage is selected may be filled by a High Command Unit, but remains a Command Slot. Moreover, no additional Detachment of any kind may be selected due to this Slot regardless of their Battlefield Role or any Special Rule that the Unit selected to fill the Slot may have.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ]
           },
@@ -70700,7 +70742,9 @@
                 "name": "Master Sergeant",
                 "id": "60d2-8f14-14b0-e595",
                 "description": "One Model in the Unit selected to fill the Prime Slot that has the Sergeant Sub-Type gains +1 to its Attacks, Weapon Skill and Leadership Characteristics and the Champion Sub-Type (if it already has the Champion Sub-Type it instead increases its Leadership by an additional +1). This advantage may only be selected once per Detachment.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ]
           },
@@ -70830,7 +70874,9 @@
                 "name": "Paragon of Battle",
                 "id": "7206-9470-836d-e518",
                 "description": "One Model in the Unit selected to fill the Prime Slot that has the Command Sub-Type gains a bonus of +1 to its Attacks, Weapon Skill and Ballistic Skill Characteristics.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ]
           },
@@ -70976,7 +71022,9 @@
                 "name": "Logistical Benefit",
                 "id": "9963-e24a-3c5e-511d",
                 "description": "Add one additional Force Organisation Slot to the Detachment that includes the Prime Slot, this Slot may be any Battlefield Role other than High Command, Command, Warlord or Lord of War. This Advantage may only be selected once per Detachment.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ],
             "selectionEntryGroups": [
@@ -71557,7 +71605,9 @@
                 "name": "Teleport Transponders",
                 "id": "fd18-51d5-ea6d-886d",
                 "description": "All Models in the Unit selected to fill the Prime Slot gain the Deep Strike Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "15",
+                "publicationId": "c731-1e58-7a7f-930c"
               }
             ]
           }
@@ -71905,7 +71955,9 @@
                 "name": "Hardened Systems",
                 "id": "3570-cf92-6096-ad5c",
                 "description": "A Model with this Prime Trait may have Repair Tests made for it in the Effects Sub-Phase of both the Controlling Player's Start Phase and End Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "35",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           },
@@ -71920,7 +71972,9 @@
                 "name": "Suspensor Web Stabilisers",
                 "id": "161a-d3ad-449b-a3e0",
                 "description": "A Model with this Prime Trait is always counted as Stationary for the purposes of claiming the benefits of the Heavy (X) Special Rule, regardless of whether it has moved in a given Battle Turn.",
-                "hidden": false
+                "hidden": false,
+                "page": "35",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           }

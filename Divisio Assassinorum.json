@@ -1488,7 +1488,9 @@
                 "name": "Death's Artisan",
                 "id": "b692-805e-263b-fb42",
                 "description": "While a Model with this Special Rule is engaged in a Challenge, its Controlling Player must select the Mirror-form Gambit – any Special Rule or Gambit that would stop the Controlling Player from selecting this Gambit is ignored\nand has no effect:",
-                "hidden": false
+                "hidden": false,
+                "page": "69",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -1793,7 +1795,9 @@
                 "name": "Unnatural Conditioning",
                 "id": "9acb-9a69-ed76-af45",
                 "description": "\"The Phage (X) and Poisoned (X) Special Rules have no effect on a Model with this Special Rule.\"\n\n\nThe effects of any variant of the Phage (X) and/or Poisoned (X) Special Rules are ignored when targeting a Unit that contains a Model with this Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "79",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -1971,7 +1975,9 @@
                     "name": "The Venum",
                     "id": "3646-bd9c-6a32-3a90",
                     "description": "\"A Model wounded by a Weapon with this Special Rule must pass a Toughness Test at the end of each subsequent Turn or suffer an additional wound.\"\n\n\nAny Model that suffers one or more Unsaved Wounds as a result of an attack made with a Weapon with this Special Rule must make a Toughness Test in each of the Controlling Player’s subsequent Morale Sub-Phases for the remainder of the Battle. For each failed Test, that Model immediately suffers a single automatic wound with a Damage of 1 against which no Saves or Damage Mitigation Rolls can be made.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "79",
+                    "publicationId": "da4e-9dbd-5ed9-a0e5"
                   }
                 ]
               }
@@ -2159,13 +2165,17 @@
                 "name": "Autonomic Servo-limbs",
                 "id": "efd5-be2b-74ba-d958",
                 "description": "A Model with this Special Rule which is in a Combat may always have the Disengage aftermath option selected for it in the Aftermath Step of the Resolution Sub-Phase of the Assault Phase, regardless of which Player has won that Combat",
-                "hidden": false
+                "hidden": false,
+                "page": "76",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               },
               {
                 "name": "Infocyte",
                 "id": "a2d0-9252-06b7-f1a1",
                 "description": "The Controlling Player of any Models with this Special Rule can spend Reaction Points to make the Auspectre and Signum Shunt Advanced Reactions.",
-                "hidden": false
+                "hidden": false,
+                "page": "76",
+                "publicationId": "da4e-9dbd-5ed9-a0e5"
               }
             ],
             "selectionEntries": [
@@ -2269,16 +2279,7 @@
         "name": "Prime Benefits",
         "id": "09f3-7d9e-1892-28c1",
         "hidden": true,
-        "selectionEntries": [
-          {
-            "name": "None",
-            "id": "774a-ba2a-ba5c-a0b5",
-            "hidden": true,
-            "import": true,
-            "type": "upgrade",
-            "rules": [{"name": "None", "id": "ffe2-7e10-c167-68b3", "hidden": false}]
-          }
-        ]
+        "selectionEntries": [{"name": "None", "id": "774a-ba2a-ba5c-a0b5", "hidden": true, "import": true, "type": "upgrade"}]
       }
     ]
   }

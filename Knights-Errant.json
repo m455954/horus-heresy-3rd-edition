@@ -541,7 +541,9 @@
             "name": "Echoes of Fate",
             "id": "7db4-ba8f-c0de-e65b",
             "description": "A Model with this Special Rule has the Telepathy and Divination Psychic Disciplines.",
-            "hidden": false
+            "hidden": false,
+            "page": "144",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [

@@ -127,31 +127,41 @@
         "name": "Forward Deployment",
         "id": "c343-1439-994e-862e",
         "description": "A Model with this Special Rule can be deployed anywhere on the Battlefield that is at least 12\" from any point within the opposing Player’s Deployment Zone",
-        "hidden": false
+        "hidden": false,
+        "page": "196",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Firing Point (X)",
         "id": "2972-b461-0893-9b0d",
         "description": "\"A Model with this Special Rule can make extra attacks equal to the value of X with the Weapons of Embarked Models.\"\nIn the Shooting Phase, a Model with this Special Rule that has a Unit Embarked on it may have an additional Shooting Attack made for it. This additional Shooting Attack may target a different enemy Unit than its normal Shooting Attack and must be made as Snap Shots. The attack may use up to a number of Weapons equal to the value of X attached to this variant of the Firing Point (X) Special Rule, or the number of Embarked Models, whichever is lower. These Weapons are chosen from any Weapons that a Unit Embarked on the attacking Model has, but no Weapon with any variant of the Overload (X) Special Rule or any other Special Rule that can inflict Hits or Statuses on the attacking Unit on any of its profiles may be selected. This attack is made using the majority Ballistic Skill of the Unit Embarked on the attacking Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "200",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Orbital Defence",
         "id": "2622-fa77-aad6-c649",
         "description": "\"Enemy Drop Pods that deploy within 18\" of a Model with this Special Rule suffer automatic Hits.\"\nIf an enemy Model with the Orbital Assault Vehicle Special Rule enters play using the Deep Strike Special Rule and is deployed anywhere within 12\" of any point on a Model with this Special Rule, then once such a Model has been placed on the Battlefield, but before any Models are disembarked, then each such enemy Model suffers one Hit with a Strength of 8, an AP of - and a Damage of 4",
-        "hidden": false
+        "hidden": false,
+        "page": "203",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Battlements",
         "id": "93ef-cbc4-214e-b44a",
         "description": "The area on top of this fortification is treated as an area of Battlements. Models may only move onto this area of Battlements when Disembarking from the same Fortress of Redemption, and may only leave it by Embarking onto the Fortress of Redemption – or by simply moving off if they also have the Antigrav Sub-Type",
-        "hidden": false
+        "hidden": false,
+        "page": "200",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Macro",
         "id": "5bd4-e5a6-81d5-b652",
         "description": "A Weapon with this Special Rule may only be used to attack an enemy Unit that fulfils one of the following conditions:\n• The target Unit includes at least one Model with the Vehicle Type.\n• The target Unit includes at least one Model with the Paragon Type.\n• The target Unit includes at least one Model with a Base Wounds Characteristic of 10 or more.\n\n\nFurther, a Weapon with this Special Rule may never be used to make any Reaction.",
-        "hidden": false
+        "hidden": false,
+        "page": "204",
+        "publicationId": "5469-14da-d0a1-6092"
       }
     ],
     "sharedSelectionEntries": [
@@ -1039,11 +1049,21 @@
                 "name": "Firing Point (X)",
                 "id": "0866-cdb6-2bdb-2408",
                 "hidden": false,
+                "page": "200",
+                "publicationId": "5469-14da-d0a1-6092",
                 "targetId": "2972-b461-0893-9b0d",
                 "type": "rule",
                 "modifiers": [{"field": "name", "type": "set", "value": "Firing Point (3)"}]
               },
-              {"name": "Battlements", "id": "22b7-e240-0a2c-0624", "hidden": false, "targetId": "93ef-cbc4-214e-b44a", "type": "rule"}
+              {
+                "name": "Battlements",
+                "id": "22b7-e240-0a2c-0624",
+                "hidden": false,
+                "page": "200",
+                "publicationId": "5469-14da-d0a1-6092",
+                "targetId": "93ef-cbc4-214e-b44a",
+                "type": "rule"
+              }
             ],
             "profiles": [
               {

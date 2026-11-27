@@ -134,6 +134,16 @@
         "categoryLinks": [{"name": "Troops", "id": "1e92-a992-cd55-d3d5", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
+    "sharedRules": [
+      {
+        "name": "Bearers of the Blood Hand",
+        "id": "a061-b14f-3144-77e8",
+        "description": "When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, the Controlling Player scores 1 Combat Resolution Point for each Unit that includes any Models with this Special Rule.",
+        "hidden": false,
+        "page": "117",
+        "publicationId": "5469-14da-d0a1-6092"
+      }
+    ],
     "sharedSelectionEntries": [
       {
         "name": "Angron",
@@ -1476,13 +1486,17 @@
             "name": "Level-headed",
             "id": "4d8f-2418-1155-ddcd",
             "description": "\"A Unit that Lotara Sarrin has joined may use her Characteristics to remove Tactical Statuses.\"\n\nIf a Unit includes a Model with this Special Rule, during the Start Phase of their Turn as the Active Player the Controlling Player may make a Check to remove a single Status from all Models in the Unit that includes the Model with this Special Rule. This Check is made using the Characteristics of the Model with this Special Rule (using Cool, unless attempting to remove Routed, in which case Leadership is used).",
-            "hidden": false
+            "hidden": false,
+            "page": "191",
+            "publicationId": "e54c-7040-0f35-d85d"
           },
           {
             "name": "Shadow of the Conquerer",
             "id": "2f7a-625e-ad4e-c62c",
             "description": "If a Model with this Special Rule is included in the Primary Detachment of this Army and is on the Battlefield, in the Effects Sub-Phase of the Start Phase, the Controlling Player of the Model with this Special Rule can make an Intelligence Check for that Model. If that Check is successful, the Controlling Player can select one of the Following options:\n\n\n• Coordinate: Once during this Turn, before making a Reserves Test for a Unit in Aerial Reserves, the Controlling Player can modify the result of that Reserves Test by +1.\n• Annihilate: Once during their opponent's next Movement Phase, the Controlling Player can make the Guns of the Conqueror Advanced Reaction.",
-            "hidden": false
+            "hidden": false,
+            "page": "191",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -1729,7 +1743,9 @@
             "name": "Lord of Corruption",
             "id": "5d1c-eac1-71fe-e5b8",
             "description": "Angron Transfigured cannot be included in the same Army as Angron.",
-            "hidden": false
+            "hidden": false,
+            "page": "188",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -2146,53 +2162,6 @@
                 ]
               }
             ]
-          },
-          {
-            "name": "World Eater Prime Benefits",
-            "id": "6a66-5039-1553-0b71",
-            "hidden": false,
-            "entryLinks": [
-              {
-                "name": "Common Prime Benefits",
-                "id": "b497-ab75-d905-7f94",
-                "hidden": false,
-                "import": true,
-                "targetId": "93f7-d7db-d7f0-2146",
-                "type": "selectionEntryGroup"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [{"childId": "3fa2-78b1-637f-7fb2", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "equalTo", "value": 0}]
-              }
-            ],
-            "selectionEntries": [
-              {
-                "name": "Chain-bonded",
-                "id": "70d5-078d-7ade-001e",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [{"id": "d758-8a34-e93b-b5af", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}],
-                "rules": [
-                  {
-                    "name": "Chain-brothers",
-                    "id": "781d-9aa5-72fc-42e7",
-                    "description": "While a Model with this Special Rule is within Unit Coherency of the other Model from your Army with this Special Rule, that Model gains a bonus of +1 to Hit Tests made in the Assault Phase. If a Model that is engaged in a Challenge is in the same Combat as the other Model from your Army with this Special Rule, that Model is treated as being in Unit Coherency  with that other Model for the purposes of this Special Rule.",
-                    "hidden": false
-                  },
-                  {
-                    "name": "Chain-bonded",
-                    "id": "25ad-1ab4-b33a-9391",
-                    "description": "This Prime Advantage can only be selected once per Army. When this Prime Advantage is selected, the Controlling Player must select another Unit which only includes Models with the World Eaters Trait that has the Command Battlefield Role from their Army. One Model in the selected Unit and one Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage both gain the Chain-brothers Special Rule.",
-                    "hidden": false
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -2269,15 +2238,8 @@
           {"name": "Firestorm", "id": "a409-1292-4439-b942", "hidden": false, "targetId": "3ed1-c5b3-a98d-1b12", "type": "rule"},
           {"name": "Bitter Duty", "id": "9bc4-ac6c-4b2a-b9ee", "hidden": false, "targetId": "5d6f-552a-f409-cad5", "type": "rule"},
           {"name": "[Allegiance]", "id": "9a0d-f7b0-edcd-203d", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "[Legiones Astartes]", "id": "57be-a625-b33e-7cd1", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"}
-        ],
-        "rules": [
-          {
-            "name": "Bearers of the Blood Hand",
-            "id": "0264-f73a-e487-91eb",
-            "description": "When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, the Controlling Player scores 1 Combat Resolution Point for each Unit that includes any Models with this Special Rule.",
-            "hidden": false
-          }
+          {"name": "[Legiones Astartes]", "id": "57be-a625-b33e-7cd1", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {"name": "Bearers of the Blood Hand", "id": "e875-6e89-dd38-e121", "hidden": false, "targetId": "a061-b14f-3144-77e8", "type": "rule"}
         ],
         "selectionEntries": [
           {
@@ -2819,15 +2781,8 @@
           {"name": "Firestorm", "id": "577f-da25-403a-b418", "hidden": false, "targetId": "3ed1-c5b3-a98d-1b12", "type": "rule"},
           {"name": "Bitter Duty", "id": "521c-dd85-4827-943e", "hidden": false, "targetId": "5d6f-552a-f409-cad5", "type": "rule"},
           {"name": "[Allegiance]", "id": "74de-a466-954e-fdaa", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "[Legiones Astartes]", "id": "e8b3-c152-4175-4021", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"}
-        ],
-        "rules": [
-          {
-            "name": "Bearers of the Blood Hand",
-            "id": "bc60-0902-c013-18ae",
-            "description": "When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, the Controlling Player scores 1 Combat Resolution Point for each Unit that includes any Models with this Special Rule.",
-            "hidden": false
-          }
+          {"name": "[Legiones Astartes]", "id": "e8b3-c152-4175-4021", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {"name": "Bearers of the Blood Hand", "id": "6ace-4e39-ede7-2ff9", "hidden": false, "targetId": "a061-b14f-3144-77e8", "type": "rule"}
         ],
         "selectionEntries": [
           {
@@ -3666,13 +3621,17 @@
                     "name": "The Nails' Bite",
                     "id": "7b8c-068a-9985-9b71",
                     "description": "\"The Controlling Player may choose that a World Eaters Unit becomes Lost to the Nails when it fails a Leadership Check\"\nWhen a Unit entirely composed of Models with this Special Rule fails a Leadership Check, that Unit's Controlling Player can choose for that Unit to become Lost to the Nails.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "184",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   },
                   {
                     "name": "Lost to the Nails",
                     "id": "b0e3-2944-982a-e8c4",
                     "description": "When a Unit becomes Lost to the Nails, all Tactical Statuses affecting it are removed. In addition, while a Unit is Lost to the Nails:\n\n\n- Models in that Unit may add +1\" to the distance of any Set-up Move.\n- Modify the Attacks Characteristic of Models in that Unit by +1.\n- Models in that Unit are considered to have a Leadership, Cool and Willpower Characteristic of 10 (unless it would normally be higher).\n- If at the start of the Controlling Player's Charge Sub-Phase, the Unit is within 12\" of any enemy Models, that Unit must make a Charge Move. If more than one enemy Unit is within 12\", the Controlling Player of this Unit must select the closest enemy Unit as the Target Unit for that Charge.\n\n\nAt the start of the Controlling Player's Charge Sub-Phase, if there are no enemy Units within 12\" of a Unit that is Lost to the Nails, that Unit is no longer Lost to the Nails.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "184",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
@@ -3784,7 +3743,9 @@
                     "name": "Violence Incarnate",
                     "id": "b891-bc7e-86a4-203c",
                     "description": "\"World Eaters gain a +1 to their Attacks Characteristic when they Charge.\"\n\nOn any Turn in which they made a Charge Move, Models with this Special Rule modify their Attacks Characteristic by +1 until the end of the Phase.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "182",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
@@ -3868,45 +3829,6 @@
                     ]
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "World Eater Prime Benefits",
-        "id": "9bf2-761f-9cb9-ae63",
-        "hidden": false,
-        "entryLinks": [
-          {
-            "name": "Common Prime Benefits",
-            "id": "890b-a44b-1b21-b3e6",
-            "hidden": false,
-            "import": true,
-            "targetId": "93f7-d7db-d7f0-2146",
-            "type": "selectionEntryGroup"
-          }
-        ],
-        "selectionEntries": [
-          {
-            "name": "Chain-bonded",
-            "id": "1e72-0834-c2e7-16a5",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [{"id": "6017-68f2-f5e0-7114", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}],
-            "rules": [
-              {
-                "name": "Chain-brothers",
-                "id": "262c-556a-b346-4253",
-                "description": "While a Model with this Special Rule is within Unit Coherency of the other Model from your Army with this Special Rule, that Model gains a bonus of +1 to Hit Tests made in the Assault Phase. If a Model that is engaged in a Challenge is in the same Combat as the other Model from your Army with this Special Rule, that Model is treated as being in Unit Coherency  with that other Model for the purposes of this Special Rule.",
-                "hidden": false
-              },
-              {
-                "name": "Chain-bonded",
-                "id": "b20c-76b7-0109-ebd7",
-                "description": "This Prime Advantage can only be selected once per Army. When this Prime Advantage is selected, the Controlling Player must select another Unit which only includes Models with the World Eaters Trait that has the Command Battlefield Role from their Army. One Model in the selected Unit and one Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage both gain the Chain-brothers Special Rule.",
-                "hidden": false
               }
             ]
           }

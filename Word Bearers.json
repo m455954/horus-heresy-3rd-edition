@@ -213,6 +213,8 @@
         "id": "fe99-0874-2c10-cba5",
         "description": "\"Word Bearers gain additional Combat Resolution Points.\"\n\n\nWhen resolving a Combat in the Resolution Sub-Phase of the Assault Phase, score 1 Combat Resolution point if any friendly Models in that Combat have the Word Bearers Trait.",
         "hidden": true,
+        "page": "272",
+        "publicationId": "e54c-7040-0f35-d85d",
         "modifiers": [
           {
             "field": "hidden",
@@ -237,13 +239,17 @@
         "name": "Damned",
         "id": "6786-5026-73bb-ee16",
         "description": "\"A Model with this Special Rule can join Units that have the Malefic Sub-Type.\"\nA Model with this Special Rule can join Units with the Malefic Sub-Type as if it had that Sub-Type and while part of such a Unit, is treated as having that Sub-Type.",
-        "hidden": false
+        "hidden": false,
+        "page": "130",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Flesh Harvester",
         "id": "7b46-599c-9ffb-34ff",
         "description": "A Model with this Special Rule can gain Flesh Harvest Points. A Model with this Special Rule gains 1 Flesh Harvest point each time a Unit that includes that Model is selected to Consolidate, if any enemy Models in that Combat had the Infantry or Cavalry Type. If a Model with the Paragon Type was Removed as a Casualty during that Combat, the Model with this Special Rule gains 2 Flesh Harvest Points instead.\n\n\nIf a Model with any Flesh Harvest Points is Removed as a Casualty, any Flesh Harvest Points that Model has are lost. During the Decide Victor Step, at the end of the Battle, the Controlling Player of any Models with the Flesh Harvester Special Rule scores a number of Victory Points equal to the number of Flesh Harvest Points that any one of those Models, selected by the Controlling Player, currently has.",
-        "hidden": false
+        "hidden": false,
+        "page": "134",
+        "publicationId": "5469-14da-d0a1-6092"
       }
     ],
     "sharedSelectionEntries": [
@@ -400,13 +406,17 @@
                 "name": "The Power of the Word",
                 "id": "3f98-81ce-1608-51fc",
                 "description": "A Model with this Special Rule can join Units with the Malefic Sub-Type as if it had that Sub-Type and while part of such a Unit, is treated as having that Sub-Type",
-                "hidden": false
+                "hidden": false,
+                "page": "275",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Sire of the Word Bearers",
                 "id": "25e7-a4a9-887a-d8ed",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\n\n\n- If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Despoiler Squad Units and/or Tactical Squad Units, then all Force Organisation Slots with Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\n\n\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Word Bearers Trait in the same Army:\n\n\n- Until the end of the first Battle Turn of the Battle, each time the Controlling Player of a Model with this Special Rule is required to make a Leadership Check for a Unit that includes only Models with the Word Bearers Trait, that Leadership Check is automatically passed.",
-                "hidden": false
+                "hidden": false,
+                "page": "275",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -686,13 +696,17 @@
                 "name": "Dark Oratory",
                 "id": "898b-36fe-df6b-50a3",
                 "description": "\"Kor Phaeron's Controlling Player may apply additional Special Rules to friendly Units in the Effects Sub-Phase.\"\n\n\nIn this Model's Controlling Player's Effects Sub-Phase, this Model's Controlling Player can select one friendly Unit which only includes Models with the Word Bearers Trait within 6\" of this Model, then select one of the following effects.\n\n\n- Cruel Invective: Until the start of the Controlling Player's next Effects Sub-Phase, all Models in the selected Unit gain the Hatred (Loyalist) Special Rule.\n- Threatening Entreaties: Until the start of the Controlling Player's next Effects Sub-Phase, modify the Leadership and Cool Characteristics of all Models in the selected Unit by +2.",
-                "hidden": false
+                "hidden": false,
+                "page": "277",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Jealous Command",
                 "id": "ee29-139a-6af2-f75d",
                 "description": "\"Kor Phaeron's Characteristics increase if he is the only Unique Model in the Army.\n\n\nIf this Model is the only Model with the Unique Sub-Type in your Army, modify this Model's Wounds and Leadership Characteristics by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "277",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -943,13 +957,17 @@
                 "name": "Lord of the Blessed",
                 "id": "ee53-dde6-9800-a3b9",
                 "description": "A Model with this Special Rule can join Units with the Malefic Sub-Type as if it had that Sub-Type and while part of such a Unit, is treated as having that Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "278",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Harbinger of Chaos",
                 "id": "6f98-3b19-41a2-58ae",
                 "description": "An Army whose Primary Detachment includes a Model with this Special Rule may select Demonic Manifestation Auxiliary Detachments regardless of how many Command Force Organisation Slots are filled with Esoterist Units.",
-                "hidden": false
+                "hidden": false,
+                "page": "278",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1393,7 +1411,9 @@
                 "name": "Binder of Souls",
                 "id": "0795-59f5-4d5e-d30b",
                 "description": "\"Zardu Layak has specific Psychic Powers.\"\n\n\nA Model with this Special Rule gains the Soul Binding Psychic Power and the Breach the Veil Psychic Power.",
-                "hidden": false
+                "hidden": false,
+                "page": "281",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1413,7 +1433,9 @@
                     "name": "The Panoply of Flame",
                     "id": "328f-f751-232c-7b3d",
                     "description": "When resolving a Combat in the Resolution Sub-Phase of the Assault Phase, score 1 Combat Resolution point for the Unit that includes a Model with the Panoply of Flame.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "280",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
@@ -2533,7 +2555,9 @@
             "name": "Harbingers of Truth",
             "id": "742c-a99a-3b4e-95d6",
             "description": "\"Ashen Circle improves the Firepower Characteristic of Akkadic hand flamers in the Volley Step.\"\n\n\nWhen a Model with this Special Rule makes Volley Attacks, modify the Firepower Characteristic of that Model's Akkadic hand flamer by +1.",
-            "hidden": false
+            "hidden": false,
+            "page": "285",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -5104,7 +5128,9 @@
             "name": "Empty Vessels",
             "id": "0fea-09cd-9274-225a",
             "description": "\"A Unit containing any Models with this Special Rule gains the Malefic Sub-Type and the Feel No Pain (6+) Special Rule once it scores Victory Points due to the Vanguard (X) Special Rule, after suffering D3 wounds.\"\n\n\n\n\nA Unit containing Models with this Special Rule may never be joined by a Model without this Special Rule. Additionally, the first time in a Battle each Unit which includes Models with this Special Rule scores Victory Points due to the Vanguard (X) Special Rule, that Unit immediately suffers D3 automatic wounds with an AP of 2 and a Damage of 1 against which no Saving Throws of any kind may be made. Once these wounds are resolved, every Model in that Unit immediately gains the Malefic Sub-Type and the Feel No Pain (6+) Special Rule for the remainder of the Battle.",
-            "hidden": false
+            "hidden": false,
+            "page": "19",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [

@@ -191,15 +191,6 @@
         "characteristics": [{"name": "Description", "typeId": "d5eb-0b8b-0f26-6233"}]
       }
     ],
-    "sharedRules": [
-      {
-        "name": "Sire of the Thousand Sons",
-        "id": "eeb4-4067-9bb3-abc2",
-        "description": "Until the end of the first Battle Turn of the Battle, whenever the Controlling Player of a Model with this Special Rule makes a Manifestation Check for a Unit that only includes Models with the Thousand Sons Trait, they may roll three Dice and select any two to determine the result.",
-        "hidden": false,
-        "publicationId": "e54c-7040-0f35-d85d"
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Magnus the Red",
@@ -414,13 +405,17 @@
                 "name": "Sire of the Thousand Sons",
                 "id": "296d-f17f-b0bf-27f7",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\nIf four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Units which have a Prosperine Arcana, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\nFurthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Thousand Sons Trait in the same Army:\nUntil the end of the first Battle Turn of the Battle, whenever the Controlling Player of a Model with this Special rule makes a Manifestation Check for a Unit that only includes Models with the Thousand Sons Trait, they may roll three Dice and select any two to determine the result.",
-                "hidden": false
+                "hidden": false,
+                "page": "227",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Arch-Sorcerer",
                 "id": "0e08-c81b-b1e1-6b90",
                 "description": "A Model with this Special Rule is considered to have the Raptora, Pyrae, Pavoni, Corvidae and Athanaean Prosperine Arcana (see page 220).",
-                "hidden": false
+                "hidden": false,
+                "page": "227",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -775,7 +770,9 @@
                 "name": "Arch-Magister of the Corvidae",
                 "id": "93f9-6d32-2d39-f09f",
                 "description": "A Model with this Special Rule has the Corvidae Prosperine Arcana and the Thaumaturgy and Divination Psychic Disciplines.",
-                "hidden": false
+                "hidden": false,
+                "page": "228",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1013,7 +1010,9 @@
                 "name": "Magister of Dust",
                 "id": "fd30-373b-8d0f-925d",
                 "description": "A model with this Special Rule has the Telepathy and Divination Psychic Disciplines.",
-                "hidden": false
+                "hidden": false,
+                "page": "229",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -1373,13 +1372,17 @@
                 "name": "Conduit",
                 "id": "354d-0561-1159-cfe4",
                 "description": "When a Model that has a Weapon with this Special Rule manifests a Psychic Weapon:\nIf that Psychic Weapon is a Ranged Weapon, modify the Ranged Strength Characteristic of that Psychic Weapon by +1.\nIf that Psychic Weapon is a Melee Weapon, modify the Strength Modifier Characteristic of that Psychic Weapon by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "230",
+                "publicationId": "e54c-7040-0f35-d85d"
               },
               {
                 "name": "Prosperine Sorcery",
                 "id": "f196-ee90-28d7-6c89",
                 "description": "A Model with this Special Rule has the following Psychic Powers but cannot have a Prosperine Arcana selected for it as normal.\nBiomantic Slam (Biomancy Discipline)\nWildfire (Pyromancy Discipline)\nImmovable Force (Telekinesis Discipline)",
-                "hidden": false
+                "hidden": false,
+                "page": "230",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -2359,7 +2362,9 @@
             "name": "Warriors of the Khenetai",
             "id": "7acf-2d6c-3c39-9ea8",
             "description": "A Unit that includes Models with this Special Rule cannot have a Prosperine Arcana selected for it. Instead, they have the Khenetai Prosperine Arcana. This follows all the Rules for Prosperine Arcana as described on page220.\nAll Models in a Unit with the Khenetai Prosperine Arcana gains the following benefits:\nThe Bladeweaving Psychic Reaction\nThe Mindsong of Blades Psychic Power\nThe 'Khenetai' Trait",
-            "hidden": false
+            "hidden": false,
+            "page": "232",
+            "publicationId": "e54c-7040-0f35-d85d"
           }
         ],
         "selectionEntries": [
@@ -3289,7 +3294,9 @@
                 "name": "Psychic Conduit",
                 "id": "bc92-96cb-9f78-b761",
                 "description": "Castellax-Achea can have wounds suffered as a result of Perils of the Warp applied to them instead.\n\n\nIf a Model with the Thousand Sons Trait suffers Perils of the Warp while within 6\" of a friendly Model with this Special Rule, the Controlling Player can apply the result from the Perils of the Warp table or any wounds suffered if\nthe Psychic Power was from a Prosperine Arcana to a Model in this Unit instead. If a Model with this Special Rule suffers the ÆthericFeedback result, it instead suffers one wound which ignores all Saving Throws and Damage Mitigation Rolls.",
-                "hidden": false
+                "hidden": false,
+                "page": "275",
+                "publicationId": "e54c-7040-0f35-d85d"
               }
             ],
             "selectionEntries": [
@@ -3589,7 +3596,9 @@
                 "name": "Life Wards",
                 "id": "7d7a-a918-1b47-86c9",
                 "description": "While a Numerologist Model is part of a Unit that contains any Models with this Special Rule, Wounds caused as part of a Shooting Attack made by a Weapon or Model with the Precision (X) Special Rule cannot be allocated to that Numerologist Model.",
-                "hidden": false
+                "hidden": false,
+                "page": "124",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ],
             "selectionEntryGroups": [
@@ -3817,7 +3826,9 @@
                 "name": "Numerologist Order",
                 "id": "04c9-1c41-17a4-264f",
                 "description": "A Model with this Special Rule has the following Psychic Powers but a Unit that contains a Model with this Special Rule cannot have a Prosperine Arcana selected for it as normal. In addition, it has the Telepath and Diviner Traits:\n• Foresight’s Blessing (Divination Discipline)\n• Mind-burst (Telepathy Discipline)",
-                "hidden": false
+                "hidden": false,
+                "page": "124",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ],
             "selectionEntryGroups": [
@@ -4523,7 +4534,9 @@
             "name": "Unattuned Practitioners",
             "id": "880d-bbc4-b0b9-0109",
             "description": "All Models in a Unit with the Unattuned Prosperine Arcana gain the following benefits:\n • The Ætheric Guidance Psychic Power\n • The ‘Unattuned’ Trai",
-            "hidden": false
+            "hidden": false,
+            "page": "17",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [

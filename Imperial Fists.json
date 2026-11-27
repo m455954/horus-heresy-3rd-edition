@@ -156,6 +156,8 @@
         "id": "43fe-8703-9ddf-686c",
         "description": "When making a Shooting Attack for a Unit that only includes Models with this Special Rule, add +1 to the result of Hit Tests made for attacks in any Fire Groups that include more than five Dice or attacks and that have the Bolt or Auto Trait.",
         "hidden": true,
+        "page": "186",
+        "publicationId": "b905-0414-1057-bb34",
         "modifiers": [
           {
             "field": "hidden",
@@ -342,13 +344,17 @@
                 "name": "Slayer of Kings",
                 "id": "7f68-5ae5-dbdd-5f29",
                 "description": "During the Controlling Player's Challenge Sub-Phase, if Sigismund is eligible, he must be declared as the Challenger.\nIf more than one Model under the Active Player's control in a Combat must be the Challenger, they must select Sigismund as the Challenger.\n\nAdditionally, when the Controlling Player issues a Challenge for Sigismund (including as part of the Heroic Intervention Advanced Reaction), they may select which of the Opposing Player's eligible Models is the Challenged. If, for any reason, the selected enemy Model cannot be the Challenged, Sigismund's Controlling Player gains a number of Combat Resolution Points equal to the starting Wounds Characteristic of the selected enemy Model that did not become the Challenged, and Sigismund's Controlling Player may select an alternative eligible Model to accept the Challenge.",
-                "hidden": false
+                "hidden": false,
+                "page": "193",
+                "publicationId": "b905-0414-1057-bb34"
               },
               {
                 "name": "Death's Champion",
                 "id": "4fd5-8d29-5bfe-984e",
                 "description": "While a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select the following Gambit:\nDeath's Champion: If this Gambit is selected, attacks made by this Model in the following Strike Step have the Critical Hit (5+) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "193",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -548,7 +554,9 @@
                 "name": "Sire of the Imperial Fists",
                 "id": "a08f-3fb8-ad95-0574",
                 "description": "If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:\nIf four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squads and/or Breacher Squads, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.\nFurthermore, if a Model with this Special Rule is part of an Army, then all Models with the Imperial Fists Trait and the Infantry Type gain the Prepared Defenses Special Rule:\nPrepared Defenses: Until the end of the first Battle Turn of the Battle, all Models in this Army with the Infantry Type and the Imperial Fists Trait have a 5+ Cover Save while they are within their Controlling Player's Deployment Zone.",
-                "hidden": false
+                "hidden": false,
+                "page": "191",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -904,7 +912,9 @@
                     "name": "The Tyrant's Regalia",
                     "id": "df3d-43cc-983a-267f",
                     "description": "A Model with this Special Rule has the Feel No Pain (5+) Special Rule against Wounds suffered when Engaged in a Challenge.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "195",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               }
@@ -981,7 +991,9 @@
             "name": "Phalanx Formation",
             "id": "530e-6469-c191-ba70",
             "description": "A Unit that has any Models with this Special Rule may make the Shieldwall! Advanced Reaction without expending a point of the Controlling Player's Reaction Allotment. Ifa Reaction Point is not expended, the Reacting Unit gains the Pinned Status after the Reaction is resolved.",
-            "hidden": false
+            "hidden": false,
+            "page": "199",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -1898,7 +1910,9 @@
                 "name": "Void Commander",
                 "id": "edc9-d85c-1001-2749",
                 "description": "If a Model with this Special Rule joins a Breacher Squad Unit in Reserves, Models in that Unit gain the Deep Strike Special Rule while this Model is part of the Unit. In addition, when a Model with this Special Rule is deployed as part of a Deep Strike, that Model and each other Model in the same Unit gain the Feel No Pain (5+) Special Rule until the Controlling Player's next Effects Sub-Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "197",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ]
           }
@@ -1955,7 +1969,9 @@
             "name": "Templar Assault",
             "id": "da2d-361b-b3af-2034",
             "description": "In the Assault Phase of any Player Turn in which they Disembarked from a Model with the Assault Vehicle Special Rule, Models with this Special Rule may add +2\" to any Set-up Moves made. This modifier does not apply if the Unit was forced to make an Emergency Disembarkation during the same Turn.",
-            "hidden": false
+            "hidden": false,
+            "page": "198",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -2589,7 +2605,9 @@
                 "name": "Shield Master",
                 "id": "f1b6-08c8-73c3-9bbc",
                 "description": "Fafnir Rann suffers no penalty in a Challenge for carrying a shield\nThe Controlling Player of a Model with this Special Rule does not suffer a penalty of -1 to Focus Rolls for this Model having the Heavy Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "194",
+                "publicationId": "b905-0414-1057-bb34"
               }
             ],
             "selectionEntries": [
@@ -3051,7 +3069,9 @@
             "name": "Ætos Praetoria",
             "id": "583c-0a52-ad84-4434",
             "description": "The Ætos Dios may only be included in an Army that also includes Rogal Dorn. If the Ætos Dios is included in an army in this way, Rogal Dorn must begin the battle Embarked upon it.",
-            "hidden": false
+            "hidden": false,
+            "page": "109",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -3219,7 +3239,9 @@
             "name": "Supporting Fire",
             "id": "518b-d615-371c-30f4",
             "description": "In the Controlling Player's Shooting Phase, Shooting Attacks made by Models with this Special Rule which are part of a Unit that remained Stationary in the Controlling Player's previous Movement Phase gain the Pinning (0) Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "8",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -3454,14 +3476,7 @@
                   {"id": "49a3-3ac5-1799-cb21", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "4f9f-7fb9-05a0-e5c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
-                "rules": [
-                  {
-                    "name": "Fire Discipline",
-                    "id": "96c4-6312-b137-aefb",
-                    "description": "\"Imperial Fists gain a bonus of +1 when making Hit Tests with multiple bolt and auto Weapons.\"\nWhen making a Shooting Attack for a Unit that only includes Models with this Special Rule, add +1 to the result of Hit Tests made for any attacks in any Fire Groups that include more than five Dice or attacks and that have the Bolt or Auto Trait.",
-                    "hidden": false
-                  }
-                ]
+                "infoLinks": [{"name": "Fire Discipline", "id": "edd2-5c06-270c-6d76", "hidden": false, "targetId": "43fe-8703-9ddf-686c", "type": "rule"}]
               },
               {
                 "name": "Gambit",

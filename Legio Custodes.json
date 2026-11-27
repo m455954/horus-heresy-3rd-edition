@@ -655,13 +655,17 @@
         "name": "Master of the Golden Legion",
         "id": "e26b-8a00-4b2f-112a",
         "description": "If a Model with this Special Rule is part of an Army, then the Fear (1) Special Rule is granted to all Models with the Legio Custodes Trait and the Infantry, Cavalry, Walker or Paragon Type in the same Army until the end of the first Battle Turn.",
-        "hidden": false
+        "hidden": false,
+        "page": "33",
+        "publicationId": "da4e-9dbd-5ed9-a0e5"
       },
       {
         "name": "Only In Death",
         "id": "707b-6c1b-2067-1150",
         "description": "Whenever a Model with this Special Rule would gain the Routed Tactical Status in the Make Panic Checks Step of the Resolution Sub-Phase of the Assault Phase, that Model instead gains the Stunned Tactical Status, unless there are any Models without this Special Rule in the same Unit as that Model. Additionally, a Unit which only contains Models with this Special Rule may never have the Disengage or Fall Back aftermath options selected for it, unless it is entirely composed of Models which also have the Antigrav Sub-Type, in which case it may still have the Disengage aftermath option selected for it.",
-        "hidden": false
+        "hidden": false,
+        "page": "21",
+        "publicationId": "da4e-9dbd-5ed9-a0e5"
       }
     ],
     "sharedSelectionEntries": [
@@ -781,7 +785,8 @@
                 "targetId": "530f-b733-993c-ec84",
                 "type": "rule",
                 "modifiers": [{"field": "name", "type": "set", "value": "Vanguard (3)"}]
-              }
+              },
+              {"name": "Master of the Golden Legion", "id": "8609-6c14-79f2-b93d", "hidden": false, "targetId": "e26b-8a00-4b2f-112a", "type": "rule"}
             ],
             "profiles": [
               {
@@ -807,14 +812,6 @@
                   {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
                   {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
                 ]
-              }
-            ],
-            "rules": [
-              {
-                "name": "Master of the Golden Legion",
-                "id": "6a31-54c3-170b-e56b",
-                "description": "If a Model with this Special Rule is part of an Army, then the Fear (1) Special Rule is granted to all Models with the Legio Custodes Trait and the Infantry, Cavalry, Walker or Paragon Type in the same Army until the end of the first Battle Turn.\n\n\nFurthermore, if a Model with this Special Rule is part of an Army, then once per Turn, when the Controlling Player makes a Reserves Test for a Unit which only contains Models with the Legio Custodes Trait and the Deep Strike Special Rule, before the Reserves Test is made, that Player can select to modify that roll by +1. If this modifier is applied, that Unit must be deployed using the Deep Strike Special Rule.",
-                "hidden": false
               }
             ],
             "selectionEntries": [
@@ -955,13 +952,17 @@
             "name": "The Blade of Mercy",
             "id": "6eda-8fed-5137-a2ef",
             "description": "The Controlling Player selects a single Model in this Unit which has a Misericordia to resolve Steps 4-10 of the Resolving an Initiative Step sequence with, targeting one enemy Unit from the selected Combat which has had the Fall Back aftermath option selected for it. Attacks made as part of this aftermath option are resolved using the following profile:\n\n\n*This Melee Weapon’s Damage Characteristic is equal to the number of Models with a Misericordia in the Unit for which this aftermath option has been selected",
-            "hidden": false
+            "hidden": false,
+            "page": "109",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           },
           {
             "name": "Misericordia",
             "id": "fa69-e27e-64ed-da4f",
             "description": "A Unit containing any Models with a Misericordia may select a unique aftermath option in which it makes a special attack against an enemy Unit from the same Combat.\n\n\nA Unit which contains any Models with a Misericordia may have the Blade of Mercy aftermath option selected for it in Step 4 of the Resolution Sub-Phase of the Assault Phase for any Combat in which that Unit has won or drawn the Combat.",
-            "hidden": false
+            "hidden": false,
+            "page": "109",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -977,7 +978,9 @@
             "name": "Arae-shrike",
             "id": "44b1-d759-938b-4117",
             "description": "A Model with an arae-shrike gains the Deep Strike Special Rule and confers it to any Unit it joins, and can apply a penalty to Enemy Reserve Tests.\n\n\nA Model with an arae-shrike gains the Deep Strike Special Rule, and if it joins a Unit entirely composed of Models with the Legio Custodes Trait in Reserves, all Models in that Unit also gain the Deep Strike Special Rule.\n\nIn addition, in the Effects Sub-Phase of the End Phase of their Player Turn, the Controlling Player of a Model with an arae-shrike which is on the Battlefield can make an Intelligence Check for that Model. If that Check is successful, then the opposing Player must apply a -1 modifier to the result of the first Reserves Test they make in the Reserves Sub-Phase of the subsequent Player Turn. \nAny Reserves Test may only be modified by a single arae-shrike in this manner.",
-            "hidden": false
+            "hidden": false,
+            "page": "108",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -1003,7 +1006,9 @@
             "name": "Eclipse Shield",
             "id": "e1cc-5a7b-dc15-b450",
             "description": "Eclipse shields grant a 5+ Shrouded Damage Mitigation Roll against Shooting Attacks once a Model suffers a Penetrating Hit.\n\n\nThe first time in a Battle Turn a Model with an eclipse shield suffers a Penetrating Hit, it gains a 5+ Shrouded Damage Mitigation Roll against all subsequent Shooting Attacks until it is returned to Aerial Reserves.",
-            "hidden": false
+            "hidden": false,
+            "page": "108",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -1020,7 +1025,9 @@
             "name": "Praesidium shield",
             "id": "db46-10f6-09f0-a753",
             "description": "A model with a Praesidium shield gains a 5+ Invulnerable Save and the Shield Trait.",
-            "hidden": false
+            "hidden": false,
+            "page": "109",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -1035,7 +1042,9 @@
             "name": "Magisterium Vexilla",
             "id": "5166-cdbb-7243-6f49",
             "description": "Units within 8\" of a Model with a magisterium vexilla must pass a Leadership Check when scoring an Objective or only a single Victory Point is scored.\n\n\nIn the Victory Sub-Phase of any End Phase, when a Unit with at least one Model within Line of Sight and 8\" of an enemy Model with a magisterium vexilla would score Victory Points for Controlling or Contesting an Objective, it must first make a Leadership Check. If this Check is failed, that Unit may only score 1 Victory Point for Controlling or Contesting the Objective in that Victory Sub-Phase, regardless of other Special Rules like Line (X) or Comptroller (X). If the Check is successful there is no further effect.",
-            "hidden": false
+            "hidden": false,
+            "page": "108",
+            "publicationId": "da4e-9dbd-5ed9-a0e5"
           }
         ]
       },
@@ -4891,7 +4900,9 @@
                             "name": "Tarsus Buckler",
                             "id": "3b15-ca8f-dace-9086",
                             "description": "The Ranged Strength of attacks made as part of a Volley Attack or Overwatch Reaction are modified by -1 when resolving Wound Tests against a Unit that includes one or more Models with a tarsus buckler.",
-                            "hidden": false
+                            "hidden": false,
+                            "page": "44",
+                            "publicationId": "da4e-9dbd-5ed9-a0e5"
                           }
                         ]
                       }
@@ -6893,7 +6904,9 @@
                 "name": "Promulgation (Vestarios only)",
                 "id": "f231-5f09-2a84-7597",
                 "description": "*This Special Rule allows the removal of Tactical Statuses from Friendly Units with a magisterium vexilla.*\n\n\nThe Controlling Player of any Model with this Special Rule may choose to make a single Cool or Leadership Check for each of their Units which contains one or more Models with this Special Rule during the Start Phase of their Turn as Active Player. For each successful Check, a single Tactical Status (either Pinned, Stunned or Suppressed if Cool was used for the corresponding Check, or Routed if Leadership was used) may be removed from every Model in a single friendly Unit which includes at least one Model with a magisterium vexilla.",
-                "hidden": false
+                "hidden": false,
+                "page": "35",
+                "publicationId": "523a-934d-6ec7-b26f"
               }
             ]
           },
@@ -7232,7 +7245,9 @@
             "name": "Ephoroi Excelsis",
             "id": "946e-726d-21fa-cd76",
             "description": "If a Model with this Special Rule has joined a Venatari Sodality Unit in Reserves, the Controlling Player may choose to automatically succeed at any Reserves Test they make for that Unit.",
-            "hidden": false
+            "hidden": false,
+            "page": "34",
+            "publicationId": "3e49-c51c-1b8d-fefe"
           }
         ],
         "selectionEntries": [
@@ -7562,7 +7577,9 @@
             "name": "Hykanatoi Excelsis",
             "id": "59f5-d6fc-9d38-0ec8",
             "description": "*Magisterium Vexillas in the same Unit as a Model with this Special Rule have a range of 10\".*\n\n\nWhile a Model with this Special Rule has joined a Custodian Guard Sodality or Sentinel Guard Sodality Unit, any Model in that Unit with a Magisterium Vexilla is considered to be 2\" closer to any enemy Model when determining whether that item of Wargear comes into effect.",
-            "hidden": false
+            "hidden": false,
+            "page": "35",
+            "publicationId": "3e49-c51c-1b8d-fefe"
           }
         ],
         "selectionEntries": [
@@ -7854,7 +7871,9 @@
                     "name": "Prefect",
                     "id": "28fb-ffb2-ad9d-8596",
                     "description": "This Prime Advantage may only be selected for a Prime Slot used to select a Shield Captain Unit. All Models in the Unit selected to fill a Prime Slot with this Prime Advantage modify their Base Wounds Characteristic by +1 and gain the Officer of the Line (2) Special Rule",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "24",
+                    "publicationId": "da4e-9dbd-5ed9-a0e5"
                   }
                 ]
               },
@@ -7915,7 +7934,9 @@
                     "name": "Hetaeron Guard",
                     "id": "99fd-0a73-7633-8437",
                     "description": "All Models in the Unit selected to fill a Prime Slot with this Prime Advantage which have the Legio Custodes Trait and the Infantry or Cavalry Type modify the value of X of any version of the Eternal Warrior (X) Special Rule they have to '2'. This Prime Advantage may only be selected once per Army, unless the Army contains any Models with the Golden Exemplar Trait, in which case a single additional selection of this Prime Advantage may be made for each Model in the Army with that Trait.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "24",
+                    "publicationId": "da4e-9dbd-5ed9-a0e5"
                   }
                 ]
               }
@@ -7939,14 +7960,7 @@
               {"id": "cc1d-d3c5-bbd6-e802", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "f4a7-85f7-ba60-bd0b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "rules": [
-              {
-                "name": "Only in Death",
-                "id": "28e4-4dfb-df30-cdee",
-                "description": "\"Units which only contain Models with this Special Rule become Stunned instead of Routed in Combat and cannot Fall Back or Disengage from a Combat.\"\n\n\nWhenever a Model with this Special Rule would gain the Routed Tactical Status in the Make Panic Checks Step of the Resolution Sub-Phase of the Assault Phase, that Model instead gains the Stunned Tactical Status, unless there are any Models without this Special Rule in the same Unit as that Model. Additionally, a Unit which only contains Models with this Special Rule may never have the Disengage or Fall Back aftermath options selected for it, unless it is entirely composed of Models which also have the Antigrav Sub-Type, in which case it may still have the Disengage aftermath option selected for it.",
-                "hidden": false
-              }
-            ]
+            "infoLinks": [{"name": "Only In Death", "id": "5534-5426-fbd1-6a27", "hidden": false, "targetId": "707b-6c1b-2067-1150", "type": "rule"}]
           },
           {
             "name": "Gambits",

@@ -2070,7 +2070,9 @@
                         "name": "Mutable Tactics",
                         "id": "b5a5-0880-6f55-8e05",
                         "description": "\"Models with the Shattered Legions Trait have variable bonuses from this Special Rule based on which Legions have been selected for the Army.\"\n\n\nModels subject to this Special Rule gain a benefit for each Legion that is selected for this Army’s Shattered Legions Detachments. If only two Legions were selected, Models subject to this Special Rule also have the Bound in Blood benefit.",
-                        "hidden": false
+                        "hidden": false,
+                        "page": "5",
+                        "publicationId": "ac76-4b88-ce47-128e"
                       }
                     ],
                     "selectionEntryGroups": [

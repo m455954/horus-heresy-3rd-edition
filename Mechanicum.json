@@ -1127,31 +1127,41 @@
         "name": "Dispersal Field",
         "id": "f50c-2bd5-3de1-4695",
         "description": "A Model with this Special Rule may have the Dispersal Advanced Reaction made for it:",
-        "hidden": false
+        "hidden": false,
+        "page": "183",
+        "publicationId": "5469-14da-d0a1-6092"
       },
       {
         "name": "Cybertheurgic Status: Null",
         "id": "d010-07c3-50a8-4002",
         "description": "A Model under the effect of this Cybertheurgic Status gains no bonuses or penalties - but when Null is applied to any Model in a Unit then all other Cybertheurgic Statuses on all Models in that Unit are discarded and the Unit suffers Cybertheurgic Feeback immediately regardless of whether any Cybertheurgic Statuses are discarded. If a Model in a Unit would gain another Cybertheurgic Status while any Models in that Unit have the Null Cybertheurgic Status (other than another instance of Null) then it does not gain that Cybertheurgic Status, all Models in the Unit discard Null and the Unit suffers Cybertheurgic Feedback.",
-        "hidden": false
+        "hidden": false,
+        "page": "64",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Cybertheurgic Status: Quicken",
         "id": "1160-e8ac-393e-f60c",
         "description": "A Model under the effects of this Cybertheurgic Status gains a bonus of +1 to its Movement and Initiative Characteristics. If a Model under the effect of this Cybertheurgic Status does not have an Initiative Characteristic then it instead increases its Movement Characteristic by +3. If a Model has a Base Movement Characteristic of 0 or '-', then this Cybertheurgic Status has no effect on it and it gains no bonuses to any Characteristic from it.",
-        "hidden": false
+        "hidden": false,
+        "page": "55",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Cybertheurgic Status: Fortify",
         "id": "5367-7f24-be5e-447f",
         "description": "A Model under the effects of this Cybertheurgic Status gains a bonus of +1 to its Strength and Toughness Characteristics. If a Model under the effect of this Cybertheurgic Status does not have a Strength or Toughness Characteristic then it gains no bonus. If, instead of a Toughness Characteristic, a Model under the effect of this Cybertheurgic Status has an Armour Characteristic then instead increase the Armour Value of any one facing, chosen by the Controlling Player, by +1 - this may not increase any Armour Value of the target Model to more than 14.",
-        "hidden": false
+        "hidden": false,
+        "page": "55",
+        "publicationId": "4dc3-3347-238d-99b5"
       },
       {
         "name": "Cybertheurgic Status: Guide",
         "id": "14b4-336f-014d-f462",
         "description": "A Model under the effects of this Cybertheurgic Status gains a bonus of +1 to its Ballistic Skill and Weapon Skill Characteristics. If a Model has a Base Weapon Skill or Base Ballistic Skill of 0, then this Cybertheurgic Status has no effect on it and it gains no bonuses to any Characteristic from it.",
-        "hidden": false
+        "hidden": false,
+        "page": "55",
+        "publicationId": "4dc3-3347-238d-99b5"
       }
     ],
     "sharedSelectionEntries": [
@@ -1339,7 +1349,9 @@
             "name": "Archmagos of the Xanan Dominion",
             "id": "eda1-590b-6b2d-9bec",
             "description": "\"Scoria has specific Cybertheurgic Rites.\"\n\n\nA Model with this Special Rule has the Overcharge Reactors, Cogitator Purge, and Scrap-code Infection Cybertheurgic Rites.",
-            "hidden": false
+            "hidden": false,
+            "page": "71",
+            "publicationId": "4dc3-3347-238d-99b5"
           }
         ],
         "selectionEntries": [
@@ -12601,7 +12613,9 @@
             "name": "Legacy of Cunning",
             "id": "420a-8ea1-c1aa-7858",
             "description": "A Model with this Special Rule can be removed from play without the Opposing Player scoring Victory Points.\n\nIn the Effects Sub-Phase of the End Phase in any Turn where the Controlling Player of a Model with this Special Rule is the Active Player, that Player may choose to activate this Special Rule. This Special Rule may not be activated if the Model with this Special Rule is Locked in Combat.\n\nWhen this Special Rule is activated a Cool Check must be made for the Model with this Special Rule, applying the following modifiers:\n• +1 to the Check's result for each enemy Unit with one or more Models within 12\" of the Model with this Special Rule.\n• +1 to the Check's result for for each Tactical Status, other than Routed, that the Model with this Special Rule has.\n• -2 to the Check's result if the Model with this Special Rule has the Routed Tactical Status.\n\nIf the check is successful, then the Model with this Special Rule is immediately removed from play, but does not count as a Casualty and no Player may score or lose any Victory Points for the removal of the Model. If the Check is failed then there is no further effect and this Special Rule can be activated in later Turns.",
-            "hidden": false
+            "hidden": false,
+            "page": "73",
+            "publicationId": "4dc3-3347-238d-99b5"
           }
         ],
         "selectionEntries": [
@@ -12734,7 +12748,9 @@
                 "name": "Liquifractor Onslaught (Rule)",
                 "id": "d4ec-c781-ca4f-1a9d",
                 "description": "This gambit allows Draykavac to attack first with the Liquifractor.\n\nWhile a Model with this Special Rule is engaged in a Challenge, its Controlling Player may select the following Gambit:",
-                "hidden": false
+                "hidden": false,
+                "page": "73",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           }
@@ -13201,7 +13217,9 @@
             "name": "Heterodox",
             "id": "1917-7357-3442-eb83",
             "description": "The controlling player of a Model with the Cybertheurgist Trait may choose to give that Model the Heterodox Trait at no additional cost and may also give a Model with the Heterodox Trait the Malefic Sub-Type for no additional cost. \n\n\nA Model with the Heterodox Trait and the Malefic Sub-Type may have its Characteristics modified for the purposes of invoking Cybertheurgic Rites. This change is a specific exception to the Rules for Models with the Malefic Sub-Type.\n\n\nA Model with the Heterodox Trait must have the Traitor Allegiance Trait. A Model that is given the Heterodox Trait may, if permitted to select Cybertheurgic Rites, select from the additional Heterodox Cybertheurgic Rites detailed in this section.",
-            "hidden": false
+            "hidden": false,
+            "page": "63",
+            "publicationId": "4dc3-3347-238d-99b5"
           }
         ],
         "selectionEntries": [
@@ -13233,7 +13251,9 @@
                 "name": "Malefic",
                 "id": "f76c-8294-02c5-6733",
                 "description": "The following Rules apply to all Models with the Malefic Sub-Type:\n\n• When a Unit composed entirely of Models with the Malefic Sub-Type would gain a Tactical Status of any kind, that Tactical Status is not applied to the Models in the Unit, but instead the Unit suffers D3 automatic wounds with an AP of 2 and a Damage of 1 against which no Saving Throws of any kind may be made. Once those wounds are resolved, no Tactical Status is applied to any Model in the Unit.\n• Model with the Malefic Sub-Type are not affected by Special Rules that negatively modify their Leadership, Cool, Willpower or Intelligence Characteristics.\n• No Model that does not also have the Malefic Sub-Type may join or be joined by a Unit that includes one or more Models with the Malefic Unit Sub-Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "63",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           }
@@ -13255,6 +13275,8 @@
             "id": "1c52-0be8-bf23-f341",
             "description": "A Model with this Arcana Benefice and the Battlesmith (X) Special Rule may use the Battlesmith (X) Special Rule to restore lost Wounds to Models with the Infantry, Walker or Automata Types, as well as to restore lost Hull Points to those with the Vehicle Type.\n\n\nIn addition, a Model with the Arcana Benefice and the Battlesmith (X) Special Rule gains the following options when using the Battlesmith (X) Special Rules:\n\n\nReassemble - If this option is selected, then no Target Model is chosen. Instead, the Acting Model must be part of a Tech-Thrall Covenant Unit to use this option, that Unit is referred to here as the Target Unit, and this option's effects apply only to the Target Unit. A number of Tech-thrall Models equal to the value of X in the Battlesmith (X) Special Rule variant possessed by the Acting Model may be added to the Target Unit. These Models must be placed in Base Contact with the Acting Model, but thereafter are moved as part of the Unit. This option may increase the number of Models in a Tech-thrall Covenant Unit above its starting number and above the normal maximum size for a Tech-thrall Covenant Unit. This option may only be used once per Turn on any given Unit.",
             "hidden": false,
+            "page": "47",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13279,6 +13301,8 @@
             "id": "317f-b975-040c-4648",
             "description": "All models in a Unit that includes any Models with any version of the [Mechanicum] Trait modify their Weapon Skill and Balistic Skill Characteristics by -1 while at least one Model from that Unit is within 12\" of one or more enemy Models with this Arcana Benefice. This Arcana Benefice has no effect on Units which only include Models with the Malagra Trait.",
             "hidden": false,
+            "page": "49",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13303,6 +13327,8 @@
             "id": "d086-ae7a-8a98-8291",
             "description": "While a Model with this Arcana Benefice is within 3\" of a friendly Model with the Vehicle Type that does not also have the Super-heavy Sub-type, the Model with the Vehicle Type gains a 6+ Invulnerable Save (this Invulnerable Save does not stack with other Invulnerable Saves). Note that Models that are Embarked on a Vehicle are not counted as being within 3\". If more than one friendly Model with the Vehicle Type is within 3\" of a Model with the Macrotek Trait, then only one can benefit from this Rule - the Controlling Player must select one eligible target at the start of any Phase and indicate to the Opposing Player that this Model will benefit during that Phase.",
             "hidden": false,
+            "page": "50",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13327,6 +13353,8 @@
             "id": "bb2e-95ad-9154-4567",
             "description": "A Unit that includes one or more Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Cybernetica Trait and one or more Models with the Automata Type, can Hold, Control and Contest an Objective.",
             "hidden": false,
+            "page": "46",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13351,6 +13379,8 @@
             "id": "8346-0f8b-e1e7-6f26",
             "description": "A Model with this Arcana Benefice has the Base Value of its Leadership and Cool Characteristics increased by 1. Furthermore, a Model with this Arcana Benefice that is capable of joining Units may join a Unit that includes Models of a different Faction without incurring a penalty to any Characteristic due to differing Faction Traits and when joining any Unit that is composed of Models with any variant of the Mechanicum Trait is always counted as having the same Trait for the purposes of the Comptroller (X) Special Rule.",
             "hidden": false,
+            "page": "45",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13375,6 +13405,8 @@
             "id": "8b6c-5123-c28b-8560",
             "description": "A Model with this Arcana Benefice has the Base Value of its Wounds Characteristic increased by 1, and gains the Battle Meditation, Implacable Advance and Bulky (3) Special Rules and the Heavy Sub-Type. If the Model already has any variant of Bulky (X) Special Rule, then instead of adding Bulky (3) modify the value of X on the existing variant of the Bulky (X) Special Rule by +3. Models with this Benefice that do not have the Command Sub-Type also gain the Champion Sub-Type.",
             "hidden": false,
+            "page": "48",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13399,6 +13431,8 @@
             "id": "e85b-1dfe-4a71-5b20",
             "description": "While a Model with this Arcana Benefice is part of a Unit, any attack made by that Unit in any Phase that targets a Building, Fortification or Stationary Vehicle gains a modifier of +1 to the Strength of all Hits inflicted. Furthermore, the Target Unit of any Shooting Attack made by a Unit that includes a Model with this Arcana Benefice may not have the Shieldwall! Reaction declared for it.",
             "hidden": false,
+            "page": "51",
+            "publicationId": "4dc3-3347-238d-99b5",
             "modifiers": [
               {
                 "field": "hidden",
@@ -13487,7 +13521,9 @@
             "name": "Tech-thralls",
             "id": "bbb2-cd22-71fc-3e9a",
             "description": "A Unit that contains Models with this Special Rule is considered to be a Tech-thrall Covenant Unit for the purposes of the Arcana Benefice: An Endless Servitude.",
-            "hidden": false
+            "hidden": false,
+            "page": "176",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -14788,7 +14824,9 @@
                 "name": "Anbaric Claw",
                 "id": "59fc-d7d2-4321-4eb3",
                 "description": "\"A Vehicle with this Special Rule inflicts more Damage when it moves through enemy Units.\"\n\n\nWhen a Model with this Special Rule and the Vehicle Type moves through an enemy Unit, the number of Hits inflicted is increased from D6 to D3+3. These Hits have the Stun (1) Special Rule. Furthermore, if the Reactive Player declares a Death or Glory Reaction with a Vehicle with this Special Rule as the target, then the Vehicle with this Special Rule gains a 6+ Invulnerable Save against all Hits inflicted as part of the Death or Glory Reaction.",
-                "hidden": false
+                "hidden": false,
+                "page": "181",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ],
             "selectionEntryGroups": [
@@ -15350,7 +15388,9 @@
                 "name": "Macro-drill Transport Bay",
                 "id": "fdd8-6984-7cfc-9e58",
                 "description": "A Model with this Special Rule and the Transport Sub-Type may have Models Embark upon it as per the normal Rules – however Models of any Type other than Vehicle may Embark upon it, and more than one Unit may Embark at the same time. Only 4 Models may be Embarked that do not have the Paragon or Infantry Type, and Models with a variant of the Bulky (X) Special Rule with a value of X greater than 6, or Models with a Base Wounds Characteristic of 10 or more, may not Embark at all. \n\n\nFurther, Models may only Embark or Disembark from a Model with this Special Rule if it has not yet made an attack with the seismic macro-drill. Once an attack has been made with that Weapon then no Models may Embark or Disembark from this Model.\n\n\nIf the seismic macro-drill on a Model with this Special Rule is destroyed or otherwise rendered inoperable, then all Models Embarked on the Model suffer one Strength 8, AP3, Damage 4 Hit. Any Models that are not Removed as Casualties must then make an Emergency Disembarkation.",
-                "hidden": false
+                "hidden": false,
+                "page": "186",
+                "publicationId": "5469-14da-d0a1-6092"
               }
             ]
           }
@@ -15394,7 +15434,9 @@
             "name": "Carnage and Pandemonium",
             "id": "5696-5c91-8fbc-5183",
             "description": "For Battles whose total Points Limit is 1,500 or less, the Cohorts Vagus Detachment may be used in place of a Primary Detachment. Note that as the Cohorts Vagus Detachment includes no Command Slots or the ability to add them, that such an Army will have no additional Auxiliary or Apex Detachments linked to this alternative Primary Detachment, but may still include Allied Detachments as normal.\n\n\nIf this option is used, then the following Secondary Objective is added to the Mission - but may only be scored by the player whose army includes one or more Cohorts Vagus Detachments.\n\n\n**Carnage and Pandemonium** - in the Victory Sub-Phase of the Turn of a Player whose Army includes a Cohorts Vagus Detachment used as a Primary Detachment, if one or more enemy Units had its last Model Removed as a Casualty, then that Player scores 1 Victory Point. If one or more of the Units Removed as a Casualty had any variant of the Line (X) Special Rule then add +2 to the number of Victory Points scored. Note that this Secondary Objective is scored once per Turn, not once per Unit removed, meaning that the maximum number of Victory Points that can be scored for it each turn is 3.",
-            "hidden": false
+            "hidden": false,
+            "page": "42",
+            "publicationId": "0eca-ceab-6bad-9248"
           }
         ]
       },
@@ -16649,7 +16691,9 @@
                 "name": "Theurgika Maximus",
                 "id": "66cb-2a99-9416-7132",
                 "description": "A Model with this Special Rule may use two Cybertheurgic Rites per turn.\n\nA Unit that includes a Model with this Special Rule may have two Cybertheurgic Rits Invoked for it per Turn - but each Rite must be Invoked in a different Phase and the Model with this Special Rule must be the Focus of both Rites. Furthermore, a Model with this Special Rule ignores restrictions based on Faction Trait when having Cybertheurgic Rites selected for it.",
-                "hidden": false
+                "hidden": false,
+                "page": "45",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -16695,7 +16739,9 @@
                 "name": "Prime Advantage: Paragon of Metal",
                 "id": "f6ee-76a1-2d72-319f",
                 "description": "This Prime Advantage may only be selected for a Unit composed entirely of Models with both the Automata Type and the Cybernetica Trait. One Model in the Unit for which this Prime Advantage is selected, chosen by the Controlling Player, has its Base Leadership, Intelligence and Willpower modified by +4 each, its base Initiative and Weapon Skill modified by +1 each, and gains the Sergeant Sub-type. The Model that gains these benefits is also counted as a Tech-priest with the Cybernetica Trait for the purposes of The Deus Machina Arcana Benefice only.",
-                "hidden": false
+                "hidden": false,
+                "page": "46",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -16738,7 +16784,9 @@
                 "name": "Prime Advantage: Prime Specimens",
                 "id": "8672-1149-d4dd-98a5",
                 "description": "This Prime Advantage may only be selected for a Unit composed entirely of Models with both the Infantry Type and the Lacrymaerta Trait. All Models in a Unit for which this Prime Advantage is selected have the Base Value of their Strength Characteristic modified by +2 and the Base Value of their Wounds Characteristic modified by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "47",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -16774,6 +16822,8 @@
                 "name": "The Myrmidon's Path",
                 "id": "5065-fdbb-ee5b-7d6a",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -16826,6 +16876,8 @@
                 "name": "Power of the Machine Spirit",
                 "id": "eda0-465c-3595-e5d7",
                 "hidden": false,
+                "page": "49",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -16890,7 +16942,9 @@
                 "name": "Prime Advantage: Prime Conveyor",
                 "id": "07b4-609b-79da-9e49",
                 "description": "This Prime Advantage may only be selected for a Unit composed of a single Model with the Vehicle Type that does not also have the Super-heavy Sub-Type. A Model for which this Prime Advantage is selected gains a bonus of +1 to its Front and Side Armour Values, to a maximum of 14, +2 to its Hull Points Characteristic. If the Unit selected includes any Models with the Transport Sub-Type, then the Transport Capacity of those Models is also modified by +2.",
-                "hidden": false
+                "hidden": false,
+                "page": "50",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -16916,7 +16970,9 @@
                 "name": "Prime Advantage: Thallaxi Principe",
                 "id": "fb5f-5a19-5d9c-6215",
                 "description": "This Prime Advantage may only be selected for a Thallax Cohort Unit. All Models in a Unit with this Prime Advantage increase the Base Value of the Invulnerable Save Characteristic to 5+ and increase the Base Value of their Leadership Characteristic by +1",
-                "hidden": false
+                "hidden": false,
+                "page": "51",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           }
@@ -16950,7 +17006,9 @@
                 "name": "Archimandrite",
                 "id": "bd72-775a-4181-ea69",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Archimandrite Trait gains the Arcana Benifice: The Engram of Authority. An Archmagos or Archmagos on Abeyant with the Archimandrite Trait selected as a High Command Choice may be given the Theurgika Maximus Special Rule for a cost of +10 Points. If an Army includes a Model with the High Command Battlefield Role and the Archimadrite Trait then they may select the Apex Detachment: The Heart of Power. All Units with the Troops Battlefield Role selected as part of this Detachment must have the Combat Veterans Prime Advantage selected for them.",
-                "hidden": false
+                "hidden": false,
+                "page": "45",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -17010,7 +17068,9 @@
                 "name": "Cybernetica",
                 "id": "10c3-4cd5-4ad2-2f3b",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Cybernetica Trait gains the Arcana Benifice: The Deus Machina. A Unit composed entirely of Models with both the Automata Type and the Cybernetica Trait in a Prime slot may take the Mechanicum Prime Advantage: Paragon of Metal. If an Army includes a Model with the High Command Battlefield Role and the Cybernetica Trait then they may select the Apex Detachment: Command Maniple. Slots in this Detachment may only be used to select Units that only include Models with the Automata Type.",
-                "hidden": false
+                "hidden": false,
+                "page": "46",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -17025,7 +17085,9 @@
                 "name": "Lacrymaerta",
                 "id": "8d3a-7706-3db8-669e",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Lacrymarta Trait gains the Arcana Benifice: An Endless Servitude. A Unit composed entirely of Models with the Infantry Type and the Lacrymaerta Trait in a Prime slot may take the Mechanicum Prime Advantage: Prime Specimens. If an Army includes a Model with the High Command Battlefield Role and the Lactrymaerta Trait then they may select the Apex Detachment: The Panoply of Cruelty. Heavy Assault Slots in this Detachment may only be used to select Ursurax Cohort Units.",
-                "hidden": false
+                "hidden": false,
+                "page": "47",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -17059,6 +17121,8 @@
                 "id": "3e7a-73d1-7e6d-240b",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Macrotek Trait gains the Arcana Benifice: Protector of Iron. Any Unit with the Macrotek Trait composed of a single Model with the Vehicle Type that does not also have the Super-Heavy Type and is taken in a Prime slot may take the Mechanicum Prime Advantage: Prime Conveyor. If an Army includes a Model with the High Command Battlefield Role and the Macrotek Trait then they may select the Apex Detachment: Iron Phalanx. All Models selected in this Detachment must have the Vehicle Type and must have the Prime Conveyor Prime Advantage selected for them.",
                 "hidden": false,
+                "page": "50",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "modifiers": [
                   {
                     "field": "hidden",
@@ -17106,7 +17170,9 @@
                 "name": "Malagra",
                 "id": "a700-7ad8-0fec-cbbd",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Malagra Trait gains the Arcana Benifice: Even the Deathless May Know Fear. Any Model with the Malagra Trait may use the Mechanicum Gambit: Power of the Machine Spirit. If an Army includes a Model with the High Command Battlefield Role and the Malagra Trait then they may select the Apex Detachment: Crux of Judgement. All Slots in this Detachment must be filled with Arcuitor Magesterium Units. Models selected as part of this Detachment do not grant additional Auxiliary Detachments and all Models selected as part of this Detachment must be formed into a single Unit before being deployed and may not leave that Unit during the Battle.",
-                "hidden": false
+                "hidden": false,
+                "page": "49",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -17146,7 +17212,9 @@
                 "name": "Myrmidax",
                 "id": "fd44-6d87-2dd4-70ad",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Myrmidax Trait gains the Arcana Benifice: The Strength of Ages. Any Model with the Myrmidax Trait may use the Mechanicum Gambit: The Myrmidon's Path. If an Army includes a Model with the High Command Battlefield Role and the Myrmidax Trait then they may select the Apex Detachment: The Host of Destruction. Elite Slots in this Detachment may only be used to select Units that only include Models with the Myrmidax Trait.",
-                "hidden": false
+                "hidden": false,
+                "page": "48",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           },
@@ -17169,7 +17237,9 @@
                 "name": "Reductor",
                 "id": "91cc-b9d1-a1c9-c25d",
                 "description": "An Archmagos, Archmagos on Abeyant, Magos, Magos on Abeyant or Tech-priest with the Reductor Trait gains the Arcana Benifice: Wall Breaker. A Thallax Cohort Unit with the Reductor Trait that is taken in a Prime slot may take the Mechanicum Prime Advantage: Thallaxi Principe. If an Army includes a Model with the High Command Battlefield Role and the Reductor Trait then they may select the Apex Detachment: Thallax Command Cohort. All Slots in this Detachment must be filled with Thallax Cohort Units and these units must include a Praetorian.",
-                "hidden": false
+                "hidden": false,
+                "page": "51",
+                "publicationId": "4dc3-3347-238d-99b5"
               }
             ]
           }
@@ -17296,7 +17366,9 @@
                 "name": "Logistical Benefit",
                 "id": "daab-592c-9d4f-32d0",
                 "description": "Add one additional Force Organisation Slot to the Detachment that includes the Prime Slot, this Slot may be any Battlefield Role other than High Command, Command, Warlord or Lord of War. This Advantage may only be selected once per Detachment.",
-                "hidden": false
+                "hidden": false,
+                "page": "283",
+                "publicationId": "7d63-5df4-c656-52de"
               }
             ]
           }
@@ -17357,7 +17429,9 @@
                 "name": "Battlefield Orphans",
                 "id": "55bc-6f50-a88c-cb24",
                 "description": "All Models in the unit selected to fill the Prime Slot must begin the Battle in Reserves and gain the Cortex Corruption and Expendable (1) Special Rules. When a Unit selected to fill this Prime Slot is deployed on the Battlefield, modify the Base Weapon Skill and Ballistic Skill Characteristics of all Models in the Unit by +1, to a maximum of 4, and the Base Toughness Characteristic of all Models in the Unit by -1. At the end of the last turn of a Battle, in the Effects Sub-Phase of the final End Phase, all Models from a Unit selected to fill thus Prime Slot are Removed as Casualties.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           },
@@ -17399,7 +17473,9 @@
                 "name": "Misplaced Reinforcements",
                 "id": "0d9b-d47e-6b3f-aa08",
                 "description": "All Models in the Unit selected to fill the Prime Slot gain the Cortex Corruption, Expendable (1) and Infiltrate (9) Special Rules, and must be deployed using the Infiltrate (X) Special Rule, or if this is impossible, placed into Reserves. If the Unit selected to fill this Prime Slot is deployed with all of its Models more than 12\" from any enemy Model, then all Models in the Unit selected to fill this Prime Slot begin the Battle with one Wound less than their Base Wounds Characteristic. Once the Unit selected to fill this Prime Slot enters play, the Base Weapon Skill and Ballistic Skill Characteristics of all Models in that Unit are set to 2. However, in the Effects Sub-Phase of each Controlling Player's Start Phase, modify the Base value of the Weapons Skill and Ballistic Skill of all Models in the Unit selected to fill this Prime Slot by +1, to a maximum of 4.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           },
@@ -17438,7 +17514,9 @@
                 "name": "Corrupted Programming",
                 "id": "c79d-82dc-1f2c-ec5e",
                 "description": "All Models in the unit selected to fill the Prime Slot gain the Cortex Corruption, Expendable (1) and Fear (1) Special Rules and replace any variant of the Explodes (X) Special Rule they have with the Explodes (4+) Special Rule. In addition, in the Charge Sub-Phase of both Players' Assault Phases, if the Unit that is selected to fill this Prime Slot is not Locked in Combat or has not had a Charge declared for it, then the Unit immediately suffers Cybertheurgic Feedback.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           },
@@ -17477,7 +17555,9 @@
                 "name": "Malign Influence",
                 "id": "73ae-91ea-d438-f102",
                 "description": "All Models in the unit selected to fill the Prime Slot gain the Cortex Corruption, Expendable (1) and Hatred (All Models that do not have the Automata Type) Special Rule. In addition, a Unit selected to fill this Prime Slot can have Shooting Attacks made for it that target Friendly Units. Such attacks are resolved as usual and must use all Weapons available to the Attacking Unit - but the target Unit cannot react and neither Player may score any Victory Points as a result of such attacks. If at the end of any of the Controlling Player's Turns, a Unit selected to fill this Prime Slot has not made any attacks in either the Shooting Phase or the Assault Phase, then that Unit suffers Cybertheurgic Feedback in the Effects Sub-Phase of the End Phase of that Turn.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "0eca-ceab-6bad-9248"
               }
             ]
           }

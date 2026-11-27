@@ -26,7 +26,9 @@
             "name": "Titan",
             "id": "1598-e319-385b-0b34",
             "description": "- Models with this Sub-Type are not affected in any way by Difficult Terrain or Dangerous Terrain, and may pass through Impassable Terrain as long as they do not end a Move on or within an area of Impassable Terrain.\n- When making multiple Shooting Attacks in the same Shooting Phase, a Model with this Sub-Type does not have to make all attacks as Snap Shots.\n- A Model with this Sub-Type may not react to anything that does not have the Titan, Knight or Super-Heavy Sub-Type or that is attacking with a Weapon that has a Ranged Strength or Strength Modifier of 10 or more.\n- The Rules for applying Damage to a Model with this Sub-Type vary from those used with other Models with the Vehicle Type (See Liber Questoris p75)\n- The Rules for Shooting Attacks and Combat that involve Titans are changed. (Liber Questoris p73 and p75)\n- If a Model with this Sub-Type has a Transport Capacity, then it may transport any number of Units, so long as the number of Models in the transported Unit does not exceed the Vehicle's Transport Capacity\n- A Model with this Sub-Type cannot gain Tactical Statuses or Cybertheurgic Statuses.\n- A Model with this Sub-Type cannot be affected by any Psychic Weapon, Psychic Reaction or Psychic Power.\n- A Model with this Sub-Type may not be targeted by the Battlesmith (X) Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "70",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           }
         ]
       },
@@ -3491,7 +3493,9 @@
                 "name": "Minoris",
                 "id": "e498-058b-f7ab-f88a",
                 "description": "Do not increase the BS Characteristic of this Model's Arms Profile or Carapace Profile",
-                "hidden": false
+                "hidden": false,
+                "page": "62",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -3564,6 +3568,8 @@
                 "id": "c80b-57c3-e1d3-3511",
                 "description": "Increase the BS Characteristic of this Model’s Arms Profile and Carapace Profile to 4",
                 "hidden": false,
+                "page": "62",
+                "publicationId": "5a4b-8b0e-caa6-c7ed",
                 "modifiers": [
                   {
                     "field": "description",
@@ -3655,6 +3661,8 @@
                 "id": "c5d5-dcbf-2d51-adec",
                 "description": "Increase the BS Characteristic of this Model’s Arms Profile and Carapace Profile to 5",
                 "hidden": false,
+                "page": "62",
+                "publicationId": "5a4b-8b0e-caa6-c7ed",
                 "modifiers": [
                   {
                     "field": "description",

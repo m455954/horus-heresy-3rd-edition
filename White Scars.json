@@ -301,7 +301,6 @@
         ]
       }
     ],
-    "sharedRules": [{"name": "Swift of Action", "id": "d3e8-b33b-5486-1510", "comment": "Legion Tactica", "hidden": false}],
     "sharedSelectionEntries": [
       {
         "name": "Jaghatai Khan",
@@ -376,6 +375,8 @@
             "name": "Death by a Thousand Cuts",
             "id": "c734-9f77-cf99-1777",
             "hidden": false,
+            "page": "149",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -401,7 +402,9 @@
             "id": "da8b-ef22-b3d8-b966",
             "comment": "Rule",
             "description": "While a Model with this Special Rule is engaged in a Challenge, the Controlling Player can select the \"Death by a Thousand Cuts\" Gambit.",
-            "hidden": false
+            "hidden": false,
+            "page": "149",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -1153,7 +1156,9 @@
             "id": "998a-db76-ca15-6ff1",
             "comment": "Rule",
             "description": "While a Model with this Special Rule is engaged in a Challenge, the Controlling Player can select the \"Seeker of Atonment\" Gambit.",
-            "hidden": false
+            "hidden": false,
+            "page": "151",
+            "publicationId": "b905-0414-1057-bb34"
           }
         ],
         "selectionEntries": [
@@ -4186,7 +4191,9 @@
             "name": "Invocation of the Razing Tempest",
             "id": "47ba-ec7d-9761-6876",
             "description": "\"A Unit that includes any Models with this Special Rule can be more easily selected as the target of the Call of the\nWind Psychic Power.\"\nA Unit that includes any Models with this Special Rule may be selected as the target of the Call of the Wind Psychic Power from the Stormcalling Discipline while it has at least one Model within 24\" of the Focus instead of 12\". In addition, a Unit that includes any Models with this Special Rule may be selected as the Target of that Psychic Power even if no Models in that Unit have Line of Sight to the Focus.",
-            "hidden": false
+            "hidden": false,
+            "page": "99",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -4851,7 +4858,9 @@
             "name": "Proof of Valour",
             "id": "a5ea-6080-f967-4d04",
             "description": "\"Hit Tests resolved for Models with a Weapon Skill of 5 against a Unit entirely composed of Models with this Special Rule are only successful on a 4+\"\n\n\nFor any Strike Group in which the attacking Combatants have a current Weapon Skill Characteristic of 5, the Target Number of any Hit Test resulting from that Strike Group is always 4+ if that Strike Group's Target is entirely composed of Models with this Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "6",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -5217,7 +5226,9 @@
                     "name": "Swift of Action",
                     "id": "7557-938d-f2fb-6cfa",
                     "description": "All Models with the White Scars Trait (excluding Models with the Vehicle Type) are subject to the Swift of Action Special Rule\n\n\n\"The White Scars Player may increase their Model's Movement Characteristic.\"\n\nAt the start of any of the Controlling Player's Turns that Player may choose to increase the movement Characteristic of any Model with this Special Rule and a Base Movement Characteristic of at least 1 and apply a modifier of +2 to that Characteristic until the end of that Player Turn.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "146",
+                    "publicationId": "b905-0414-1057-bb34"
                   }
                 ]
               },

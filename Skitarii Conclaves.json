@@ -5101,7 +5101,9 @@
             "name": "Zealous Followers",
             "id": "e1a8-6776-5438-47b9",
             "description": "\"Bonepickers may use the Characteristics of nearby Skitarii Units when making Characteristic checks\"\n\n\nWhen a Characteristic Check is taken for a Unit made up of Models with this Special Rule, the Check may be made against the Base Characteristic of any Friendly Model with the Skitarii Trait that does not have the Routed Tactical Status that is part of a Unit that has a Model within 6\" and Line of Sight of a Model from the Unit for which the Characteristic Check is made. Note that Modifiers applied to the Unit for which the Characteristic Check is being made, for example from the Pinning (X) Special Rule, are applied to the Characteristic of the Model with the Skitarii Trait that is used for the Check.",
-            "hidden": false
+            "hidden": false,
+            "page": "42",
+            "publicationId": "19d2-81e2-4215-702c"
           }
         ],
         "selectionEntries": [
@@ -5227,7 +5229,9 @@
                 "name": "Acquisitor",
                 "id": "de37-e8ff-a863-9f29",
                 "description": "All Models with the Acquisitor Trait (excluding Models with the Vehicle Type) gain the Line (1) Special Rule",
-                "hidden": false
+                "hidden": false,
+                "page": "39",
+                "publicationId": "19d2-81e2-4215-702c"
               }
             ]
           },
@@ -5262,7 +5266,9 @@
                 "name": "Expurgator",
                 "id": "ab9e-409f-51f4-f18c",
                 "description": "All Models with the Expurgator Trait (excluding Models with the Vehicle Type) gain the Vanguard (3) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "39",
+                "publicationId": "19d2-81e2-4215-702c"
               }
             ]
           },
@@ -5297,7 +5303,9 @@
                 "name": "Vindictor",
                 "id": "b17e-4608-2bbf-11b8",
                 "description": "All Models with the Vindictor Trait (excluding Models with the Vehicle Type) increase the value of any instance of the Deflagrate (X) Special Rule they or any Weapons they have, by +1.",
-                "hidden": false
+                "hidden": false,
+                "page": "39",
+                "publicationId": "19d2-81e2-4215-702c"
               }
             ]
           },
@@ -5332,7 +5340,9 @@
                 "name": "Scourger",
                 "id": "1a69-1a56-fead-fb03",
                 "description": "All Models with the Scourger Trait (excluding models with the Vehicle Type) must add +1 to Set-up Moves, to a maximum of 6\".",
-                "hidden": false
+                "hidden": false,
+                "page": "39",
+                "publicationId": "19d2-81e2-4215-702c"
               }
             ]
           }

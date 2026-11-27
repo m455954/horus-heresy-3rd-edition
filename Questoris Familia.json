@@ -30,7 +30,9 @@
             "name": "The Knight Sub-Type",
             "id": "f8e2-90f6-8826-540e",
             "description": "KNIGHT MODELS\nKnight Models and Bases\nA Model with the Knight Sub-Type must have a base (unless otherwise specified), and when measuring for that Model, all distances are measured to and from the base, not the Model's Hull.\n\n\nKnight Model Characteristics\nA Model with the Knight Sub-Type has Weapons Skill, Initiative and Attacks Characteristics in addition to those Characteristics on a standard Vehicle Model Profile, as well as no Transport Capacity Characteristic (this does mean a Model with the Knight Sub-Type may not also have the Transport Sub-Type). Additionally, a Model with the Knight Sub-Type will only have two Sub-Characteristics for Armour - Front and Rear - and any Attacks or Hits that are forced to target the Side Armour of such a Model instead hit the Rear Armour.\n\n\nKNIGHTS AND MOVEMENT\nKnights and Rushing\nThe presence of an Initiative Characteristic on the Profile of a Model with the Knight Sub-Type allows it to Rush in the Movement Phase.\n\n\nKnights and Terrain\nA Model with the Knight Sub-Type is not affected in any way by Difficulty Terrain or Dangerous Terrain but may still neither pass through nor end its move in Impassable Terrain\n\n\nKnights and Other Models\nA Model with the Knight Sub-Type ignores both friendly and enemy Models and Units when moving, and never counts as having moved through an enemy Unit. However, when moving over a friendly Unit, all Models with the Knight Sub-Type must end their move at least 1\" away from all Models that are not part of the same Unit, or if moving over an enemy Unit, must end their move at least 1\" away from any enemy Model.\n\n\nKNIGHTS AND SHOOTING ATTACKS\nKnights and Line of Sight\nModels with the Knight Sub-Type do not block Line of Sight unlike other Vehicle Models.\n\n\nTargeting Knights\nA Unit entirely composed of Models with the Knight Sub-Type use a different chart for determining its Firing Arcs\n\n\nKnight Weapon Mounts\nSome Weapons available to Models with the Knight Sub-Type may have the following Weapon Mount\n\n\n- Dorsal (Arc) Mounted - Dorsal Mounted Weapons will always specify one or more Firing Arcs and may attack targets in any of these listed Firing Arcs. However, they may not target any Unit within 8\" of the attacking Model.\n\n\nKNIGHTS AND COMBAT\nAttacking Knights in Combat\nThe presence of a Weapon Skill Characteristic on the Profile of a Model with the Knight Sub-Type means Hit Tests resolved against it in Combat use this value.\n\n\nKnights and Volley Attacks\nAny Defensive Weapons a Model with the Knight Sub-Type has are considered to have the Assault Trait.\n\n\nKnights, Charging and Attacks\nA Model with the Knight Sub-Type may have Charges declared for it and make Attacks in the Fight Sub-Phase.\n\n\nKnights and Failed Charges\nIf a Charge roll for a Unit entirely composed of Models with the Knight Sub-Type is failed in Step 5 of the Charge Procedure, the Controlling Player immediately rolls a single Dice, with a Target Number equal to the highest value of X of any instance of the Auto-Repair (X) Special Rule on Models in the Charging Unit. If this roll succeeds, there is no further effect, but if the roll fails, all Models in the Charging Unit gain the Stunned Tactical Status.\n\n\nKnights and Combat Resolution\nIn Step 4 of the Resolution Sub-Phase, the Controlling Player of a Unit that inclkudes any Model with the Knight Sub-Type may choose the Consolidate or Gun Down Aftermath Optiopns for that Unit in addition to the Hold Aftermath Option, though restrictions on when these may be selected still apply.",
-            "hidden": false
+            "hidden": false,
+            "page": "28",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           }
         ]
       },
@@ -1865,13 +1867,17 @@
         "name": "Colossus",
         "id": "1de7-bcf0-4bdd-c70d",
         "description": "A Model with the Colossus Special Rule changes elements of the Knight Sub-Type regarding bases, Line of Sight, Firing Arcs and Armour Facings.\n\n\nA Model with both the Knight Sub-Type and the Colossus Special Rule is not required to have a base, and when measuring for that Model, all distances are measured to and from the Model's Hull. A Model with both the Knight Sub-Type and the Colossus Special Rule does block Line of Sight in the manner of other Vehicles. Additionally, when determining Front and Rear Firing Arcs and Armour Facings for a Model with both the Knight Sub-Type and the Colossus Special Rule, draw an imaginary line along the centre of the Model, from left to right or right to left, equally dividing the front and rear portions of the Model.",
-        "hidden": false
+        "hidden": false,
+        "page": "96",
+        "publicationId": "5a4b-8b0e-caa6-c7ed"
       },
       {
         "name": "Independent Fire",
         "id": "5482-aadd-5fe0-a6ab",
         "description": "Models with this Special Rule can shoot at multiple targets at full Ballistic Skill.\n\n\nWhen making multiple Shooting Attacks in the same Shooting Phase, a Model with this Special Rule and the Vehicle Type does not have to make all attacks as Snap Shots.",
-        "hidden": false
+        "hidden": false,
+        "page": "98",
+        "publicationId": "5a4b-8b0e-caa6-c7ed"
       }
     ],
     "sharedSelectionEntries": [
@@ -2502,7 +2508,9 @@
             "name": "Baronial Court",
             "id": "87b9-6f8a-1d33-d189",
             "description": "A single Yeomanry Mesnie Additional Detachment may be added to an Army with the Imperial House Household Paradigm without requiring a specific corresponding Household Rank Prime Advantage to have been selected for a Unit in that Army. This Additional Detachment is linked to either a Knight Households Primary Detachment or a Lord of War Additional Detachment (chosen by the Player), as long as that Detachment contains at least one Model with the Questoris Imperialis Faction Trait.\nAdditionally, an Army with the Imperial House Household Paradigm is not subject to the 0-1 per Army restriction on the Lord Scion Household Rank Prime Advantage.",
-            "hidden": false
+            "hidden": false,
+            "page": "14",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           }
         ]
       },
@@ -2518,7 +2526,9 @@
             "name": "Servants of the Machine",
             "id": "8229-a639-cdac-d4b5",
             "description": "A single Automata Talon Additional Detachment may be added to an Army with the Mechanicum Vassals Household Paradigm without requiring a specific corresponding Household Rank Prime Advantage to have been selected for a Unit in that Army. This Additional Detachment is linked to either a Knight Households Primary Detachment or a Lord of War Additional Detachment (chosen by the Player), as long as that Detachment contains at least one Model with the Questoris Mechanicum Faction Trait.\nAdditionally, an Army with the Mechanicum Vassals Household Paradigm is not subject to the 0-1 per Army restriction on the Preceptor Household Rank Prime Advantage.",
-            "hidden": false
+            "hidden": false,
+            "page": "16",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           }
         ]
       },
@@ -2534,13 +2544,17 @@
             "name": "Loyal Retainers",
             "id": "e9ba-186a-0292-add6",
             "description": "A single Armiger Talon Additional Detachment may be added to an Army with the Freeblade Company Household Paradigm without requiring a specific corresponding Household Rank Prime Advantage to have been selected for a Unit in that Army. This Additional Detachment is linked to either a Knight Households Primary Detachment or a Lord of War Additional Detachment (chosen by the Player), as long as that Detachment contains at least one Model with the Questoris Mendicant Faction Trait.",
-            "hidden": false
+            "hidden": false,
+            "page": "18",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           },
           {
             "name": "Mendicant Knights",
             "id": "4809-08ea-0757-b353",
             "description": "Units selected as part of a Lord of War Detachment in an Army with the Freeblade Company Household Paradigm which are selected from the Questoris Familia Army List may each have a single Household Rank Prime Advantage selected for them as if they had been selected to fill a Prime Force Organisation Slot.",
-            "hidden": false
+            "hidden": false,
+            "page": "18",
+            "publicationId": "5a4b-8b0e-caa6-c7ed"
           }
         ]
       },
@@ -5568,21 +5582,6 @@
         ]
       },
       {
-        "name": "Ion gauntlet shield",
-        "id": "3834-574c-5124-46c3",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "rules": [
-          {
-            "name": "Ion gauntlet shield",
-            "id": "326e-3446-5e37-4f71",
-            "description": "lon gauntlet shields provide an Invulnerable Save against Melee Attacks.\n\n\nA Model with an ion gauntlet shield has a 5+ Invulnerable Save against Penetrating Hits inflicted with Melee Weapons. Additionally, a Model with an ion gauntlet shield may have Invulnerable Saves made for it against any Glancing Hits it has suffered in Step 10 of an Initiative Step, before any rolls on the Vehicle Damage Chart are made, discarding a single Glancing Hit for each successful save.",
-            "hidden": false
-          }
-        ]
-      },
-      {
         "name": "Graviton singularity cannon",
         "id": "7119-37d2-cbdf-f682",
         "hidden": false,
@@ -6468,7 +6467,9 @@
                 "name": "Seneschal",
                 "id": "e095-6361-3e38-faf5",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. When a Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage is allocated a Penetrating Hit, the Damage of the Penetrating Hit is modified by -1, to a minimum of 1. Additionally, a Unit with this Household Rank Prime Advantage counts as being a High Command Choice for the purposes of any version of the Slay the Warlord (X) Secondary Objective.",
-                "hidden": false
+                "hidden": false,
+                "page": "23",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6516,7 +6517,9 @@
                 "name": "Lord Scion",
                 "id": "2cf3-a1f5-5e1e-9f39",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage may have two Repair Tests made for them by the Active Player in each of their Statuses Sub-Phases, rather than just one.",
-                "hidden": false
+                "hidden": false,
+                "page": "23",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6545,7 +6548,9 @@
                 "name": "Scion Arbalester",
                 "id": "524c-9053-51ca-b2f8",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. When a Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage moves a distance equal to no more than half of its Movement Characteristic in inches in the Movement Phase, it may still benefit from any variant of the Heavy (X) or Ordnance (X) Special Rule on any Weapons it has.",
-                "hidden": false
+                "hidden": false,
+                "page": "23",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6572,7 +6577,9 @@
                 "name": "Scion Aspirant",
                 "id": "9cbd-ace6-e195-ff86",
                 "description": "All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Expendable (1)\nSpecial Rule and modify the value of X on any version of the Auto-repair (X) Special Rule they have by -1.",
-                "hidden": false
+                "hidden": false,
+                "page": "23",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6611,7 +6618,9 @@
                 "name": "Aucteller",
                 "id": "67a9-03d0-4602-5525",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Precision (5+) Special Rule on any Melee Weapons they have. Any Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage may not have any Questoris Vow declared for it other than the Vow of Execution.",
-                "hidden": false
+                "hidden": false,
+                "page": "24",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6650,7 +6659,9 @@
                 "name": "Scion Dolorous",
                 "id": "be41-46f5-a7fa-1b0a",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Fear (2) Special Rule. Any Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage may not have any Questoris Vow declared for it other than the Vow of Slaying.",
-                "hidden": false
+                "hidden": false,
+                "page": "24",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6680,7 +6691,9 @@
                 "name": "Scion Implacable",
                 "id": "71b0-2093-1a41-a2e1",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Firestorm Special Rule. Any Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage may not have any Questoris Vow declared for it other than the Vow of Resolve.",
-                "hidden": false
+                "hidden": false,
+                "page": "24",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6697,7 +6710,9 @@
                 "name": "Scion Martial",
                 "id": "0d73-16ab-2f05-796c",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. The Scions Martial represent the meridian of skill and power on which the Unit Profiles in the Questoris Familia Army List are based, and therefore, the Scion Martial Household Rank Prime Advantage does not modify the profile of any Models in a Unit for which it is selected.",
-                "hidden": false
+                "hidden": false,
+                "page": "25",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6755,7 +6770,9 @@
                 "name": "Preceptor",
                 "id": "c3ed-fdb1-76ef-44c2",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Battlesmith (2) Special Rule and count as having an Intelligence Characteristic of 8 when making Intelligence Checks as part of the Battlesmith (X) Special Rule.",
-                "hidden": false
+                "hidden": false,
+                "page": "25",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6802,7 +6819,9 @@
                 "name": "Scion Uhlan",
                 "id": "afc9-e09c-3f18-7360",
                 "description": "This Prime Advantage may only be selected for units entirely composed of Models with the Knight Sub-Type. All Models in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage gain the Fast (2) and the Impact (A) Special Rules. Any Model in a Unit selected to fill a Prime Slot with this Household Rank Prime Advantage may not have any Questoris Vow declared for it other than the Vow of Alacrity.",
-                "hidden": false
+                "hidden": false,
+                "page": "25",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           }
@@ -6929,7 +6948,9 @@
                 "name": "Vow of Alacrity",
                 "id": "fffb-1287-cd71-ba39",
                 "description": "If, during the Controlling Player's first Player Turn, an attack made by a Model with this Questoris Vow causes the last Model in an enemy Unit to be Removed as a Casualty, or causes an enemy Unit to Fall Back off the Battlefield, then the amount of Victory Points that would be scored by the Controlling Player for achieving any version of the First Strike (X) Secondary Objective is increased by 2.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -6992,7 +7013,9 @@
                 "name": "Vow of Belligerence",
                 "id": "2242-3a61-31ba-d7d8",
                 "description": "If a Model with this Questoris Vow is part of the first Combat in a Battle for which the Controlling Player is declared the winner, the Controlling Player gains 2 Victory Points.",
-                "hidden": false
+                "hidden": false,
+                "page": "18",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -7055,7 +7078,9 @@
                 "name": "Vow of Dominion",
                 "id": "e0fc-de7f-7269-48e1",
                 "description": "The first time in a Battle each Model with this Questoris Vow scores Victory Points due to the Vanguard (X) Special Rule, the number of Victory Points gained by the Controlling Player is increased by 2.",
-                "hidden": false
+                "hidden": false,
+                "page": "14",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -7100,7 +7125,9 @@
                 "name": "Vow of Execution",
                 "id": "f3f3-287a-a178-80ce",
                 "description": "If an attack made by a Model with this Questoris Vow causes the last Model in an enemy Unit selected to fill a High Command Force Organisation Slot to be Removed as a Casualty, the amount of Victory Points that would be scored by the Controlling Player as a result for achieving any version of the Slay the Warlord (X) Secondary Objective is increased by 2.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -7163,7 +7190,9 @@
                 "name": "Vow of Obeisance",
                 "id": "a9e7-a16a-d93a-37f1",
                 "description": "The first time in a Battle a friendly Unit with at least one Model within 12\" of a Model with this Questoris Vow scores an Objective, the value of that Objective is modified by +2 for the duration of the Victory Sub-Phase of that End Phase.",
-                "hidden": false
+                "hidden": false,
+                "page": "16",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -7208,7 +7237,9 @@
                 "name": "Vow of Resolve",
                 "id": "07f2-4b8c-2616-2b75",
                 "description": "If a Model with this Questoris Vow remains on the Battlefield at the end of the Battle, then the amount of Victory Points that would be scored by the Controlling Player for achieving any version of the Last Man Standing (X) Secondary Objective is increased by 2.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           },
@@ -7253,7 +7284,9 @@
                 "name": "Vow of Slaying",
                 "id": "2c58-20b5-adf4-760a",
                 "description": "If an attack made by a Model with this Questoris Vow causes the last Model in an enemy Unit selected to fill a Lord of War or Warlord Force Organisation Slot to be Removed as a Casualty, then the amount of Victory Points that would be scored by the Controlling Player as a result for achieving any version of the Giant Killer (X) Secondary Objective is increased by 2.",
-                "hidden": false
+                "hidden": false,
+                "page": "43",
+                "publicationId": "5a4b-8b0e-caa6-c7ed"
               }
             ]
           }

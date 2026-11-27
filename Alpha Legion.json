@@ -5578,7 +5578,9 @@
             "name": "Hydra’s Wail",
             "id": "df95-0d47-92f4-2473",
             "description": "When making Cool or Intelligence Checks for a Unit with at least one Model within 12\" of at least one enemy Model with this Special Rule, the Controlling Player must roll an additional Dice and discard the lower roll.",
-            "hidden": false
+            "hidden": false,
+            "page": "141",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -5946,7 +5948,9 @@
             "name": "Treacherous Lure",
             "id": "16e2-acaf-67aa-5d45",
             "description": "\"A Unit entirely composed of Models with this Special Rule cannot be targeted by Shooting Attacks during the first Battle Turn.\"\n\n\n\n\nA Unit composed entirely of Models with this Special Rule may not be selected as the Target Unit of a Shooting Attack during the first Battle Turn. This Special Rule has no effect on Volley Attacks or Shooting Attacks made as part of a Reaction.",
-            "hidden": false
+            "hidden": false,
+            "page": "22",
+            "publicationId": "1cef-cfb8-32c9-a1f4"
           }
         ],
         "selectionEntries": [
@@ -6204,7 +6208,9 @@
                     "name": "Lies and Obfuscation",
                     "id": "9601-30ae-d390-7b3f",
                     "description": "\"Alpha Legion Models count as further away than they actually are.\"\n\n\nA Model with this Special Rule is always considered to be 2\" further away than it actually is when measuring range to it from any enemy Model for the purpose of resolving a Shooting Attack, Charge or any Reaction declared by an enemy Model or Unit (this is cumulative with any other modifiers to range imposed by Special Rules).",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "294",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },

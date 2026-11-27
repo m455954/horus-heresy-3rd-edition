@@ -2561,7 +2561,9 @@
             "name": "Those Once Honoured",
             "id": "111b-8183-5b3d-c161",
             "description": "A Unit that includes any Models with this Special Rule can never be joined by a Perturabo Model.",
-            "hidden": false
+            "hidden": false,
+            "page": "91",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -2851,7 +2853,9 @@
             "name": "Ferrum Occularis",
             "id": "f826-f46a-32b4-33cb",
             "description": "\"Wounds caused by a Model with this Special Rule may ignore Cover Saves.\"\nCover Saves may not be taken against unsaved wounds caused by a Shooting Attack made by a Model with this Special Rule, if the Model with this Special Rule was part of a Unit that remained Stationary in its Controlling Player’s previous Movement Phase.",
-            "hidden": false
+            "hidden": false,
+            "page": "92",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -3198,7 +3202,9 @@
             "name": "Lair of the Iron Tyrant",
             "id": "48b4-d73a-2798-2bca",
             "description": "Only Perturabo or Domitar-ferrum Models may Embark on a Model with this Special Rule.",
-            "hidden": false
+            "hidden": false,
+            "page": "93",
+            "publicationId": "5469-14da-d0a1-6092"
           }
         ],
         "selectionEntries": [
@@ -3740,7 +3746,9 @@
                     "name": "The Bitter End",
                     "id": "5e15-ed21-2af8-bbda",
                     "description": "If the Controlling Player is making a Leadership Check or Cool Check for a Unit that includes a majority of Models with this Special Rule, they may ignore negative modifiers applied by the Panic (X), Pinning (X), Stun (X) or Suppressive (X) Special Rules.",
-                    "hidden": false
+                    "hidden": false,
+                    "page": "148",
+                    "publicationId": "e54c-7040-0f35-d85d"
                   }
                 ]
               },
