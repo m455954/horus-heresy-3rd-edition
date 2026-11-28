@@ -205,26 +205,6 @@
         "categoryLinks": [
           {"name": "Command", "id": "bfca-988c-b8d3-f6d7", "hidden": false, "primary": true, "targetId": "6dbf-654a-f06f-2d69"},
           {"name": "White Scars", "id": "1b5b-e5e1-024e-2343", "hidden": false, "primary": false, "targetId": "ad95-5dc4-7b15-8ff3"}
-        ],
-        "modifiers": [
-          {
-            "field": "category",
-            "type": "set-primary",
-            "value": "433f-3f36-42c3-4662",
-            "conditions": [
-              {
-                "childId": "04d9-b191-7ea7-d461",
-                "childName": "Primary - Sky-Hunter Phalanx",
-                "field": "forces",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
         ]
       },
       {
