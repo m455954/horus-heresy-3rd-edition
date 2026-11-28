@@ -6216,6 +6216,8 @@
                     "name": "Beseech the Gods",
                     "id": "f339-be1f-aa01-4475",
                     "hidden": false,
+                    "page": "272",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -6249,6 +6251,8 @@
                     "name": "Glorious Martyrdom",
                     "id": "3aac-a25b-64c8-d377",
                     "hidden": false,
+                    "page": "273",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

@@ -65293,6 +65293,8 @@
             "name": "Combat Air Patrol",
             "id": "5bfc-3f92-6026-1acd",
             "hidden": false,
+            "page": "226",
+            "publicationId": "7d63-5df4-c656-52de",
             "typeId": "c14c-ecfd-ea65-58c9",
             "typeName": "Reaction",
             "characteristics": [
@@ -124408,6 +124410,8 @@
                 "name": "Concealed Ambush Advanced Reaction",
                 "id": "5139-b026-7fc8-0cb7",
                 "hidden": false,
+                "page": "48",
+                "publicationId": "10e2-87c7-4862-2cc4",
                 "typeId": "c14c-ecfd-ea65-58c9",
                 "typeName": "Reaction",
                 "characteristics": [

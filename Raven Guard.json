@@ -101,27 +101,6 @@
         "categoryLinks": [{"name": "Troops", "id": "2a71-0561-f6e7-bf39", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
-    "sharedProfiles": [
-      {
-        "name": "Decapitation Strike",
-        "id": "0307-e161-ca95-b0a2",
-        "hidden": false,
-        "typeId": "9b5f-da4e-5739-cbcf",
-        "typeName": "Gambit",
-        "characteristics": [
-          {
-            "name": "Summary",
-            "$text": "This Gambit allows the Model to make a single attack first, followed by the remainder of their attacks, if the first is successful.",
-            "typeId": "98f3-41cf-e3be-2ae7"
-          },
-          {
-            "name": "Description",
-            "$text": "This Gambit may be selected once per Challenge. When selected, no Focus Roll is made, instead the Controlling Player of the Model for which this Gambit has been selected makes a single attack at the end of the Focus Step. If the Hit Test and Wound Test made for this attacks are both successful (i.e., they meet the required Target Number), the Controlling Player of the Model with this Gambit may then make the Remainder of the attacks the Model that this Gambit is selected for is eligible to make in the current Strike Step, minus the single attack already made. If either the Hit Test or Wound Test made for the initial attack are not successful, the Model for which this Gambit is selected may make no further attacks during this Strike Step.",
-            "typeId": "2d7d-b1d9-dead-605a"
-          }
-        ]
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Corvus Corax",
@@ -280,6 +259,8 @@
                 "name": "The Shadowed Lord",
                 "id": "2e48-f409-aa83-2e2a",
                 "hidden": false,
+                "page": "281",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2520,6 +2501,8 @@
                     "name": "Decapitation Strike",
                     "id": "a7a3-a510-c337-d98e",
                     "hidden": false,
+                    "page": "278",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -2553,6 +2536,8 @@
                     "name": "Shadow Veil",
                     "id": "1f9c-47fe-5ace-c7f8",
                     "hidden": false,
+                    "page": "279",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

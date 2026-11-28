@@ -1673,6 +1673,8 @@
         "name": "Rallying Cry",
         "id": "8b98-cc22-ceed-aba1",
         "hidden": false,
+        "page": "15",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -1707,6 +1709,8 @@
         "name": "Rad Purge",
         "id": "5788-b2f2-8afa-dd1b",
         "hidden": false,
+        "page": "17",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -1737,6 +1741,8 @@
         "name": "Valorous End",
         "id": "5b62-ebec-2331-0f45",
         "hidden": false,
+        "page": "19",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -1771,6 +1777,8 @@
         "name": "Stomp",
         "id": "6b32-da22-e1f1-933d",
         "hidden": false,
+        "page": "44",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -1805,6 +1813,8 @@
         "name": "Rotate Ion Shields",
         "id": "449d-63da-9341-8d41",
         "hidden": false,
+        "page": "45",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -1835,6 +1845,8 @@
         "name": "Joust!",
         "id": "1d2f-02a9-f14b-e916",
         "hidden": false,
+        "page": "45",
+        "publicationId": "5a4b-8b0e-caa6-c7ed",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [

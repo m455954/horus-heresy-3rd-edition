@@ -146,61 +146,6 @@
         "categoryLinks": [{"name": "Troops", "id": "9993-1018-66d9-6bd2", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
-    "sharedProfiles": [
-      {
-        "name": "Duty is Sacrifice",
-        "id": "e4e8-4223-fd52-0477",
-        "hidden": false,
-        "typeId": "9b5f-da4e-5739-cbcf",
-        "typeName": "Gambit",
-        "characteristics": [
-          {
-            "name": "Summary",
-            "$text": "This Gambit allows the Player to choose to suffer wounds in return for a bonus to their own Focus Roll.",
-            "typeId": "98f3-41cf-e3be-2ae7"
-          },
-          {
-            "name": "Description",
-            "$text": "If this Gambit is selected, the Controlling Player can add a bonus of 1, 2 or 3 to their Focus Roll. In the Apply Damage from Unsaved Wounds Step of the opponent's Strike Step, the Model this Gambit was selected for suffers a number of wounds, each with an AP Characteristic of s and a Damage Characteristic of 1, equal to the bonus to the Focus Roll applied by this Gambit, against which only Armour Saves, Invulnerable Saves and Damage Mitigation rolls can be taken as normal.",
-            "typeId": "2d7d-b1d9-dead-605a"
-          }
-        ]
-      },
-      {
-        "name": "Advanced Reaction",
-        "id": "c384-4e06-64ef-f4bc",
-        "hidden": false,
-        "typeId": "c14c-ecfd-ea65-58c9",
-        "typeName": "Reaction",
-        "characteristics": [
-          {
-            "name": "Summary",
-            "$text": "This Reaction allows the Reacting Unit to increase certain Characteristics during the Assault Phase.",
-            "typeId": "5d02-0e54-0f6a-0f0b"
-          },
-          {
-            "name": "Trigger",
-            "$text": "Once per Battle, the Reactive Player may declare the Selfless Burden Advanced Reaction at the start of Step 3 of a Charge declared by the Active Player, targeting a Unit under their control which only includes Models with the Salamanders Trait that do not have the Vehicle Type.",
-            "typeId": "02e4-3f90-3125-f8b4"
-          },
-          {
-            "name": "Cost",
-            "$text": "The Reactive Player must spend 1 point of their Reaction Allotment to declare the Selfless Burden Advanced Reaction, this cost paid as soon as the declaration is made.",
-            "typeId": "954a-972f-5c94-2ede"
-          },
-          {
-            "name": "Target",
-            "$text": "For a Selfless Burden Advanced Reaction, the Reacting Unit is always the Unit that is the target of the Charge that triggered this Reaction.",
-            "typeId": "e102-8fdd-9cd4-c0f9"
-          },
-          {
-            "name": "Process",
-            "$text": "1. All Models in the Reacting Unit have their Weapon Skill, Strength and Attacks Characteristics modified by +1 until the end of the current Assault Phase.\n2. In the following Statuses Sub-Phase, the Reactive Player must roll a D6 for each Model in the Reacting Unit. For each result of 1, the Reacting Unit suffers 1 automatic wound with a Damage Characteristic of 1, an AP of -, against which Saving Throws and Damage Mitigation Rolls may be taken.",
-            "typeId": "57cf-1c68-a020-2529"
-          }
-        ]
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Firedrake Terminator Squad",
@@ -977,6 +922,8 @@
                 "name": "The Undying Fire",
                 "id": "d2f0-063a-19db-bbc7",
                 "hidden": false,
+                "page": "267",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -3747,6 +3694,8 @@
                     "name": "Duty is Sacrifice",
                     "id": "1442-2321-b209-f97b",
                     "hidden": false,
+                    "page": "264",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3780,6 +3729,8 @@
                     "name": "Selfless Burden",
                     "id": "99de-961b-602f-71bc",
                     "hidden": false,
+                    "page": "265",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

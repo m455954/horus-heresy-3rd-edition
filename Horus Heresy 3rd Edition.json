@@ -69440,6 +69440,8 @@
         "name": "Medic!",
         "id": "f2f4-a5e4-fc21-805b",
         "hidden": false,
+        "page": "316",
+        "publicationId": "b905-0414-1057-bb34",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -69474,6 +69476,8 @@
         "name": "Shieldwall!",
         "id": "e70e-0849-1ca6-81d6",
         "hidden": false,
+        "page": "316",
+        "publicationId": "4e8d-9c4c-93a6-aea2",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -69508,6 +69512,8 @@
         "name": "Smokescreen",
         "id": "999b-689a-4ee7-8901",
         "hidden": false,
+        "page": "317",
+        "publicationId": "b905-0414-1057-bb34",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -70055,6 +70061,8 @@
             "name": "Take Cover",
             "id": "b8f5-5dcd-ee1b-5017",
             "hidden": false,
+            "page": "17",
+            "publicationId": "c731-1e58-7a7f-930c",
             "typeId": "c14c-ecfd-ea65-58c9",
             "typeName": "Reaction",
             "characteristics": [
@@ -70085,6 +70093,8 @@
             "name": "Bypass Cogitator",
             "id": "1d42-22da-4e5f-9879",
             "hidden": false,
+            "page": "17",
+            "publicationId": "c731-1e58-7a7f-930c",
             "typeId": "c14c-ecfd-ea65-58c9",
             "typeName": "Reaction",
             "characteristics": [

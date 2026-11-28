@@ -579,6 +579,8 @@
                 "name": "Tempered by War",
                 "id": "ebb9-85b1-449d-16ae",
                 "hidden": false,
+                "page": "233",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -3416,6 +3418,8 @@
                     "name": "Legion of One",
                     "id": "0972-1245-2cc6-e374",
                     "hidden": false,
+                    "page": "230",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3445,6 +3449,8 @@
                     "name": "Spite of the Gorgon",
                     "id": "bdf5-7cf1-05cd-ceab",
                     "hidden": false,
+                    "page": "231",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

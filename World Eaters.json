@@ -307,6 +307,8 @@
                 "name": "Lord of the Red Sands",
                 "id": "82f6-d0d1-21e4-348d",
                 "hidden": false,
+                "page": "187",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -1458,6 +1460,8 @@
             "name": "Guns of the Conqueror",
             "id": "6554-8cc1-d5d5-a1ce",
             "hidden": false,
+            "page": "191",
+            "publicationId": "e54c-7040-0f35-d85d",
             "typeId": "c14c-ecfd-ea65-58c9",
             "typeName": "Reaction",
             "characteristics": [
@@ -3651,6 +3655,8 @@
                     "name": "Brutal Dismemberment",
                     "id": "1e68-7b8f-e641-b1cb",
                     "hidden": false,
+                    "page": "184",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3684,6 +3690,8 @@
                     "name": "Furious Charge",
                     "id": "f42e-f20c-f516-0c50",
                     "hidden": false,
+                    "page": "185",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -3765,6 +3773,8 @@
                     "name": "Violent Overkill",
                     "id": "2fb5-499c-55b2-aa59",
                     "hidden": false,
+                    "page": "182",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3798,6 +3808,8 @@
                     "name": "Brutal Tide",
                     "id": "378d-cd14-1e73-dbf0",
                     "hidden": false,
+                    "page": "183",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

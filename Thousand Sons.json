@@ -384,6 +384,8 @@
                 "name": "Battle of the Wills",
                 "id": "7f8d-1bd8-04c5-9d8f",
                 "hidden": false,
+                "page": "227",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2320,6 +2322,8 @@
             "name": "Bladeweaving",
             "id": "8efd-a0ab-75fb-c62a",
             "hidden": false,
+            "page": "233",
+            "publicationId": "e54c-7040-0f35-d85d",
             "typeId": "d59e-df4b-630f-f185",
             "typeName": "Psychic Reaction",
             "characteristics": [
@@ -4904,6 +4908,8 @@
                     "name": "Prophetic Duellist",
                     "id": "43a7-3c4c-6880-675d",
                     "hidden": false,
+                    "page": "218",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -4937,6 +4943,8 @@
                     "name": "Fortress of the Mind",
                     "id": "19d3-ae79-7c81-b223",
                     "hidden": false,
+                    "page": "219",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

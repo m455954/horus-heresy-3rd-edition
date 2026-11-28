@@ -3768,6 +3768,8 @@
                     "name": "Spiteful Demise",
                     "id": "03fd-e3b8-d946-fe0f",
                     "hidden": false,
+                    "page": "148",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3783,6 +3785,8 @@
                     "name": "Spiteful Demise",
                     "id": "70f3-fe1d-f4fa-f492",
                     "hidden": false,
+                    "page": "148",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
@@ -3813,6 +3817,8 @@
                     "name": "Bitter Fury",
                     "id": "bf00-abb1-0ca6-cec5",
                     "hidden": false,
+                    "page": "149",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

@@ -283,24 +283,6 @@
         "categoryLinks": [{"name": "Troops", "id": "22d3-2659-de16-8299", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
-    "sharedProfiles": [
-      {
-        "name": "Path of the Warrior",
-        "id": "5259-00ef-b46c-cb6a",
-        "comment": "WS Unique Gambit",
-        "hidden": false,
-        "typeId": "9b5f-da4e-5739-cbcf",
-        "typeName": "Gambit",
-        "characteristics": [
-          {"name": "Summary", "$text": "\"The White Scars Player may increase their Model's Movement Characteristic.\"", "typeId": "98f3-41cf-e3be-2ae7"},
-          {
-            "name": "Description",
-            "$text": "At the start of any of the Controlling Player's Turns, that Player may choose to increase the Movement Characteristic of any Model with this Special Rule and a Base Movement Characteristic of at least 1 and apply a modifier of +2 to that Characteristic until the end of that Player Turn.",
-            "typeId": "2d7d-b1d9-dead-605a"
-          }
-        ]
-      }
-    ],
     "sharedSelectionEntries": [
       {
         "name": "Jaghatai Khan",
@@ -1138,6 +1120,8 @@
             "name": "Seeker of Atonement",
             "id": "120f-41f1-770e-26d4",
             "hidden": false,
+            "page": "151",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -5248,6 +5232,8 @@
                     "name": "The Path of the Warrior",
                     "id": "1a3f-4108-7028-2a53",
                     "hidden": false,
+                    "page": "146",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -5277,6 +5263,8 @@
                     "name": "Chasing the Wind",
                     "id": "b75b-25ce-2de8-40fe",
                     "hidden": false,
+                    "page": "147",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

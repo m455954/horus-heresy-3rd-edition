@@ -607,6 +607,8 @@
         "name": "Blissful Pain",
         "id": "d67b-a21e-fea4-0c35",
         "hidden": false,
+        "page": "38",
+        "publicationId": "3e49-c51c-1b8d-fefe",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -626,6 +628,8 @@
         "name": "Battlelust",
         "id": "1406-6378-b2e6-0bc1",
         "hidden": false,
+        "page": "38",
+        "publicationId": "3e49-c51c-1b8d-fefe",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -660,6 +664,8 @@
         "name": "Master of Fates",
         "id": "a0ce-c0f1-280f-d8d8",
         "hidden": false,
+        "page": "38",
+        "publicationId": "523a-934d-6ec7-b26f",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -7054,6 +7060,8 @@
             "name": "Infernal Mitosis",
             "id": "a5c4-c0bc-fdb6-ee3b",
             "hidden": false,
+            "page": "45",
+            "publicationId": "523a-934d-6ec7-b26f",
             "typeId": "c14c-ecfd-ea65-58c9",
             "typeName": "Reaction",
             "characteristics": [

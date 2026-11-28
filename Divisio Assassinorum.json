@@ -94,6 +94,8 @@
         "name": "Tactical Displacement",
         "id": "d1b8-a73c-ec72-1da1",
         "hidden": false,
+        "page": "83",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -600,6 +602,8 @@
                 "name": "Biological Overload",
                 "id": "17a0-a596-3efd-5f50",
                 "hidden": false,
+                "page": "75",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -1467,6 +1471,8 @@
                 "name": "Mirror-form",
                 "id": "4096-8485-737f-2790",
                 "hidden": false,
+                "page": "69",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2103,6 +2109,8 @@
                 "name": "Auspectre",
                 "id": "f6a7-37a1-35d9-618b",
                 "hidden": false,
+                "page": "77",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "c14c-ecfd-ea65-58c9",
                 "typeName": "Reaction",
                 "characteristics": [
@@ -2133,6 +2141,8 @@
                 "name": "Signum Shunt",
                 "id": "4841-08be-3902-17ef",
                 "hidden": false,
+                "page": "77",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "c14c-ecfd-ea65-58c9",
                 "typeName": "Reaction",
                 "characteristics": [

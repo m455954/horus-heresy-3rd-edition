@@ -5772,6 +5772,8 @@
                     "name": "Vengeance of the First Legion",
                     "id": "f20c-c1a2-180a-e452",
                     "hidden": false,
+                    "page": "127",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -5818,6 +5820,8 @@
                     "name": "Sword of the Order",
                     "id": "effa-8123-8166-87cf",
                     "hidden": false,
+                    "page": "126",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [

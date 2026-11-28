@@ -3344,6 +3344,8 @@
                     "name": "Aegis of Wisdom",
                     "id": "f026-e96c-4012-5dfe",
                     "hidden": false,
+                    "page": "246",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3373,6 +3375,8 @@
                     "name": "Retribution Strike",
                     "id": "4164-0ed7-88d1-06fe",
                     "hidden": false,
+                    "page": "247",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

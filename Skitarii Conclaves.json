@@ -4311,6 +4311,8 @@
         "name": "Marshal Effect",
         "id": "0f21-bd1e-786b-05e5",
         "hidden": false,
+        "page": "39",
+        "publicationId": "19d2-81e2-4215-702c",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [

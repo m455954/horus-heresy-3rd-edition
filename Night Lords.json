@@ -360,6 +360,8 @@
                 "name": "A Death Long Foreseen",
                 "id": "3919-c1e7-3f05-a432",
                 "hidden": false,
+                "page": "167",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2395,6 +2397,8 @@
                 "name": "Dirty Fighter",
                 "id": "630e-af1c-eee6-25e3",
                 "hidden": false,
+                "page": "169",
+                "publicationId": "e54c-7040-0f35-d85d",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -3647,6 +3651,8 @@
                     "name": "Nostraman Courage",
                     "id": "dbeb-7353-d4ab-52a6",
                     "hidden": false,
+                    "page": "164",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3676,6 +3682,8 @@
                     "name": "Better Part of Valour",
                     "id": "72cd-05f2-b454-cbd1",
                     "hidden": false,
+                    "page": "165",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

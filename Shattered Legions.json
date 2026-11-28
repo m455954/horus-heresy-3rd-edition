@@ -2355,6 +2355,8 @@
                     "name": "Spiteful Strike",
                     "id": "4db2-508e-7603-3ecc",
                     "hidden": false,
+                    "page": "11",
+                    "publicationId": "ac76-4b88-ce47-128e",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -2387,6 +2389,8 @@
                     "name": "Exact the Price",
                     "id": "983f-721c-eeb9-95eb",
                     "hidden": false,
+                    "page": "11",
+                    "publicationId": "ac76-4b88-ce47-128e",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

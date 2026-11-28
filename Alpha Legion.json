@@ -6179,6 +6179,8 @@
                     "name": "I Am Alpharius",
                     "id": "1321-d226-46c3-7d9b",
                     "hidden": false,
+                    "page": "294",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -6230,6 +6232,8 @@
                     "name": "Smoke and Mirrors",
                     "id": "a35a-0dc8-53f0-0515",
                     "hidden": false,
+                    "page": "295",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

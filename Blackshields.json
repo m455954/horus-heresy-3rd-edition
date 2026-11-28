@@ -374,6 +374,8 @@
             "name": "The Riven Hound",
             "id": "1ea7-a9ca-18d8-1d46",
             "hidden": false,
+            "page": "14",
+            "publicationId": "59a2-2e27-256e-89e5",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -1075,6 +1077,8 @@
                     "name": "Beholden to None",
                     "id": "6992-fae3-8591-c712",
                     "hidden": false,
+                    "page": "14",
+                    "publicationId": "59a2-2e27-256e-89e5",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [

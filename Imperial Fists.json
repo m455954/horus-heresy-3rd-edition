@@ -537,6 +537,8 @@
                 "name": "Bulwark of the Imperium",
                 "id": "9ab7-4f23-0d85-cd2b",
                 "hidden": false,
+                "page": "191",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -1617,6 +1619,8 @@
                 "name": "The Line Unbroken",
                 "id": "549a-1655-e037-ff6a",
                 "hidden": false,
+                "page": "196",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -1893,6 +1897,8 @@
                 "name": "Hammerblow",
                 "id": "2e88-dec6-8aa0-e1d7",
                 "hidden": false,
+                "page": "197",
+                "publicationId": "b905-0414-1057-bb34",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [
@@ -2667,6 +2673,8 @@
                     "name": "Executioner’s Tax",
                     "id": "a65f-d00b-da48-05ac",
                     "hidden": false,
+                    "page": "194",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3494,6 +3502,8 @@
                     "name": "A Wall Unyielding",
                     "id": "7dfa-9ab9-9080-d5c3",
                     "hidden": false,
+                    "page": "186",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -3523,6 +3533,8 @@
                     "name": "Bastion of Fire",
                     "id": "9680-afbb-3b8a-0775",
                     "hidden": false,
+                    "page": "187",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

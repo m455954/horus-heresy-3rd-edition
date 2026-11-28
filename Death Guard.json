@@ -131,45 +131,6 @@
         "categoryLinks": [{"name": "Troops", "id": "0bc6-06ad-26be-4127", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       }
     ],
-    "sharedProfiles": [
-      {
-        "name": "Advanced Reaction: Barbaran Endurance",
-        "id": "63e0-1bdd-bc5d-82f4",
-        "hidden": false,
-        "page": 203,
-        "publicationId": "e54c-7040-0f35-d85d",
-        "typeId": "c14c-ecfd-ea65-58c9",
-        "typeName": "Reaction",
-        "characteristics": [
-          {
-            "name": "Summary",
-            "$text": "This Reaction grants the Reacting Unit a Damage Mitigation Roll and allows them to recover from Tactical Statuses.\n\n\nTrigger: Once per Battle, the Reactive Player may declare the Barbaran Endurance Advanced Reaction during Step 4 of any Shooting Attack declared by the Active Player during the Shooting Phase that Targets a Unit which only includes Model with the Death Guard Trait that do not have the Vehicle Type.\n\n\nCost: The Reactive Player must spend 1 point of their Reaction Allotment to declare the Barbaran Endurance Advanced Reaction, this cost paid as soon as the declaration is made.\n\n\nTarget: The Target Unit is always the Unit whose Shooting Attack triggered the Reaction. The Reacting Unit is always the Unit that was declared as the target of the Shooting Attack that triggered this Reaction.\n\n\nProcess\n1. All Models in the Reacting Unit immediately recover from any Tactical Statuses.\n2. For the duration of the current Shooting Phase, all Models in the Reacting Unit gain the Feel No Pain (5+) Special Rule.\n3. For the duration of the current Shooting Phase, the Reacting Player automatically passes any Cool Checks or Leadership Checks made for the Reacting Unit.",
-            "typeId": "5d02-0e54-0f6a-0f0b"
-          },
-          {"name": "Trigger", "typeId": "02e4-3f90-3125-f8b4"},
-          {"name": "Cost", "typeId": "954a-972f-5c94-2ede"},
-          {"name": "Target", "typeId": "e102-8fdd-9cd4-c0f9"},
-          {"name": "Process", "typeId": "57cf-1c68-a020-2529"}
-        ],
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditionGroups": [
-              {
-                "comment": "IW",
-                "type": "and",
-                "conditions": [
-                  {"childId": "be98-aa9d-64ef-f62c", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "be98-aa9d-64ef-f62c", "field": "selections", "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ],
     "sharedRules": [
       {
         "name": "Death Cloud",
@@ -2461,9 +2422,11 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Gambit",
+                    "name": "Steadfast Resilience",
                     "id": "222a-4222-0b88-8ca1",
                     "hidden": false,
+                    "page": "202",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -2493,6 +2456,8 @@
                     "name": "Barbaran Endurance",
                     "id": "8e90-fbcf-6d4f-acaa",
                     "hidden": false,
+                    "page": "203",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

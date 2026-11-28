@@ -483,6 +483,8 @@
                 "name": "Abyssal Strike",
                 "id": "2258-7e46-ebe0-764e",
                 "hidden": false,
+                "page": "60",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [

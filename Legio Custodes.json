@@ -543,6 +543,8 @@
         "name": "The Blade Splits",
         "id": "b9c9-67dc-715f-74a7",
         "hidden": false,
+        "page": "52",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -577,6 +579,8 @@
         "name": "Raptor's Surge",
         "id": "f484-f6c7-0361-fed0",
         "hidden": false,
+        "page": "53",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -596,6 +600,8 @@
         "name": "Heaven's Strike",
         "id": "e420-6f61-30cb-98b0",
         "hidden": false,
+        "page": "53",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -615,6 +621,8 @@
         "name": "Stone's Aegis",
         "id": "d7a4-c4a2-dbfc-0f54",
         "hidden": false,
+        "page": "53",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -634,6 +642,8 @@
         "name": "World Serpent's Bane",
         "id": "49cc-971f-80f7-e46f",
         "hidden": false,
+        "page": "53",
+        "publicationId": "da4e-9dbd-5ed9-a0e5",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -7991,7 +8001,17 @@
               {"id": "dcd4-cb34-81d0-6a2f", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "6270-2072-e416-8bb1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "infoLinks": [{"name": "The Blade Splits", "id": "d455-4826-9da4-db50", "hidden": false, "targetId": "b9c9-67dc-715f-74a7", "type": "profile"}]
+            "infoLinks": [
+              {
+                "name": "The Blade Splits",
+                "id": "d455-4826-9da4-db50",
+                "hidden": false,
+                "page": "52",
+                "publicationId": "da4e-9dbd-5ed9-a0e5",
+                "targetId": "b9c9-67dc-715f-74a7",
+                "type": "profile"
+              }
+            ]
           }
         ]
       }

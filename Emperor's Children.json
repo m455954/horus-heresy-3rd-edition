@@ -4482,6 +4482,8 @@
                     "name": "The Broken Mirror",
                     "id": "c5c3-aa95-1b11-16b8",
                     "hidden": false,
+                    "page": "128",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -4515,6 +4517,8 @@
                     "name": "Twisted Desire",
                     "id": "059b-2ca7-11c2-b574",
                     "hidden": false,
+                    "page": "129",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

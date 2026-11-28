@@ -141,6 +141,8 @@
         "name": "Seal the Veil",
         "id": "e590-9996-7a9e-e74a",
         "hidden": false,
+        "page": "35",
+        "publicationId": "b905-0414-1057-bb34",
         "typeId": "d59e-df4b-630f-f185",
         "typeName": "Psychic Reaction",
         "characteristics": [
@@ -414,6 +416,8 @@
             "name": "Force Barrier",
             "id": "c553-3874-e6b9-a098",
             "hidden": false,
+            "page": "343",
+            "publicationId": "7d63-5df4-c656-52de",
             "typeId": "d59e-df4b-630f-f185",
             "typeName": "Psychic Reaction",
             "characteristics": [
@@ -495,6 +499,8 @@
             "name": "Every Strike Foreseen",
             "id": "aae8-6c9f-73f3-9cb3",
             "hidden": false,
+            "page": "344",
+            "publicationId": "7d63-5df4-c656-52de",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -651,6 +657,8 @@
             "name": "Resurrection",
             "id": "9f18-3d26-5c15-0b24",
             "hidden": false,
+            "page": "346",
+            "publicationId": "7d63-5df4-c656-52de",
             "typeId": "d59e-df4b-630f-f185",
             "typeName": "Psychic Reaction",
             "characteristics": [
@@ -1045,6 +1053,8 @@
             "name": "Warpshield",
             "id": "a1e0-159e-b50c-28fb",
             "hidden": false,
+            "page": "40",
+            "publicationId": "523a-934d-6ec7-b26f",
             "typeId": "d59e-df4b-630f-f185",
             "typeName": "Psychic Reaction",
             "characteristics": [

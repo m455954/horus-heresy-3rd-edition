@@ -193,6 +193,8 @@
         "name": "Angelic Descent",
         "id": "37ec-4463-ee89-d337",
         "hidden": false,
+        "page": "213",
+        "publicationId": "b905-0414-1057-bb34",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -208,6 +210,8 @@
         "name": "Archein of Wisdom",
         "id": "486e-4f28-10fc-6480",
         "hidden": false,
+        "page": "214",
+        "publicationId": "b905-0414-1057-bb34",
         "typeId": "9b5f-da4e-5739-cbcf",
         "typeName": "Gambit",
         "characteristics": [
@@ -4430,6 +4434,8 @@
                     "name": "Thrall of the Red Thirst",
                     "id": "0761-fafc-efc3-d03c",
                     "hidden": false,
+                    "page": "210",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -4459,6 +4465,8 @@
                     "name": "Wrath of Angels",
                     "id": "b640-cc3f-2e06-4d05",
                     "hidden": false,
+                    "page": "211",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

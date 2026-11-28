@@ -1778,6 +1778,15 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Heavy Assault", "id": "2e4d-cb3f-ceba-e659", "hidden": false, "primary": true, "targetId": "3235-bd79-e9b1-60fa"}],
         "modifiers": [{"field": "category", "type": "set-primary", "value": "9a66-9be2-1995-1bac"}]
+      },
+      {
+        "name": "Gambit: Contemptuous Volley",
+        "id": "936d-9f80-1113-c714",
+        "hidden": false,
+        "import": true,
+        "targetId": "9b42-f8ae-fe65-3724",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Army Configuration", "id": "6903-3d5c-aaea-44eb", "hidden": false, "primary": true, "targetId": "abfa-86ab-1726-077a"}]
       }
     ],
     "sharedProfiles": [
@@ -18177,6 +18186,8 @@
                     "name": "Fire Support!",
                     "id": "fcfb-848c-e2d9-cc45",
                     "hidden": false,
+                    "page": "107",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18256,6 +18267,8 @@
                     "name": "Fix Bayonets!",
                     "id": "9aac-ba1c-4952-f998",
                     "hidden": false,
+                    "page": "108",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18355,6 +18368,8 @@
                     "name": "Form Ranks!",
                     "id": "a69c-67f6-9c3f-5d0a",
                     "hidden": false,
+                    "page": "107",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18400,6 +18415,8 @@
                     "name": "smokescreen",
                     "id": "0f99-f90a-8ed5-d5f1",
                     "hidden": false,
+                    "page": "108",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18499,6 +18516,8 @@
                     "name": "Evade",
                     "id": "c990-0a89-33cf-1ab1",
                     "hidden": false,
+                    "page": "209",
+                    "publicationId": "7d63-5df4-c656-52de",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18594,6 +18613,8 @@
                     "name": "Reposition",
                     "id": "1490-f720-7587-2df8",
                     "hidden": false,
+                    "page": "206",
+                    "publicationId": "7d63-5df4-c656-52de",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18636,11 +18657,17 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "constraints": [
+          {"id": "9c5f-d4f3-e685-caab", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "6d32-6698-6c21-ea39", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
         "profiles": [
           {
             "name": "Contemptuous Volley",
             "id": "bfc8-c425-2ace-21d2",
             "hidden": false,
+            "page": "106",
+            "publicationId": "adda-966f-f129-ed26",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -18881,6 +18908,8 @@
                     "name": "Calibanite Jaegers",
                     "id": "5a23-a3d0-b259-6f80",
                     "hidden": false,
+                    "page": "50",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18921,6 +18950,8 @@
                     "name": "Redouble",
                     "id": "1b92-b1bc-8ba2-8f37",
                     "hidden": false,
+                    "page": "52",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -18965,6 +18996,8 @@
                     "name": "Weather the Storm",
                     "id": "993e-b155-49ff-4a3d",
                     "hidden": false,
+                    "page": "54",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19009,6 +19042,8 @@
                     "name": "Chogorian Limitanei",
                     "id": "2b3a-bdd6-d99b-dbd8",
                     "hidden": false,
+                    "page": "56",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19049,6 +19084,8 @@
                     "name": "Hunter's Strike",
                     "id": "daff-ae23-21d9-b00b",
                     "hidden": false,
+                    "page": "58",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19085,6 +19122,8 @@
                     "name": "Steadfast Bulwark",
                     "id": "2bf5-80fd-d1fe-b35c",
                     "hidden": false,
+                    "page": "60",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19129,6 +19168,8 @@
                     "name": "Combat Haze",
                     "id": "bd23-df30-75e6-19c8",
                     "hidden": false,
+                    "page": "62",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19173,6 +19214,8 @@
                     "name": "Counter-assault",
                     "id": "2a61-670d-e697-2229",
                     "hidden": false,
+                    "page": "64",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19217,6 +19260,8 @@
                     "name": "Cerebral Augments",
                     "id": "2a66-64e0-418d-fb1a",
                     "hidden": false,
+                    "page": "66",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19261,6 +19306,8 @@
                     "name": "Butcher's Due",
                     "id": "247f-a50c-890a-1c75",
                     "hidden": false,
+                    "page": "68",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19393,6 +19440,8 @@
                     "name": "Psy-shock",
                     "id": "8daf-10b9-f6c2-9ec7",
                     "hidden": false,
+                    "page": "74",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19437,6 +19486,8 @@
                     "name": "Cthonian Headhunters",
                     "id": "c81e-7740-5973-c1e3",
                     "hidden": false,
+                    "page": "76",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19481,6 +19532,8 @@
                     "name": "Undying Fanaticism",
                     "id": "8a04-9b48-534d-7ab2",
                     "hidden": false,
+                    "page": "78",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19525,6 +19578,8 @@
                     "name": "Dutiful Endurance",
                     "id": "f718-3c6f-b48b-c224",
                     "hidden": false,
+                    "page": "80",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19569,6 +19624,8 @@
                     "name": "Displacement",
                     "id": "2363-f1d3-360c-4c6f",
                     "hidden": false,
+                    "page": "82",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
@@ -19613,6 +19670,8 @@
                     "name": "Diversion",
                     "id": "73e8-dab8-d4e7-8ac6",
                     "hidden": false,
+                    "page": "84",
+                    "publicationId": "adda-966f-f129-ed26",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

@@ -1017,6 +1017,8 @@
         "name": "Dispersal",
         "id": "8c00-4a0c-86e2-ca65",
         "hidden": false,
+        "page": "183",
+        "publicationId": "5469-14da-d0a1-6092",
         "typeId": "c14c-ecfd-ea65-58c9",
         "typeName": "Reaction",
         "characteristics": [
@@ -12731,6 +12733,8 @@
                 "name": "Liquifractor Onslaught",
                 "id": "80c3-d8e0-1ddd-35a1",
                 "hidden": false,
+                "page": "73",
+                "publicationId": "4dc3-3347-238d-99b5",
                 "typeId": "9b5f-da4e-5739-cbcf",
                 "typeName": "Gambit",
                 "characteristics": [

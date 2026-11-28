@@ -364,6 +364,8 @@
             "name": "Howl of the Death Wolf",
             "id": "6525-3936-4aef-a458",
             "hidden": false,
+            "page": "169",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "9b5f-da4e-5739-cbcf",
             "typeName": "Gambit",
             "characteristics": [
@@ -3350,6 +3352,8 @@
             "name": "Stormwrought",
             "id": "246b-243e-27a6-1722",
             "hidden": false,
+            "page": "173",
+            "publicationId": "b905-0414-1057-bb34",
             "typeId": "d59e-df4b-630f-f185",
             "typeName": "Psychic Reaction",
             "characteristics": [
@@ -6526,6 +6530,8 @@
                     "name": "A Saga Woven of Glory",
                     "id": "8438-ffec-236b-88bf",
                     "hidden": false,
+                    "page": "166",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -6545,6 +6551,8 @@
                     "name": "No Prey Escapes",
                     "id": "46d0-5ad2-73b0-49b3",
                     "hidden": false,
+                    "page": "166",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -6600,6 +6608,8 @@
                     "name": "Bestial Savagery",
                     "id": "ceaf-22f3-ccfa-04e0",
                     "hidden": false,
+                    "page": "167",
+                    "publicationId": "b905-0414-1057-bb34",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [

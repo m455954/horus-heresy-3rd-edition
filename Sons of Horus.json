@@ -5362,6 +5362,8 @@
                     "name": "Merciless Strike",
                     "id": "2af6-bce7-4a13-eb9e",
                     "hidden": false,
+                    "page": "248",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "9b5f-da4e-5739-cbcf",
                     "typeName": "Gambit",
                     "characteristics": [
@@ -5413,6 +5415,8 @@
                     "name": "Warrior Pride",
                     "id": "4ab0-0960-96d1-672d",
                     "hidden": false,
+                    "page": "249",
+                    "publicationId": "e54c-7040-0f35-d85d",
                     "typeId": "c14c-ecfd-ea65-58c9",
                     "typeName": "Reaction",
                     "characteristics": [
